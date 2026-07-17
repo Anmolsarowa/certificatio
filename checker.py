@@ -80,4 +80,4 @@ def check_feeds():
 if __name__ == "__main__":
     print("Pro Event Radar Checking...")
     check_feeds()
-    send_email_alert("Test Email", "Your Cert Radar is working perfectly!")
+    
