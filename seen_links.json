@@ -184,5 +184,59 @@
     "source": "Reddit: AWS Certifications",
     "priority": "MEDIUM",
     "seen_at": "2026-07-17T14:12:01.181457"
+  },
+  "3c1fccb0c415d2626a4a42358161c50e": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1ldn9dd/guide_az104_ultimate_resource_guide/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-07-17T23:23:30.871923"
+  },
+  "a37d7bdbc51c860617fb0ff4c50c626f": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uz4j77/dp800_sql_ai_developer_associate_just_passed_with/",
+    "source": "Reddit: Azure Certification",
+    "priority": "LOW",
+    "seen_at": "2026-07-17T23:23:30.872577"
+  },
+  "e71964bd1e76158eaf3f75f6b8a4e2a7": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uz0sth/certifications_to_become_an_ai_engineer_already/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-17T23:23:30.872693"
+  },
+  "3b1f7a3da67b929107b48ab6dd5d7a04": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uz8pd4/need_learning_resources_for_az305/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-17T23:23:30.872738"
+  },
+  "ded7497ffc8807e167d58528f0f8f55b": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uyuj6h/how_long_from_mvtd_coupon_mail_to_getting/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-07-17T23:23:30.873010"
+  },
+  "62e5d8fb5e0bd294599adcb9a4488f88": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uye3z3/az104_by_18aug26/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-17T23:23:30.873151"
+  },
+  "3ad8f6d87dfb26708e5be6eb61b8877c": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uylgzz/failed_az900_today/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-17T23:23:30.873163"
+  },
+  "0269d8bdd70f6a3505461022950cac26": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uy6jnw/dp300_exam/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-07-17T23:23:30.873443"
+  },
+  "b5852395080a9927f6eeeb78d55c06f8": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uxqedf/need_guidance_for_sc200_study_plan/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-07-17T23:23:30.873551"
   }
 }

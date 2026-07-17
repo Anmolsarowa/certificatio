@@ -246,5 +246,77 @@
     "link": "https://www.reddit.com/r/AWSCertifications/comments/1uxvxqa/taking_ccp_tomorrow_6pm_realistic_shot_at_passing/",
     "source": "Reddit: AWS Certifications",
     "found_at": "2026-07-17T14:12:01.181452"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Certifications to become an AI Engineer (Already completed AI-103)",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uz0sth/certifications_to_become_an_ai_engineer_already/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-17T23:23:30.872690"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "AZ-104 by 18AUG26",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uye3z3/az104_by_18aug26/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-17T23:23:30.873148"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Failed Az-900 Today",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uylgzz/failed_az900_today/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-17T23:23:30.873160"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "[Guide] AZ-104 Ultimate Resource Guide",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1ldn9dd/guide_az104_ultimate_resource_guide/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-17T23:23:30.871912"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "How long from MVTD Coupon mail to getting discount on Pearson Vue?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uyuj6h/how_long_from_mvtd_coupon_mail_to_getting/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-17T23:23:30.873007"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "DP-300 Exam",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uy6jnw/dp300_exam/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-17T23:23:30.873439"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Need Guidance for SC-200 Study Plan",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uxqedf/need_guidance_for_sc200_study_plan/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-17T23:23:30.873549"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Need learning resources for AZ-305",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uz8pd4/need_learning_resources_for_az305/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-17T23:23:30.872735"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "DP-800 (SQL AI Developer Associate) - Just passed with 1 week prep",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1uz4j77/dp800_sql_ai_developer_associate_just_passed_with/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-17T23:23:30.872572"
   }
 ]
