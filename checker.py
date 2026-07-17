@@ -35,7 +35,6 @@ def send_email_alert(subject, body):
     msg['To'] = TO_EMAIL
     
     try:
-        # Using Gmail SMTP server
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
         server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
@@ -81,4 +80,4 @@ def check_feeds():
 if __name__ == "__main__":
     print("Pro Event Radar Checking...")
     check_feeds()
-     send_email_alert("Test Email", "Your Cert Radar is working perfectly!")
+    send_email_alert("Test Email", "Your Cert Radar is working perfectly!")
