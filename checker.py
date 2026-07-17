@@ -439,6 +439,21 @@ def send_test_email():
 
 
 # ═════════════════════════════════════════════════════════════════════════════
+#  Strict Sources — These are noisy, only CRITICAL + HIGH alerts pass through
+#  (YouTube titles and HN posts often mention "certification" in generic context)
+# ═════════════════════════════════════════════════════════════════════════════
+
+STRICT_SOURCES = [
+    "YT:",       # All YouTube channels
+    "HN:",       # Hacker News
+]
+
+def is_strict_source(source_name):
+    """Check if a source requires strict filtering (only CRITICAL/HIGH)."""
+    return any(source_name.startswith(prefix) for prefix in STRICT_SOURCES)
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 #  Phase 1: RSS Feed Scanner
 # ═════════════════════════════════════════════════════════════════════════════
 
@@ -464,6 +479,11 @@ def scan_rss_feeds(seen):
                 summary = getattr(entry, "summary", "")
 
                 priority, alert_type = classify_entry(title, summary)
+
+                # Skip LOW/MEDIUM from noisy sources (YouTube, HN)
+                if priority and is_strict_source(source_name) and priority in ("LOW", "MEDIUM"):
+                    continue
+
                 if priority:
                     alert = {
                         "priority": priority,
