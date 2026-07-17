@@ -1,0 +1,226 @@
+[
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Free mystery/thriller paperback book",
+    "link": "https://www.reddit.com/r/freebies/comments/1uqggbd/free_mysterythriller_paperback_book/",
+    "source": "Reddit: Freebies",
+    "found_at": "2026-07-17T08:53:00.859007"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Want to 100x your value as a software engineer? 💸👇",
+    "link": "https://www.youtube.com/shorts/O-vA52SdtFI",
+    "source": "YT: TechWorld with Nana",
+    "found_at": "2026-07-17T08:53:18.536852"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Build an AI Agent in Telegram with Vercel, Cursor, Composio",
+    "link": "https://www.youtube.com/watch?v=hIh2O9OL69o",
+    "source": "YT: freeCodeCamp",
+    "found_at": "2026-07-17T08:53:20.422820"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Gitlab: Free Certification Pathways",
+    "link": "https://about.gitlab.com/blog/2021/04/20/everyone-can-get-certified/",
+    "source": "HN: Free Certification",
+    "found_at": "2026-07-17T08:53:22.408816"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "The guy who made the first and biggest international gluten free certification",
+    "link": "https://hima.substack.com/p/living-free-gluten-free-certification",
+    "source": "HN: Free Certification",
+    "found_at": "2026-07-17T08:53:22.408840"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "A List of Free Networking courses that offer free certification",
+    "link": "https://www.helpmegeek.com/free-network-certifications-and-courses/",
+    "source": "HN: Free Certification",
+    "found_at": "2026-07-17T08:53:22.408849"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Free Certification Title Name: Learn Python Programming from Scratch",
+    "link": "https://gscode.in/learn-python-programming-from-scratch-100-off/",
+    "source": "HN: Free Certification",
+    "found_at": "2026-07-17T08:53:22.408858"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Web Development – CSS3 – Scratch Till Advanced Project Based Free Certification",
+    "link": "https://gscode.in/web-development/",
+    "source": "HN: Free Certification",
+    "found_at": "2026-07-17T08:53:22.408873"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Bug free certification coming to a theater near you",
+    "link": "https://news.ycombinator.com/item?id=7980055",
+    "source": "HN: Free Certification",
+    "found_at": "2026-07-17T08:53:22.408885"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "From Laid-Off Network Engineer to Platform Engineer: Patryk’s DevOps Journey",
+    "link": "https://www.youtube.com/watch?v=umXECLiGxEQ",
+    "source": "YT: TechWorld with Nana",
+    "found_at": "2026-07-17T08:53:18.537096"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "I'll Explain 10 Years of Infrastructure Evolution in 25 Minutes (Console → CLI → IaC → GitOps → AI)",
+    "link": "https://www.youtube.com/watch?v=iTrxsotFNHA",
+    "source": "YT: TechWorld with Nana",
+    "found_at": "2026-07-17T08:53:18.537173"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "I Wasted 2 Years Learning DevOps Wrong. Here's What I'd Do Instead.",
+    "link": "https://www.youtube.com/watch?v=9FKqsCVOD_Y",
+    "source": "YT: TechWorld with Nana",
+    "found_at": "2026-07-17T08:53:18.537263"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Python for Beginners with Hands-On Projects",
+    "link": "https://www.youtube.com/watch?v=oDOw5tB3Udw",
+    "source": "YT: freeCodeCamp",
+    "found_at": "2026-07-17T08:53:20.421667"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "AI Agents For Beginners – OpenClaw Case Study",
+    "link": "https://www.youtube.com/watch?v=AZDSpS5v57w",
+    "source": "YT: freeCodeCamp",
+    "found_at": "2026-07-17T08:53:20.422235"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Discounted Microsoft Certification exams available through this offer",
+    "link": "https://docs.microsoft.com/en-us/learn/certifications/skillingoffer",
+    "source": "HN: Microsoft Cert",
+    "found_at": "2026-07-17T08:53:24.373301"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Azure Update 10th July 2026",
+    "link": "https://www.youtube.com/watch?v=6bIsgofHE_c",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.989651"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Azure Monitor Health Model Overview",
+    "link": "https://www.youtube.com/watch?v=RKEvu6asHd4",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.989749"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Microsoft AI Update June 2026",
+    "link": "https://www.youtube.com/watch?v=opCw_CDf9fg",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.989863"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Azure Update 3rd July 2026",
+    "link": "https://www.youtube.com/watch?v=RQmWSjKIQJY",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.989963"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Copilot Cowork Usage Overview",
+    "link": "https://www.youtube.com/watch?v=qXPTJDgbbPg",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.990050"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Azure Update 26th June 2026",
+    "link": "https://www.youtube.com/watch?v=aSGmp859GSA",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.990140"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "New Security Adoption Model Resource",
+    "link": "https://www.youtube.com/watch?v=80E-9rPsJIs",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.990224"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Overview of Web IQ",
+    "link": "https://www.youtube.com/watch?v=YpUSm0_7Lgs",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.990315"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Azure Update 19th June 2026",
+    "link": "https://www.youtube.com/watch?v=iDqfCpGTdBc",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.990419"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Azure Files Identity Update",
+    "link": "https://www.youtube.com/watch?v=sXNyXRgQTPs",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.990489"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Overview of Azure HorizonDB",
+    "link": "https://www.youtube.com/watch?v=ZsLnWnjkJQw",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.990569"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Azure Update 12th June 2026",
+    "link": "https://www.youtube.com/watch?v=0dOmMLqrlw0",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.990695"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Build 2026 in 15 Minutes",
+    "link": "https://www.youtube.com/watch?v=bzAH7Rrq9rM",
+    "source": "YT: John Savill (Azure)",
+    "found_at": "2026-07-17T08:53:16.990757"
+  }
+]
