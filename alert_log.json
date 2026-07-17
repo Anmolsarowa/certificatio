@@ -222,5 +222,29 @@
     "link": "https://www.youtube.com/watch?v=bzAH7Rrq9rM",
     "source": "YT: John Savill (Azure)",
     "found_at": "2026-07-17T08:53:16.990757"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "AIF 50% + CLF FREE - AWS OFFICIAL COUPON",
+    "link": "https://www.reddit.com/r/AWSCertifications/comments/1u3dsu0/aif_50_clf_free_aws_official_coupon/",
+    "source": "Reddit: AWS Certifications",
+    "found_at": "2026-07-17T14:12:01.180600"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Frequently Asked Questions on this subreddit.",
+    "link": "https://www.reddit.com/r/AWSCertifications/comments/1nf3cab/frequently_asked_questions_on_this_subreddit/",
+    "source": "Reddit: AWS Certifications",
+    "found_at": "2026-07-17T14:12:01.180560"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Taking CCP tomorrow (6pm), realistic shot at passing?",
+    "link": "https://www.reddit.com/r/AWSCertifications/comments/1uxvxqa/taking_ccp_tomorrow_6pm_realistic_shot_at_passing/",
+    "source": "Reddit: AWS Certifications",
+    "found_at": "2026-07-17T14:12:01.181452"
   }
 ]

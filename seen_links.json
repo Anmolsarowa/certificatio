@@ -166,5 +166,23 @@
     "source": "HN: Microsoft Cert",
     "priority": "MEDIUM",
     "seen_at": "2026-07-17T08:53:24.373311"
+  },
+  "3f03fa585bf059b2c0eb637bacf82200": {
+    "link": "https://www.reddit.com/r/AWSCertifications/comments/1nf3cab/frequently_asked_questions_on_this_subreddit/",
+    "source": "Reddit: AWS Certifications",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-17T14:12:01.180572"
+  },
+  "a04b512ed36ff00ef574b2f9fe0cf738": {
+    "link": "https://www.reddit.com/r/AWSCertifications/comments/1u3dsu0/aif_50_clf_free_aws_official_coupon/",
+    "source": "Reddit: AWS Certifications",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-17T14:12:01.180603"
+  },
+  "ce533d60aef1eecd43a10a95d0349d51": {
+    "link": "https://www.reddit.com/r/AWSCertifications/comments/1uxvxqa/taking_ccp_tomorrow_6pm_realistic_shot_at_passing/",
+    "source": "Reddit: AWS Certifications",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-17T14:12:01.181457"
   }
 }
