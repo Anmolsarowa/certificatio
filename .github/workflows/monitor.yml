@@ -38,6 +38,10 @@ jobs:
       run: |
         git config user.name "CertRadarBot"
         git config user.email "actions@github.com"
-        git add seen_links.txt
-        git commit -m "Update seen links memory" || echo "No new links to commit"
-        git push
+        if [ -f "seen_links.txt" ]; then
+          git add seen_links.txt
+          git commit -m "Update seen links memory" || echo "No new links to commit"
+          git push
+        else
+          echo "No new links to commit"
+        fi
