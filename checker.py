@@ -1,5 +1,6 @@
 import feedparser
-import requests
+import smtplib
+from email.mime.text import MIMEText
 import os
 
 INSTANT_KEYWORDS = ["free voucher", "free exam", "free certification", "coupon code", "claim your"]
@@ -13,8 +14,9 @@ FEEDS = [
     "https://techcommunity.microsoft.com/t5/custom/page/page-id/activity.rss"
 ]
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
+EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
+TO_EMAIL = os.environ.get("TO_EMAIL_ADDRESS")
 
 def get_seen_links():
     if not os.path.exists("seen_links.txt"):
@@ -26,14 +28,22 @@ def save_seen_link(link):
     with open("seen_links.txt", "a") as file:
         file.write(f"{link}\n")
 
-def send_telegram_message(text):
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": CHAT_ID, "text": text}
+def send_email_alert(subject, body):
+    msg = MIMEText(body)
+    msg['Subject'] = subject
+    msg['From'] = EMAIL_ADDRESS
+    msg['To'] = TO_EMAIL
+    
     try:
-        requests.post(url, json=payload)
-        print("Alert sent!")
+        # Using Gmail SMTP server
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+        server.send_message(msg)
+        server.quit()
+        print("Email Alert sent!")
     except Exception as e:
-        print(f"Failed: {e}")
+        print(f"Failed to send email: {e}")
 
 def check_feeds():
     seen_links = get_seen_links()
@@ -49,16 +59,19 @@ def check_feeds():
             if link in seen_links:
                 continue
                 
-            message = None
+            subject = None
+            body = None
             
             if any(keyword in title or keyword in summary for keyword in EVENT_KEYWORDS) and ("voucher" in summary or "certification" in summary or "exam" in summary):
-                message = f"📅 EVENT ALERT: ATTEND TO GET VOUCHER! 📅\n\n{entry.title}\n\n⚠️ You must register and attend this event!\n\nLink: {entry.link}"
+                subject = "📅 EVENT ALERT: Attend to get Voucher!"
+                body = f"⚠️ You must register and attend this event!\n\nTitle: {entry.title}\n\nLink: {entry.link}"
                 
             elif any(keyword in title or keyword in summary for keyword in INSTANT_KEYWORDS):
-                message = f"🚨 INSTANT FREE CERT ALERT! 🚨\n\n{entry.title}\n\nLink: {entry.link}"
+                subject = "🚨 INSTANT FREE CERT ALERT!"
+                body = f"Link: {entry.link}\n\nTitle: {entry.title}"
             
-            if message:
-                send_telegram_message(message)
+            if subject:
+                send_email_alert(subject, body)
                 save_seen_link(link)
                 found_new = True
                 
@@ -68,3 +81,4 @@ def check_feeds():
 if __name__ == "__main__":
     print("Pro Event Radar Checking...")
     check_feeds()
+     send_email_alert("Test Email", "Your Cert Radar is working perfectly!")
