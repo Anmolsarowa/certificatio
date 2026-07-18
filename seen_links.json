@@ -238,5 +238,11 @@
     "source": "Reddit: Azure Certification",
     "priority": "HIGH",
     "seen_at": "2026-07-17T23:23:30.873551"
+  },
+  "469962b5dbc5e25a0ac2b508fc1b6f5c": {
+    "link": "https://www.reddit.com/r/eFreebies/comments/1uvw0v3/free_ebook_kinmen_island_is_taiwans_hidden_window/",
+    "source": "Reddit: eFreebies",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-18T09:56:01.635156"
   }
 }
