@@ -244,5 +244,17 @@
     "source": "Reddit: eFreebies",
     "priority": "CRITICAL",
     "seen_at": "2026-07-18T09:56:01.635156"
+  },
+  "f7dfe1893e75c8e077a5675544587dfb": {
+    "link": "https://www.reddit.com/r/ITCareerQuestions/comments/1v041pj/should_i_do_university_for_it_or_should_i_try_to/",
+    "source": "Reddit: IT Career Questions",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-19T11:36:00.752754"
+  },
+  "6d3791ad89975a901f1450a94c72c095": {
+    "link": "https://www.reddit.com/r/ITCareerQuestions/comments/1v0h18p/will_enrolling_in_a_it_boot_camp_help_me_in_this/",
+    "source": "Reddit: IT Career Questions",
+    "priority": "HIGH",
+    "seen_at": "2026-07-19T11:36:00.753075"
   }
 }

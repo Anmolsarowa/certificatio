@@ -326,5 +326,21 @@
     "link": "https://www.reddit.com/r/eFreebies/comments/1uvw0v3/free_ebook_kinmen_island_is_taiwans_hidden_window/",
     "source": "Reddit: eFreebies",
     "found_at": "2026-07-18T09:56:01.635144"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Will enrolling in a IT boot camp help me in this industry?",
+    "link": "https://www.reddit.com/r/ITCareerQuestions/comments/1v0h18p/will_enrolling_in_a_it_boot_camp_help_me_in_this/",
+    "source": "Reddit: IT Career Questions",
+    "found_at": "2026-07-19T11:36:00.753072"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Should I do University for IT? or Should I try to find a job?",
+    "link": "https://www.reddit.com/r/ITCareerQuestions/comments/1v041pj/should_i_do_university_for_it_or_should_i_try_to/",
+    "source": "Reddit: IT Career Questions",
+    "found_at": "2026-07-19T11:36:00.752741"
   }
 ]
