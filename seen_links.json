@@ -256,5 +256,11 @@
     "source": "Reddit: IT Career Questions",
     "priority": "HIGH",
     "seen_at": "2026-07-19T11:36:00.753075"
+  },
+  "73b7783227a1ee81f4874cc47369cc3f": {
+    "link": "https://www.reddit.com/r/AWSCertifications/comments/1uzg20t/how_much_harder_are_these_than_cloud_practitioner/",
+    "source": "Reddit: AWS Certifications",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-19T18:03:02.170654"
   }
 }
