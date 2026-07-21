@@ -274,5 +274,23 @@
     "source": "Reddit: Freebies",
     "priority": "CRITICAL",
     "seen_at": "2026-07-21T21:21:01.377663"
+  },
+  "13985dd69a4c3dc3ff6d46b9cee51d1e": {
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v1wcox/i_passed_my_cysa_certification_a_few_weeks_ago/",
+    "source": "Reddit: CompTIA",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-21T22:27:02.103841"
+  },
+  "1e85339372da97ba7d2d6c86e1090aba": {
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v1tkdv/would_you_still_take_cysa_v3_now_that_v4_is_out/",
+    "source": "Reddit: CompTIA",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-21T22:27:02.104045"
+  },
+  "a382e877097694ab80c8bed5657d4cd7": {
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v1olet/secneta_expiring_in_90_days_currently_studying/",
+    "source": "Reddit: CompTIA",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-21T22:27:02.104095"
   }
 }

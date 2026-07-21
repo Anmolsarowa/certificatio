@@ -366,5 +366,29 @@
     "link": "https://www.reddit.com/r/freebies/comments/1v2py51/free_veteran_benefits_resource/",
     "source": "Reddit: Freebies",
     "found_at": "2026-07-21T21:21:01.377650"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "I Passed my CySA+ Certification A Few Weeks Ago",
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v1wcox/i_passed_my_cysa_certification_a_few_weeks_ago/",
+    "source": "Reddit: CompTIA",
+    "found_at": "2026-07-21T22:27:02.103829"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Would you still take CySA+ V3 now that V4 is out?",
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v1tkdv/would_you_still_take_cysa_v3_now_that_v4_is_out/",
+    "source": "Reddit: CompTIA",
+    "found_at": "2026-07-21T22:27:02.104042"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Sec+/Net+/A+ expiring in 90 days, currently studying for CCNP ENARSI, how do I fit renewal in?",
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v1olet/secneta_expiring_in_90_days_currently_studying/",
+    "source": "Reddit: CompTIA",
+    "found_at": "2026-07-21T22:27:02.104092"
   }
 ]
