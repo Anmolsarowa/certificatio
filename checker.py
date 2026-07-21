@@ -54,6 +54,13 @@ except ImportError:
 EMAIL_ADDRESS  = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 TO_EMAIL       = os.environ.get("TO_EMAIL_ADDRESS")
+TO_EMAIL_2     = os.environ.get("TO_EMAIL_ADDRESS_2")
+
+ALL_TO_EMAILS = []
+if TO_EMAIL:
+    ALL_TO_EMAILS.extend([e.strip() for e in TO_EMAIL.split(",") if e.strip()])
+if TO_EMAIL_2:
+    ALL_TO_EMAILS.extend([e.strip() for e in TO_EMAIL_2.split(",") if e.strip()])
 
 # File paths
 SEEN_FILE = "seen_links.json"
@@ -353,7 +360,7 @@ def build_html_email(alerts):
 
 def send_email_alert(alerts):
     """Send a consolidated HTML email with all new alerts."""
-    if not EMAIL_ADDRESS or not EMAIL_PASSWORD or not TO_EMAIL:
+    if not EMAIL_ADDRESS or not EMAIL_PASSWORD or not ALL_TO_EMAILS:
         print("❌ Email credentials missing! Set EMAIL_ADDRESS, EMAIL_PASSWORD, TO_EMAIL_ADDRESS")
         return False
 
@@ -377,7 +384,7 @@ def send_email_alert(alerts):
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"]    = EMAIL_ADDRESS
-    msg["To"]      = TO_EMAIL
+    msg["To"]      = ", ".join(ALL_TO_EMAILS)
 
     # Plain text fallback
     plain = "Cert Radar Alerts\n" + "=" * 50 + "\n\n"

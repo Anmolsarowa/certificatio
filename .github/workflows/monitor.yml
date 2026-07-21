@@ -38,6 +38,7 @@ jobs:
         EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
         EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         TO_EMAIL_ADDRESS: ${{ secrets.TO_EMAIL_ADDRESS }}
+        TO_EMAIL_ADDRESS_2: ${{ secrets.TO_EMAIL_ADDRESS_2 }}
       run: python checker.py
 
     - name: 💾 Save seen links to repo
