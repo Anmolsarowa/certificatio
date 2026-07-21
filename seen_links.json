@@ -268,5 +268,11 @@
     "source": "Reddit: eFreebies",
     "priority": "MEDIUM",
     "seen_at": "2026-07-21T16:55:01.231844"
+  },
+  "bf5f141f1c1446663715361c1d9b76f3": {
+    "link": "https://www.reddit.com/r/freebies/comments/1v2py51/free_veteran_benefits_resource/",
+    "source": "Reddit: Freebies",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-21T21:21:01.377663"
   }
 }
