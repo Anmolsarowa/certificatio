@@ -70,44 +70,74 @@ LOG_FILE  = "alert_log.json"
 #  Keywords — Tiered by Priority
 # ═════════════════════════════════════════════════════════════════════════════
 
-# 🔴 CRITICAL — Immediate free stuff, grab ASAP
+# ═════════════════════════════════════════════════════════════════════════════
+#  Keywords & Strict Domain Verification
+# ═════════════════════════════════════════════════════════════════════════════
+
+# ⛔ EXCLUDE_KEYWORDS — Discard non-IT / spam / physical freebies immediately
+EXCLUDE_KEYWORDS = [
+    "gluten free", "gluten-free", "paperback", "free shipping", "bug free", "bug-free",
+    "free book", "t-shirt", "sample", "stickers", "gluten", "thriller", "novel",
+]
+
+# 🎯 REQUIRED_TECH_WORDS — Entry MUST match at least ONE of these to ensure relevance
+REQUIRED_TECH_WORDS = [
+    # General Microsoft & Cloud
+    "microsoft", "azure", "cloud", "mslearn", "microsoft learn", "ms cert", "m365",
+    "microsoft 365", "esi", "enterprise skills initiative", "copilot", "fabric",
+    # Power Platform & Power Apps
+    "power apps", "powerapps", "power platform", "powerplatform", "power automate",
+    "power bi", "powerpages", "power pages", "pl-900", "pl-100", "pl-200", "pl-300",
+    "pl-400", "pl-500", "pl-600",
+    # Dynamics 365 (D365)
+    "d365", "dynamics 365", "dynamics", "mb-910", "mb-920", "mb-210", "mb-220",
+    "mb-230", "mb-240", "mb-260", "mb-300", "mb-310", "mb-330", "mb-500", "mb-700", "mb-800",
+    # Azure & AI Series
+    "az-900", "az-104", "az-204", "az-305", "az-400", "az-500", "az-700", "az-800", "az-801",
+    "dp-900", "dp-100", "dp-203", "dp-300", "dp-500", "dp-600",
+    "ai-900", "ai-102", "ai-050",
+    "sc-900", "sc-100", "sc-200", "sc-300", "sc-400",
+    "ms-900", "ms-700", "ms-102", "md-102",
+    # Other Major Cloud / IT Certifications
+    "aws", "amazon web services", "gcp", "google cloud", "comptia", "cisco", "ccna",
+    "kubernetes", "cka", "ckad", "hashicorp", "terraform", "salesforce",
+]
+
+# 🔴 CRITICAL — Immediate 100% free vouchers / instant free exam
 CRITICAL_KEYWORDS = [
     "free voucher", "free exam", "free certification", "100% off",
-    "coupon code", "claim your", "no cost", "complimentary exam",
-    "free attempt", "limited time free", "expires soon", "act fast",
-    "promo code", "discount code", "completely free",
-    "free azure exam", "free microsoft exam",
+    "coupon code", "claim your free", "complimentary exam", "free attempt",
+    "promo code", "free azure exam", "free microsoft exam", "100% discount",
+    "100% free", "free certification voucher",
 ]
 
-# 🟠 HIGH — Events that grant vouchers upon attendance
+# 🟠 HIGH — Events / Challenges that grant exam vouchers
 EVENT_KEYWORDS = [
-    "attend and get", "register to receive", "virtual training day",
-    "virtual training event", "webinar", "microsoft ignite",
-    "ai tour", "bootcamp", "cloud skills challenge",
-    "skills challenge", "hands-on lab", "learn live",
-    "microsoft build", "30 days to learn", "free training event",
-    "attend", "register", "virtual training",
+    "virtual training day", "virtual training event", "microsoft ignite",
+    "ai tour", "cloud skills challenge", "skills challenge", "30 days to learn",
+    "30 days to learn it", "learn live", "microsoft build", "free training event",
+    "attend and receive", "register to get voucher",
 ]
 
-# 🟡 MEDIUM — Discounts and deals (not free, but worth knowing)
+# 🟡 MEDIUM — Discounts, 50% off offers & deals
 DISCOUNT_KEYWORDS = [
-    "50% off", "half price", "discount", "sale", "deal",
-    "reduced price", "special offer", "bundle", "scholarship",
-    "student discount", "beta exam", "practice exam free",
+    "50% off", "half price", "discount code", "voucher discount", "special offer",
+    "beta exam", "50% discount", "exam offer", "student discount", "reduced price",
+    "practice exam free", "30-days-to-learn-it",
 ]
 
-# 🟢 LOW — General cert news
+# 🟢 LOW — General cert news & updates
 INFO_KEYWORDS = [
     "new certification", "certification retired", "exam update",
     "learning path", "certification roadmap", "study guide free",
     "exam objectives changed", "new exam", "practice assessment",
 ]
 
-# Context words — confirms a post is cert-related when combined with EVENT_KEYWORDS
+# Context words — confirms a post is cert-related when combined with EVENT / DISCOUNT keywords
 CERT_CONTEXT_WORDS = [
     "voucher", "certification", "exam", "certificate", "credential",
     "badge", "microsoft learn", "az-", "ai-", "dp-", "sc-", "ms-",
-    "mb-", "pl-", "md-", "mo-", "fundamentals",
+    "mb-", "pl-", "md-", "mo-", "fundamentals", "d365", "power apps",
 ]
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -120,10 +150,10 @@ RSS_FEEDS = {
     "Reddit: Azure Certification":      "https://www.reddit.com/r/AzureCertification/.rss",
     "Reddit: Power Platform":           "https://www.reddit.com/r/PowerPlatform/.rss",
     "Reddit: Dynamics 365":             "https://www.reddit.com/r/dynamics365/.rss",
+    "Reddit: Azure":                    "https://www.reddit.com/r/Azure/.rss",
+    "Reddit: Microsoft":                "https://www.reddit.com/r/microsoft/.rss",
     "Reddit: IT Career Questions":      "https://www.reddit.com/r/ITCareerQuestions/.rss",
     "Reddit: Sysadmin":                 "https://www.reddit.com/r/sysadmin/.rss",
-    "Reddit: Freebies":                 "https://www.reddit.com/r/freebies/.rss",
-    "Reddit: eFreebies":                "https://www.reddit.com/r/eFreebies/.rss",
     "Reddit: AWS Certifications":       "https://www.reddit.com/r/AWSCertifications/.rss",
     "Reddit: CompTIA":                  "https://www.reddit.com/r/CompTIA/.rss",
 
@@ -136,16 +166,10 @@ RSS_FEEDS = {
     # ── YouTube Channels (RSS) ──────────────────────────────────────────────
     "YT: Microsoft Learn":              "https://www.youtube.com/feeds/videos.xml?channel_id=UCddiUEpeqJcYeBxX1IVBKvQ",
     "YT: John Savill (Azure)":          "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
-    "YT: TechWorld with Nana":          "https://www.youtube.com/feeds/videos.xml?channel_id=UCdngmbVKX1Tgre699-XLlUA",
-    "YT: freeCodeCamp":                 "https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ",
 
     # ── Hacker News (filtered) ─────────────────────────────────────────────
-    "HN: Free Certification":           "https://hnrss.org/newest?q=free+certification",
-    "HN: Microsoft Cert":               "https://hnrss.org/newest?q=microsoft+certification",
-
-    # ── Google Alerts (set up at google.com/alerts, choose RSS delivery) ───
-    # Uncomment and paste your Google Alerts RSS URL below:
-    # "Google Alert: Free Certs":        "YOUR_GOOGLE_ALERTS_RSS_URL_HERE",
+    "HN: Microsoft Voucher":            "https://hnrss.org/newest?q=microsoft+voucher",
+    "HN: Azure Certification":          "https://hnrss.org/newest?q=azure+certification",
 }
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -154,19 +178,24 @@ RSS_FEEDS = {
 
 SCRAPE_TARGETS = [
     {
-        "name": "Microsoft Events",
-        "url": "https://events.microsoft.com/en-us/allevents/",
-        "selector": "a, h3, div.event-card, span.event-title",
+        "name": "Microsoft 30 Days to Learn It",
+        "url": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
+        "selector": "a, h2, h3, p, div",
     },
     {
-        "name": "Microsoft Learn Training Events",
-        "url": "https://learn.microsoft.com/en-us/training/events/",
-        "selector": "a, h2, h3, p",
+        "name": "Microsoft Credentials - 30 Days",
+        "url": "https://learn.microsoft.com/en-us/credentials/certifications/30-days-to-learn-it/",
+        "selector": "a, h1, h2, h3, p",
     },
     {
         "name": "Microsoft Learn Challenges",
         "url": "https://learn.microsoft.com/en-us/training/challenges",
         "selector": "a, h2, h3, div.challenge-card",
+    },
+    {
+        "name": "Microsoft Training Events",
+        "url": "https://learn.microsoft.com/en-us/training/events/",
+        "selector": "a, h2, h3, p",
     },
 ]
 
@@ -254,6 +283,14 @@ def classify_entry(title, summary):
         (priority, alert_type) or (None, None) if no match.
     """
     text = f"{title} {summary}".lower()
+
+    # 1. Discard non-IT / physical spam / false positives immediately
+    if any(neg in text for neg in EXCLUDE_KEYWORDS):
+        return None, None
+
+    # 2. Enforce tech domain requirement
+    if not any(tech in text for tech in REQUIRED_TECH_WORDS):
+        return None, None
 
     # 🔴 CRITICAL — Instant free cert / voucher
     if any(kw in text for kw in CRITICAL_KEYWORDS):
