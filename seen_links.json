@@ -292,5 +292,11 @@
     "source": "Reddit: CompTIA",
     "priority": "MEDIUM",
     "seen_at": "2026-07-21T22:27:02.104095"
+  },
+  "364c2fa99b3e39b338c0d79c35bc3d76": {
+    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
+    "source": "Microsoft 30 Days to Learn It",
+    "priority": "LOW",
+    "seen_at": "2026-07-22T09:58:58.099671"
   }
 }
