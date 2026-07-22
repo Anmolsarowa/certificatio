@@ -398,5 +398,13 @@
     "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
     "source": "Web: Microsoft 30 Days to Learn It",
     "found_at": "2026-07-22T09:58:58.099657"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Where can I practice Dynamics 365 Finance & Operations development (Visual Studio) now that Microsoft Learn labs are gone?",
+    "link": "https://www.reddit.com/r/Dynamics365/comments/1v209l1/where_can_i_practice_dynamics_365_finance/",
+    "source": "Reddit: Dynamics 365",
+    "found_at": "2026-07-22T20:11:00.862489"
   }
 ]
