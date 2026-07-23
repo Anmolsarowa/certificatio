@@ -108,15 +108,17 @@ CRITICAL_KEYWORDS = [
     "free voucher", "free exam", "free certification", "100% off",
     "coupon code", "claim your free", "complimentary exam", "free attempt",
     "promo code", "free azure exam", "free microsoft exam", "100% discount",
-    "100% free", "free certification voucher",
+    "100% free", "free certification voucher", "ignite voucher", "build voucher",
+    "ignite free exam", "build free exam",
 ]
 
 # 🟠 HIGH — Events / Challenges that grant exam vouchers
 EVENT_KEYWORDS = [
     "virtual training day", "virtual training event", "microsoft ignite",
+    "ignite challenge", "ignite 2024", "ignite 2025", "ignite 2026",
     "ai tour", "cloud skills challenge", "skills challenge", "30 days to learn",
-    "30 days to learn it", "learn live", "microsoft build", "free training event",
-    "attend and receive", "register to get voucher",
+    "30 days to learn it", "learn live", "microsoft build", "build challenge",
+    "free training event", "attend and receive", "register to get voucher",
 ]
 
 # 🟡 MEDIUM — Discounts, 50% off offers & deals
@@ -167,6 +169,9 @@ RSS_FEEDS = {
     "Google News: Cloud Skills Challenge": "https://news.google.com/rss/search?q=cloud+skills+challenge+voucher&hl=en-US&gl=US&ceid=US:en",
     "Google News: Dynamics 365 Voucher": "https://news.google.com/rss/search?q=dynamics+365+exam+voucher&hl=en-US&gl=US&ceid=US:en",
     "Google News: Power Apps Voucher":  "https://news.google.com/rss/search?q=power+apps+exam+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: MS Ignite Voucher":   "https://news.google.com/rss/search?q=microsoft+ignite+certification+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: MS Ignite Challenge": "https://news.google.com/rss/search?q=microsoft+ignite+cloud+skills+challenge&hl=en-US&gl=US&ceid=US:en",
+    "Google News: MS Build Challenge":  "https://news.google.com/rss/search?q=microsoft+build+cloud+skills+challenge&hl=en-US&gl=US&ceid=US:en",
 
     # ── Microsoft Official ──────────────────────────────────────────────────
     "MS TechCommunity":                 "https://techcommunity.microsoft.com/t5/custom/page/page-id/activity.rss",
@@ -188,6 +193,16 @@ RSS_FEEDS = {
 # ═════════════════════════════════════════════════════════════════════════════
 
 SCRAPE_TARGETS = [
+    {
+        "name": "Microsoft Ignite Hub",
+        "url": "https://ignite.microsoft.com/",
+        "selector": "a, h1, h2, h3, p, div",
+    },
+    {
+        "name": "Microsoft Build Hub",
+        "url": "https://build.microsoft.com/",
+        "selector": "a, h1, h2, h3, p, div",
+    },
     {
         "name": "Microsoft 30 Days to Learn It",
         "url": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
@@ -394,10 +409,14 @@ def build_html_email(alerts):
             <!-- Permanent Active Guaranteed Deals Section -->
             <div style="margin-top: 24px; padding: 18px; background: #161B22; border: 1px solid #30363D; border-radius: 12px;">
                 <h3 style="color: #58A6FF; margin-top: 0; margin-bottom: 12px; font-size: 16px;">
-                    ⚡ Guaranteed Active Voucher Programs (Instant Access)
+                    ⚡ Guaranteed Active Voucher Programs & Major Events
                 </h3>
                 <ul style="padding-left: 20px; margin: 0; color: #C9D1D9; font-size: 13px; line-height: 1.8;">
                     <li>
+                        <strong>🔥 Microsoft Ignite & Build Challenges (100% Free Vouchers):</strong> Active monitoring enabled for Ignite & Build Cloud Skills Challenges.<br>
+                        👉 <a href="https://ignite.microsoft.com/" style="color: #58A6FF;">Visit Official MS Ignite Hub</a>
+                    </li>
+                    <li style="margin-top: 8px;">
                         <strong>🎁 50% Off Voucher (30 Days to Learn It):</strong> Complete a challenge to get 50% off Azure, Power Platform (PL-300), or Dynamics 365 (MB-800) exams.<br>
                         👉 <a href="https://developer.microsoft.com/en-us/offers/30-days-to-learn-it" style="color: #58A6FF;">Claim 50% Voucher Here</a>
                     </li>
