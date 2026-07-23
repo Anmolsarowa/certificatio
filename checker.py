@@ -138,6 +138,7 @@ CERT_CONTEXT_WORDS = [
     "voucher", "certification", "exam", "certificate", "credential",
     "badge", "microsoft learn", "az-", "ai-", "dp-", "sc-", "ms-",
     "mb-", "pl-", "md-", "mo-", "fundamentals", "d365", "power apps",
+    "power platform", "power automate", "power bi", "dynamics",
 ]
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -149,6 +150,9 @@ RSS_FEEDS = {
     "Reddit: Microsoft Certifications": "https://www.reddit.com/r/MicrosoftCertifications/.rss",
     "Reddit: Azure Certification":      "https://www.reddit.com/r/AzureCertification/.rss",
     "Reddit: Power Platform":           "https://www.reddit.com/r/PowerPlatform/.rss",
+    "Reddit: Power Apps":               "https://www.reddit.com/r/PowerApps/.rss",
+    "Reddit: Power BI":                 "https://www.reddit.com/r/PowerBI/.rss",
+    "Reddit: Power Automate":           "https://www.reddit.com/r/MicrosoftFlow/.rss",
     "Reddit: Dynamics 365":             "https://www.reddit.com/r/dynamics365/.rss",
     "Reddit: Azure":                    "https://www.reddit.com/r/Azure/.rss",
     "Reddit: Microsoft":                "https://www.reddit.com/r/microsoft/.rss",
@@ -156,6 +160,13 @@ RSS_FEEDS = {
     "Reddit: Sysadmin":                 "https://www.reddit.com/r/sysadmin/.rss",
     "Reddit: AWS Certifications":       "https://www.reddit.com/r/AWSCertifications/.rss",
     "Reddit: CompTIA":                  "https://www.reddit.com/r/CompTIA/.rss",
+
+    # ── Real-Time Google News Feeds (Vouchers & Discounts) ─────────────────
+    "Google News: MS Cert Voucher":     "https://news.google.com/rss/search?q=free+microsoft+certification+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Azure Exam Discount": "https://news.google.com/rss/search?q=azure+exam+voucher+discount&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Cloud Skills Challenge": "https://news.google.com/rss/search?q=cloud+skills+challenge+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Dynamics 365 Voucher": "https://news.google.com/rss/search?q=dynamics+365+exam+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Power Apps Voucher":  "https://news.google.com/rss/search?q=power+apps+exam+voucher&hl=en-US&gl=US&ceid=US:en",
 
     # ── Microsoft Official ──────────────────────────────────────────────────
     "MS TechCommunity":                 "https://techcommunity.microsoft.com/t5/custom/page/page-id/activity.rss",
@@ -380,9 +391,34 @@ def build_html_email(alerts):
                 </tbody>
             </table>
 
+            <!-- Permanent Active Guaranteed Deals Section -->
+            <div style="margin-top: 24px; padding: 18px; background: #161B22; border: 1px solid #30363D; border-radius: 12px;">
+                <h3 style="color: #58A6FF; margin-top: 0; margin-bottom: 12px; font-size: 16px;">
+                    ⚡ Guaranteed Active Voucher Programs (Instant Access)
+                </h3>
+                <ul style="padding-left: 20px; margin: 0; color: #C9D1D9; font-size: 13px; line-height: 1.8;">
+                    <li>
+                        <strong>🎁 50% Off Voucher (30 Days to Learn It):</strong> Complete a challenge to get 50% off Azure, Power Platform (PL-300), or Dynamics 365 (MB-800) exams.<br>
+                        👉 <a href="https://developer.microsoft.com/en-us/offers/30-days-to-learn-it" style="color: #58A6FF;">Claim 50% Voucher Here</a>
+                    </li>
+                    <li style="margin-top: 8px;">
+                        <strong>🏢 50%-100% Off via Work Email (ESI):</strong> If your company uses Microsoft Cloud, get free/discounted vouchers.<br>
+                        👉 <a href="https://esi.microsoft.com" style="color: #58A6FF;">Check Work Email ESI Eligibility</a>
+                    </li>
+                    <li style="margin-top: 8px;">
+                        <strong>🎓 Free Fundamentals & 45% Off (Student Status):</strong> Verify student email on MS Learn for free AZ-900 / PL-900 / MB-910.<br>
+                        👉 <a href="https://learn.microsoft.com/en-us/credentials/certifications/student-discounts" style="color: #58A6FF;">Verify Student Status</a>
+                    </li>
+                    <li style="margin-top: 8px;">
+                        <strong>🏅 100% Free Official Microsoft Applied Skills:</strong> Earn official badges with interactive 2-hour lab credentials.<br>
+                        👉 <a href="https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills" style="color: #58A6FF;">Browse Free Applied Skills</a>
+                    </li>
+                </ul>
+            </div>
+
             <div style="text-align: center; padding: 20px 0;">
                 <p style="color: #484F58; font-size: 11px; margin: 0;">
-                    Powered by Pro Cert Radar v2.0 🛰️
+                    Powered by Pro Cert Radar v2.5 🛰️
                 </p>
             </div>
         </div>
