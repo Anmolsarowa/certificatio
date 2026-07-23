@@ -304,5 +304,23 @@
     "source": "Reddit: Dynamics 365",
     "priority": "LOW",
     "seen_at": "2026-07-22T20:11:00.862499"
+  },
+  "0019d90bc2d6c8ba03d33bd5691d57c9": {
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcUdjM2UteVhZVEFSWHVpTE9lLWk5TkJsVEZudklYMEhMd0lURU55WVNGOV9UakRCYWU2WGx5ZlZYdnNFanIzXzZzTFo3VFN1RWtFVUhIS29FRFRUQnNRVFF4OHFxcGktVmd0SmdOaWJIdmhLUHl3S3Q5MjRaV2dpdXZUcmRYdC1CTGtaVEV6VWZaRmlwQzJ5bXotemdwY0JuczIxU0lGcVRhVXFWQURXX3k0a3llSTlfUS1PR3A5M3ZWUE5YaEYxbE1Qc0hTZTNjX1JTQmpIWkxIeDliSTN1dmZGQ0FNdw?oc=5",
+    "source": "Google News: MS Cert Voucher",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-23T12:36:38.900803"
+  },
+  "0716bb35f470f2ea3f892c06762e4291": {
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdzMwajZiUW9kcmxfdkdZa1A0WDJkQjlTZFB0b0RIVGFRMlZESGIxSHVmRzNnZDJPWV9HUlJFNFczQUdVWlVtX1dybk1kQ0x1cTRJOWpfUWNfRGFFWjRDZjV2V0lsb29IVXB5dnRVUUtOZjlDSjh0Ui16dVFRUVdxakdSX2loem5WSWZld21BTGp1ZTF2YzBZc2JKTzlxVFpDMDRveUo3Znkxc0RTZFBoSF9ta0hhQQ?oc=5",
+    "source": "Google News: MS Cert Voucher",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-23T12:36:38.902194"
+  },
+  "3d25e1ac97964a2c0e1936160c8274be": {
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbVo4MmNsTEczRVRiM0ltLXhmYVQ4NGJCWnNkQ3B0ZUNKQWVkdXlOZkVBNHdKemdvWTliTjMtN21pM25kczYtTm9oa0kzOGMzMEEwX2d6SUVUNW1TZUVuOGtMR0FpSThCbjVhMUtzY3pRdWdhWUVMN1lzaXJPaXJuN1I3cmhIMlltR2p4VUhB?oc=5",
+    "source": "Google News: Power Apps Voucher",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-23T12:36:46.292400"
   }
 }
