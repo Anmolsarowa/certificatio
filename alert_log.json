@@ -454,5 +454,37 @@
     "link": "https://www.reddit.com/r/AWSCertifications/comments/1v3chbf/aws_is_updating_the_machine_learning_engineer/",
     "source": "Reddit: AWS Certifications",
     "found_at": "2026-07-24T15:25:01.342415"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "I Finally Got The Free Voucher Email Today!",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v3u1z8/i_finally_got_the_free_voucher_email_today/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-24T20:23:01.811785"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "New Multi-Agent AI Solutions Expert Certification (AI-500) Announcement",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v44jr5/new_multiagent_ai_solutions_expert_certification/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-24T20:23:01.811525"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "My Experience with the AZ-802 Beta After Taking It Today",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v3pr86/my_experience_with_the_az802_beta_after_taking_it/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-24T20:23:01.811995"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Why the price looks so weird? (Located in Canada)",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v3y3k9/why_the_price_looks_so_weird_located_in_canada/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-24T20:23:01.812172"
   }
 ]

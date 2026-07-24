@@ -340,5 +340,29 @@
     "source": "Reddit: AWS Certifications",
     "priority": "MEDIUM",
     "seen_at": "2026-07-24T15:25:01.342418"
+  },
+  "63ab88e593404aeb53d0e6cad4ae7185": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v44jr5/new_multiagent_ai_solutions_expert_certification/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-24T20:23:01.811539"
+  },
+  "fbbe6650e0d927d9fc7e8a2b53c45492": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v3u1z8/i_finally_got_the_free_voucher_email_today/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-24T20:23:01.811788"
+  },
+  "7b1b92796929a98e4cc8ed009dee9af2": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v3pr86/my_experience_with_the_az802_beta_after_taking_it/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-24T20:23:01.811998"
+  },
+  "e8199a7c20e736e3870ee5d6fb0a8ba6": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v3y3k9/why_the_price_looks_so_weird_located_in_canada/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-24T20:23:01.812175"
   }
 }
