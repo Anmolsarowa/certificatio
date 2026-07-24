@@ -430,5 +430,13 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbVo4MmNsTEczRVRiM0ltLXhmYVQ4NGJCWnNkQ3B0ZUNKQWVkdXlOZkVBNHdKemdvWTliTjMtN21pM25kczYtTm9oa0kzOGMzMEEwX2d6SUVUNW1TZUVuOGtMR0FpSThCbjVhMUtzY3pRdWdhWUVMN1lzaXJPaXJuN1I3cmhIMlltR2p4VUhB?oc=5",
     "source": "Google News: Power Apps Voucher",
     "found_at": "2026-07-23T12:36:46.292387"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "I built a FREE, Open-Source Power BI-style Matrix Viz Extension for Tableau (No paid add-ons required)",
+    "link": "https://www.reddit.com/r/PowerBI/comments/1v4kcz6/i_built_a_free_opensource_power_bistyle_matrix/",
+    "source": "Reddit: Power BI",
+    "found_at": "2026-07-24T00:57:01.289198"
   }
 ]

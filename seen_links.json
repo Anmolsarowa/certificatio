@@ -322,5 +322,11 @@
     "source": "Google News: Power Apps Voucher",
     "priority": "MEDIUM",
     "seen_at": "2026-07-23T12:36:46.292400"
+  },
+  "0f22af6a7fbd06cb971b4b61fd25d21f": {
+    "link": "https://www.reddit.com/r/PowerBI/comments/1v4kcz6/i_built_a_free_opensource_power_bistyle_matrix/",
+    "source": "Reddit: Power BI",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-24T00:57:01.289209"
   }
 }
