@@ -328,5 +328,17 @@
     "source": "Reddit: Power BI",
     "priority": "CRITICAL",
     "seen_at": "2026-07-24T00:57:01.289209"
+  },
+  "b57230e3569bad54ffc4edecd376f036": {
+    "link": "https://www.reddit.com/r/AWSCertifications/comments/1v583h7/aws_ai_practitioner_50_discount_free_cloud/",
+    "source": "Reddit: AWS Certifications",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-24T15:25:01.340919"
+  },
+  "292750cb413f4e5c20a518f6561ea468": {
+    "link": "https://www.reddit.com/r/AWSCertifications/comments/1v3chbf/aws_is_updating_the_machine_learning_engineer/",
+    "source": "Reddit: AWS Certifications",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-24T15:25:01.342418"
   }
 }
