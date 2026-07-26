@@ -364,5 +364,17 @@
     "source": "Reddit: Azure Certification",
     "priority": "MEDIUM",
     "seen_at": "2026-07-24T20:23:01.812175"
+  },
+  "012afc2d393066d0b44a1f340dd954e8": {
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v6lr3q/whats_the_difference_between_preparing_with/",
+    "source": "Reddit: CompTIA",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-26T20:57:01.883198"
+  },
+  "7a12719161dd681823e1e99b0ccd8b4f": {
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v62pgn/when_does_exam_sy0701_get_replaced_with_801/",
+    "source": "Reddit: CompTIA",
+    "priority": "LOW",
+    "seen_at": "2026-07-26T20:57:01.883944"
   }
 }

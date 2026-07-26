@@ -486,5 +486,21 @@
     "link": "https://www.reddit.com/r/AzureCertification/comments/1v3y3k9/why_the_price_looks_so_weird_located_in_canada/",
     "source": "Reddit: Azure Certification",
     "found_at": "2026-07-24T20:23:01.812172"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "What's the difference between preparing with Comptia CertMaster Learn/Practice and using Dion/Messer materials?",
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v6lr3q/whats_the_difference_between_preparing_with/",
+    "source": "Reddit: CompTIA",
+    "found_at": "2026-07-26T20:57:01.883185"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "when does exam Sy0-701 get replaced with 801?",
+    "link": "https://www.reddit.com/r/CompTIA/comments/1v62pgn/when_does_exam_sy0701_get_replaced_with_801/",
+    "source": "Reddit: CompTIA",
+    "found_at": "2026-07-26T20:57:01.883940"
   }
 ]
