@@ -502,5 +502,45 @@
     "link": "https://www.reddit.com/r/CompTIA/comments/1v62pgn/when_does_exam_sy0701_get_replaced_with_801/",
     "source": "Reddit: CompTIA",
     "found_at": "2026-07-26T20:57:01.883940"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Passed AZ-900 with like 4 hours total study",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v7fd88/passed_az900_with_like_4_hours_total_study/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-27T05:10:01.035800"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "What are the Microsoft certifications worth earning that can help in career transition?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v5uf58/what_are_the_microsoft_certifications_worth/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-27T05:10:01.037237"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Microsoft Defender Skilling Challenge is now live (50% off SC-200/SC-500 exam vouchers available)",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v62fzt/microsoft_defender_skilling_challenge_is_now_live/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-27T05:10:01.036695"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Passed AZ-204 on my first attempt! 🎉",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v7a7s0/passed_az204_on_my_first_attempt/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-27T05:10:01.036329"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Az305 tips",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v5y5c9/az305_tips/",
+    "source": "Reddit: Azure Certification",
+    "found_at": "2026-07-27T05:10:01.037304"
   }
 ]

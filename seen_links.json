@@ -376,5 +376,35 @@
     "source": "Reddit: CompTIA",
     "priority": "LOW",
     "seen_at": "2026-07-26T20:57:01.883944"
+  },
+  "879f35275a0823ce84d5f6f4d05006c6": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v7fd88/passed_az900_with_like_4_hours_total_study/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-27T05:10:01.035811"
+  },
+  "8f7eedd12e8ab87797eec47b95a211f1": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v7a7s0/passed_az204_on_my_first_attempt/",
+    "source": "Reddit: Azure Certification",
+    "priority": "LOW",
+    "seen_at": "2026-07-27T05:10:01.036334"
+  },
+  "3853dd90d8b0673b6beba72fbb4f9e51": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v62fzt/microsoft_defender_skilling_challenge_is_now_live/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-07-27T05:10:01.036698"
+  },
+  "4fa2f956b20f78fc6fe840ffcf3e56ce": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v5uf58/what_are_the_microsoft_certifications_worth/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-07-27T05:10:01.037241"
+  },
+  "5bae24aa2abe7fea1d2887e8716bc034": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1v5y5c9/az305_tips/",
+    "source": "Reddit: Azure Certification",
+    "priority": "LOW",
+    "seen_at": "2026-07-27T05:10:01.037307"
   }
 }
