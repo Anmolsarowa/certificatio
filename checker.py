@@ -1,25 +1,23 @@
 """
-Pro Cert Radar v2.0 — Advanced Certification Monitor 🎯
-========================================================
-Monitors 20+ sources for free Microsoft certification vouchers,
+Pro Cert Radar v3.0 — Advanced Certification Voucher Monitor 🎯
+================================================================
+Monitors high-signal sources for REAL Microsoft certification vouchers,
 exam discounts, training events, and limited-time offers.
 
-Sources:
-  • Reddit (10 subreddits)
-  • Microsoft TechCommunity & Learn Blog
-  • Azure / Microsoft Dev Blogs
-  • YouTube tech channels (RSS)
-  • Hacker News (filtered)
-  • Microsoft Events page (web scraping)
+v3.0 Changes:
+  • Score-based classification (eliminates false positives)
+  • Title-priority matching (CRITICAL only triggers on titles, not summaries)
+  • Actionability gate (must contain deal-oriented words)
+  • Aggressive exclusion of study tips, exam results, career posts
+  • Cleaned RSS feeds (removed noise generators)
 
-Features:
-  • Tiered priority alerts (CRITICAL / HIGH / MEDIUM / LOW)
-  • Beautiful HTML email alerts
-  • JSON-based seen-links with auto-cleanup
-  • Web scraping for Microsoft Events
-  • Retry logic for email delivery
-  • Rate limiting to avoid bans
-  • Detailed logging & alert history
+Sources:
+  • Reddit (8 targeted subreddits)
+  • Google News (8 real-time voucher queries)
+  • Microsoft Learn Blog
+  • YouTube: Microsoft Learn
+  • Hacker News (filtered)
+  • Web scraping: Ignite, Build, 30 Days to Learn, Challenges
 
 Usage:
   python checker.py                    # One-time scan
@@ -67,88 +65,112 @@ SEEN_FILE = "seen_links.json"
 LOG_FILE  = "alert_log.json"
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  Keywords — Tiered by Priority
+#  v3.0 — Strict Keyword & Domain Configuration
 # ═════════════════════════════════════════════════════════════════════════════
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  Keywords & Strict Domain Verification
-# ═════════════════════════════════════════════════════════════════════════════
-
-# ⛔ EXCLUDE_KEYWORDS — Discard non-IT / spam / physical freebies immediately
+# ⛔ EXCLUDE_KEYWORDS — Discard non-actionable / spam immediately
+# These are posts about study tips, exam results, career advice, physical items
 EXCLUDE_KEYWORDS = [
-    "gluten free", "gluten-free", "paperback", "free shipping", "bug free", "bug-free",
-    "free book", "t-shirt", "sample", "stickers", "gluten", "thriller", "novel",
+    # Physical / non-IT spam
+    "gluten free", "gluten-free", "paperback", "free shipping", "bug free",
+    "bug-free", "free book", "t-shirt", "sample", "stickers", "gluten",
+    "thriller", "novel", "recipe",
+    # Study tips & exam results (NOT actionable deals)
+    "i passed", "i failed", "just passed", "just failed", "passed today",
+    "failed today", "how i passed", "my experience with", "tips for",
+    "study plan", "study tips", "study material", "study guide",
+    "study resources", "how long did", "is it worth", "how hard is",
+    "help me", "should i take", "should i do", "should i get",
+    "which certification should", "career transition", "career change",
+    "career advice", "worth earning", "worth getting",
+    # Job / salary discussions
+    "salary", "interview questions", "got the job", "job market",
+    "job offer", "hiring", "resume",
+    # Generic questions
+    "how much harder", "realistic shot", "taking tomorrow",
+    "expiring in", "renewal", "renew my",
 ]
 
-# 🎯 REQUIRED_TECH_WORDS — Entry MUST match at least ONE of these to ensure relevance
+# 🎯 REQUIRED_TECH_WORDS — Entry MUST match at least ONE (Microsoft-focused only)
 REQUIRED_TECH_WORDS = [
-    # General Microsoft & Cloud
-    "microsoft", "azure", "cloud", "mslearn", "microsoft learn", "ms cert", "m365",
-    "microsoft 365", "esi", "enterprise skills initiative", "copilot", "fabric",
+    # General Microsoft
+    "microsoft", "azure", "mslearn", "microsoft learn",
+    "microsoft 365", "m365",
     # Power Platform & Power Apps
-    "power apps", "powerapps", "power platform", "powerplatform", "power automate",
-    "power bi", "powerpages", "power pages", "pl-900", "pl-100", "pl-200", "pl-300",
-    "pl-400", "pl-500", "pl-600",
+    "power apps", "powerapps", "power platform", "powerplatform",
+    "power automate", "power bi", "power pages", "powerpages",
+    "pl-900", "pl-100", "pl-200", "pl-300", "pl-400", "pl-500", "pl-600",
     # Dynamics 365 (D365)
-    "d365", "dynamics 365", "dynamics", "mb-910", "mb-920", "mb-210", "mb-220",
-    "mb-230", "mb-240", "mb-260", "mb-300", "mb-310", "mb-330", "mb-500", "mb-700", "mb-800",
-    # Azure & AI Series
-    "az-900", "az-104", "az-204", "az-305", "az-400", "az-500", "az-700", "az-800", "az-801",
+    "d365", "dynamics 365",
+    "mb-910", "mb-920", "mb-210", "mb-220", "mb-230", "mb-240", "mb-260",
+    "mb-300", "mb-310", "mb-330", "mb-500", "mb-700", "mb-800",
+    # Azure & AI Exam Series
+    "az-900", "az-104", "az-204", "az-305", "az-400", "az-500",
+    "az-700", "az-800", "az-801", "az-802",
     "dp-900", "dp-100", "dp-203", "dp-300", "dp-500", "dp-600",
-    "ai-900", "ai-102", "ai-050",
-    "sc-900", "sc-100", "sc-200", "sc-300", "sc-400",
+    "ai-900", "ai-102", "ai-050", "ai-500",
+    "sc-900", "sc-100", "sc-200", "sc-300", "sc-400", "sc-500",
     "ms-900", "ms-700", "ms-102", "md-102",
-    # Other Major Cloud / IT Certifications
-    "aws", "amazon web services", "gcp", "google cloud", "comptia", "cisco", "ccna",
-    "kubernetes", "cka", "ckad", "hashicorp", "terraform", "salesforce",
+    # Event names (these ARE the deal sources)
+    "ignite", "microsoft build", "virtual training day",
+    "cloud skills challenge", "30 days to learn",
 ]
 
-# 🔴 CRITICAL — Immediate 100% free vouchers / instant free exam
+# 🔑 ACTIONABLE_WORDS — For CRITICAL/HIGH, title must contain at least one
+# This prevents "I passed AZ-900" from becoming a CRITICAL alert
+ACTIONABLE_WORDS = [
+    "voucher", "coupon", "promo", "discount", "free exam", "free cert",
+    "offer", "register", "sign up", "enroll", "claim", "code",
+    "% off", "percent off", "half price", "deal", "grab", "hurry",
+    "limited time", "expires", "challenge", "skilling",
+    "virtual training day", "30 days to learn",
+]
+
+# 🔴 CRITICAL — Actual free voucher / coupon posts
 CRITICAL_KEYWORDS = [
-    "free voucher", "free exam", "free certification", "100% off",
-    "coupon code", "claim your free", "complimentary exam", "free attempt",
-    "promo code", "free azure exam", "free microsoft exam", "100% discount",
-    "100% free", "free certification voucher", "ignite voucher", "build voucher",
-    "ignite free exam", "build free exam",
+    "free voucher", "free exam voucher", "free certification voucher",
+    "100% off", "coupon code", "promo code", "discount code",
+    "complimentary exam", "free azure exam", "free microsoft exam",
+    "ignite voucher", "build voucher", "ignite free exam", "build free exam",
 ]
 
 # 🟠 HIGH — Events / Challenges that grant exam vouchers
 EVENT_KEYWORDS = [
     "virtual training day", "virtual training event", "microsoft ignite",
-    "ignite challenge", "ignite 2024", "ignite 2025", "ignite 2026",
-    "ai tour", "cloud skills challenge", "skills challenge", "30 days to learn",
-    "30 days to learn it", "learn live", "microsoft build", "build challenge",
-    "free training event", "attend and receive", "register to get voucher",
+    "ignite challenge", "cloud skills challenge", "skills challenge",
+    "30 days to learn", "30 days to learn it", "learn live",
+    "microsoft build", "build challenge", "free training event",
+    "skilling challenge", "defender skilling",
 ]
 
-# 🟡 MEDIUM — Discounts, 50% off offers & deals
+# 🟡 MEDIUM — Discounts & deals (not free, but worth knowing)
 DISCOUNT_KEYWORDS = [
-    "50% off", "half price", "discount code", "voucher discount", "special offer",
-    "beta exam", "50% discount", "exam offer", "student discount", "reduced price",
-    "practice exam free", "30-days-to-learn-it",
+    "50% off", "half price", "discount code", "voucher discount",
+    "50% discount", "student discount", "reduced price",
+    "practice exam free",
 ]
 
 # 🟢 LOW — General cert news & updates
 INFO_KEYWORDS = [
-    "new certification", "certification retired", "exam update",
-    "learning path", "certification roadmap", "study guide free",
-    "exam objectives changed", "new exam", "practice assessment",
+    "new certification announced", "certification retired",
+    "exam update announced", "certification roadmap",
+    "exam objectives changed", "new exam announced",
 ]
 
-# Context words — confirms a post is cert-related when combined with EVENT / DISCOUNT keywords
+# Context words — confirms a post is cert-related (used with EVENT/DISCOUNT)
 CERT_CONTEXT_WORDS = [
     "voucher", "certification", "exam", "certificate", "credential",
     "badge", "microsoft learn", "az-", "ai-", "dp-", "sc-", "ms-",
     "mb-", "pl-", "md-", "mo-", "fundamentals", "d365", "power apps",
-    "power platform", "power automate", "power bi", "dynamics",
+    "power platform", "power automate", "power bi", "dynamics 365",
 ]
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  RSS Feed Sources (20+ sources)
+#  RSS Feed Sources — High-Signal Only
 # ═════════════════════════════════════════════════════════════════════════════
 
 RSS_FEEDS = {
-    # ── Reddit Communities ──────────────────────────────────────────────────
+    # ── Reddit (Microsoft-focused only) ────────────────────────────────────
     "Reddit: Microsoft Certifications": "https://www.reddit.com/r/MicrosoftCertifications/.rss",
     "Reddit: Azure Certification":      "https://www.reddit.com/r/AzureCertification/.rss",
     "Reddit: Power Platform":           "https://www.reddit.com/r/PowerPlatform/.rss",
@@ -157,56 +179,47 @@ RSS_FEEDS = {
     "Reddit: Power Automate":           "https://www.reddit.com/r/MicrosoftFlow/.rss",
     "Reddit: Dynamics 365":             "https://www.reddit.com/r/dynamics365/.rss",
     "Reddit: Azure":                    "https://www.reddit.com/r/Azure/.rss",
-    "Reddit: Microsoft":                "https://www.reddit.com/r/microsoft/.rss",
-    "Reddit: IT Career Questions":      "https://www.reddit.com/r/ITCareerQuestions/.rss",
-    "Reddit: Sysadmin":                 "https://www.reddit.com/r/sysadmin/.rss",
-    "Reddit: AWS Certifications":       "https://www.reddit.com/r/AWSCertifications/.rss",
-    "Reddit: CompTIA":                  "https://www.reddit.com/r/CompTIA/.rss",
 
-    # ── Real-Time Google News Feeds (Vouchers & Discounts) ─────────────────
-    "Google News: MS Cert Voucher":     "https://news.google.com/rss/search?q=free+microsoft+certification+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Azure Exam Discount": "https://news.google.com/rss/search?q=azure+exam+voucher+discount&hl=en-US&gl=US&ceid=US:en",
+    # ── Real-Time Google News (Voucher-specific queries) ───────────────────
+    "Google News: MS Cert Voucher":        "https://news.google.com/rss/search?q=free+microsoft+certification+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Azure Exam Discount":    "https://news.google.com/rss/search?q=azure+exam+voucher+discount&hl=en-US&gl=US&ceid=US:en",
     "Google News: Cloud Skills Challenge": "https://news.google.com/rss/search?q=cloud+skills+challenge+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Dynamics 365 Voucher": "https://news.google.com/rss/search?q=dynamics+365+exam+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Power Apps Voucher":  "https://news.google.com/rss/search?q=power+apps+exam+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: MS Ignite Voucher":   "https://news.google.com/rss/search?q=microsoft+ignite+certification+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: MS Ignite Challenge": "https://news.google.com/rss/search?q=microsoft+ignite+cloud+skills+challenge&hl=en-US&gl=US&ceid=US:en",
-    "Google News: MS Build Challenge":  "https://news.google.com/rss/search?q=microsoft+build+cloud+skills+challenge&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Dynamics 365 Voucher":   "https://news.google.com/rss/search?q=dynamics+365+exam+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Power Apps Voucher":     "https://news.google.com/rss/search?q=power+apps+exam+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: MS Ignite Voucher":      "https://news.google.com/rss/search?q=microsoft+ignite+certification+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: MS Ignite Challenge":    "https://news.google.com/rss/search?q=microsoft+ignite+cloud+skills+challenge&hl=en-US&gl=US&ceid=US:en",
+    "Google News: MS Build Challenge":     "https://news.google.com/rss/search?q=microsoft+build+cloud+skills+challenge&hl=en-US&gl=US&ceid=US:en",
 
-    # ── Microsoft Official ──────────────────────────────────────────────────
-    "MS TechCommunity":                 "https://techcommunity.microsoft.com/t5/custom/page/page-id/activity.rss",
-    "MS Learn Blog":                    "https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog.rss",
-    "Azure Blog":                       "https://azure.microsoft.com/en-us/blog/feed/",
-    "Microsoft Dev Blogs":              "https://devblogs.microsoft.com/feed/",
+    # ── Microsoft Official (Learn Blog only — high signal) ─────────────────
+    "MS Learn Blog": "https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog.rss",
 
-    # ── YouTube Channels (RSS) ──────────────────────────────────────────────
-    "YT: Microsoft Learn":              "https://www.youtube.com/feeds/videos.xml?channel_id=UCddiUEpeqJcYeBxX1IVBKvQ",
-    "YT: John Savill (Azure)":          "https://www.youtube.com/feeds/videos.xml?channel_id=UCpIn7ox7j7bH_OFj7tYouOQ",
+    # ── YouTube (Microsoft Learn only) ─────────────────────────────────────
+    "YT: Microsoft Learn": "https://www.youtube.com/feeds/videos.xml?channel_id=UCddiUEpeqJcYeBxX1IVBKvQ",
 
     # ── Hacker News (filtered) ─────────────────────────────────────────────
-    "HN: Microsoft Voucher":            "https://hnrss.org/newest?q=microsoft+voucher",
-    "HN: Azure Certification":          "https://hnrss.org/newest?q=azure+certification",
+    "HN: Microsoft Voucher":    "https://hnrss.org/newest?q=microsoft+voucher",
+    "HN: Azure Certification":  "https://hnrss.org/newest?q=azure+certification",
 }
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  Web Scraping Targets (optional — requires: pip install requests beautifulsoup4)
+#  Web Scraping Targets
 # ═════════════════════════════════════════════════════════════════════════════
 
 SCRAPE_TARGETS = [
     {
         "name": "Microsoft Ignite Hub",
         "url": "https://ignite.microsoft.com/",
-        "selector": "a, h1, h2, h3, p, div",
+        "selector": "a, h1, h2, h3, p",
     },
     {
         "name": "Microsoft Build Hub",
         "url": "https://build.microsoft.com/",
-        "selector": "a, h1, h2, h3, p, div",
+        "selector": "a, h1, h2, h3, p",
     },
     {
         "name": "Microsoft 30 Days to Learn It",
         "url": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
-        "selector": "a, h2, h3, p, div",
+        "selector": "a, h2, h3, p",
     },
     {
         "name": "Microsoft Credentials - 30 Days",
@@ -216,7 +229,7 @@ SCRAPE_TARGETS = [
     {
         "name": "Microsoft Learn Challenges",
         "url": "https://learn.microsoft.com/en-us/training/challenges",
-        "selector": "a, h2, h3, div.challenge-card",
+        "selector": "a, h2, h3",
     },
     {
         "name": "Microsoft Training Events",
@@ -298,45 +311,94 @@ def log_alert(entry):
 
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  Keyword Matching Engine
+#  v3.0 — Score-Based Classification Engine
 # ═════════════════════════════════════════════════════════════════════════════
 
 def classify_entry(title, summary):
     """
-    Classify a feed entry by priority.
-    
+    v3.0 Score-based classifier with title-priority matching.
+
+    Key differences from v2.x:
+    1. CRITICAL keywords are matched against TITLE ONLY (not summary)
+       to avoid Reddit boilerplate false positives.
+    2. Posts must pass an actionability gate for CRITICAL/HIGH.
+    3. Aggressive exclusion of study tips, exam results, career posts.
+
     Returns:
-        (priority, alert_type) or (None, None) if no match.
+        (priority, alert_type, score) or (None, None, 0) if no match.
     """
-    text = f"{title} {summary}".lower()
+    title_lower = title.lower()
+    summary_lower = summary.lower() if summary else ""
+    combined = f"{title_lower} {summary_lower}"
 
-    # 1. Discard non-IT / physical spam / false positives immediately
-    if any(neg in text for neg in EXCLUDE_KEYWORDS):
-        return None, None
+    # ─── Gate 1: Exclude non-actionable content immediately ───────────────
+    if any(neg in title_lower for neg in EXCLUDE_KEYWORDS):
+        return None, None, 0
 
-    # 2. Enforce tech domain requirement
-    if not any(tech in text for tech in REQUIRED_TECH_WORDS):
-        return None, None
+    # ─── Gate 2: Must mention a Microsoft technology ──────────────────────
+    if not any(tech in combined for tech in REQUIRED_TECH_WORDS):
+        return None, None, 0
 
-    # 🔴 CRITICAL — Instant free cert / voucher
-    if any(kw in text for kw in CRITICAL_KEYWORDS):
-        return "CRITICAL", "INSTANT"
+    # ─── Score calculation ────────────────────────────────────────────────
+    score = 0
+    matched_tier = None
 
-    # 🟠 HIGH — Events that grant vouchers (must also mention certs)
-    if any(kw in text for kw in EVENT_KEYWORDS):
-        if any(ctx in text for ctx in CERT_CONTEXT_WORDS):
-            return "HIGH", "EVENT"
+    # 🔴 CRITICAL — Check TITLE ONLY (this is the key v3.0 change)
+    if any(kw in title_lower for kw in CRITICAL_KEYWORDS):
+        score += 10
+        matched_tier = "CRITICAL"
+    # Also check if CRITICAL keywords appear in summary (weaker signal)
+    elif any(kw in summary_lower for kw in CRITICAL_KEYWORDS):
+        score += 3
+        matched_tier = "CRITICAL_WEAK"
 
-    # 🟡 MEDIUM — Discounts (must also mention certs)
-    if any(kw in text for kw in DISCOUNT_KEYWORDS):
-        if any(ctx in text for ctx in CERT_CONTEXT_WORDS):
-            return "MEDIUM", "DISCOUNT"
+    # 🟠 HIGH — Events (title or summary, but must have cert context)
+    if any(kw in combined for kw in EVENT_KEYWORDS):
+        if any(ctx in combined for ctx in CERT_CONTEXT_WORDS):
+            score += 6
+            if matched_tier is None:
+                matched_tier = "HIGH"
+
+    # 🟡 MEDIUM — Discounts (must have cert context)
+    if any(kw in combined for kw in DISCOUNT_KEYWORDS):
+        if any(ctx in combined for ctx in CERT_CONTEXT_WORDS):
+            score += 4
+            if matched_tier is None:
+                matched_tier = "MEDIUM"
 
     # 🟢 LOW — General cert news
-    if any(kw in text for kw in INFO_KEYWORDS):
-        return "LOW", "INFO"
+    if any(kw in combined for kw in INFO_KEYWORDS):
+        score += 2
+        if matched_tier is None:
+            matched_tier = "LOW"
 
-    return None, None
+    # ─── Gate 3: Score threshold ──────────────────────────────────────────
+    if score < 3:
+        return None, None, 0
+
+    # ─── Gate 4: Actionability check for CRITICAL/HIGH ────────────────────
+    # The title must contain at least one actionable word
+    if matched_tier in ("CRITICAL", "HIGH", "CRITICAL_WEAK"):
+        if not any(act in title_lower for act in ACTIONABLE_WORDS):
+            # Downgrade: it mentions a voucher keyword but isn't offering one
+            if score >= 4:
+                return "MEDIUM", "MENTION", score
+            return None, None, 0
+
+    # ─── Determine final priority ─────────────────────────────────────────
+    if matched_tier == "CRITICAL" and score >= 10:
+        return "CRITICAL", "INSTANT", score
+    elif matched_tier == "CRITICAL_WEAK" and score >= 6:
+        # Weak CRITICAL (summary only) + other signals = HIGH
+        return "HIGH", "EVENT", score
+    elif matched_tier == "HIGH" and score >= 6:
+        return "HIGH", "EVENT", score
+    elif score >= 4:
+        return "MEDIUM", "DISCOUNT", score
+    elif score >= 3:
+        return "LOW", "INFO", score
+
+    return None, None, 0
 
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -356,6 +418,7 @@ def build_html_email(alerts):
     rows = ""
     for a in alerts:
         cfg = PRIORITY_CONFIG.get(a["priority"], PRIORITY_CONFIG["LOW"])
+        score_display = f" (score: {a.get('score', '?')})" if a.get('score') else ""
         rows += f"""
         <tr style="border-bottom: 1px solid #333;">
             <td style="padding: 14px; text-align: center; width: 180px;">
@@ -371,7 +434,7 @@ def build_html_email(alerts):
                     {a['title'][:120]}
                 </a>
                 <br>
-                <span style="color: #888; font-size: 11px;">📡 {a['source']}</span>
+                <span style="color: #888; font-size: 11px;">📡 {a['source']}{score_display}</span>
             </td>
         </tr>
         """
@@ -383,7 +446,7 @@ def build_html_email(alerts):
         <div style="max-width: 680px; margin: 0 auto;">
             <div style="text-align: center; padding: 20px 0;">
                 <h1 style="color: #58A6FF; margin: 0; font-size: 28px;">
-                    🎯 Cert Radar Alert
+                    🎯 Cert Radar v3.0 Alert
                 </h1>
                 <p style="color: #8B949E; margin: 8px 0 0 0; font-size: 13px;">
                     {len(alerts)} new match{"es" if len(alerts) != 1 else ""} found
@@ -413,31 +476,32 @@ def build_html_email(alerts):
                 </h3>
                 <ul style="padding-left: 20px; margin: 0; color: #C9D1D9; font-size: 13px; line-height: 1.8;">
                     <li>
-                        <strong>🔥 Microsoft Ignite & Build Challenges (100% Free Vouchers):</strong> Active monitoring enabled for Ignite & Build Cloud Skills Challenges.<br>
-                        👉 <a href="https://ignite.microsoft.com/" style="color: #58A6FF;">Visit Official MS Ignite Hub</a>
+                        <strong>🔥 Microsoft Ignite & Build Challenges (100% Free Vouchers):</strong> Active monitoring enabled.<br>
+                        👉 <a href="https://ignite.microsoft.com/" style="color: #58A6FF;">MS Ignite</a> ·
+                        <a href="https://build.microsoft.com/" style="color: #58A6FF;">MS Build</a>
                     </li>
                     <li style="margin-top: 8px;">
-                        <strong>🎁 50% Off Voucher (30 Days to Learn It):</strong> Complete a challenge to get 50% off Azure, Power Platform (PL-300), or Dynamics 365 (MB-800) exams.<br>
+                        <strong>🎁 50% Off Voucher (30 Days to Learn It):</strong> Complete a challenge for 50% off Azure, PL-300, or MB-800.<br>
                         👉 <a href="https://developer.microsoft.com/en-us/offers/30-days-to-learn-it" style="color: #58A6FF;">Claim 50% Voucher Here</a>
                     </li>
                     <li style="margin-top: 8px;">
-                        <strong>🏢 50%-100% Off via Work Email (ESI):</strong> If your company uses Microsoft Cloud, get free/discounted vouchers.<br>
-                        👉 <a href="https://esi.microsoft.com" style="color: #58A6FF;">Check Work Email ESI Eligibility</a>
+                        <strong>🏢 50%-100% Off via Work Email (ESI):</strong> If your company uses Microsoft Cloud.<br>
+                        👉 <a href="https://esi.microsoft.com" style="color: #58A6FF;">Check ESI Eligibility</a>
                     </li>
                     <li style="margin-top: 8px;">
-                        <strong>🎓 Free Fundamentals & 45% Off (Student Status):</strong> Verify student email on MS Learn for free AZ-900 / PL-900 / MB-910.<br>
+                        <strong>🎓 Free Fundamentals & 45% Off (Student):</strong> Verify student email for free AZ-900 / PL-900 / MB-910.<br>
                         👉 <a href="https://learn.microsoft.com/en-us/credentials/certifications/student-discounts" style="color: #58A6FF;">Verify Student Status</a>
                     </li>
                     <li style="margin-top: 8px;">
-                        <strong>🏅 100% Free Official Microsoft Applied Skills:</strong> Earn official badges with interactive 2-hour lab credentials.<br>
-                        👉 <a href="https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills" style="color: #58A6FF;">Browse Free Applied Skills</a>
+                        <strong>🏅 100% Free Applied Skills:</strong> Official Microsoft badges via 2-hour lab assessments.<br>
+                        👉 <a href="https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills" style="color: #58A6FF;">Browse Applied Skills</a>
                     </li>
                 </ul>
             </div>
 
             <div style="text-align: center; padding: 20px 0;">
                 <p style="color: #484F58; font-size: 11px; margin: 0;">
-                    Powered by Pro Cert Radar v2.5 🛰️
+                    Powered by Pro Cert Radar v3.0 🛰️
                 </p>
             </div>
         </div>
@@ -479,7 +543,7 @@ def send_email_alert(alerts):
     msg["To"]      = ", ".join(ALL_TO_EMAILS)
 
     # Plain text fallback
-    plain = "Cert Radar Alerts\n" + "=" * 50 + "\n\n"
+    plain = "Cert Radar v3.0 Alerts\n" + "=" * 50 + "\n\n"
     for a in alerts:
         p = PRIORITY_CONFIG.get(a["priority"], PRIORITY_CONFIG["LOW"])
         plain += f"[{p['label']}] {a['title']}\n"
@@ -516,18 +580,21 @@ def send_test_email():
             "title": "🧪 TEST — Free AZ-900 Voucher Available!",
             "link": "https://example.com/test-critical",
             "source": "Test Source",
+            "score": 10,
         },
         {
             "priority": "HIGH",
             "title": "🧪 TEST — Virtual Training Day: Get Free Cert Voucher!",
             "link": "https://example.com/test-event",
             "source": "Test Source",
+            "score": 6,
         },
         {
             "priority": "MEDIUM",
             "title": "🧪 TEST — 50% Off All Microsoft Exams This Week!",
             "link": "https://example.com/test-discount",
             "source": "Test Source",
+            "score": 4,
         },
     ]
     success = send_email_alert(test_alerts)
@@ -538,8 +605,7 @@ def send_test_email():
 
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  Strict Sources — These are noisy, only CRITICAL + HIGH alerts pass through
-#  (YouTube titles and HN posts often mention "certification" in generic context)
+#  Strict Sources — YouTube/HN only CRITICAL + HIGH pass through
 # ═════════════════════════════════════════════════════════════════════════════
 
 STRICT_SOURCES = [
@@ -577,7 +643,7 @@ def scan_rss_feeds(seen):
                 title   = getattr(entry, "title", "")
                 summary = getattr(entry, "summary", "")
 
-                priority, alert_type = classify_entry(title, summary)
+                priority, alert_type, score = classify_entry(title, summary)
 
                 # Skip LOW/MEDIUM from noisy sources (YouTube, HN)
                 if priority and is_strict_source(source_name) and priority in ("LOW", "MEDIUM"):
@@ -590,12 +656,13 @@ def scan_rss_feeds(seen):
                         "title": title,
                         "link": link,
                         "source": source_name,
+                        "score": score,
                         "found_at": datetime.now().isoformat(),
                     }
                     alerts.append(alert)
                     mark_seen(seen, link, source_name, priority)
                     match_count += 1
-                    print(f"     🎯 [{priority}] {title[:80]}")
+                    print(f"     🎯 [{priority}] (score:{score}) {title[:80]}")
 
             if match_count == 0:
                 pass  # Silent if no matches — less noise
@@ -645,7 +712,7 @@ def scan_web_pages(seen):
                 if not text or len(text) < 10 or is_seen(seen, link):
                     continue
 
-                priority, alert_type = classify_entry(text, "")
+                priority, alert_type, score = classify_entry(text, "")
                 if priority:
                     alert = {
                         "priority": priority,
@@ -653,11 +720,12 @@ def scan_web_pages(seen):
                         "title": text[:150],
                         "link": link,
                         "source": f"Web: {target['name']}",
+                        "score": score,
                         "found_at": datetime.now().isoformat(),
                     }
                     alerts.append(alert)
                     mark_seen(seen, link, target["name"], priority)
-                    print(f"     🎯 [{priority}] {text[:80]}")
+                    print(f"     🎯 [{priority}] (score:{score}) {text[:80]}")
 
         except Exception as e:
             print(f"     ❌ Error: {e}")
@@ -676,7 +744,7 @@ def check_feeds():
     start = time.time()
 
     print("=" * 60)
-    print("🎯 PRO CERT RADAR v2.0 — Starting full scan...")
+    print("🎯 PRO CERT RADAR v3.0 — Starting full scan...")
     print(f"   📡 {len(RSS_FEEDS)} RSS feeds + {len(SCRAPE_TARGETS)} web pages")
     print("=" * 60)
 
@@ -741,6 +809,6 @@ if __name__ == "__main__":
  ██║     ██╔══╝  ██╔══██╗   ██║       ██╔══██╗██╔══██║██║  ██║██╔══██║██╔══██╗
  ╚██████╗███████╗██║  ██║   ██║       ██║  ██║██║  ██║██████╔╝██║  ██║██║  ██║
   ╚═════╝╚══════╝╚═╝  ╚═╝   ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-                        🎯 Pro Cert Radar v2.0
+                        🎯 Pro Cert Radar v3.0
         """)
         check_feeds()
