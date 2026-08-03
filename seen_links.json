@@ -304,5 +304,11 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-03T15:43:23.037390"
+  },
+  "2b387d4f84057b9d6e1ab7da11da2e8e": {
+    "link": "https://www.helpmegeek.com/free-network-certifications-and-courses/",
+    "source": "HN: Free Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-03T17:30:42.453498"
   }
 }

@@ -457,5 +457,14 @@
     "source": "Dev.to: Azure",
     "score": 8,
     "found_at": "2026-08-03T15:43:23.037374"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "A List of Free Networking courses that offer free certification",
+    "link": "https://www.helpmegeek.com/free-network-certifications-and-courses/",
+    "source": "HN: Free Certification",
+    "score": 10,
+    "found_at": "2026-08-03T17:30:42.453492"
   }
 ]
