@@ -298,5 +298,11 @@
     "source": "Microsoft Learn FAQ - Discounts",
     "priority": "LOW",
     "seen_at": "2026-08-03T12:51:55.450587"
+  },
+  "51cc8a8498b0c0a136f46fdf88a106bf": {
+    "link": "https://dev.to/enforza/how-to-reduce-azure-firewall-costs-7-ways-ranked-by-savings-24of",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-03T15:43:23.037390"
   }
 }
