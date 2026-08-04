@@ -538,5 +538,68 @@
     "source": "Dev.to: Microsoft Certs",
     "score": 12,
     "found_at": "2026-08-04T22:14:01.003752"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "[Guide] AZ-104 Ultimate Resource Guide",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1ldn9dd/guide_az104_ultimate_resource_guide/",
+    "source": "Reddit: Azure Certification",
+    "score": 10,
+    "found_at": "2026-08-04T23:19:01.921104"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "I created 240+ Azure AI Cloud Developer study notes and practice questions for exam preparation",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vf91nf/i_created_240_azure_ai_cloud_developer_study/",
+    "source": "Reddit: Azure Certification",
+    "score": 10,
+    "found_at": "2026-08-04T23:19:01.923873"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "[Guide] AZ-900 Ultimate Resource Guide",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1kg92v8/guide_az900_ultimate_resource_guide/",
+    "source": "Reddit: Azure Certification",
+    "score": 16,
+    "found_at": "2026-08-04T23:19:01.922758"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "AZ-900 is MS Learn enough?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vfg844/az900_is_ms_learn_enough/",
+    "source": "Reddit: Azure Certification",
+    "score": 6,
+    "found_at": "2026-08-04T23:19:01.926935"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "New to Azure – Best Certification & Learning Path?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vfj2zg/new_to_azure_best_certification_learning_path/",
+    "source": "Reddit: Azure Certification",
+    "score": 12,
+    "found_at": "2026-08-04T23:19:01.927433"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "SC-200 in 2 weeks, everyone says it punishes video-only prep, how do you keep the hands on part mostly free?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vf7a6e/sc200_in_2_weeks_everyone_says_it_punishes/",
+    "source": "Reddit: Azure Certification",
+    "score": 5,
+    "found_at": "2026-08-04T23:19:01.929778"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "SC-200 in 2 weeks, everyone says it punishes video-only prep, how do you keep the hands on part mostly free?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vf776i/sc200_in_2_weeks_everyone_says_it_punishes/",
+    "source": "Reddit: Azure Certification",
+    "score": 5,
+    "found_at": "2026-08-04T23:19:01.930373"
   }
 ]

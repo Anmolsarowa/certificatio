@@ -358,5 +358,47 @@
     "source": "Dev.to: Microsoft Certs",
     "priority": "MEDIUM",
     "seen_at": "2026-08-04T22:14:01.003758"
+  },
+  "3c1fccb0c415d2626a4a42358161c50e": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1ldn9dd/guide_az104_ultimate_resource_guide/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-04T23:19:01.921109"
+  },
+  "a3bcfc8e79bbd33430f103ecaf767352": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1kg92v8/guide_az900_ultimate_resource_guide/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-04T23:19:01.922761"
+  },
+  "c0e86572b67df90a8fa347bd2e8919df": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vf91nf/i_created_240_azure_ai_cloud_developer_study/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-04T23:19:01.923875"
+  },
+  "be025d954b6161b8d3ecf503c3607077": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vfg844/az900_is_ms_learn_enough/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-04T23:19:01.926937"
+  },
+  "1eabf52dc638098080bf52a2b4bd1e1f": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vfj2zg/new_to_azure_best_certification_learning_path/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-04T23:19:01.927435"
+  },
+  "d0091b629bba8bd941da40e3e16ec6ec": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vf7a6e/sc200_in_2_weeks_everyone_says_it_punishes/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-04T23:19:01.929780"
+  },
+  "849dc2030f66c85a58650b8343c4399f": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vf776i/sc200_in_2_weeks_everyone_says_it_punishes/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-04T23:19:01.930375"
   }
 }
