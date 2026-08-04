@@ -529,5 +529,14 @@
     "source": "Google News: MS Ignite Challenge",
     "score": 3,
     "found_at": "2026-08-04T09:20:48.826513"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Your Complete Microsoft DP-750 Exam Study Guide & Simulator",
+    "link": "https://dev.to/millerliam660/your-complete-microsoft-dp-750-exam-study-guide-simulator-10i",
+    "source": "Dev.to: Microsoft Certs",
+    "score": 12,
+    "found_at": "2026-08-04T22:14:01.003752"
   }
 ]

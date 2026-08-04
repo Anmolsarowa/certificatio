@@ -352,5 +352,11 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-04T09:21:16.012333"
+  },
+  "cda6dca235827ab8cb0f2200e6152c2c": {
+    "link": "https://dev.to/millerliam660/your-complete-microsoft-dp-750-exam-study-guide-simulator-10i",
+    "source": "Dev.to: Microsoft Certs",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-04T22:14:01.003758"
   }
 }
