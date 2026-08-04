@@ -334,5 +334,23 @@
     "source": "Dev.to: Azure",
     "priority": "HIGH",
     "seen_at": "2026-08-04T06:16:57.900608"
+  },
+  "61caee37ddc61f2c90f4657bf8c29fc2": {
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZDhwMXVjdGV3VnFhdFdvR2hpUmJOcnY3NUxsWW9nZ3lLZElUYVFTTmFZM3lWZkVxejFrYXZwcHg2aFF2LUItTmpCYXhMZnNidDJKRTFwNUszZnFjWEVCS2FKampiRFBpdlBPcjFYTGZvWVpYUVl0Q2lFTURQOTBjVFlOX2hTbl9uY0IyRTdCRzBIZjNuS2U3U0Y3X2M5ZUZNdDZiZnRB?oc=5",
+    "source": "Google News: Dynamics 365 Voucher",
+    "priority": "HIGH",
+    "seen_at": "2026-08-04T09:20:43.381844"
+  },
+  "86def582eb5c650aa817f3f76e6cb6d9": {
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yYnU0cEhodkhTdmxpNnZaSndBeFdaSDZhZlZlZEJEY0EyMy1YZzVXUFRDS3d5VFlyX25BekZicmY3eU5kYVZGZ0QxS1dzWXdWZDNqdmU0QllhaGdBMjVJSC1zTVlXVnB0Q2c?oc=5",
+    "source": "Google News: MS Ignite Challenge",
+    "priority": "LOW",
+    "seen_at": "2026-08-04T09:20:48.826518"
+  },
+  "1ac3496e13343e9afd2f6eafb40cc245": {
+    "link": "https://dev.to/elearning_sherdil_783bbb/the-best-cloud-computing-courses-in-2026-a-practitioners-comparison-11gc",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-04T09:21:16.012333"
   }
 }

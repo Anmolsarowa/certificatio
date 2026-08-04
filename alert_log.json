@@ -502,5 +502,32 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-04T06:16:57.900603"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "The Best Cloud Computing Courses in 2026: A Practitioner's Comparison",
+    "link": "https://dev.to/elearning_sherdil_783bbb/the-best-cloud-computing-courses-in-2026-a-practitioners-comparison-11gc",
+    "source": "Dev.to: Azure",
+    "score": 29,
+    "found_at": "2026-08-04T09:21:16.012324"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Kenyan students get a chance to become Microsoft certified – Middle East & Africa News Center - Microsoft Source",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZDhwMXVjdGV3VnFhdFdvR2hpUmJOcnY3NUxsWW9nZ3lLZElUYVFTTmFZM3lWZkVxejFrYXZwcHg2aFF2LUItTmpCYXhMZnNidDJKRTFwNUszZnFjWEVCS2FKampiRFBpdlBPcjFYTGZvWVpYUVl0Q2lFTURQOTBjVFlOX2hTbl9uY0IyRTdCRzBIZjNuS2U3U0Y3X2M5ZUZNdDZiZnRB?oc=5",
+    "source": "Google News: Dynamics 365 Voucher",
+    "score": 6,
+    "found_at": "2026-08-04T09:20:43.381838"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Microsoft Ignite 2022 | All the details and releases - Plain Concepts",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yYnU0cEhodkhTdmxpNnZaSndBeFdaSDZhZlZlZEJEY0EyMy1YZzVXUFRDS3d5VFlyX25BekZicmY3eU5kYVZGZ0QxS1dzWXdWZDNqdmU0QllhaGdBMjVJSC1zTVlXVnB0Q2c?oc=5",
+    "source": "Google News: MS Ignite Challenge",
+    "score": 3,
+    "found_at": "2026-08-04T09:20:48.826513"
   }
 ]
