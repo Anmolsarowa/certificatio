@@ -484,5 +484,23 @@
     "source": "Reddit: Power BI",
     "score": 5,
     "found_at": "2026-08-04T00:13:01.230882"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Careers in Cloud Security: A Complete Guide for Students in 2026",
+    "link": "https://dev.to/subha_74/careers-in-cloud-security-a-complete-guide-for-students-in-2026-2ag8",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-04T06:16:57.891672"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "DP-750: Structured Streaming, Checkpointing, Schema Evolution, and Change Data Feed Explained and with Real Exam Questions",
+    "link": "https://dev.to/luca1iu/dp-750-structured-streaming-checkpointing-schema-evolution-and-change-data-feed-explained-and-3omd",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-04T06:16:57.900603"
   }
 ]

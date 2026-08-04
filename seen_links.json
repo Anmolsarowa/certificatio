@@ -322,5 +322,17 @@
     "source": "Reddit: Power BI",
     "priority": "MEDIUM",
     "seen_at": "2026-08-04T00:13:01.230885"
+  },
+  "1a5d82ebde22e74a4195b7de9c7a1d0e": {
+    "link": "https://dev.to/subha_74/careers-in-cloud-security-a-complete-guide-for-students-in-2026-2ag8",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-04T06:16:57.891681"
+  },
+  "1018d916e7134b863a7bbc38b6d54431": {
+    "link": "https://dev.to/luca1iu/dp-750-structured-streaming-checkpointing-schema-evolution-and-change-data-feed-explained-and-3omd",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-04T06:16:57.900608"
   }
 }
