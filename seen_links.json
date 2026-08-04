@@ -316,5 +316,11 @@
     "source": "Google News: MS Exam Deal",
     "priority": "CRITICAL",
     "seen_at": "2026-08-03T21:49:19.821525"
+  },
+  "8b66116eab4f3a9c1cc432e8611f74df": {
+    "link": "https://www.reddit.com/r/PowerBI/comments/1vdise8/advice_on_power_bi_sql_excel_and_portfolio/",
+    "source": "Reddit: Power BI",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-04T00:13:01.230885"
   }
 }

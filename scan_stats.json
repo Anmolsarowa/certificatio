@@ -1,11 +1,11 @@
 {
-  "last_digest": "2026-08-03T12:54:17.308519",
+  "last_digest": "2026-08-04T00:16:53.224510",
   "last_stats": {
-    "total_posts_evaluated": 736,
-    "excluded_by_keywords": 8,
-    "excluded_by_tech_gate": 350,
-    "excluded_by_score": 327,
-    "passed_all_gates": 51,
+    "total_posts_evaluated": 705,
+    "excluded_by_keywords": 6,
+    "excluded_by_tech_gate": 356,
+    "excluded_by_score": 342,
+    "passed_all_gates": 1,
     "near_misses": [
       {
         "title": "Top 20 Highest Paying IT Certification Programs in 2026 - Simplilearn.com",
@@ -62,12 +62,6 @@
         "reason": "No tech word match"
       },
       {
-        "title": "This browser is no longer supported.",
-        "source": "Web: Microsoft 30 Days to Learn It",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
         "title": "Browse learning paths and modules",
         "source": "Web: Microsoft 30 Days to Learn It",
         "score": 2,
@@ -116,20 +110,26 @@
         "reason": "No tech word match"
       },
       {
-        "title": "This is the Trace Id: 8d84adc587e56916f31727562f369931",
+        "title": "Skip to main content",
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
       },
       {
-        "title": "Skip to main content",
+        "title": "Program highlights",
+        "source": "Web: Microsoft Virtual Training Days",
+        "score": 3,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "Why attend",
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
       }
     ],
     "source_errors": [
-      "MS Learn Blog: <unknown>:14:73: not well-formed (invalid token)",
+      "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
       "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
       "HN: Microsoft Voucher: <unknown>:7:2: mismatched tag",
       "HN: Azure Certification: <unknown>:7:2: mismatched tag",

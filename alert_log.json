@@ -475,5 +475,14 @@
     "source": "Google News: MS Exam Deal",
     "score": 10,
     "found_at": "2026-08-03T21:49:19.821518"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Advice on Power BI, SQL, Excel, and portfolio projects",
+    "link": "https://www.reddit.com/r/PowerBI/comments/1vdise8/advice_on_power_bi_sql_excel_and_portfolio/",
+    "source": "Reddit: Power BI",
+    "score": 5,
+    "found_at": "2026-08-04T00:13:01.230882"
   }
 ]
