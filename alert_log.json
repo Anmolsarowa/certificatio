@@ -610,5 +610,41 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-05T06:43:20.119513"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Microsoft Virtual Training Days",
+    "link": "https://www.microsoft.com/en-ca/events/category/microsoft-virtual-training-days",
+    "source": "Web: Microsoft Virtual Training Days",
+    "score": 6,
+    "found_at": "2026-08-05T11:39:01.308483"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Microsoft events",
+    "link": "https://www.microsoft.com/en-ca/events",
+    "source": "Web: Microsoft Virtual Training Days",
+    "score": 3,
+    "found_at": "2026-08-05T11:39:01.308238"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Microsoft Learn",
+    "link": "https://learn.microsoft.com/en-ca/training/",
+    "source": "Web: Microsoft Virtual Training Days",
+    "score": 3,
+    "found_at": "2026-08-05T11:39:01.309752"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "View all Microsoft events",
+    "link": "https://www.microsoft.com/en-ca/events/search-catalog",
+    "source": "Web: Microsoft Virtual Training Days",
+    "score": 3,
+    "found_at": "2026-08-05T11:39:01.311380"
   }
 ]
