@@ -400,5 +400,11 @@
     "source": "Reddit: Azure Certification",
     "priority": "MEDIUM",
     "seen_at": "2026-08-04T23:19:01.930375"
+  },
+  "a89778a83c74e7c9824f980b15fb1091": {
+    "link": "https://dev.to/luca1iu/dp-750-delta-lake-table-operations-explained-and-with-real-exam-questions-4egk",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-05T06:43:20.119523"
   }
 }
