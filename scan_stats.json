@@ -1,10 +1,10 @@
 {
-  "last_digest": "2026-08-04T00:16:53.224510",
+  "last_digest": "2026-08-05T00:58:17.585728",
   "last_stats": {
-    "total_posts_evaluated": 705,
-    "excluded_by_keywords": 6,
-    "excluded_by_tech_gate": 356,
-    "excluded_by_score": 342,
+    "total_posts_evaluated": 686,
+    "excluded_by_keywords": 13,
+    "excluded_by_tech_gate": 347,
+    "excluded_by_score": 325,
     "passed_all_gates": 1,
     "near_misses": [
       {
@@ -44,15 +44,15 @@
         "reason": "No tech word match"
       },
       {
-        "title": "MLOCP Training and Certification Guide for Beginners and Professionals",
+        "title": "The CCSP exam changes August 1, 2026: what's new and when to test",
         "source": "Dev.to: Certification",
         "score": 2,
         "reason": "No tech word match"
       },
       {
-        "title": "Claude Certified Associate - Foundations (CCAO-F) Preparation Material for Certification Success",
+        "title": "Why Web Development Courses with Certificates Are Important in 2026",
         "source": "Dev.to: Certification",
-        "score": 2,
+        "score": 7,
         "reason": "No tech word match"
       },
       {
