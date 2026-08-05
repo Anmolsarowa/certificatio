@@ -646,5 +646,14 @@
     "source": "Web: Microsoft Virtual Training Days",
     "score": 3,
     "found_at": "2026-08-05T11:39:01.311380"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Free Post Fridays is now live, please follow these rules!",
+    "link": "https://www.reddit.com/r/AZURE/comments/1okfviv/free_post_fridays_is_now_live_please_follow_these/",
+    "source": "Reddit: Azure",
+    "score": 10,
+    "found_at": "2026-08-05T15:38:01.821162"
   }
 ]

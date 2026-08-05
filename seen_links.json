@@ -430,5 +430,11 @@
     "source": "Microsoft Virtual Training Days",
     "priority": "LOW",
     "seen_at": "2026-08-05T11:39:01.311383"
+  },
+  "6ed8b5cd03cfb88b13e28ad125fb06a0": {
+    "link": "https://www.reddit.com/r/AZURE/comments/1okfviv/free_post_fridays_is_now_live_please_follow_these/",
+    "source": "Reddit: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-05T15:38:01.821170"
   }
 }
