@@ -436,5 +436,11 @@
     "source": "Reddit: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-05T15:38:01.821170"
+  },
+  "5f425d5e02cf5303753ba0d570e4ff93": {
+    "link": "https://dev.to/luca1iu/dp-750-delta-lake-performance-optimization-explained-and-with-real-exam-questions-254p",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-06T09:11:13.952238"
   }
 }

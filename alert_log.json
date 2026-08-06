@@ -655,5 +655,14 @@
     "source": "Reddit: Azure",
     "score": 10,
     "found_at": "2026-08-05T15:38:01.821162"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "DP-750: Delta Lake Performance Optimization Explained and with Real Exam Questions",
+    "link": "https://dev.to/luca1iu/dp-750-delta-lake-performance-optimization-explained-and-with-real-exam-questions-254p",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-06T09:11:13.952230"
   }
 ]
