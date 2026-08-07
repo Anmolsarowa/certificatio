@@ -442,5 +442,11 @@
     "source": "Dev.to: Azure",
     "priority": "HIGH",
     "seen_at": "2026-08-06T09:11:13.952238"
+  },
+  "155ebfe1a44feac93b28931fcd69ba93": {
+    "link": "https://dev.to/elearning_sherdil_783bbb/aws-certification-cost-in-2026-full-breakdown-of-exam-fees-training-12de",
+    "source": "Dev.to: Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-07T10:26:19.842333"
   }
 }
