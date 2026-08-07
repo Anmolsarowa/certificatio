@@ -673,5 +673,32 @@
     "source": "Dev.to: Certification",
     "score": 27,
     "found_at": "2026-08-07T10:26:19.842322"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Fresher with 1 free Microsoft certification voucher — which exam should I choose?",
+    "link": "https://www.reddit.com/r/microsoft/comments/1v96ex4/fresher_with_1_free_microsoft_certification/",
+    "source": "Reddit: Microsoft",
+    "score": 24,
+    "found_at": "2026-08-07T13:39:00.645751"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Created Is Not Ready: Terraform Ordering vs. Azure Eventual Consistency",
+    "link": "https://dev.to/romiteld/created-is-not-ready-terraform-ordering-vs-azure-eventual-consistency-5ci9",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-07T13:42:50.145502"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Wait, you're telling me i can just do this?",
+    "link": "https://www.reddit.com/r/microsoft/comments/1v6ivpp/wait_youre_telling_me_i_can_just_do_this/",
+    "source": "Reddit: Microsoft",
+    "score": 2,
+    "found_at": "2026-08-07T13:39:00.646823"
   }
 ]

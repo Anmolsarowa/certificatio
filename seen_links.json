@@ -448,5 +448,23 @@
     "source": "Dev.to: Certification",
     "priority": "CRITICAL",
     "seen_at": "2026-08-07T10:26:19.842333"
+  },
+  "85a8fe7405a89e2ab08e55f7b2b76cb3": {
+    "link": "https://www.reddit.com/r/microsoft/comments/1v96ex4/fresher_with_1_free_microsoft_certification/",
+    "source": "Reddit: Microsoft",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-07T13:39:00.645756"
+  },
+  "244f5a874a61a8dc6f41a73ad16da246": {
+    "link": "https://www.reddit.com/r/microsoft/comments/1v6ivpp/wait_youre_telling_me_i_can_just_do_this/",
+    "source": "Reddit: Microsoft",
+    "priority": "LOW",
+    "seen_at": "2026-08-07T13:39:00.646827"
+  },
+  "13314efb37bc246a5885989eca3788f4": {
+    "link": "https://dev.to/romiteld/created-is-not-ready-terraform-ordering-vs-azure-eventual-consistency-5ci9",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-07T13:42:50.145508"
   }
 }
