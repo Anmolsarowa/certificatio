@@ -736,5 +736,14 @@
     "source": "Reddit: Azure Certification",
     "score": 4,
     "found_at": "2026-08-07T15:36:01.436761"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Azure Service Bus: Managed Messaging with Queues and Topics",
+    "link": "https://dev.to/rhuturaj_takle/azure-service-bus-managed-messaging-with-queues-and-topics-4jem",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-07T16:35:13.177435"
   }
 ]

@@ -490,5 +490,11 @@
     "source": "Reddit: Azure Certification",
     "priority": "MEDIUM",
     "seen_at": "2026-08-07T15:36:01.436762"
+  },
+  "bee8eb7ae80b6cec94af379ab7651739": {
+    "link": "https://dev.to/rhuturaj_takle/azure-service-bus-managed-messaging-with-queues-and-topics-4jem",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-07T16:35:13.177446"
   }
 }
