@@ -1,11 +1,11 @@
 {
-  "last_digest": "2026-08-06T00:05:28.208052",
+  "last_digest": "2026-08-07T00:43:56.522684",
   "last_stats": {
-    "total_posts_evaluated": 692,
-    "excluded_by_keywords": 14,
-    "excluded_by_tech_gate": 346,
-    "excluded_by_score": 327,
-    "passed_all_gates": 5,
+    "total_posts_evaluated": 693,
+    "excluded_by_keywords": 10,
+    "excluded_by_tech_gate": 348,
+    "excluded_by_score": 333,
+    "passed_all_gates": 2,
     "near_misses": [
       {
         "title": "Top 20 Highest Paying IT Certification Programs in 2026 - Simplilearn.com",
@@ -41,6 +41,12 @@
         "title": "AWS inks tie-up with Edukasyon.ph to offer free cloud skills training program - Newsbytes.PH",
         "source": "Google News: Free Cloud Cert",
         "score": 6,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "D-VXR-DY-02 Exam Guide: Prepare for Dell VxRail Deploy v3 Certification",
+        "source": "Dev.to: Certification",
+        "score": 2,
         "reason": "No tech word match"
       },
       {
@@ -120,17 +126,14 @@
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
-      },
-      {
-        "title": "Discover more",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
       }
     ],
     "source_errors": [
-      "MS Learn Blog: <unknown>:14:73: not well-formed (invalid token)",
-      "MS TechCommunity: <unknown>:14:71: not well-formed (invalid token)",
+      "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
+      "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
+      "HN: Microsoft Voucher: <unknown>:7:2: mismatched tag",
+      "HN: Azure Certification: <unknown>:7:2: mismatched tag",
+      "HN: Free Certification: <unknown>:7:2: mismatched tag",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
       "Reddit Search 'free microsoft certification voucher': HTTP 403",
@@ -177,9 +180,6 @@
       "Google News: MS Credential Voucher",
       "MS Azure Blog",
       "YT: Microsoft Learn",
-      "HN: Microsoft Voucher",
-      "HN: Azure Certification",
-      "HN: Free Certification",
       "Dev.to: Microsoft Certs",
       "Dev.to: Azure",
       "Dev.to: Certification",
