@@ -466,5 +466,29 @@
     "source": "Dev.to: Azure",
     "priority": "HIGH",
     "seen_at": "2026-08-07T13:42:50.145508"
+  },
+  "60953d2742006c70ec18dd8beda6db3b": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vhemyh/can_we_change_our_certification_exam_after/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-07T15:36:01.434556"
+  },
+  "2cd042ec9d4a19c56defdd8e9051989c": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vgwfuv/is_there_any_official_way_to_get_the_pl300_power/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-07T15:36:01.435686"
+  },
+  "19adfe2d4fcd981504362650739f63f7": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vg7x77/which_microsoft_certification_is_the_most/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-07T15:36:01.436490"
+  },
+  "91d3312402eb6cd42db7e5b282b4bc04": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vgbgar/ai500_multiagents_expert_was_very_difficult_for_me/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-07T15:36:01.436762"
   }
 }

@@ -700,5 +700,41 @@
     "source": "Reddit: Microsoft",
     "score": 2,
     "found_at": "2026-08-07T13:39:00.646823"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Can we change our certification exam after scheduling one?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vhemyh/can_we_change_our_certification_exam_after/",
+    "source": "Reddit: Azure Certification",
+    "score": 24,
+    "found_at": "2026-08-07T15:36:01.434553"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Is there any official way to get the PL-300 Power BI certification for free through the Azure Community, Microsoft Learn, Student Ambassador program, or Microsoft events? Any active voucher programs?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vgwfuv/is_there_any_official_way_to_get_the_pl300_power/",
+    "source": "Reddit: Azure Certification",
+    "score": 16,
+    "found_at": "2026-08-07T15:36:01.435684"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Which Microsoft certification is the most valuable, I already have AI-900?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vg7x77/which_microsoft_certification_is_the_most/",
+    "source": "Reddit: Azure Certification",
+    "score": 6,
+    "found_at": "2026-08-07T15:36:01.436489"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "AI-500 MultiAgents Expert was very difficult for me",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vgbgar/ai500_multiagents_expert_was_very_difficult_for_me/",
+    "source": "Reddit: Azure Certification",
+    "score": 4,
+    "found_at": "2026-08-07T15:36:01.436761"
   }
 ]
