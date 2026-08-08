@@ -754,5 +754,14 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-08T10:32:22.160440"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Microsoft DP-750 Exam: A Practical Guide to Azure Databricks Data Engineering",
+    "link": "https://dev.to/judsonlarkinv567/microsoft-dp-750-exam-a-practical-guide-to-azure-databricks-data-engineering-2le",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-08T12:04:28.150498"
   }
 ]
