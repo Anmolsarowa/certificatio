@@ -508,5 +508,17 @@
     "source": "Dev.to: Azure",
     "priority": "HIGH",
     "seen_at": "2026-08-08T12:04:28.150506"
+  },
+  "23fc214ecfa26e1400e35a48665e44dc": {
+    "link": "https://www.reddit.com/r/AZURE/comments/1vhkz5f/free_post_fridays_is_now_live_please_follow_these/",
+    "source": "Reddit: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-08T13:12:01.101310"
+  },
+  "a5addf762b443c6cb9276e913e8ae28e": {
+    "link": "https://www.reddit.com/r/AZURE/comments/1vhqzhi/azure_made_me_file_a_support_ticket_because_i/",
+    "source": "Reddit: Azure",
+    "priority": "LOW",
+    "seen_at": "2026-08-08T13:12:01.114517"
   }
 }

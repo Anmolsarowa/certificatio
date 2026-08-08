@@ -763,5 +763,23 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-08T12:04:28.150498"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Free Post Fridays is now live, please follow these rules!",
+    "link": "https://www.reddit.com/r/AZURE/comments/1vhkz5f/free_post_fridays_is_now_live_please_follow_these/",
+    "source": "Reddit: Azure",
+    "score": 10,
+    "found_at": "2026-08-08T13:12:01.101304"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Azure made me file a support ticket because I tried to send one message from one thing to another thing",
+    "link": "https://www.reddit.com/r/AZURE/comments/1vhqzhi/azure_made_me_file_a_support_ticket_because_i/",
+    "source": "Reddit: Azure",
+    "score": 2,
+    "found_at": "2026-08-08T13:12:01.114514"
   }
 ]
