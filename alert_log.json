@@ -781,5 +781,14 @@
     "source": "Reddit: Azure",
     "score": 2,
     "found_at": "2026-08-08T13:12:01.114514"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "MTN, Microsoft Empower 1,250 Staff with Cloud Skills Across Africa - MSME Africa",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWG81Vm5Pc09pUnpCaHQ1UDdyYUNMN3FPUlNvR0p0WDBONy1QRFlIaENSMG5TYURJVnR6aDd5SVZHenVsc1QydVJmclZpeFNLNHFsNjE1U0pGY2JWS0hSejFpN1BjdFZSaTRxeVRuLXIyY010YUFNVEVtY3RTb3BTUzhFQVB2MHlCUWszZWlJUEdfc1NKc0xKa0Fn?oc=5",
+    "source": "Google News: MS Build Challenge",
+    "score": 6,
+    "found_at": "2026-08-08T19:16:50.383059"
   }
 ]
