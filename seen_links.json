@@ -526,5 +526,11 @@
     "source": "Google News: MS Build Challenge",
     "priority": "HIGH",
     "seen_at": "2026-08-08T19:16:50.383063"
+  },
+  "46a4b30f36e38fb1b9a95bf0834d7906": {
+    "link": "https://www.reddit.com/r/ITCareerQuestions/comments/1vj5w7x/im_able_to_get_my_masters_for_free_looking_for/",
+    "source": "Reddit: IT Career Questions",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-09T10:05:01.437627"
   }
 }

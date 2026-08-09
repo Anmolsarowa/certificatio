@@ -790,5 +790,14 @@
     "source": "Google News: MS Build Challenge",
     "score": 6,
     "found_at": "2026-08-08T19:16:50.383059"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "I'm able to get my masters for free, looking for thoughts on what to do with it.",
+    "link": "https://www.reddit.com/r/ITCareerQuestions/comments/1vj5w7x/im_able_to_get_my_masters_for_free_looking_for/",
+    "source": "Reddit: IT Career Questions",
+    "score": 13,
+    "found_at": "2026-08-09T10:05:01.437622"
   }
 ]
