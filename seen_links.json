@@ -544,5 +544,11 @@
     "source": "Dev.to: Microsoft Certs",
     "priority": "HIGH",
     "seen_at": "2026-08-09T19:58:52.831066"
+  },
+  "0255c4e061e7311c3b539c9eb060af63": {
+    "link": "https://www.reddit.com/r/freebies/comments/1vhoxsn/quiktrip_offering_free_throne_coffee_w_registered/",
+    "source": "Reddit: Freebies",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-09T23:02:01.366589"
   }
 }

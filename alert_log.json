@@ -817,5 +817,14 @@
     "source": "Dev.to: Microsoft Certs",
     "score": 6,
     "found_at": "2026-08-09T19:58:52.831057"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "QuikTrip offering free Throne Coffee w/ registered app",
+    "link": "https://www.reddit.com/r/freebies/comments/1vhoxsn/quiktrip_offering_free_throne_coffee_w_registered/",
+    "source": "Reddit: Freebies",
+    "score": 8,
+    "found_at": "2026-08-09T23:02:01.366584"
   }
 ]
