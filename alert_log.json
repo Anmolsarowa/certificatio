@@ -808,5 +808,14 @@
     "source": "Google News: MS Credential Voucher",
     "score": 20,
     "found_at": "2026-08-09T11:28:16.149863"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Microsoft SC-900: How I Replaced Memorization With Reasoning and Passed in Under a Month",
+    "link": "https://dev.to/camruthav/microsoft-sc-900-how-i-replaced-memorization-with-reasoning-and-passed-in-under-a-month-2ddp",
+    "source": "Dev.to: Microsoft Certs",
+    "score": 6,
+    "found_at": "2026-08-09T19:58:52.831057"
   }
 ]
