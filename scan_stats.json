@@ -1,16 +1,22 @@
 {
-  "last_digest": "2026-08-08T00:02:11.796603",
+  "last_digest": "2026-08-09T00:00:03.649369",
   "last_stats": {
-    "total_posts_evaluated": 690,
-    "excluded_by_keywords": 12,
-    "excluded_by_tech_gate": 340,
-    "excluded_by_score": 333,
-    "passed_all_gates": 5,
+    "total_posts_evaluated": 673,
+    "excluded_by_keywords": 11,
+    "excluded_by_tech_gate": 339,
+    "excluded_by_score": 321,
+    "passed_all_gates": 2,
     "near_misses": [
       {
         "title": "Top 20 Highest Paying IT Certification Programs in 2026 - Simplilearn.com",
         "source": "Google News: Azure Free Cert 2026",
         "score": 2,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "Minecraft Movie Build Challenge - minecraft.net",
+        "source": "Google News: MS Learn Challenge",
+        "score": 3,
         "reason": "No tech word match"
       },
       {
@@ -32,25 +38,13 @@
         "reason": "No tech word match"
       },
       {
-        "title": "Top Ethical Hacking Free Courses | Online Free Hacking Course - EC-Council",
-        "source": "Google News: Free Cloud Cert",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
         "title": "AWS inks tie-up with Edukasyon.ph to offer free cloud skills training program - Newsbytes.PH",
         "source": "Google News: Free Cloud Cert",
         "score": 6,
         "reason": "No tech word match"
       },
       {
-        "title": "D-VXR-DY-02 Exam Guide: Prepare for Dell VxRail Deploy v3 Certification",
-        "source": "Dev.to: Certification",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Unlocking the Essentials of Risk Management - M_o_R Practitioner (3rd Edition)",
+        "title": "FCC Certification in Dubai – Ensure Electronic Product Compliance with Certvalue",
         "source": "Dev.to: Certification",
         "score": 6,
         "reason": "No tech word match"
@@ -126,11 +120,18 @@
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
+      },
+      {
+        "title": "Discover more",
+        "source": "Web: Microsoft Virtual Training Days",
+        "score": 3,
+        "reason": "No tech word match"
       }
     ],
     "source_errors": [
-      "MS Learn Blog: <unknown>:14:73: not well-formed (invalid token)",
-      "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
+      "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
+      "MS TechCommunity: <unknown>:14:71: not well-formed (invalid token)",
+      "HN: Free Certification: <unknown>:7:2: mismatched tag",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
       "Reddit Search 'free microsoft certification voucher': HTTP 403",
@@ -179,7 +180,6 @@
       "YT: Microsoft Learn",
       "HN: Microsoft Voucher",
       "HN: Azure Certification",
-      "HN: Free Certification",
       "Dev.to: Microsoft Certs",
       "Dev.to: Azure",
       "Dev.to: Certification",
