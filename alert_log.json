@@ -835,5 +835,14 @@
     "source": "Dev.to: Azure",
     "score": 12,
     "found_at": "2026-08-10T09:58:17.928007"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "DP-750: Slowly Changing Dimensions and Data Quality Expectations Explained and with Real Exam Questions",
+    "link": "https://dev.to/luca1iu/dp-750-slowly-changing-dimensions-and-data-quality-expectations-explained-and-with-real-exam-27nj",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-10T13:36:05.620398"
   }
 ]
