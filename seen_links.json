@@ -550,5 +550,11 @@
     "source": "Reddit: Freebies",
     "priority": "CRITICAL",
     "seen_at": "2026-08-09T23:02:01.366589"
+  },
+  "a0a54ae5a457ccdc0b23f124c0e7dffa": {
+    "link": "https://dev.to/networkking/az-104-az-500-az-700-complete-azure-certification-roadmap-for-2026-3627",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-10T09:58:17.928017"
   }
 }
