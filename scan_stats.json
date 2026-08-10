@@ -1,10 +1,10 @@
 {
-  "last_digest": "2026-08-09T00:00:03.649369",
+  "last_digest": "2026-08-10T01:44:14.776792",
   "last_stats": {
-    "total_posts_evaluated": 673,
-    "excluded_by_keywords": 11,
-    "excluded_by_tech_gate": 339,
-    "excluded_by_score": 321,
+    "total_posts_evaluated": 666,
+    "excluded_by_keywords": 10,
+    "excluded_by_tech_gate": 337,
+    "excluded_by_score": 317,
     "passed_all_gates": 2,
     "near_misses": [
       {
@@ -14,19 +14,13 @@
         "reason": "No tech word match"
       },
       {
-        "title": "Minecraft Movie Build Challenge - minecraft.net",
-        "source": "Google News: MS Learn Challenge",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
         "title": "Top 20 Highest Paying IT Certification Programs in 2026 - Simplilearn.com",
         "source": "Google News: Free Cloud Cert",
         "score": 2,
         "reason": "No tech word match"
       },
       {
-        "title": "New courses and certification updates from AWS Training and Certification in June 2025 - Amazon Web ",
+        "title": "New courses and certification updates from AWS Training and Certification in June 2025 - aws.amazon.",
         "source": "Google News: Free Cloud Cert",
         "score": 2,
         "reason": "No tech word match"
@@ -38,8 +32,20 @@
         "reason": "No tech word match"
       },
       {
+        "title": "Top Ethical Hacking Free Courses | Online Free Hacking Course - EC-Council",
+        "source": "Google News: Free Cloud Cert",
+        "score": 2,
+        "reason": "No tech word match"
+      },
+      {
         "title": "AWS inks tie-up with Edukasyon.ph to offer free cloud skills training program - Newsbytes.PH",
         "source": "Google News: Free Cloud Cert",
+        "score": 6,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "Unlocking Your Career: Linux Foundation Certified System Administrator (LFCS)",
+        "source": "Dev.to: Certification",
         "score": 6,
         "reason": "No tech word match"
       },
@@ -120,17 +126,13 @@
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
-      },
-      {
-        "title": "Discover more",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
       }
     ],
     "source_errors": [
       "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
-      "MS TechCommunity: <unknown>:14:71: not well-formed (invalid token)",
+      "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
+      "HN: Microsoft Voucher: <unknown>:7:2: mismatched tag",
+      "HN: Azure Certification: <unknown>:7:2: mismatched tag",
       "HN: Free Certification: <unknown>:7:2: mismatched tag",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
@@ -178,8 +180,6 @@
       "Google News: MS Credential Voucher",
       "MS Azure Blog",
       "YT: Microsoft Learn",
-      "HN: Microsoft Voucher",
-      "HN: Azure Certification",
       "Dev.to: Microsoft Certs",
       "Dev.to: Azure",
       "Dev.to: Certification",
