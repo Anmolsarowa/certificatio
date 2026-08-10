@@ -844,5 +844,14 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-10T13:36:05.620398"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Got a Free Microsoft DP-700 Exam Voucher — Should I Go for It?",
+    "link": "https://www.reddit.com/r/learnprogramming/comments/1vkcfs0/got_a_free_microsoft_dp700_exam_voucher_should_i/",
+    "source": "Reddit: Learn Programming",
+    "score": 18,
+    "found_at": "2026-08-10T15:42:01.694205"
   }
 ]
