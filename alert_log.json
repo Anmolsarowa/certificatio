@@ -880,5 +880,14 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-11T08:54:37.566419"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "AWS Cloud Practitioner (CLF-C02) Complete 2026 Guide: Syllabus, Study Plan, and Exam Strategy",
+    "link": "https://dev.to/elearning_sherdil_783bbb/aws-cloud-practitioner-clf-c02-complete-2026-guide-syllabus-study-plan-and-exam-strategy-kcp",
+    "source": "Dev.to: Certification",
+    "score": 8,
+    "found_at": "2026-08-11T10:59:07.292885"
   }
 ]
