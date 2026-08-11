@@ -871,5 +871,14 @@
     "source": "Dev.to: Certification",
     "score": 8,
     "found_at": "2026-08-11T06:31:07.990732"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "DP-750: Databricks Asset Bundles, Git, and ALM Explained and with Real Exam Questions",
+    "link": "https://dev.to/luca1iu/dp-750-databricks-asset-bundles-git-and-alm-explained-and-with-real-exam-questions-1g1a",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-11T08:54:37.566419"
   }
 ]
