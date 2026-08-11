@@ -574,5 +574,11 @@
     "source": "Google News: MS Build Challenge",
     "priority": "LOW",
     "seen_at": "2026-08-11T00:06:50.273018"
+  },
+  "7b89f6760fad14a1bb89e6ad892480db": {
+    "link": "https://dev.to/manshi2026/exploring-finops-foundation-certification-and-the-future-of-cloud-cost-optimization-2jfo",
+    "source": "Dev.to: Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-11T06:31:07.990740"
   }
 }
