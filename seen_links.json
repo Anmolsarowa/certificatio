@@ -610,5 +610,11 @@
     "source": "Reddit: Dynamics 365",
     "priority": "HIGH",
     "seen_at": "2026-08-12T04:28:01.456099"
+  },
+  "dca3634956b431fdd76a79e5b58968b2": {
+    "link": "https://dev.to/demasy/11-free-oracle-certifications-from-oracle-university-your-fast-track-to-ai-cloud-databases-and-n5m",
+    "source": "Dev.to: Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-12T18:39:37.928256"
   }
 }

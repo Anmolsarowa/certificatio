@@ -916,5 +916,14 @@
     "source": "Reddit: Dynamics 365",
     "score": 6,
     "found_at": "2026-08-12T04:28:01.456095"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "11 FREE Oracle Certifications from Oracle University: Your Fast Track to AI, Cloud, Databases, and Fusion Applications",
+    "link": "https://dev.to/demasy/11-free-oracle-certifications-from-oracle-university-your-fast-track-to-ai-cloud-databases-and-n5m",
+    "source": "Dev.to: Certification",
+    "score": 20,
+    "found_at": "2026-08-12T18:39:37.928247"
   }
 ]
