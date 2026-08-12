@@ -604,5 +604,11 @@
     "source": "Microsoft Virtual Training Days",
     "priority": "LOW",
     "seen_at": "2026-08-12T02:36:38.330187"
+  },
+  "a7bd29f1a29691d464826d2db2201cf9": {
+    "link": "https://www.reddit.com/r/Dynamics365/comments/1vlrrcs/will_dynamics_365_fo_support_embedded_power_apps/",
+    "source": "Reddit: Dynamics 365",
+    "priority": "HIGH",
+    "seen_at": "2026-08-12T04:28:01.456099"
   }
 }

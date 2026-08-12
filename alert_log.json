@@ -907,5 +907,14 @@
     "source": "Web: Microsoft Virtual Training Days",
     "score": 3,
     "found_at": "2026-08-12T02:36:38.330184"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Will Dynamics 365 F&O support embedded Power Apps Code Apps?",
+    "link": "https://www.reddit.com/r/Dynamics365/comments/1vlrrcs/will_dynamics_365_fo_support_embedded_power_apps/",
+    "source": "Reddit: Dynamics 365",
+    "score": 6,
+    "found_at": "2026-08-12T04:28:01.456095"
   }
 ]
