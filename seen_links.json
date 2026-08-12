@@ -592,5 +592,17 @@
     "source": "Dev.to: Certification",
     "priority": "CRITICAL",
     "seen_at": "2026-08-11T10:59:07.292893"
+  },
+  "3e02608fd385ada3cbf5dec249526cd7": {
+    "link": "https://www.microsoft.com/es-cl/events/category/microsoft-virtual-training-days",
+    "source": "Microsoft Virtual Training Days",
+    "priority": "HIGH",
+    "seen_at": "2026-08-12T02:36:38.328804"
+  },
+  "2d3454be17d1d67454a167529aeb8407": {
+    "link": "https://learn.microsoft.com/es-cl/training/",
+    "source": "Microsoft Virtual Training Days",
+    "priority": "LOW",
+    "seen_at": "2026-08-12T02:36:38.330187"
   }
 }
