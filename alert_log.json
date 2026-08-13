@@ -925,5 +925,14 @@
     "source": "Dev.to: Certification",
     "score": 20,
     "found_at": "2026-08-12T18:39:37.928247"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Certificação Microsoft",
+    "link": "https://www.reddit.com/r/microsoft/comments/1vcvgm2/certificação_microsoft/",
+    "source": "Reddit: Microsoft",
+    "score": 3,
+    "found_at": "2026-08-12T23:58:01.334183"
   }
 ]

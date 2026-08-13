@@ -616,5 +616,11 @@
     "source": "Dev.to: Certification",
     "priority": "CRITICAL",
     "seen_at": "2026-08-12T18:39:37.928256"
+  },
+  "89f03c1470ef1036442fbae015312bb0": {
+    "link": "https://www.reddit.com/r/microsoft/comments/1vcvgm2/certificação_microsoft/",
+    "source": "Reddit: Microsoft",
+    "priority": "LOW",
+    "seen_at": "2026-08-12T23:58:01.334187"
   }
 }
