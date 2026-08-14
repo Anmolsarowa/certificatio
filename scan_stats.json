@@ -1,12 +1,18 @@
 {
-  "last_digest": "2026-08-13T00:01:52.617236",
+  "last_digest": "2026-08-14T00:02:19.076818",
   "last_stats": {
-    "total_posts_evaluated": 705,
-    "excluded_by_keywords": 13,
-    "excluded_by_tech_gate": 334,
-    "excluded_by_score": 352,
-    "passed_all_gates": 6,
+    "total_posts_evaluated": 683,
+    "excluded_by_keywords": 15,
+    "excluded_by_tech_gate": 340,
+    "excluded_by_score": 321,
+    "passed_all_gates": 7,
     "near_misses": [
+      {
+        "title": "Staying competitive: Why investing in cloud skills matters - cio.com",
+        "source": "Google News: MS Build Challenge",
+        "score": 6,
+        "reason": "No tech word match"
+      },
       {
         "title": "OCI Certification Learning Paths and Exams: 2026 Updates Now Available - Oracle Blogs",
         "source": "Google News: Azure Free Cert 2026",
@@ -21,12 +27,6 @@
       },
       {
         "title": "Top 20 Highest Paying IT Certification Programs in 2026 - Simplilearn.com",
-        "source": "Google News: Free Cloud Cert",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "New courses and certification updates from AWS Training and Certification in June 2025 - Amazon Web ",
         "source": "Google News: Free Cloud Cert",
         "score": 2,
         "reason": "No tech word match"
@@ -65,12 +65,6 @@
         "title": "Basel Certification Training — Master Basel III and Basel IV Banking Regulations",
         "source": "Dev.to: Certification",
         "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Unlocking Your Career: Linux Foundation Certified System Administrator (LFCS)",
-        "source": "Dev.to: Certification",
-        "score": 6,
         "reason": "No tech word match"
       },
       {
@@ -126,11 +120,17 @@
         "source": "Web: Microsoft Learn Challenges",
         "score": 3,
         "reason": "No tech word match"
+      },
+      {
+        "title": "Skip to main content",
+        "source": "Web: Microsoft Virtual Training Days",
+        "score": 3,
+        "reason": "No tech word match"
       }
     ],
     "source_errors": [
       "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
-      "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
+      "MS TechCommunity: <unknown>:14:71: not well-formed (invalid token)",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
       "Reddit Search 'free microsoft certification voucher': HTTP 403",
