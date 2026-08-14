@@ -634,5 +634,17 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-14T06:00:31.082603"
+  },
+  "af304f004e16ff151b3ac26c40497b41": {
+    "link": "https://www.reddit.com/r/AZURE/comments/1vnrlne/free_post_fridays_is_now_live_please_follow_these/",
+    "source": "Reddit: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-14T18:27:01.607768"
+  },
+  "f52dd0801f89f7a76c9382a1f6106c20": {
+    "link": "https://www.reddit.com/r/AZURE/comments/1vnl6jp/is_there_any_coupon_for_a_100_discount_on_the/",
+    "source": "Reddit: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-14T18:27:01.616041"
   }
 }

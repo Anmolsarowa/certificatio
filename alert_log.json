@@ -952,5 +952,23 @@
     "source": "Dev.to: Azure",
     "score": 8,
     "found_at": "2026-08-14T06:00:31.082597"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Free Post Fridays is now live, please follow these rules!",
+    "link": "https://www.reddit.com/r/AZURE/comments/1vnrlne/free_post_fridays_is_now_live_please_follow_these/",
+    "source": "Reddit: Azure",
+    "score": 10,
+    "found_at": "2026-08-14T18:27:01.607762"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Is there any coupon for a 100% discount on the Azure Fundamentals 900 exam?",
+    "link": "https://www.reddit.com/r/AZURE/comments/1vnl6jp/is_there_any_coupon_for_a_100_discount_on_the/",
+    "source": "Reddit: Azure",
+    "score": 24,
+    "found_at": "2026-08-14T18:27:01.616038"
   }
 ]
