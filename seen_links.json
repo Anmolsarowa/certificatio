@@ -622,5 +622,17 @@
     "source": "Reddit: Microsoft",
     "priority": "LOW",
     "seen_at": "2026-08-12T23:58:01.334187"
+  },
+  "7363230291884fc75fa35ddba3af1ceb": {
+    "link": "https://dev.to/martin_oehlert/why-move-beyond-azure-functions-the-enterprise-ceiling-4mpp",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-14T06:00:31.077359"
+  },
+  "cccb1e36e15200d2049f605afed75a80": {
+    "link": "https://dev.to/mr_manushukla/azure-api-for-fhir-retires-in-47-days-the-2026-migration-plan-for-hospital-it-2a49",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-14T06:00:31.082603"
   }
 }

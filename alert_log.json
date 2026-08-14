@@ -934,5 +934,23 @@
     "source": "Reddit: Microsoft",
     "score": 3,
     "found_at": "2026-08-12T23:58:01.334183"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Why Move Beyond Azure Functions? The Enterprise Ceiling",
+    "link": "https://dev.to/martin_oehlert/why-move-beyond-azure-functions-the-enterprise-ceiling-4mpp",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-14T06:00:31.077350"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Azure API for FHIR retires in 47 days: the 2026 migration plan for hospital IT",
+    "link": "https://dev.to/mr_manushukla/azure-api-for-fhir-retires-in-47-days-the-2026-migration-plan-for-hospital-it-2a49",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-14T06:00:31.082597"
   }
 ]
