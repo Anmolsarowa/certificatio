@@ -646,5 +646,47 @@
     "source": "Reddit: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-14T18:27:01.616041"
+  },
+  "13409fb59a769b414c24cfc4bc18c300": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1voejkt/passed_sc900_7951000_in_23_weeks_my_study_plan/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-14T21:59:00.738400"
+  },
+  "da981fd24b7e055aff48e6075fbec276": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vobfrd/preparing_for_az104_exam_and_struggling_to_get/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-14T21:59:00.739652"
+  },
+  "1b27b4af28bea21670ffc69b8c72b425": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vnvwcf/how_can_i_get_an_ai901_voucher/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-14T21:59:00.740628"
+  },
+  "abc9a492d1d20aa4c8bb2e647604d3a9": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vnmxeo/just_scheduled_sc500_how_can_i_prepare_for_it/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-14T21:59:00.741853"
+  },
+  "2d2e2b60a01581b1fac0dfb801320c44": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vnl5kc/is_there_any_coupon_for_a_100_discount_on_the/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-14T21:59:00.742199"
+  },
+  "6d0f3803bfd1845ead077ab495d048b3": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vnaf3k/modern_workplace_engineering_certifications_how/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-14T21:59:00.742661"
+  },
+  "f889bdd3906dfbbeefc2354af42a9f29": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vmsqzb/i_built_a_free_microsoft_certification_study_site/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-14T21:59:00.744044"
   }
 }
