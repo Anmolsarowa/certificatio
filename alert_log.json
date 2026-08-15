@@ -1069,5 +1069,14 @@
     "source": "Dev.to: Azure",
     "score": 8,
     "found_at": "2026-08-15T12:53:32.566561"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Anthropic certification: the Claude (CCAR-F) credential, explained",
+    "link": "https://dev.to/aiarch_wibo/anthropic-certification-the-claude-ccar-f-credential-explained-p7e",
+    "source": "Dev.to: Certification",
+    "score": 5,
+    "found_at": "2026-08-15T14:49:25.064020"
   }
 ]
