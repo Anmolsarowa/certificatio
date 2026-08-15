@@ -1078,5 +1078,14 @@
     "source": "Dev.to: Certification",
     "score": 5,
     "found_at": "2026-08-15T14:49:25.064020"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Handling 1 Million Report Downloads with ASP.NET Core, CQRS, and Headless Browsers in 2026",
+    "link": "https://dev.to/kirandeepjassalcrypto/handling-1-million-report-downloads-with-aspnet-core-cqrs-and-headless-browsers-in-2026-i8b",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-15T18:41:10.350403"
   }
 ]

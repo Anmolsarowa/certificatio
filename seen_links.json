@@ -718,5 +718,11 @@
     "source": "Dev.to: Certification",
     "priority": "MEDIUM",
     "seen_at": "2026-08-15T14:49:25.064029"
+  },
+  "ea842417a2be7b29fb42baa97eec36e1": {
+    "link": "https://dev.to/kirandeepjassalcrypto/handling-1-million-report-downloads-with-aspnet-core-cqrs-and-headless-browsers-in-2026-i8b",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-15T18:41:10.350410"
   }
 }
