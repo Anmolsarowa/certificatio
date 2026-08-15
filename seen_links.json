@@ -688,5 +688,11 @@
     "source": "Reddit: Azure Certification",
     "priority": "CRITICAL",
     "seen_at": "2026-08-14T21:59:00.744044"
+  },
+  "153b9293a21fed3feb0ad487ee191154": {
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX2FlSjh6cWxzbXc0WGxmUVcwWGV6bUZtMkE3a19VTUhXMUFmcy0yTkdCSHlDOWlpX29xUXotWmd5bEpaNTIta0VVVzRmbnNqUWtZRE02M2FGTW9fcEl2VnNuZzdHQnVzTHYwZXNFUGNHbVBicHEzRHd1QVBuTnNUVzJVLW56YVh3Vm80eFZITi1SWmpwWm5tVVJpQ2drTW9XTGdHT0FLTnE4M1FyLW5wczdQYWo5aDVtdVUzVFlXY28tcnFXY1Jn?oc=5",
+    "source": "Google News: Cloud Skills Challenge",
+    "priority": "LOW",
+    "seen_at": "2026-08-15T07:29:14.072701"
   }
 }
