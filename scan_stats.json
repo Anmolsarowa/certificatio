@@ -1,11 +1,11 @@
 {
-  "last_digest": "2026-08-14T00:02:19.076818",
+  "last_digest": "2026-08-15T01:12:19.311129",
   "last_stats": {
-    "total_posts_evaluated": 683,
-    "excluded_by_keywords": 15,
-    "excluded_by_tech_gate": 340,
-    "excluded_by_score": 321,
-    "passed_all_gates": 7,
+    "total_posts_evaluated": 688,
+    "excluded_by_keywords": 14,
+    "excluded_by_tech_gate": 346,
+    "excluded_by_score": 322,
+    "passed_all_gates": 6,
     "near_misses": [
       {
         "title": "Staying competitive: Why investing in cloud skills matters - cio.com",
@@ -14,7 +14,7 @@
         "reason": "No tech word match"
       },
       {
-        "title": "OCI Certification Learning Paths and Exams: 2026 Updates Now Available - Oracle Blogs",
+        "title": "OCI Certification Learning Paths and Exams: 2026 Updates Now Available - blogs.oracle.com",
         "source": "Google News: Azure Free Cert 2026",
         "score": 2,
         "reason": "No tech word match"
@@ -32,7 +32,7 @@
         "reason": "No tech word match"
       },
       {
-        "title": "Become an Oracle APEX Pro: The Latest Learning Path You Need to Follow - Oracle Blogs",
+        "title": "Become an Oracle APEX Pro: The Latest Learning Path You Need to Follow - blogs.oracle.com",
         "source": "Google News: Free Cloud Cert",
         "score": 2,
         "reason": "No tech word match"
@@ -44,25 +44,13 @@
         "reason": "No tech word match"
       },
       {
-        "title": "AWS inks tie-up with Edukasyon.ph to offer free cloud skills training program - Newsbytes.PH",
-        "source": "Google News: Free Cloud Cert",
-        "score": 6,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Observability: Metrics, Logs & Traces (The Three Pillars)",
-        "source": "Dev.to: Azure",
-        "score": 4,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "AMPP CIP Level 3 NACE-CIP3-001 Practice Tests - Prepare for Senior Certified Coatings Inspector Exam",
+        "title": "250-609 Practice Tests: Complete Preparation Guide for Broadcom Clarity Technical Specialist Exam",
         "source": "Dev.to: Certification",
         "score": 2,
         "reason": "No tech word match"
       },
       {
-        "title": "Basel Certification Training — Master Basel III and Basel IV Banking Regulations",
+        "title": "AMPP CIP Level 3 NACE-CIP3-001 Practice Tests - Prepare for Senior Certified Coatings Inspector Exam",
         "source": "Dev.to: Certification",
         "score": 2,
         "reason": "No tech word match"
@@ -126,10 +114,22 @@
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
+      },
+      {
+        "title": "Program highlights",
+        "source": "Web: Microsoft Virtual Training Days",
+        "score": 3,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "Why attend",
+        "source": "Web: Microsoft Virtual Training Days",
+        "score": 3,
+        "reason": "No tech word match"
       }
     ],
     "source_errors": [
-      "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
+      "MS Learn Blog: <unknown>:14:73: not well-formed (invalid token)",
       "MS TechCommunity: <unknown>:14:71: not well-formed (invalid token)",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
