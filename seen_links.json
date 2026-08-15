@@ -694,5 +694,17 @@
     "source": "Google News: Cloud Skills Challenge",
     "priority": "LOW",
     "seen_at": "2026-08-15T07:29:14.072701"
+  },
+  "a0445cf88524ad769833f0ae2b0d49d7": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vot1ns/seeking_advice_on_azure_certifications_ai200/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-15T07:55:01.662988"
+  },
+  "b919fd524476283050ecbdc14adb03ff": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vow2si/failed_ai901_and_wasted_my_free_voucher/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-15T07:55:01.663590"
   }
 }
