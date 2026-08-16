@@ -736,5 +736,11 @@
     "source": "Google News: Power Apps Voucher",
     "priority": "CRITICAL",
     "seen_at": "2026-08-16T09:42:39.236372"
+  },
+  "6d13811cf919f1a6039b5a8a8700ff8d": {
+    "link": "https://dev.to/mr_manushukla/cloud-application-development-company-2026-architecture-cost-control-and-migration-paths-3gfj",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-16T11:28:26.847311"
   }
 }
