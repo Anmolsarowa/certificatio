@@ -724,5 +724,11 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-15T18:41:10.350410"
+  },
+  "f8815d3548ce2a5a99f00e3c407bea8a": {
+    "link": "https://dev.to/nicheelab/snowpro-core-scores-you-out-of-1000-and-some-questions-dont-count-1c39",
+    "source": "Dev.to: Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-16T02:36:05.610942"
   }
 }
