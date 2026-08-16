@@ -742,5 +742,11 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-16T11:28:26.847311"
+  },
+  "7e3b2890e3e2fc2e5745116243b1f2bd": {
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQkhSWWJSZGU3N1N6aS1TOWZhNllYQU9Bb3FZeXNBcTlNVy1YVXJUXzBvN0FXUVd0SENMQlA2MnpNeUViWG1TdGlTWWFxZDdXeG1HQW5PZ0tVOU5qYUJtUnN5TDNiTTYwRXIxb1RWSXEtamRkbGtNRVlVc1pVYjBfWjBkcFhQMjRWVmlnNjdHTThUVEhubUFlQlVWYWlYSWhydmFvOWtB?oc=5",
+    "source": "Google News: MS Exam Deal",
+    "priority": "LOW",
+    "seen_at": "2026-08-16T19:02:47.968707"
   }
 }
