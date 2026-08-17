@@ -766,5 +766,17 @@
     "source": "Dev.to: Microsoft Certs",
     "priority": "CRITICAL",
     "seen_at": "2026-08-17T01:42:10.968935"
+  },
+  "b41ea8642b9e7e44fad0ff18fe3f3fbc": {
+    "link": "https://www.microsoft.com/es-mx/events/category/microsoft-virtual-training-days",
+    "source": "Microsoft Virtual Training Days",
+    "priority": "HIGH",
+    "seen_at": "2026-08-17T15:24:22.274117"
+  },
+  "736659fe1194869b3fa16831152ea727": {
+    "link": "https://learn.microsoft.com/es-mx/training/",
+    "source": "Microsoft Virtual Training Days",
+    "priority": "LOW",
+    "seen_at": "2026-08-17T15:24:22.275295"
   }
 }
