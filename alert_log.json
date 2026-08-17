@@ -1132,5 +1132,23 @@
     "source": "Dev.to: Azure",
     "score": 8,
     "found_at": "2026-08-16T20:48:14.045865"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Why Microsoft MAI‑Code Beats Claude Code & Copilot on Azure",
+    "link": "https://dev.to/leojulieta/why-microsoft-mai-code-beats-claude-code-copilot-on-azure-4apf",
+    "source": "Dev.to: Microsoft Certs",
+    "score": 8,
+    "found_at": "2026-08-17T01:42:10.964960"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "MAI‑Code de Microsoft: IA ultra rápida y barata para programar",
+    "link": "https://dev.to/leojulieta/mai-code-de-microsoft-ia-ultra-rapida-y-barata-para-programar-35gh",
+    "source": "Dev.to: Microsoft Certs",
+    "score": 8,
+    "found_at": "2026-08-17T01:42:10.968932"
   }
 ]

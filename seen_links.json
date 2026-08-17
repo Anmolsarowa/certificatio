@@ -754,5 +754,17 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-16T20:48:14.045874"
+  },
+  "5e67c5a1a52e0a5e49ce00c2256da29e": {
+    "link": "https://dev.to/leojulieta/why-microsoft-mai-code-beats-claude-code-copilot-on-azure-4apf",
+    "source": "Dev.to: Microsoft Certs",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-17T01:42:10.964965"
+  },
+  "3d41468e9c87d304abb806ba3a104f5e": {
+    "link": "https://dev.to/leojulieta/mai-code-de-microsoft-ia-ultra-rapida-y-barata-para-programar-35gh",
+    "source": "Dev.to: Microsoft Certs",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-17T01:42:10.968935"
   }
 }
