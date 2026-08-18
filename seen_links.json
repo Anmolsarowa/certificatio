@@ -784,5 +784,11 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-18T02:24:53.204285"
+  },
+  "3c0029af3d809765a411f9ad2a64c10f": {
+    "link": "https://dev.to/develop_this_one/comptia-cloudnetx-cnx-001-what-it-actually-tests-and-whether-youre-ready-23j0",
+    "source": "Dev.to: Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-18T10:47:20.199716"
   }
 }
