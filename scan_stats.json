@@ -1,11 +1,11 @@
 {
-  "last_digest": "2026-08-17T00:01:45.427640",
+  "last_digest": "2026-08-18T01:11:55.086577",
   "last_stats": {
-    "total_posts_evaluated": 698,
-    "excluded_by_keywords": 10,
-    "excluded_by_tech_gate": 349,
-    "excluded_by_score": 336,
-    "passed_all_gates": 3,
+    "total_posts_evaluated": 674,
+    "excluded_by_keywords": 14,
+    "excluded_by_tech_gate": 342,
+    "excluded_by_score": 313,
+    "passed_all_gates": 5,
     "near_misses": [
       {
         "title": "Staying competitive: Why investing in cloud skills matters - cio.com",
@@ -21,12 +21,18 @@
       },
       {
         "title": "Top 20 Highest Paying IT Certification Programs in 2026 - Simplilearn.com",
-        "source": "Google News: Free Cloud Cert",
+        "source": "Google News: Azure Free Cert 2026",
         "score": 2,
         "reason": "No tech word match"
       },
       {
-        "title": "Become an Oracle APEX Pro: The Latest Learning Path You Need to Follow - Oracle Blogs",
+        "title": "Minecraft Movie Build Challenge - Minecraft",
+        "source": "Google News: MS Learn Challenge",
+        "score": 3,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "Top 20 Highest Paying IT Certification Programs in 2026 - Simplilearn.com",
         "source": "Google News: Free Cloud Cert",
         "score": 2,
         "reason": "No tech word match"
@@ -38,15 +44,15 @@
         "reason": "No tech word match"
       },
       {
-        "title": "Two domains are 53% of the Databricks Data Engineer Associate exam",
+        "title": "Essential Guide to FinOps Foundation Certification for Cloud Professionals",
         "source": "Dev.to: Certification",
-        "score": 5,
+        "score": 2,
         "reason": "No tech word match"
       },
       {
-        "title": "250-609 Practice Tests: Complete Preparation Guide for Broadcom Clarity Technical Specialist Exam",
+        "title": "Two domains are 53% of the Databricks Data Engineer Associate exam",
         "source": "Dev.to: Certification",
-        "score": 2,
+        "score": 5,
         "reason": "No tech word match"
       },
       {
@@ -120,20 +126,11 @@
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
-      },
-      {
-        "title": "Discover more",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
       }
     ],
     "source_errors": [
       "MS Learn Blog: <unknown>:14:73: not well-formed (invalid token)",
-      "MS TechCommunity: <unknown>:14:71: not well-formed (invalid token)",
-      "HN: Microsoft Voucher: <unknown>:7:2: mismatched tag",
-      "HN: Azure Certification: <unknown>:7:2: mismatched tag",
-      "HN: Free Certification: <unknown>:7:2: mismatched tag",
+      "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
       "Reddit Search 'free microsoft certification voucher': HTTP 403",
@@ -180,6 +177,9 @@
       "Google News: MS Credential Voucher",
       "MS Azure Blog",
       "YT: Microsoft Learn",
+      "HN: Microsoft Voucher",
+      "HN: Azure Certification",
+      "HN: Free Certification",
       "Dev.to: Microsoft Certs",
       "Dev.to: Azure",
       "Dev.to: Certification",
