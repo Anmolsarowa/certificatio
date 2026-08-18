@@ -796,5 +796,35 @@
     "source": "Google News: Applied Skills",
     "priority": "LOW",
     "seen_at": "2026-08-18T11:24:09.456642"
+  },
+  "7e4f4cb8a8b89f757e1968db2f7cb9aa": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vrjjy4/pased_az305_thanks_experiences/",
+    "source": "Reddit: Azure Certification",
+    "priority": "LOW",
+    "seen_at": "2026-08-18T23:20:00.890102"
+  },
+  "694c5b3055de664fb76ff09999b9cbb5": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vrnlrs/md102_certification/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-18T23:20:00.890452"
+  },
+  "d5225f0f6d5540a6be5694aab5279b96": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vrlw97/dp800_study_guide/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-18T23:20:00.892569"
+  },
+  "ec798673c35771dc2141057b32febe0d": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vrihll/what_is_the_virtual_training_day_for_ai901_called/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-18T23:20:00.893365"
+  },
+  "ba78daabf9dd7f29cfb932cb7158dfa6": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vqwiv6/microsoft_certification_voucher_claim_issue/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-18T23:20:00.897526"
   }
 }

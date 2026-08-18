@@ -1195,5 +1195,50 @@
     "source": "Google News: Applied Skills",
     "score": 2,
     "found_at": "2026-08-18T11:24:09.456635"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "DP-800 study guide",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vrlw97/dp800_study_guide/",
+    "source": "Reddit: Azure Certification",
+    "score": 13,
+    "found_at": "2026-08-18T23:20:00.892565"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "MD-102 Certification",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vrnlrs/md102_certification/",
+    "source": "Reddit: Azure Certification",
+    "score": 6,
+    "found_at": "2026-08-18T23:20:00.890450"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "What is the Virtual Training Day for AI-901 called?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vrihll/what_is_the_virtual_training_day_for_ai901_called/",
+    "source": "Reddit: Azure Certification",
+    "score": 6,
+    "found_at": "2026-08-18T23:20:00.893362"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Microsoft Certification Voucher Claim Issue, Urgent help Needed",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vqwiv6/microsoft_certification_voucher_claim_issue/",
+    "source": "Reddit: Azure Certification",
+    "score": 16,
+    "found_at": "2026-08-18T23:20:00.897523"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Pased AZ-305 - Thanks + Experiences",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vrjjy4/pased_az305_thanks_experiences/",
+    "source": "Reddit: Azure Certification",
+    "score": 2,
+    "found_at": "2026-08-18T23:20:00.890098"
   }
 ]
