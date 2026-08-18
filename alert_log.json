@@ -1168,5 +1168,14 @@
     "source": "Web: Microsoft Virtual Training Days",
     "score": 3,
     "found_at": "2026-08-17T15:24:22.275292"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "I ran a GPU inference app for a month on Azure serverless GPU. Here's the actual bill.",
+    "link": "https://dev.to/aco_dog_32627df9d920ffba4/i-ran-a-gpu-inference-app-for-a-month-on-azure-serverless-gpu-heres-the-actual-bill-i35",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-18T02:24:53.204277"
   }
 ]

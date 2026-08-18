@@ -778,5 +778,11 @@
     "source": "Microsoft Virtual Training Days",
     "priority": "LOW",
     "seen_at": "2026-08-17T15:24:22.275295"
+  },
+  "788c57bdc709db40530093c957b58d73": {
+    "link": "https://dev.to/aco_dog_32627df9d920ffba4/i-ran-a-gpu-inference-app-for-a-month-on-azure-serverless-gpu-heres-the-actual-bill-i35",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-18T02:24:53.204285"
   }
 }
