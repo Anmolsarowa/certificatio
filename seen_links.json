@@ -832,5 +832,11 @@
     "source": "Reddit: IT Career Questions",
     "priority": "CRITICAL",
     "seen_at": "2026-08-19T10:27:00.694180"
+  },
+  "995a06571096a76b3f90b5b4b31242f9": {
+    "link": "https://dev.to/zop_8abedcc7e12/cloud-cost-api-pulling-reconciled-aws-azure-and-gcp-spend-into-your-own-warehouse-csv-json-4lk",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-19T12:43:38.130072"
   }
 }

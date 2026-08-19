@@ -1249,5 +1249,14 @@
     "source": "Reddit: IT Career Questions",
     "score": 24,
     "found_at": "2026-08-19T10:27:00.694176"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Cloud Cost API: Pulling Reconciled AWS, Azure and GCP Spend into Your Own Warehouse (CSV, JSON, Parquet)",
+    "link": "https://dev.to/zop_8abedcc7e12/cloud-cost-api-pulling-reconciled-aws-azure-and-gcp-spend-into-your-own-warehouse-csv-json-4lk",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-19T12:43:38.130066"
   }
 ]
