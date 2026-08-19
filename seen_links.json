@@ -838,5 +838,11 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-19T12:43:38.130072"
+  },
+  "55962440b27e3ecf53c4424ddf94927d": {
+    "link": "https://dev.to/az365ai/azure-ai-landing-zone-the-2026-reference-architecture-for-it-directors-5fg2",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-19T15:02:54.414197"
   }
 }

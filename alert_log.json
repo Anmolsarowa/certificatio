@@ -1258,5 +1258,14 @@
     "source": "Dev.to: Azure",
     "score": 8,
     "found_at": "2026-08-19T12:43:38.130066"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Azure AI Landing Zone: The 2026 Reference Architecture for IT Directors",
+    "link": "https://dev.to/az365ai/azure-ai-landing-zone-the-2026-reference-architecture-for-it-directors-5fg2",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-19T15:02:54.414189"
   }
 ]
