@@ -826,5 +826,11 @@
     "source": "Reddit: Azure Certification",
     "priority": "HIGH",
     "seen_at": "2026-08-18T23:20:00.897526"
+  },
+  "38ff0209f94ea9b59cf1031e1aa78781": {
+    "link": "https://www.reddit.com/r/ITCareerQuestions/comments/1vrwab5/which_microsoft_cert_should_i_take/",
+    "source": "Reddit: IT Career Questions",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-19T10:27:00.694180"
   }
 }

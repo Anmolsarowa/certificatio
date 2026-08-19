@@ -1240,5 +1240,14 @@
     "source": "Reddit: Azure Certification",
     "score": 2,
     "found_at": "2026-08-18T23:20:00.890098"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Which microsoft cert should I take?",
+    "link": "https://www.reddit.com/r/ITCareerQuestions/comments/1vrwab5/which_microsoft_cert_should_i_take/",
+    "source": "Reddit: IT Career Questions",
+    "score": 24,
+    "found_at": "2026-08-19T10:27:00.694176"
   }
 ]
