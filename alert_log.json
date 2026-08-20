@@ -1267,5 +1267,14 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-19T15:02:54.414189"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Gpt 5.6 Luna is cheap now",
+    "link": "https://www.reddit.com/r/AZURE/comments/1vtar2b/gpt_56_luna_is_cheap_now/",
+    "source": "Reddit: Azure",
+    "score": 8,
+    "found_at": "2026-08-20T08:19:01.717263"
   }
 ]

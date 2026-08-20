@@ -844,5 +844,11 @@
     "source": "Dev.to: Azure",
     "priority": "HIGH",
     "seen_at": "2026-08-19T15:02:54.414197"
+  },
+  "07f416e306e31795e7740330e245096b": {
+    "link": "https://www.reddit.com/r/AZURE/comments/1vtar2b/gpt_56_luna_is_cheap_now/",
+    "source": "Reddit: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-20T08:19:01.717266"
   }
 }
