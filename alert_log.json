@@ -1276,5 +1276,14 @@
     "source": "Reddit: Azure",
     "score": 8,
     "found_at": "2026-08-20T08:19:01.717263"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Azure VM Stopped vs Deallocated: Why You're Still Being Charged, and the Disks Nobody Mentions",
+    "link": "https://dev.to/zop_8abedcc7e12/azure-vm-stopped-vs-deallocated-why-youre-still-being-charged-and-the-disks-nobody-mentions-4boj",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-20T11:35:45.048206"
   }
 ]

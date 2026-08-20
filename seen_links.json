@@ -850,5 +850,11 @@
     "source": "Reddit: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-20T08:19:01.717266"
+  },
+  "a13a4cdab7b5a52a937cdd1ea725c196": {
+    "link": "https://dev.to/zop_8abedcc7e12/azure-vm-stopped-vs-deallocated-why-youre-still-being-charged-and-the-disks-nobody-mentions-4boj",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-20T11:35:45.048213"
   }
 }
