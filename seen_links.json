@@ -856,5 +856,11 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-20T11:35:45.048213"
+  },
+  "be17a8743159eb65aba2a52605e0bd15": {
+    "link": "https://dev.to/rushikeshpatil1007/my-10-day-azure-roadmap-for-mern-developers-4c06",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-20T13:11:50.428004"
   }
 }

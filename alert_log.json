@@ -1285,5 +1285,14 @@
     "source": "Dev.to: Azure",
     "score": 8,
     "found_at": "2026-08-20T11:35:45.048206"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "My 10-Day Azure Roadmap for MERN Developers",
+    "link": "https://dev.to/rushikeshpatil1007/my-10-day-azure-roadmap-for-mern-developers-4c06",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-20T13:11:50.427998"
   }
 ]
