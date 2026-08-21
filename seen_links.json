@@ -886,5 +886,23 @@
     "source": "Reddit: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-21T11:03:01.803559"
+  },
+  "4652477def21f4658bfc6aff7cd3f98c": {
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUHNIUXFrRW5PLTVOOUNrcDB1ekJZcFFsYzF2ZDNTWklZMlVuMkY3S25xaU9nekZyY2xycTN3TG5weXJkQVpoSVlXdmduTHdnbV8xa1lKVkJLc3FZaVFnTGZzR0JnNHAwamhyZjZYemg2NVNBYnd5UE8zOENVM1hsVHJ2UjZ1VGZjTTl4SVgyZmM2a0w3Z2V2YlVmSzVMcFVwY3g5TXRvOE41elQtU3h2UHliaWFGZnBJaXVrNE9sUjF0c0o4RDVhZzF5Z3E?oc=5",
+    "source": "Google News: MS Ignite Challenge",
+    "priority": "LOW",
+    "seen_at": "2026-08-21T15:16:14.469527"
+  },
+  "1d7c7904c317cff0566d48af1ef3c949": {
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTFVxTWhmNExLeGJqVUJYY3VRRDZtYXRnNFBfS2t0aGs3RVFqX2I4SkQ5QXdHd0g3M3BTRTg5M3gxckQ3T3MyelFycjNZWUFfdGVObjFJaThjb0lHTzFXVkJnaTRBYkE1Y1hCenpxS20yS2ExN3prdHltMURIMGFFRXFMUEFpSjJ6SnF0RlE1eUdIWmUyWTlr?oc=5",
+    "source": "Google News: MS Ignite Challenge",
+    "priority": "LOW",
+    "seen_at": "2026-08-21T15:16:14.469969"
+  },
+  "9630b33d0b9f70173c6c2c1b58a82a01": {
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWG52Tks3a01wcVI2U2pFdlE1ZE9Kdy1HVlJsSVdEWndvQmRtakdPaUpvOGRyTUVpRzhaaFVuNmk5MkExTWIydnduQ191S3Zyd3c5SGFIVXNmWXlZb1loSnpDNTVubTlEQkItNUNZNmhWbkd1SzR4engxODlxMTI3WjNaemRsR3huRUhfaUE2OGRRLUlQZnc?oc=5",
+    "source": "Google News: MS Ignite Challenge",
+    "priority": "LOW",
+    "seen_at": "2026-08-21T15:16:14.470758"
   }
 }
