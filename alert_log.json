@@ -1303,5 +1303,14 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-21T04:01:30.822311"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "MOS Examen bestellen",
+    "link": "https://www.reddit.com/r/microsoft/comments/1vry8cn/mos_examen_bestellen/",
+    "source": "Reddit: Microsoft",
+    "score": 4,
+    "found_at": "2026-08-21T04:54:01.773681"
   }
 ]

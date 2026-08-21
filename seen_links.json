@@ -868,5 +868,11 @@
     "source": "Dev.to: Azure",
     "priority": "HIGH",
     "seen_at": "2026-08-21T04:01:30.822320"
+  },
+  "87bd4cf8c41ea9685b4bbde8624da144": {
+    "link": "https://www.reddit.com/r/microsoft/comments/1vry8cn/mos_examen_bestellen/",
+    "source": "Reddit: Microsoft",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-21T04:54:01.773684"
   }
 }
