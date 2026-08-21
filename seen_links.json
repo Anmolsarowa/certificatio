@@ -874,5 +874,11 @@
     "source": "Reddit: Microsoft",
     "priority": "MEDIUM",
     "seen_at": "2026-08-21T04:54:01.773684"
+  },
+  "d4bdbf300b0ce8463623284bc773674b": {
+    "link": "https://dev.to/martin_oehlert/introduction-to-dapr-for-azure-developers-1l9h",
+    "source": "Dev.to: Azure",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-21T07:08:35.431305"
   }
 }

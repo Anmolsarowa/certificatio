@@ -1312,5 +1312,14 @@
     "source": "Reddit: Microsoft",
     "score": 4,
     "found_at": "2026-08-21T04:54:01.773681"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Introduction to Dapr for Azure Developers",
+    "link": "https://dev.to/martin_oehlert/introduction-to-dapr-for-azure-developers-1l9h",
+    "source": "Dev.to: Azure",
+    "score": 4,
+    "found_at": "2026-08-21T07:08:35.431296"
   }
 ]
