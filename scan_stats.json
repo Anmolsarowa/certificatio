@@ -1,11 +1,11 @@
 {
-  "last_digest": "2026-08-20T01:11:45.165353",
+  "last_digest": "2026-08-21T00:03:34.714701",
   "last_stats": {
-    "total_posts_evaluated": 711,
-    "excluded_by_keywords": 14,
-    "excluded_by_tech_gate": 366,
-    "excluded_by_score": 328,
-    "passed_all_gates": 3,
+    "total_posts_evaluated": 715,
+    "excluded_by_keywords": 12,
+    "excluded_by_tech_gate": 376,
+    "excluded_by_score": 326,
+    "passed_all_gates": 1,
     "near_misses": [
       {
         "title": "Staying competitive: Why investing in cloud skills matters - cio.com",
@@ -40,6 +40,12 @@
       {
         "title": "Top Ethical Hacking Free Courses | Online Free Hacking Course - EC-Council",
         "source": "Google News: Free Cloud Cert",
+        "score": 2,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "From NS0-005 to NS0-185: NetApp Installation Certification Roadmap",
+        "source": "Dev.to: Certification",
         "score": 2,
         "reason": "No tech word match"
       },
@@ -120,17 +126,13 @@
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
-      },
-      {
-        "title": "Program highlights",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
       }
     ],
     "source_errors": [
-      "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
-      "MS TechCommunity: <unknown>:14:71: not well-formed (invalid token)",
+      "MS Learn Blog: <unknown>:14:73: not well-formed (invalid token)",
+      "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
+      "HN: Azure Certification: <unknown>:7:2: mismatched tag",
+      "HN: Free Certification: <unknown>:7:2: mismatched tag",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
       "Reddit Search 'free microsoft certification voucher': HTTP 403",
@@ -178,8 +180,6 @@
       "MS Azure Blog",
       "YT: Microsoft Learn",
       "HN: Microsoft Voucher",
-      "HN: Azure Certification",
-      "HN: Free Certification",
       "Dev.to: Microsoft Certs",
       "Dev.to: Azure",
       "Dev.to: Certification",
