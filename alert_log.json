@@ -1366,5 +1366,14 @@
     "source": "Google News: MS Build Challenge",
     "score": 3,
     "found_at": "2026-08-21T19:31:53.317177"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Celebrating 30 Years of MySQL: Free Training & Certification Results - Oracle Blogs",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY2YzV0d6R1QxMS0zSnZaZ1Q1bk9fc2RKbFlXTHhYaHJ4WHRmMXRrWEZHeW9aX19BR3o0aHlTWmlaUGhHQUluenk4TU5UejRvX25HeXNLbWhvNm5WU2NoS2Fva3IzVEdOSzRBRXUyOHgzMzl0cW1xbnAwOVNGRXktTUZWVWZUOGlnOFVBNlEyVTZVRDdIRUVwS1k1S2s?oc=5",
+    "source": "Google News: Free Cloud Cert",
+    "score": 12,
+    "found_at": "2026-08-21T20:29:49.836910"
   }
 ]
