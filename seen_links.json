@@ -904,5 +904,11 @@
     "source": "Google News: MS Ignite Challenge",
     "priority": "LOW",
     "seen_at": "2026-08-21T15:16:14.470758"
+  },
+  "d289fb56bc28b33186beea7e949b17dd": {
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wdE1uckhvVjI3V1ZhWF9VOUNvc0hCWVY1V2VwZm9TVnhPSTBSWHRaZHlpdDd0SGRFVkJwSFpJZDlHSWRwb01HZEdwOE5aRHRBNUxtb292Wk5qcGY5bmp5MDJ6bFV0Z2Jr?oc=5",
+    "source": "Google News: MS Build Challenge",
+    "priority": "LOW",
+    "seen_at": "2026-08-21T19:31:53.317182"
   }
 }
