@@ -1294,5 +1294,14 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-20T13:11:50.427998"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Azure Integration Services Interview Prep Part 1: Service Bus, Storage Queues, Event Hub, and Event Grid",
+    "link": "https://dev.to/manoharij/azure-integration-services-interview-prep-part-1-service-bus-storage-queues-event-hub-and-event-4of0",
+    "source": "Dev.to: Azure",
+    "score": 6,
+    "found_at": "2026-08-21T04:01:30.822311"
   }
 ]
