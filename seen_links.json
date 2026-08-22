@@ -922,5 +922,47 @@
     "source": "Google News: MS Ignite Challenge",
     "priority": "HIGH",
     "seen_at": "2026-08-22T09:32:30.322281"
+  },
+  "295bc04c6cfaff4ba563a81fdfa4b054": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vufhy8/passed_az104_with_a_score_of_9081000/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-22T10:32:01.664694"
+  },
+  "aac717eb1c8db68d2cc5f502774d541d": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vtpgja/passed_sc300_some_tips/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-22T10:32:01.669491"
+  },
+  "a4dd67c938c94fdf8e7718aef311dcdf": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vtvqrt/passed_dp800_sql_ai_developer_associate/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-22T10:32:01.669908"
+  },
+  "0863230631eb96fc2d2b6aa233372102": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vsulz5/student_discount_on_microsoft_certifications/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-22T10:32:01.671373"
+  },
+  "049bd3b75ba4d88d90b1350eef1114d2": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vsxng2/cleared_the_dp800_4_weeks_heres_what_helped/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-22T10:32:01.673060"
+  },
+  "e095357b2d41c80fb13dcd8a76cfd3ac": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vt6qc2/study_advice_for_az104/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-22T10:32:01.673453"
+  },
+  "9f33bcc98ff399b55108d2e573466daa": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vtcexr/ai901_voucher_doesnt_work/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-22T10:32:01.673863"
   }
 }

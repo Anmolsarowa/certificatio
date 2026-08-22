@@ -1384,5 +1384,68 @@
     "source": "Google News: MS Ignite Challenge",
     "score": 6,
     "found_at": "2026-08-22T09:32:30.322276"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Passed AZ-104 with a score of 908/1000!",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vufhy8/passed_az104_with_a_score_of_9081000/",
+    "source": "Reddit: Azure Certification",
+    "score": 16,
+    "found_at": "2026-08-22T10:32:01.664689"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Passed DP-800: SQL AI Developer Associate.",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vtvqrt/passed_dp800_sql_ai_developer_associate/",
+    "source": "Reddit: Azure Certification",
+    "score": 6,
+    "found_at": "2026-08-22T10:32:01.669905"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Cleared the DP-800 (4 Weeks) here's what helped",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vsxng2/cleared_the_dp800_4_weeks_heres_what_helped/",
+    "source": "Reddit: Azure Certification",
+    "score": 6,
+    "found_at": "2026-08-22T10:32:01.673056"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "AI-901 voucher doesn't work",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vtcexr/ai901_voucher_doesnt_work/",
+    "source": "Reddit: Azure Certification",
+    "score": 13,
+    "found_at": "2026-08-22T10:32:01.673860"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Passed SC-300 - Some tips",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vtpgja/passed_sc300_some_tips/",
+    "source": "Reddit: Azure Certification",
+    "score": 5,
+    "found_at": "2026-08-22T10:32:01.669486"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Student discount on Microsoft Certifications",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vsulz5/student_discount_on_microsoft_certifications/",
+    "source": "Reddit: Azure Certification",
+    "score": 7,
+    "found_at": "2026-08-22T10:32:01.671370"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Study advice for AZ104?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vt6qc2/study_advice_for_az104/",
+    "source": "Reddit: Azure Certification",
+    "score": 5,
+    "found_at": "2026-08-22T10:32:01.673450"
   }
 ]
