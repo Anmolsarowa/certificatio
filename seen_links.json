@@ -916,5 +916,11 @@
     "source": "Google News: Free Cloud Cert",
     "priority": "MEDIUM",
     "seen_at": "2026-08-21T20:29:49.836915"
+  },
+  "c5459cdc484a88175274acc73ed3bf92": {
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcVpVRzdqRW5wT2VpRjI4alZvYTd1VHNpaFptbFRBaHQwdFh2Z0c0MGlldHd3czdYb0pwM2M2eFNsNVpabFRobW1OdXRLWWVrNl9JSG95TVJMM0JXSHlYWlZvbnFscHluSXJhd21EYWtsUi13Y1dLRnozUVVieXBxYUdSaUhmSHEyQnlIa3paX0Y3Nm03OFk2ZWJBNHJNSDBWOXZHbnFNamt0SGFTeXJ6Z2FPZWtXSXpmTUZUd3RnWlR1QXd1S1MyTQ?oc=5",
+    "source": "Google News: MS Ignite Challenge",
+    "priority": "HIGH",
+    "seen_at": "2026-08-22T09:32:30.322281"
   }
 }

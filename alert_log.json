@@ -1375,5 +1375,14 @@
     "source": "Google News: Free Cloud Cert",
     "score": 12,
     "found_at": "2026-08-21T20:29:49.836910"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Your guide to Dynamics 365 at Microsoft Ignite 2022 - Microsoft",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcVpVRzdqRW5wT2VpRjI4alZvYTd1VHNpaFptbFRBaHQwdFh2Z0c0MGlldHd3czdYb0pwM2M2eFNsNVpabFRobW1OdXRLWWVrNl9JSG95TVJMM0JXSHlYWlZvbnFscHluSXJhd21EYWtsUi13Y1dLRnozUVVieXBxYUdSaUhmSHEyQnlIa3paX0Y3Nm03OFk2ZWJBNHJNSDBWOXZHbnFNamt0SGFTeXJ6Z2FPZWtXSXpmTUZUd3RnWlR1QXd1S1MyTQ?oc=5",
+    "source": "Google News: MS Ignite Challenge",
+    "score": 6,
+    "found_at": "2026-08-22T09:32:30.322276"
   }
 ]
