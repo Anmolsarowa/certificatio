@@ -1,11 +1,11 @@
 {
-  "last_digest": "2026-08-21T00:03:34.714701",
+  "last_digest": "2026-08-22T01:11:33.067125",
   "last_stats": {
-    "total_posts_evaluated": 715,
+    "total_posts_evaluated": 714,
     "excluded_by_keywords": 12,
-    "excluded_by_tech_gate": 376,
-    "excluded_by_score": 326,
-    "passed_all_gates": 1,
+    "excluded_by_tech_gate": 367,
+    "excluded_by_score": 335,
+    "passed_all_gates": 0,
     "near_misses": [
       {
         "title": "Staying competitive: Why investing in cloud skills matters - cio.com",
@@ -15,12 +15,6 @@
       },
       {
         "title": "OCI Certification Learning Paths and Exams: 2026 Updates Now Available - Oracle Blogs",
-        "source": "Google News: Azure Free Cert 2026",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Top 20 Highest Paying IT Certification Programs in 2026 - Simplilearn.com",
         "source": "Google News: Azure Free Cert 2026",
         "score": 2,
         "reason": "No tech word match"
@@ -44,6 +38,18 @@
         "reason": "No tech word match"
       },
       {
+        "title": "AWS inks tie-up with Edukasyon.ph to offer free cloud skills training program - Newsbytes.PH",
+        "source": "Google News: Free Cloud Cert",
+        "score": 6,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "COH500 Exam Guides: Prepare for Cohesity Certified Architect Expert (CCAE) Certification",
+        "source": "Dev.to: Certification",
+        "score": 2,
+        "reason": "No tech word match"
+      },
+      {
         "title": "From NS0-005 to NS0-185: NetApp Installation Certification Roadmap",
         "source": "Dev.to: Certification",
         "score": 2,
@@ -51,18 +57,6 @@
       },
       {
         "title": "Cisco 200-301 Exam Study Guide: Topics, Tips & Preparation",
-        "source": "Dev.to: Certification",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Strengthen Your AI Operations Skills with MLOps Certification",
-        "source": "Dev.to: Certification",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "C1000-205 Exam Guide: Prepare for IBM Maximo Manage v9 Work Management - Associate Certification",
         "source": "Dev.to: Certification",
         "score": 2,
         "reason": "No tech word match"
@@ -126,11 +120,18 @@
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
+      },
+      {
+        "title": "Program highlights",
+        "source": "Web: Microsoft Virtual Training Days",
+        "score": 3,
+        "reason": "No tech word match"
       }
     ],
     "source_errors": [
-      "MS Learn Blog: <unknown>:14:73: not well-formed (invalid token)",
+      "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
       "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
+      "HN: Microsoft Voucher: <unknown>:7:2: mismatched tag",
       "HN: Azure Certification: <unknown>:7:2: mismatched tag",
       "HN: Free Certification: <unknown>:7:2: mismatched tag",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
@@ -179,7 +180,6 @@
       "Google News: MS Credential Voucher",
       "MS Azure Blog",
       "YT: Microsoft Learn",
-      "HN: Microsoft Voucher",
       "Dev.to: Microsoft Certs",
       "Dev.to: Azure",
       "Dev.to: Certification",
