@@ -964,5 +964,11 @@
     "source": "Reddit: Azure Certification",
     "priority": "HIGH",
     "seen_at": "2026-08-22T10:32:01.673863"
+  },
+  "dd65606815febc7673d848d42743d448": {
+    "link": "mailto:events@microsoft.regsvc.com",
+    "source": "Microsoft Virtual Training Days",
+    "priority": "LOW",
+    "seen_at": "2026-08-23T04:01:45.909130"
   }
 }

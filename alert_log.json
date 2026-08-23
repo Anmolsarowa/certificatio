@@ -1447,5 +1447,14 @@
     "source": "Reddit: Azure Certification",
     "score": 5,
     "found_at": "2026-08-22T10:32:01.673450"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Microsoft events support team",
+    "link": "mailto:events@microsoft.regsvc.com",
+    "source": "Web: Microsoft Virtual Training Days",
+    "score": 3,
+    "found_at": "2026-08-23T04:01:45.909122"
   }
 ]
