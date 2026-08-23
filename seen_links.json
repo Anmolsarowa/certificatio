@@ -976,5 +976,29 @@
     "source": "Dev.to: Microsoft Certs",
     "priority": "HIGH",
     "seen_at": "2026-08-23T09:04:41.823863"
+  },
+  "c7dd7828a4eb0344ecafb64c2c3c5f17": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vw2zpg/az104_or_pl300_which_is_more_worth_it/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-23T12:36:00.961007"
+  },
+  "0fb6d79da0558580d073c00d2a0f9f64": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vw5s25/any_discounts_on_the_ai901_microsoft_azure_ai/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-23T12:36:00.961385"
+  },
+  "054eaa483606ad7f175b04972c4073c9": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vvfp97/ab650_exam/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-23T12:36:00.964153"
+  },
+  "14292b48adb43368d2cd4713c0d837d7": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vv6aut/passed_az400_devops_expert_without_az204_but_with/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-23T12:36:00.965718"
   }
 }

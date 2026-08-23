@@ -1465,5 +1465,41 @@
     "source": "Dev.to: Microsoft Certs",
     "score": 6,
     "found_at": "2026-08-23T09:04:41.823856"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "AZ-104 or PL-300 — which is more worth it?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vw2zpg/az104_or_pl300_which_is_more_worth_it/",
+    "source": "Reddit: Azure Certification",
+    "score": 18,
+    "found_at": "2026-08-23T12:36:00.960997"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Passed AZ-400 - DevOps expert without AZ-204 but with AI-200!",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vv6aut/passed_az400_devops_expert_without_az204_but_with/",
+    "source": "Reddit: Azure Certification",
+    "score": 6,
+    "found_at": "2026-08-23T12:36:00.965714"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Any discounts on the AI-901: Microsoft Azure AI Fundamentals Exam?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vw5s25/any_discounts_on_the_ai901_microsoft_azure_ai/",
+    "source": "Reddit: Azure Certification",
+    "score": 10,
+    "found_at": "2026-08-23T12:36:00.961378"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "AB-650 Exam",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vvfp97/ab650_exam/",
+    "source": "Reddit: Azure Certification",
+    "score": 4,
+    "found_at": "2026-08-23T12:36:00.964149"
   }
 ]
