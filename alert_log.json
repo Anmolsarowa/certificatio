@@ -1456,5 +1456,14 @@
     "source": "Web: Microsoft Virtual Training Days",
     "score": 3,
     "found_at": "2026-08-23T04:01:45.909122"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Microsoft AI-200 Exam: Study Guide, Topics & Preparation Tips",
+    "link": "https://dev.to/judsonlarkinv567/microsoft-ai-200-exam-study-guide-topics-preparation-tips-2mdj",
+    "source": "Dev.to: Microsoft Certs",
+    "score": 6,
+    "found_at": "2026-08-23T09:04:41.823856"
   }
 ]

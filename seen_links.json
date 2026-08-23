@@ -970,5 +970,11 @@
     "source": "Microsoft Virtual Training Days",
     "priority": "LOW",
     "seen_at": "2026-08-23T04:01:45.909130"
+  },
+  "3751561e508208eece13cef957f86472": {
+    "link": "https://dev.to/judsonlarkinv567/microsoft-ai-200-exam-study-guide-topics-preparation-tips-2mdj",
+    "source": "Dev.to: Microsoft Certs",
+    "priority": "HIGH",
+    "seen_at": "2026-08-23T09:04:41.823863"
   }
 }
