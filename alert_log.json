@@ -1501,5 +1501,23 @@
     "source": "Reddit: Azure Certification",
     "score": 4,
     "found_at": "2026-08-23T12:36:00.964149"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "PL-300 Passed",
+    "link": "https://www.reddit.com/r/PowerBI/comments/1vvjslj/pl300_passed/",
+    "source": "Reddit: Power BI",
+    "score": 8,
+    "found_at": "2026-08-23T13:20:01.156415"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "DAX Anki cards",
+    "link": "https://www.reddit.com/r/PowerBI/comments/1vvoan8/dax_anki_cards/",
+    "source": "Reddit: Power BI",
+    "score": 5,
+    "found_at": "2026-08-23T13:20:01.152485"
   }
 ]

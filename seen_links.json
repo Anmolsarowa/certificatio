@@ -1000,5 +1000,17 @@
     "source": "Reddit: Azure Certification",
     "priority": "HIGH",
     "seen_at": "2026-08-23T12:36:00.965718"
+  },
+  "630ea1a5ab28f1b7cf44382acbe50d00": {
+    "link": "https://www.reddit.com/r/PowerBI/comments/1vvoan8/dax_anki_cards/",
+    "source": "Reddit: Power BI",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-23T13:20:01.152489"
+  },
+  "ae3bc398d387f18b43130b93fa99a85d": {
+    "link": "https://www.reddit.com/r/PowerBI/comments/1vvjslj/pl300_passed/",
+    "source": "Reddit: Power BI",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-23T13:20:01.156418"
   }
 }
