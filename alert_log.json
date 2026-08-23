@@ -1519,5 +1519,14 @@
     "source": "Reddit: Power BI",
     "score": 5,
     "found_at": "2026-08-23T13:20:01.152485"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Azure OpenAI PTU vs PAYG: The Real Break-Even Table",
+    "link": "https://dev.to/az365ai/azure-openai-ptu-vs-payg-the-real-break-even-table-30m5",
+    "source": "Dev.to: Azure",
+    "score": 15,
+    "found_at": "2026-08-23T14:22:01.626893"
   }
 ]
