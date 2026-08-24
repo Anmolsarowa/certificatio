@@ -1042,5 +1042,11 @@
     "source": "Google News: MS Exam Deal",
     "priority": "MEDIUM",
     "seen_at": "2026-08-24T10:23:47.782308"
+  },
+  "2686eadfb7dbe4ae4b6dabccc1b426b3": {
+    "link": "https://dev.to/swarnalakshmi_backiyalaks/-azure-course-in-chennai-build-your-career-in-cloud-computing-1iof",
+    "source": "Dev.to: Azure",
+    "priority": "HIGH",
+    "seen_at": "2026-08-24T11:03:24.176633"
   }
 }

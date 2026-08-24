@@ -1564,5 +1564,14 @@
     "source": "Google News: MS Exam Deal",
     "score": 7,
     "found_at": "2026-08-24T10:23:47.782303"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "# Azure Course in Chennai: Build Your Career in Cloud Computing",
+    "link": "https://dev.to/swarnalakshmi_backiyalaks/-azure-course-in-chennai-build-your-career-in-cloud-computing-1iof",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-24T11:03:24.176627"
   }
 ]
