@@ -1609,5 +1609,23 @@
     "source": "Google News: Virtual Training Day",
     "score": 6,
     "found_at": "2026-08-24T17:58:11.602785"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Azure App Service retired Node 22 LTS for 30 April 2027 and named a target that expires 366 days later",
+    "link": "https://dev.to/mr_manushukla/azure-app-service-retired-node-22-lts-for-30-april-2027-and-named-a-target-that-expires-366-days-4nbp",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-24T19:28:47.533679"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Application Gateway WAF custom block responses shipped 24 August 2026 with no documented code list",
+    "link": "https://dev.to/mr_manushukla/application-gateway-waf-custom-block-responses-shipped-24-august-2026-with-no-documented-code-list-4dk6",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-24T19:28:47.538496"
   }
 ]

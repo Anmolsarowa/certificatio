@@ -1072,5 +1072,17 @@
     "source": "Google News: Virtual Training Day",
     "priority": "HIGH",
     "seen_at": "2026-08-24T17:58:11.602792"
+  },
+  "af9e2559f83f8211c399d37f37c6ea68": {
+    "link": "https://dev.to/mr_manushukla/azure-app-service-retired-node-22-lts-for-30-april-2027-and-named-a-target-that-expires-366-days-4nbp",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-24T19:28:47.533686"
+  },
+  "884ab2704afeecd69dac7354045c1bed": {
+    "link": "https://dev.to/mr_manushukla/application-gateway-waf-custom-block-responses-shipped-24-august-2026-with-no-documented-code-list-4dk6",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-24T19:28:47.538502"
   }
 }
