@@ -1048,5 +1048,11 @@
     "source": "Dev.to: Azure",
     "priority": "HIGH",
     "seen_at": "2026-08-24T11:03:24.176633"
+  },
+  "387d4b55dda130ede11f39639ebae8c8": {
+    "link": "https://dev.to/az365ai/ai-copilots-vs-custom-ai-on-azure-when-to-build-and-when-to-buy-22kh",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-24T15:01:03.872633"
   }
 }
