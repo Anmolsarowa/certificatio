@@ -1627,5 +1627,41 @@
     "source": "Dev.to: Azure",
     "score": 8,
     "found_at": "2026-08-24T19:28:47.538496"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Passed DP-800 today (SQL AI Developer Associate)",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vwsjbi/passed_dp800_today_sql_ai_developer_associate/",
+    "source": "Reddit: Azure Certification",
+    "score": 6,
+    "found_at": "2026-08-24T22:44:01.383505"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Passed AI-103, 1 week prep (800/1000)",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vxe26r/passed_ai103_1_week_prep_8001000/",
+    "source": "Reddit: Azure Certification",
+    "score": 5,
+    "found_at": "2026-08-24T22:44:01.382543"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "Looking for a study partner for the MD-102 certification (free MS Learn path + some extra resources)",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vxf3uy/looking_for_a_study_partner_for_the_md102/",
+    "source": "Reddit: Azure Certification",
+    "score": 12,
+    "found_at": "2026-08-24T22:44:01.384281"
+  },
+  {
+    "priority": "MEDIUM",
+    "type": "DISCOUNT",
+    "title": "BEST FREE MATERIAL TO PREP FOR SC-200?",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vx0sci/best_free_material_to_prep_for_sc200/",
+    "source": "Reddit: Azure Certification",
+    "score": 5,
+    "found_at": "2026-08-24T22:44:01.385400"
   }
 ]

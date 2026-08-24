@@ -1084,5 +1084,29 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-24T19:28:47.538502"
+  },
+  "4a6a0f9042c887241e5e00351eee488f": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vxe26r/passed_ai103_1_week_prep_8001000/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-24T22:44:01.382547"
+  },
+  "5c34220a46240804afc341d9636fd54f": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vwsjbi/passed_dp800_today_sql_ai_developer_associate/",
+    "source": "Reddit: Azure Certification",
+    "priority": "HIGH",
+    "seen_at": "2026-08-24T22:44:01.383508"
+  },
+  "6501cc3923c8a3b598fb11d1e71c7841": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vxf3uy/looking_for_a_study_partner_for_the_md102/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-24T22:44:01.384283"
+  },
+  "3359ca8a93dffe4bc7100e58d9d5d8df": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vx0sci/best_free_material_to_prep_for_sc200/",
+    "source": "Reddit: Azure Certification",
+    "priority": "MEDIUM",
+    "seen_at": "2026-08-24T22:44:01.385402"
   }
 }
