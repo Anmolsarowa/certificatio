@@ -1546,5 +1546,14 @@
     "source": "Dev.to: Microsoft Certs",
     "score": 13,
     "found_at": "2026-08-24T05:54:11.358136"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Microsoft AZ-400 Exam: Study Guide, Skills, and Preparation Tips",
+    "link": "https://dev.to/judsonlarkinv567/microsoft-az-400-exam-study-guide-skills-and-preparation-tips-5gd1",
+    "source": "Dev.to: Azure",
+    "score": 13,
+    "found_at": "2026-08-24T06:55:31.728685"
   }
 ]
