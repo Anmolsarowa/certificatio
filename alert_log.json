@@ -1591,5 +1591,14 @@
     "source": "Dev.to: Azure",
     "score": 6,
     "found_at": "2026-08-24T15:50:02.475160"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "Studying On PL-900",
+    "link": "https://www.reddit.com/r/PowerPlatform/comments/1vx55v9/studying_on_pl900/",
+    "source": "Reddit: Power Platform",
+    "score": 2,
+    "found_at": "2026-08-24T17:16:01.772104"
   }
 ]
