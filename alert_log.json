@@ -1537,5 +1537,14 @@
     "source": "Dev.to: Azure",
     "score": 8,
     "found_at": "2026-08-24T04:06:26.105491"
+  },
+  {
+    "priority": "HIGH",
+    "type": "EVENT",
+    "title": "Complete Microsoft Certified DevOps Engineer Expert Certification and Career Guide",
+    "link": "https://dev.to/manshi2026/complete-microsoft-certified-devops-engineer-expert-certification-and-career-guide-1f48",
+    "source": "Dev.to: Microsoft Certs",
+    "score": 13,
+    "found_at": "2026-08-24T05:54:11.358136"
   }
 ]
