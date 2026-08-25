@@ -1126,5 +1126,11 @@
     "source": "Reddit: Azure Certification",
     "priority": "CRITICAL",
     "seen_at": "2026-08-25T17:30:02.258713"
+  },
+  "7d3f6b8d8ae5fe026a217f61f7e859ea": {
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOakZMZTlOZDhtRXI0S3F6RVRTOTFwTkFBd1hxcmFBN3lCdVRkYlRubGFWcERBZGFBOUUwZXl1akFxczNEYk9LODhGSnpUV3RYUElsdDRlcHNJM2JwZDN4QkZ6ME1JdXM5NVEwRHc1MzB4TE9EUzhHa0FBdmdwR0dScDVaWnE3RUpjTnhVMktsWGh1MklOaG1QVlI2bXl6M29y?oc=5",
+    "source": "Google News: MS Build Challenge",
+    "priority": "LOW",
+    "seen_at": "2026-08-25T23:10:50.513682"
   }
 }

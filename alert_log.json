@@ -1690,5 +1690,14 @@
     "source": "Reddit: Azure Certification",
     "score": 10,
     "found_at": "2026-08-25T17:30:02.258709"
+  },
+  {
+    "priority": "LOW",
+    "type": "INFO",
+    "title": "AMD at Microsoft Build 2026: Building Local & Cloud AI with Open-Source Tools - AMD",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOakZMZTlOZDhtRXI0S3F6RVRTOTFwTkFBd1hxcmFBN3lCdVRkYlRubGFWcERBZGFBOUUwZXl1akFxczNEYk9LODhGSnpUV3RYUElsdDRlcHNJM2JwZDN4QkZ6ME1JdXM5NVEwRHc1MzB4TE9EUzhHa0FBdmdwR0dScDVaWnE3RUpjTnhVMktsWGh1MklOaG1QVlI2bXl6M29y?oc=5",
+    "source": "Google News: MS Build Challenge",
+    "score": 3,
+    "found_at": "2026-08-25T23:10:50.513676"
   }
 ]
