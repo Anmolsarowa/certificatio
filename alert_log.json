@@ -1672,5 +1672,14 @@
     "source": "Dev.to: Azure",
     "score": 10,
     "found_at": "2026-08-25T07:33:02.399652"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Azure Event Grid: Push-Based Events Without the Kafka Overhead",
+    "link": "https://dev.to/brywritescode/azure-event-grid-push-based-events-without-the-kafka-overhead-1nhm",
+    "source": "Dev.to: Azure",
+    "score": 14,
+    "found_at": "2026-08-25T15:21:48.123568"
   }
 ]
