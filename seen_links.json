@@ -1120,5 +1120,11 @@
     "source": "Dev.to: Azure",
     "priority": "CRITICAL",
     "seen_at": "2026-08-25T15:21:48.123574"
+  },
+  "eb193c16783a3a639199324d283ad88c": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vxe3nh/az104_exam/",
+    "source": "Reddit: Azure Certification",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-25T17:30:02.258713"
   }
 }

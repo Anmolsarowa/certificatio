@@ -1681,5 +1681,14 @@
     "source": "Dev.to: Azure",
     "score": 14,
     "found_at": "2026-08-25T15:21:48.123568"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Az-104 exam",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1vxe3nh/az104_exam/",
+    "source": "Reddit: Azure Certification",
+    "score": 10,
+    "found_at": "2026-08-25T17:30:02.258709"
   }
 ]
