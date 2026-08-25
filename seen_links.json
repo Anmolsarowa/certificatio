@@ -1108,5 +1108,11 @@
     "source": "Reddit: Azure Certification",
     "priority": "MEDIUM",
     "seen_at": "2026-08-24T22:44:01.385402"
+  },
+  "feed3793fa5ba3d4bbce84c5471c2161": {
+    "link": "https://dev.to/mr_manushukla/007vcore-hour-azure-postgres-extended-support-billing-starts-1-september-2026-1efg",
+    "source": "Dev.to: Azure",
+    "priority": "CRITICAL",
+    "seen_at": "2026-08-25T07:33:02.399658"
   }
 }

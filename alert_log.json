@@ -1663,5 +1663,14 @@
     "source": "Reddit: Azure Certification",
     "score": 5,
     "found_at": "2026-08-24T22:44:01.385400"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "$0.07/vCore-hour: Azure Postgres extended support billing starts 1 September 2026",
+    "link": "https://dev.to/mr_manushukla/007vcore-hour-azure-postgres-extended-support-billing-starts-1-september-2026-1efg",
+    "source": "Dev.to: Azure",
+    "score": 10,
+    "found_at": "2026-08-25T07:33:02.399652"
   }
 ]
