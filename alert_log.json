@@ -1699,5 +1699,14 @@
     "source": "Google News: MS Build Challenge",
     "score": 3,
     "found_at": "2026-08-25T23:10:50.513676"
+  },
+  {
+    "priority": "CRITICAL",
+    "type": "INSTANT",
+    "title": "Azure OpenAI Service vs OpenAI API, which to use and when in 2026",
+    "link": "https://dev.to/carlosjcastrog/azure-openai-service-vs-openai-api-which-to-use-and-when-in-2026-1nic",
+    "source": "Dev.to: Azure",
+    "score": 8,
+    "found_at": "2026-08-26T01:51:35.747377"
   }
 ]
