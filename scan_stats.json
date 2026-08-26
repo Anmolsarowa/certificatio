@@ -1,11 +1,11 @@
 {
-  "last_digest": "2026-08-25T00:01:46.391292",
+  "last_digest": "2026-08-26T00:03:24.259920",
   "last_stats": {
-    "total_posts_evaluated": 720,
-    "excluded_by_keywords": 13,
-    "excluded_by_tech_gate": 339,
-    "excluded_by_score": 364,
-    "passed_all_gates": 4,
+    "total_posts_evaluated": 675,
+    "excluded_by_keywords": 12,
+    "excluded_by_tech_gate": 328,
+    "excluded_by_score": 335,
+    "passed_all_gates": 0,
     "near_misses": [
       {
         "title": "Southport College hosts six partner high schools onto campus for inter schools skills challenge - St",
@@ -38,9 +38,9 @@
         "reason": "No tech word match"
       },
       {
-        "title": "Amazon Cloud Certification: Evaluating Its Career Value and Impact on External Job Applications",
+        "title": "ServiceNow CIS-DF Learning Resources",
         "source": "Dev.to: Certification",
-        "score": 6,
+        "score": 2,
         "reason": "No tech word match"
       },
       {
@@ -130,7 +130,10 @@
     ],
     "source_errors": [
       "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
-      "MS TechCommunity: <unknown>:14:71: not well-formed (invalid token)",
+      "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
+      "HN: Microsoft Voucher: Remote end closed connection without response",
+      "HN: Azure Certification: <unknown>:7:2: mismatched tag",
+      "HN: Free Certification: <unknown>:7:2: mismatched tag",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
       "Reddit Search 'free microsoft certification voucher': HTTP 403",
@@ -177,9 +180,6 @@
       "Google News: MS Credential Voucher",
       "MS Azure Blog",
       "YT: Microsoft Learn",
-      "HN: Microsoft Voucher",
-      "HN: Azure Certification",
-      "HN: Free Certification",
       "Dev.to: Microsoft Certs",
       "Dev.to: Azure",
       "Dev.to: Certification",
