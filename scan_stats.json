@@ -1,18 +1,12 @@
 {
-  "last_digest": "2026-08-26T00:03:24.259920",
+  "last_digest": "2026-08-27T02:59:19.620728",
   "last_stats": {
-    "total_posts_evaluated": 675,
-    "excluded_by_keywords": 12,
-    "excluded_by_tech_gate": 328,
-    "excluded_by_score": 335,
-    "passed_all_gates": 0,
+    "total_posts_evaluated": 662,
+    "excluded_by_keywords": 13,
+    "excluded_by_tech_gate": 326,
+    "excluded_by_score": 319,
+    "passed_all_gates": 4,
     "near_misses": [
-      {
-        "title": "Southport College hosts six partner high schools onto campus for inter schools skills challenge - St",
-        "source": "Google News: Cloud Skills Challenge",
-        "score": 3,
-        "reason": "No tech word match"
-      },
       {
         "title": "OCI Certification Learning Paths and Exams: 2026 Updates Now Available - Oracle Blogs",
         "source": "Google News: Azure Free Cert 2026",
@@ -35,6 +29,18 @@
         "title": "AWS inks tie-up with Edukasyon.ph to offer free cloud skills training program - Newsbytes.PH",
         "source": "Google News: Free Cloud Cert",
         "score": 6,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "CPHQ Certification Training: Build Expertise in Healthcare Quality and Patient Safety",
+        "source": "Dev.to: Certification",
+        "score": 2,
+        "reason": "No tech word match"
+      },
+      {
+        "title": "Why Industry AI Certification Is Becoming Essential for Enterprise AI Adoption",
+        "source": "Dev.to: Certification",
+        "score": 2,
         "reason": "No tech word match"
       },
       {
@@ -120,20 +126,11 @@
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
-      },
-      {
-        "title": "Share results",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
       }
     ],
     "source_errors": [
       "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
       "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
-      "HN: Microsoft Voucher: Remote end closed connection without response",
-      "HN: Azure Certification: <unknown>:7:2: mismatched tag",
-      "HN: Free Certification: <unknown>:7:2: mismatched tag",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
       "Reddit Search 'free microsoft certification voucher': HTTP 403",
@@ -180,6 +177,9 @@
       "Google News: MS Credential Voucher",
       "MS Azure Blog",
       "YT: Microsoft Learn",
+      "HN: Microsoft Voucher",
+      "HN: Azure Certification",
+      "HN: Free Certification",
       "Dev.to: Microsoft Certs",
       "Dev.to: Azure",
       "Dev.to: Certification",
