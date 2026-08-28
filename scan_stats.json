@@ -1,148 +1,12 @@
 {
-  "last_digest": "2026-08-28T07:08:30.029864",
+  "last_scan": "2026-08-28T23:29:17.607829",
   "last_stats": {
-    "total_posts_evaluated": 700,
-    "excluded_by_keywords": 13,
-    "excluded_by_tech_gate": 348,
-    "excluded_by_score": 336,
-    "passed_all_gates": 3,
-    "near_misses": [
-      {
-        "title": "OCI Certification Learning Paths and Exams: 2026 Updates Now Available - Oracle Blogs",
-        "source": "Google News: Azure Free Cert 2026",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Top 20 Highest Paying IT Certification Programs in 2026 - Simplilearn.com",
-        "source": "Google News: Free Cloud Cert",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Top Ethical Hacking Free Courses | Online Free Hacking Course - EC-Council",
-        "source": "Google News: Free Cloud Cert",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "AWS inks tie-up with Edukasyon.ph to offer free cloud skills training program - Newsbytes.PH",
-        "source": "Google News: Free Cloud Cert",
-        "score": 6,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "CPHQ Certification Training: Build Expertise in Healthcare Quality and Patient Safety",
-        "source": "Dev.to: Certification",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Why Industry AI Certification Is Becoming Essential for Enterprise AI Adoption",
-        "source": "Dev.to: Certification",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Skip to main content",
-        "source": "Web: Microsoft 30 Days to Learn It",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Browse learning paths and modules",
-        "source": "Web: Microsoft 30 Days to Learn It",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Your Privacy Choices",
-        "source": "Web: Microsoft 30 Days to Learn It",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Skip to main content",
-        "source": "Web: Microsoft Learn Challenges",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Read in English",
-        "source": "Web: Microsoft Learn Challenges",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "How it works",
-        "source": "Web: Microsoft Learn Challenges",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Develop skills",
-        "source": "Web: Microsoft Learn Challenges",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Frequently asked questions",
-        "source": "Web: Microsoft Learn Challenges",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Your Privacy Choices",
-        "source": "Web: Microsoft Learn Challenges",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Skip to main content",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Program highlights",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Why attend",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Discover more",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "Share results",
-        "source": "Web: Microsoft Virtual Training Days",
-        "score": 3,
-        "reason": "No tech word match"
-      }
-    ],
-    "source_errors": [
-      "MS Learn Blog: <unknown>:14:73: not well-formed (invalid token)",
-      "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
-      "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
-      "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
-      "Reddit Search 'free microsoft certification voucher': HTTP 403",
-      "Reddit Search 'free azure exam voucher': HTTP 403",
-      "Reddit Search 'cloud skills challenge voucher': HTTP 403",
-      "Reddit Search 'microsoft virtual training day free': HTTP 403",
-      "Reddit Search 'free certification exam voucher': HTTP 403",
-      "Reddit Search 'microsoft ignite free exam': HTTP 403",
-      "Reddit Search 'microsoft build free certification': HTTP 403",
-      "Reddit Search 'certification voucher giveaway': HTTP 403",
-      "Nitter: All instances unreachable"
-    ],
+    "total_posts_evaluated": 641,
+    "excluded_by_patterns": 31,
+    "excluded_no_voucher_phrase": 542,
+    "excluded_no_microsoft_context": 0,
+    "verified_alerts": 68,
+    "source_errors": [],
     "source_success": [
       "Reddit: Microsoft Certifications",
       "Reddit: Azure Certification",
@@ -153,44 +17,27 @@
       "Reddit: Dynamics 365",
       "Reddit: Azure",
       "Reddit: Microsoft",
-      "Reddit: Freebies",
-      "Reddit: IT Career Questions",
-      "Reddit: Sysadmin",
-      "Reddit: Cloud Computing",
-      "Reddit: Learn Programming",
-      "Reddit: Certs",
-      "Reddit: Information Technology",
       "Google News: MS Cert Voucher",
-      "Google News: Azure Exam Discount",
-      "Google News: Cloud Skills Challenge",
-      "Google News: Dynamics 365 Voucher",
-      "Google News: Power Apps Voucher",
+      "Google News: Azure Exam Voucher",
       "Google News: MS Ignite Voucher",
-      "Google News: MS Ignite Challenge",
-      "Google News: MS Build Challenge",
       "Google News: Virtual Training Day",
-      "Google News: Azure Free Cert 2026",
-      "Google News: MS Exam Deal",
-      "Google News: MS Learn Challenge",
-      "Google News: Free Cloud Cert",
-      "Google News: Applied Skills",
-      "Google News: MS Credential Voucher",
+      "Google News: Skills Challenge",
+      "Google News: Cert Week Voucher",
+      "Google News: Skills Fest Voucher",
+      "Google News: MS Free Cert 2026",
+      "Google News: LevelUp Voucher",
       "MS Azure Blog",
       "YT: Microsoft Learn",
-      "HN: Microsoft Voucher",
-      "HN: Azure Certification",
-      "HN: Free Certification",
-      "Dev.to: Microsoft Certs",
-      "Dev.to: Azure",
-      "Dev.to: Certification",
       "Web: Microsoft Ignite Hub",
       "Web: Microsoft Build Hub",
       "Web: Microsoft 30 Days to Learn It",
       "Web: Microsoft Learn Challenges",
       "Web: Microsoft Virtual Training Days",
-      "Web: Microsoft Applied Skills",
-      "Web: Microsoft Reactor Events",
-      "Web: Microsoft Learn FAQ - Discounts"
+      "Web: Microsoft Events",
+      "Web: LevelUp Home",
+      "Web: LevelUp Courses",
+      "Web: LevelUp Certification Prep",
+      "GitHub: Voucher Tracker"
     ]
   }
 }
