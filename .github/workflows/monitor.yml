@@ -1,9 +1,9 @@
-name: Pro Cert Radar v4.0
+name: Cert Radar v5.0
 
 on:
   schedule:
-    # Runs every 15 minutes for faster catch
-    - cron: "*/15 * * * *"
+    # Runs every 2 hours (vouchers don't appear every 15 mins)
+    - cron: "0 */2 * * *"
   workflow_dispatch: # Manual trigger button
 
 permissions:
@@ -42,7 +42,7 @@ jobs:
           echo "{}" > scan_stats.json
         fi
 
-    - name: 🎯 Run Cert Radar v4.0
+    - name: 🎯 Run Cert Radar v5.0
       env:
         EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
         EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}

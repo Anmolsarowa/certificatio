@@ -1,34 +1,31 @@
 """
-Pro Cert Radar v4.0 — Ultimate Certification Voucher Hunter 🎯🔥
-=================================================================
-The most aggressive, wide-net Microsoft certification voucher finder.
-Monitors 45+ high-signal sources and emails you when ANY deal is posted.
+Pro Cert Radar v5.0 — Zero Noise Voucher Hunter 🎯
+====================================================
+Ultra-strict Microsoft certification voucher finder.
+ONLY sends an email when a VERIFIED, actionable voucher opportunity is found.
 
-v4.0 Changes (from v3.0):
-  • Relaxed scoring engine — catches way more real deals
-  • 45+ sources (up from 21) — Reddit, Google News, Twitter/Nitter, blogs
-  • Reddit JSON API search — bypasses RSS rate limits
-  • Regex-based keyword matching — flexible, catches natural language
-  • URL pattern detection — auto-boost links from known deal domains
-  • Daily digest heartbeat — never wonder if it's broken
-  • Debug logging — full transparency on every post evaluated
-  • --dry-run and --debug flags for testing
+v5.0 Changes (from v4.0):
+  • Single priority tier — VERIFIED — no more LOW/MEDIUM/HIGH noise
+  • Phrase-level matching only — no more single-word false positives
+  • Removed ALL noisy sources (Dev.to, HN, broad Reddit, broken Nitter)
+  • Removed daily digest emails — bot is SILENT unless it finds something real
+  • URL verification — checks that links lead to real voucher/event pages
+  • Added GitHub community voucher tracker as a source
+  • Massive exclusion list to kill garbage matches
 
-Sources:
-  • Reddit RSS (16 subreddits) + Reddit JSON Search (8 queries)
-  • Google News (15 real-time voucher queries)
-  • Microsoft Official (Learn Blog, TechCommunity, Azure Blog)
+Sources (high-signal only):
+  • Reddit RSS: 9 Microsoft-focused subreddits
+  • Google News: 8 voucher-specific queries
+  • Microsoft Official: Azure Blog
   • YouTube: Microsoft Learn
-  • Hacker News (filtered)
-  • Web scraping: Ignite, Build, 30 Days, Challenges, Virtual Training Days
-  • Dev.to, Nitter/Twitter (best-effort)
+  • Web scraping: Ignite, Build, Virtual Training Days, Learn Challenges
+  • GitHub: Community voucher tracker
 
 Usage:
   python checker.py                    # Full scan + email
   python checker.py --test-email       # Send a test email to verify setup
   python checker.py --dry-run          # Scan but don't send email
   python checker.py --debug            # Show full scoring breakdown
-  python checker.py --digest           # Force send daily digest
 """
 
 import feedparser
@@ -74,220 +71,213 @@ STATS_FILE = "scan_stats.json"
 DRY_RUN = "--dry-run" in sys.argv
 DEBUG   = "--debug" in sys.argv
 
+
 # ═════════════════════════════════════════════════════════════════════════════
-#  v4.0 — Keyword & Domain Configuration (MASSIVELY EXPANDED)
+#  v5.0 — ULTRA-STRICT Keyword Configuration
 # ═════════════════════════════════════════════════════════════════════════════
 
-# ⛔ EXCLUDE_KEYWORDS — Only truly irrelevant content
-# v4.0: TRIMMED aggressively — removed overly broad terms that were killing legit posts
-EXCLUDE_KEYWORDS = [
+# ⛔ EXCLUDE — Kill these immediately. If ANY of these appear in the title,
+# the post is 100% NOT a voucher opportunity.
+EXCLUDE_PATTERNS = [
     # Physical / non-IT spam
     "gluten free", "gluten-free", "paperback", "free shipping",
-    "bug free", "bug-free", "t-shirt", "stickers", "gluten",
+    "bug free", "bug-free", "t-shirt", "stickers",
     "thriller", "novel", "recipe", "cookbook",
-    # Pure exam result brags (NOT deal-related at all)
+    # Exam result brags (NOT deals)
     "i passed", "i failed", "just passed", "just failed",
-    "passed today", "failed today", "how i passed",
-    # Job posts (not cert deals)
+    "passed today", "failed today", "how i passed", "my experience",
+    "passed on first attempt", "passed with",
+    # Job/career posts (NOT vouchers)
     "salary", "got the job", "hiring manager", "resume review",
-    "interview questions",
-    # Non-Microsoft vendors (to keep focused)
+    "interview questions", "career advice", "career path",
+    "worth it in 2026", "worth it in 2025", "is it worth",
+    "should i get", "which certification should",
+    "career switch", "career change", "job market",
+    # Study / prep posts (NOT vouchers)
+    "study guide", "study notes", "study plan", "study tips",
+    "how to prepare", "how to study", "exam prep",
+    "practice questions", "practice exam", "practice test",
+    "exam simulator", "exam dump", "brain dump",
+    "exam questions", "real exam questions",
+    "resource guide", "ultimate guide", "complete guide",
+    "learning path", "study resource", "exam tips",
+    "how i studied", "study material", "notes and practice",
+    "how long to study", "study schedule",
+    # "I got certified" / discussion posts
+    "is ms learn enough", "is it enough", "enough to pass",
+    "what to do with", "what should i",
+    "which microsoft certification", "best certification",
+    "most valuable", "certification roadmap",
+    "difficulty level", "how difficult", "how hard",
+    "very difficult for me", "was very difficult",
+    # Comparison / news articles (NOT vouchers)
+    "vs azure vs", "aws vs", "gcp vs",
+    "best cloud", "top certifications", "highest paying",
+    "complete breakdown", "full breakdown",
+    "certification cost", "exam fee", "how much does",
+    # Non-Microsoft vendors
     "comptia a+", "comptia network+", "comptia security+",
-    "aws certified", "aws solution", "google cloud certified",
-    "cisco ccna", "cisco ccnp",
-]
-
-# 🎯 REQUIRED_TECH_WORDS — v4.0: Expanded + used CONDITIONALLY
-# For CRITICAL matches, this gate is BYPASSED (a "free voucher" post is valuable regardless)
-# For other tiers, at least ONE must match
-REQUIRED_TECH_WORDS = [
-    # General Microsoft
-    "microsoft", "azure", "mslearn", "microsoft learn",
-    "microsoft 365", "m365", "ms learn",
-    # Power Platform & Power Apps
-    "power apps", "powerapps", "power platform", "powerplatform",
-    "power automate", "power bi", "power pages", "powerpages",
-    "pl-900", "pl-100", "pl-200", "pl-300", "pl-400", "pl-500", "pl-600",
-    # Dynamics 365 (D365)
-    "d365", "dynamics 365", "dynamics365",
-    "mb-910", "mb-920", "mb-210", "mb-220", "mb-230", "mb-240", "mb-260",
-    "mb-300", "mb-310", "mb-330", "mb-500", "mb-700", "mb-800",
-    # Azure & AI Exam Series
-    "az-900", "az-104", "az-204", "az-305", "az-400", "az-500",
-    "az-700", "az-800", "az-801", "az-802",
-    "dp-900", "dp-100", "dp-203", "dp-300", "dp-500", "dp-600",
-    "ai-900", "ai-102", "ai-050", "ai-500",
-    "sc-900", "sc-100", "sc-200", "sc-300", "sc-400", "sc-500",
-    "ms-900", "ms-700", "ms-102", "md-102",
-    # Event names
-    "ignite", "microsoft build", "virtual training day",
-    "cloud skills challenge", "30 days to learn",
-    # Broad cert terms (new in v4.0 — catches more)
-    "certification voucher", "exam voucher", "cert voucher",
-    "free certification", "free exam", "free cert",
-    "certification discount", "exam discount",
-    "applied skills", "microsoft credential",
-    "microsoft reactor", "skills fest",
-    "learn live", "hack together",
-]
-
-# 🔑 ACTIONABLE_WORDS — v4.0: Expanded massively, used for HIGH only (not CRITICAL)
-ACTIONABLE_WORDS = [
-    "voucher", "coupon", "promo", "discount", "free exam", "free cert",
-    "offer", "register", "sign up", "signup", "enroll", "claim", "code",
-    "% off", "percent off", "half price", "deal", "grab", "hurry",
-    "limited time", "expires", "challenge", "skilling",
-    "virtual training day", "30 days to learn",
-    # v4.0 additions
-    "redeem", "activate", "apply", "available now", "open now",
-    "registration open", "register now", "sign up now", "enroll now",
-    "get certified", "earn a badge", "earn a certificate",
-    "giveaway", "complimentary", "no cost", "at no cost",
-    "save", "savings", "promotion", "promotional",
-    "link", "url", "here", "click", "check out",
-    "announcing", "announced", "launching", "launched", "new",
-    "starts", "starting", "begins", "beginning",
-    "deadline", "last chance", "ending soon", "don't miss",
-    "act now", "act fast", "while supplies last",
-]
-
-# 🔴 CRITICAL — Free voucher / coupon posts (MASSIVELY EXPANDED)
-CRITICAL_KEYWORDS = [
-    # Direct free voucher mentions
-    "free voucher", "free exam voucher", "free certification voucher",
-    "free cert voucher", "free microsoft voucher", "free azure voucher",
-    "voucher giveaway", "exam voucher giveaway", "certification giveaway",
-    # Promo/discount codes
-    "100% off", "100% discount", "100 percent off",
-    "coupon code", "promo code", "discount code", "voucher code",
-    "redemption code", "promotional code",
-    # Complimentary/free exams
-    "complimentary exam", "complimentary certification",
-    "free azure exam", "free microsoft exam",
-    "free certification exam", "free dp-", "free az-", "free ai-",
-    "free sc-", "free pl-", "free mb-", "free ms-", "free md-",
-    "no cost exam", "no cost certification", "at no cost",
-    "zero cost", "$0",
-    # Event-specific vouchers
-    "ignite voucher", "build voucher", "ignite free exam", "build free exam",
-    "ignite free cert", "build free cert",
-    "ignite certification voucher", "build certification voucher",
-    # Giveaway patterns
-    "giving away voucher", "giving away exam", "giving away certification",
-    "handing out voucher", "free exam code",
-    "here's a voucher", "here is a voucher",
-    "spare voucher", "extra voucher", "unused voucher",
-    # Community sharing patterns
-    "i have a voucher", "i have voucher", "voucher to share",
-    "exam voucher to give", "don't need this voucher",
-    "won't use this voucher", "giving this away",
-]
-
-# 🟠 HIGH — Events / Challenges that grant exam vouchers (EXPANDED)
-EVENT_KEYWORDS = [
-    "virtual training day", "virtual training event",
-    "microsoft ignite", "ignite challenge", "ignite session",
-    "cloud skills challenge", "skills challenge",
-    "30 days to learn", "30 days to learn it",
-    "learn live", "learn live event",
-    "microsoft build", "build challenge", "build session",
-    "free training event", "free training day",
-    "skilling challenge", "defender skilling",
-    # v4.0 additions
-    "microsoft reactor", "reactor event",
-    "skills fest", "skill fest",
-    "hack together", "hackathon",
-    "certification bootcamp", "cert bootcamp",
-    "training bootcamp", "azure bootcamp",
-    "certification day", "cert day",
-    "exam prep live", "exam cram",
-    "microsoft certified", "get certified",
-    "certification challenge", "learning challenge",
-    "microsoft event", "azure event",
-    "power platform challenge",
-    "ai skills challenge", "security skills challenge",
-    "fundamentals day", "azure fundamentals",
-    "learn cloud skills", "cloud skills",
-]
-
-# 🟡 MEDIUM — Discounts & deals (EXPANDED)
-DISCOUNT_KEYWORDS = [
-    "50% off", "half price", "discount code", "voucher discount",
-    "50% discount", "student discount", "reduced price",
-    "practice exam free",
-    # v4.0 additions
-    "25% off", "30% off", "40% off", "45% off",
-    "percentage off", "percent off",
-    "exam discount", "certification discount",
-    "discounted exam", "discounted certification",
-    "reduced fee", "reduced cost",
-    "early bird", "early registration",
-    "bundle deal", "exam bundle",
-    "esi discount", "enterprise skills initiative",
-    "academic discount", "education discount",
-    "beta exam", "beta exam free",
-    "retake voucher", "second shot", "second chance",
-    "certification renewal", "renewal discount",
-    "pearson vue deal", "pearson vue discount",
-    "certiport", "exam sale",
-]
-
-# 🟢 LOW — General cert news & updates (EXPANDED)
-INFO_KEYWORDS = [
-    "new certification announced", "certification retired",
-    "exam update announced", "certification roadmap",
-    "exam objectives changed", "new exam announced",
-    # v4.0 additions
-    "certification update", "exam update",
-    "new learning path", "learning path",
-    "certification news", "exam news",
-    "microsoft learn update", "credential update",
-    "applied skills", "new credential",
-    "new badge", "badge available",
-    "certification program", "exam program",
-    "exam change", "objectives update",
-    "certification guide", "free training",
-    "free course", "free learning",
-    "study guide released", "prep guide",
-]
-
-# Context words — confirms a post is cert-related (used with EVENT/DISCOUNT)
-CERT_CONTEXT_WORDS = [
-    "voucher", "certification", "exam", "certificate", "credential",
-    "badge", "microsoft learn", "az-", "ai-", "dp-", "sc-", "ms-",
-    "mb-", "pl-", "md-", "mo-", "fundamentals", "d365", "power apps",
-    "power platform", "power automate", "power bi", "dynamics 365",
-    # v4.0 additions
-    "certiport", "pearson vue", "pearsonvue", "proctored",
-    "assessment", "applied skills", "microsoft certified",
-    "cloud skills", "learn live", "mslearn",
-    "certification exam", "cert exam", "microsoft exam",
-]
-
-# 🌐 URL_BOOST_PATTERNS — Auto-boost score for links from known deal domains
-URL_BOOST_PATTERNS = [
-    r"aka\.ms/",
-    r"learn\.microsoft\.com/.*training",
-    r"learn\.microsoft\.com/.*challenge",
-    r"learn\.microsoft\.com/.*credentials",
-    r"ignite\.microsoft\.com",
-    r"build\.microsoft\.com",
-    r"developer\.microsoft\.com/.*offers",
-    r"esi\.microsoft\.com",
-    r"events\.microsoft\.com",
-    r"reactor\.microsoft\.com",
-    r"microsoft\.com/.*virtual-training",
-    r"microsoft\.com/.*skills-challenge",
-    r"certiport\.com",
-    r"pearsonvue\.com/.*microsoft",
+    "aws certified", "aws solution", "aws certification cost",
+    "google cloud certified", "cisco ccna", "cisco ccnp",
+    "oracle", "servicenow", "salesforce",
+    # Reddit noise
+    "free post friday", "please follow these rules",
+    "weekly thread", "megathread", "monthly thread",
+    # Product features (NOT exam vouchers)
+    "setting up coupon codes", "coupon codes in dynamics",
+    "coupon codes in retail", "promo code in",
+    "reduce costs", "reduce azure", "save money",
+    "cost optimization", "firewall costs",
+    # Generic non-voucher content
+    "book of news", "what we know", "startups to watch",
+    "best courses in", "step onto the", "forefront of",
+    "announces hackathon", "future ready",
+    "terraform ordering", "service bus",
+    "deploy manually", "stitching models",
+    "support ticket",
+    # Masters/degree posts
+    "get my masters", "masters degree", "masters for free",
 ]
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  RSS Feed Sources — MASSIVELY EXPANDED (45+ sources)
+# 🎯 VERIFIED VOUCHER PHRASES — These are the ONLY things that trigger alerts
+# Each phrase must appear as a complete match in title OR summary
+# ═════════════════════════════════════════════════════════════════════════════
+
+# Tier 1: GUARANTEED VOUCHER — Direct free voucher mentions
+GUARANTEED_VOUCHER_PHRASES = [
+    # Direct free voucher language
+    "free exam voucher",
+    "free certification voucher",
+    "free microsoft voucher",
+    "free azure voucher",
+    "free voucher code",
+    "complimentary exam voucher",
+    "complimentary certification voucher",
+    "100% off exam",
+    "100% off certification",
+    "100% discount exam",
+    "100% discount certification",
+    "100% free exam",
+    "100% free certification",
+    # Giveaway patterns
+    "voucher giveaway",
+    "exam voucher giveaway",
+    "certification giveaway",
+    "giving away voucher",
+    "giving away exam voucher",
+    "spare voucher",
+    "extra voucher",
+    "unused voucher",
+    "voucher to share",
+    "voucher to give",
+    # Zero cost patterns
+    "no cost exam",
+    "no cost certification",
+    "zero cost exam",
+    "zero cost certification",
+    "$0 exam",
+    # Event-specific voucher announcements
+    "ignite free exam",
+    "ignite free cert",
+    "ignite certification voucher",
+    "ignite exam voucher",
+    "build free exam",
+    "build free cert",
+    "build certification voucher",
+    "build exam voucher",
+    "skills fest voucher",
+    "skills fest free exam",
+    "certification week free",
+    "certification week voucher",
+]
+
+# Tier 2: EVENT WITH VOUCHER — Events/challenges that grant vouchers
+EVENT_VOUCHER_PHRASES = [
+    # Must contain BOTH an event reference AND a voucher reference
+    "virtual training day",
+    "cloud skills challenge",
+    "skills challenge voucher",
+    "30 days to learn it",
+    "complete the challenge and earn",
+    "earn a free certification",
+    "earn a free exam",
+    "earn free certification",
+    "earn free exam",
+    "earn an exam voucher",
+    "earn a voucher",
+    "register for free certification",
+    "register for free exam",
+    "free certification opportunity",
+    "free exam opportunity",
+    "certification challenge voucher",
+    "microsoft learn challenge",
+    "levelup practice assessment",
+    "certification bootcamp free",
+]
+
+# Tier 3: DISCOUNT — Significant discounts (50%+)
+DISCOUNT_VOUCHER_PHRASES = [
+    "50% off exam",
+    "50% off certification",
+    "50% discount exam",
+    "50% discount certification",
+    "half price exam",
+    "half price certification",
+    "exam discount code",
+    "certification discount code",
+    "beta exam free",
+    "beta exam invitation",
+    "esi discount",
+    "enterprise skills initiative",
+    "student discount certification",
+    "student free exam",
+]
+
+# ═════════════════════════════════════════════════════════════════════════════
+# 🔗 VERIFIED VOUCHER URLS — Links from these domains are ALWAYS relevant
+# ═════════════════════════════════════════════════════════════════════════════
+
+VOUCHER_URL_PATTERNS = [
+    r"aka\.ms/.*(?:voucher|challenge|cert|free|skills)",
+    r"learn\.microsoft\.com/.*challenge",
+    r"learn\.microsoft\.com/.*credentials.*offer",
+    r"events\.microsoft\.com/.*(?:virtual-training|certification-week)",
+    r"developer\.microsoft\.com/.*(?:30-days|offers)",
+    r"esi\.microsoft\.com",
+    r"microsoft\.com/.*virtual-training-day",
+    r"microsoft\.com/.*skills-challenge",
+]
+
+# ═════════════════════════════════════════════════════════════════════════════
+# 🛑 CONTEXT VERIFICATION — Post must mention Microsoft/Azure to be relevant
+# ═════════════════════════════════════════════════════════════════════════════
+
+MICROSOFT_CONTEXT_WORDS = [
+    "microsoft", "azure", "mslearn", "microsoft learn",
+    "microsoft 365", "m365", "ms learn",
+    "power apps", "powerapps", "power platform", "powerplatform",
+    "power automate", "power bi", "power pages",
+    "dynamics 365", "d365",
+    "az-900", "az-104", "az-204", "az-305", "az-400", "az-500",
+    "az-700", "az-800", "az-801",
+    "dp-900", "dp-100", "dp-203", "dp-300", "dp-500", "dp-600",
+    "ai-900", "ai-102", "ai-050", "ai-500",
+    "sc-900", "sc-100", "sc-200", "sc-300", "sc-400",
+    "ms-900", "ms-700", "ms-102", "md-102",
+    "pl-900", "pl-100", "pl-200", "pl-300", "pl-400", "pl-500", "pl-600",
+    "mb-910", "mb-920", "mb-210", "mb-220", "mb-230", "mb-240",
+    "mb-300", "mb-310", "mb-330", "mb-500", "mb-700", "mb-800",
+    "ignite", "microsoft build",
+]
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+#  RSS Feed Sources — HIGH-SIGNAL ONLY (removed all noise)
 # ═════════════════════════════════════════════════════════════════════════════
 
 RSS_FEEDS = {
-    # ── Reddit: Microsoft-focused subreddits ──────────────────────────────
+    # ── Reddit: Microsoft-focused subreddits ONLY ─────────────────────────
     "Reddit: Microsoft Certifications": "https://www.reddit.com/r/MicrosoftCertifications/.rss",
     "Reddit: Azure Certification":      "https://www.reddit.com/r/AzureCertification/.rss",
     "Reddit: Power Platform":           "https://www.reddit.com/r/PowerPlatform/.rss",
@@ -296,72 +286,27 @@ RSS_FEEDS = {
     "Reddit: Power Automate":           "https://www.reddit.com/r/MicrosoftFlow/.rss",
     "Reddit: Dynamics 365":             "https://www.reddit.com/r/dynamics365/.rss",
     "Reddit: Azure":                    "https://www.reddit.com/r/Azure/.rss",
-
-    # ── Reddit: Broader communities (v4.0 NEW) ───────────────────────────
     "Reddit: Microsoft":                "https://www.reddit.com/r/microsoft/.rss",
-    "Reddit: Freebies":                 "https://www.reddit.com/r/freebies/.rss",
-    "Reddit: IT Career Questions":      "https://www.reddit.com/r/ITCareerQuestions/.rss",
-    "Reddit: Sysadmin":                 "https://www.reddit.com/r/sysadmin/.rss",
-    "Reddit: Cloud Computing":          "https://www.reddit.com/r/cloudcomputing/.rss",
-    "Reddit: Learn Programming":        "https://www.reddit.com/r/learnprogramming/.rss",
-    "Reddit: Certs":                    "https://www.reddit.com/r/certs/.rss",
-    "Reddit: Information Technology":   "https://www.reddit.com/r/InformationTechnology/.rss",
 
-    # ── Google News: Voucher-specific queries ─────────────────────────────
-    "Google News: MS Cert Voucher":          "https://news.google.com/rss/search?q=free+microsoft+certification+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Azure Exam Discount":      "https://news.google.com/rss/search?q=azure+exam+voucher+discount&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Cloud Skills Challenge":   "https://news.google.com/rss/search?q=cloud+skills+challenge+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Dynamics 365 Voucher":     "https://news.google.com/rss/search?q=dynamics+365+exam+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Power Apps Voucher":       "https://news.google.com/rss/search?q=power+apps+exam+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: MS Ignite Voucher":        "https://news.google.com/rss/search?q=microsoft+ignite+certification+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: MS Ignite Challenge":      "https://news.google.com/rss/search?q=microsoft+ignite+cloud+skills+challenge&hl=en-US&gl=US&ceid=US:en",
-    "Google News: MS Build Challenge":       "https://news.google.com/rss/search?q=microsoft+build+cloud+skills+challenge&hl=en-US&gl=US&ceid=US:en",
-
-    # ── Google News: v4.0 NEW queries ─────────────────────────────────────
-    "Google News: Virtual Training Day":     "https://news.google.com/rss/search?q=microsoft+virtual+training+day+free&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Azure Free Cert 2026":     "https://news.google.com/rss/search?q=azure+free+certification+2026&hl=en-US&gl=US&ceid=US:en",
-    "Google News: MS Exam Deal":             "https://news.google.com/rss/search?q=microsoft+exam+deal+discount+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: MS Learn Challenge":       "https://news.google.com/rss/search?q=microsoft+learn+challenge+2026&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Free Cloud Cert":          "https://news.google.com/rss/search?q=free+cloud+certification+voucher&hl=en-US&gl=US&ceid=US:en",
-    "Google News: Applied Skills":           "https://news.google.com/rss/search?q=microsoft+applied+skills+credential&hl=en-US&gl=US&ceid=US:en",
-    "Google News: MS Credential Voucher":    "https://news.google.com/rss/search?q=microsoft+credential+voucher+free&hl=en-US&gl=US&ceid=US:en",
+    # ── Google News: Voucher-specific queries ONLY ────────────────────────
+    "Google News: MS Cert Voucher":      "https://news.google.com/rss/search?q=free+microsoft+certification+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Azure Exam Voucher":   "https://news.google.com/rss/search?q=azure+exam+voucher+free&hl=en-US&gl=US&ceid=US:en",
+    "Google News: MS Ignite Voucher":    "https://news.google.com/rss/search?q=microsoft+ignite+free+exam+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Virtual Training Day": "https://news.google.com/rss/search?q=microsoft+virtual+training+day+free+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Skills Challenge":     "https://news.google.com/rss/search?q=microsoft+cloud+skills+challenge+voucher&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Cert Week Voucher":    "https://news.google.com/rss/search?q=microsoft+certification+week+free+exam&hl=en-US&gl=US&ceid=US:en",
+    "Google News: Skills Fest Voucher":  "https://news.google.com/rss/search?q=microsoft+skills+fest+free+certification&hl=en-US&gl=US&ceid=US:en",
+    "Google News: MS Free Cert 2026":    "https://news.google.com/rss/search?q=microsoft+free+certification+voucher+2026&hl=en-US&gl=US&ceid=US:en",
 
     # ── Microsoft Official ────────────────────────────────────────────────
-    "MS Learn Blog":          "https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog.rss",
-    "MS TechCommunity":       "https://techcommunity.microsoft.com/t5/educator-developer-blog/bg-p/EducatorDeveloperBlog.rss",
     "MS Azure Blog":          "https://azure.microsoft.com/en-us/blog/feed/",
 
     # ── YouTube ───────────────────────────────────────────────────────────
     "YT: Microsoft Learn":   "https://www.youtube.com/feeds/videos.xml?channel_id=UCddiUEpeqJcYeBxX1IVBKvQ",
-
-    # ── Hacker News (filtered) ────────────────────────────────────────────
-    "HN: Microsoft Voucher":    "https://hnrss.org/newest?q=microsoft+voucher",
-    "HN: Azure Certification":  "https://hnrss.org/newest?q=azure+certification",
-    "HN: Free Certification":   "https://hnrss.org/newest?q=free+certification",
-
-    # ── Dev.to (v4.0 NEW) ────────────────────────────────────────────────
-    "Dev.to: Microsoft Certs":  "https://dev.to/feed/tag/microsoft",
-    "Dev.to: Azure":            "https://dev.to/feed/tag/azure",
-    "Dev.to: Certification":    "https://dev.to/feed/tag/certification",
 }
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  Reddit JSON API Search Queries (v4.0 NEW — bypasses RSS rate limits)
-# ═════════════════════════════════════════════════════════════════════════════
-
-REDDIT_SEARCH_QUERIES = [
-    "free microsoft certification voucher",
-    "free azure exam voucher",
-    "cloud skills challenge voucher",
-    "microsoft virtual training day free",
-    "free certification exam voucher",
-    "microsoft ignite free exam",
-    "microsoft build free certification",
-    "certification voucher giveaway",
-]
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  Web Scraping Targets (EXPANDED)
+#  Web Scraping Targets — Microsoft official pages only
 # ═════════════════════════════════════════════════════════════════════════════
 
 SCRAPE_TARGETS = [
@@ -381,79 +326,39 @@ SCRAPE_TARGETS = [
         "selector": "a, h2, h3, p",
     },
     {
-        "name": "Microsoft Credentials - 30 Days",
-        "url": "https://learn.microsoft.com/en-us/credentials/certifications/30-days-to-learn-it/",
-        "selector": "a, h1, h2, h3, p",
-    },
-    {
         "name": "Microsoft Learn Challenges",
         "url": "https://learn.microsoft.com/en-us/training/challenges",
         "selector": "a, h2, h3",
     },
-    {
-        "name": "Microsoft Training Events",
-        "url": "https://learn.microsoft.com/en-us/training/events/",
-        "selector": "a, h2, h3, p",
-    },
-    # ── v4.0 NEW targets ──────────────────────────────────────────────────
     {
         "name": "Microsoft Virtual Training Days",
         "url": "https://events.microsoft.com/en-us/mvtd",
         "selector": "a, h1, h2, h3, p, span",
     },
     {
-        "name": "Microsoft Applied Skills",
-        "url": "https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills",
-        "selector": "a, h2, h3, p",
-    },
-    {
-        "name": "Microsoft Reactor Events",
-        "url": "https://developer.microsoft.com/en-us/reactor/",
-        "selector": "a, h2, h3, p",
-    },
-    {
-        "name": "Microsoft Learn FAQ - Discounts",
-        "url": "https://learn.microsoft.com/en-us/credentials/certifications/certification-exam-policies",
-        "selector": "a, h2, h3, p, li",
+        "name": "Microsoft Events",
+        "url": "https://events.microsoft.com/",
+        "selector": "a, h1, h2, h3, p",
     },
 ]
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  Nitter/Twitter Search (v4.0 NEW — best-effort, may be unreliable)
+#  GitHub Community Voucher Tracker (v5.0 NEW)
 # ═════════════════════════════════════════════════════════════════════════════
 
-# Multiple Nitter instances for redundancy
-NITTER_INSTANCES = [
-    "https://nitter.privacydev.net",
-    "https://nitter.poast.org",
-    "https://nitter.woodland.cafe",
-]
+GITHUB_VOUCHER_TRACKER = "https://raw.githubusercontent.com/nisalgunawardhana/microsoft-certification-voucher-offers/main/README.md"
 
-TWITTER_SEARCH_QUERIES = [
-    "microsoft free voucher",
-    "azure certification free",
-    "microsoft exam voucher",
-    "cloud skills challenge",
-    "virtual training day microsoft",
-]
-
-TWITTER_ACCOUNTS = [
-    "MSLearn",
-    "AzureSupport",
-    "Microsoft",
-]
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  Scan Statistics Tracker (v4.0 NEW)
+#  Scan Statistics Tracker
 # ═════════════════════════════════════════════════════════════════════════════
 
 scan_stats = {
     "total_posts_evaluated": 0,
-    "excluded_by_keywords": 0,
-    "excluded_by_tech_gate": 0,
-    "excluded_by_score": 0,
-    "passed_all_gates": 0,
-    "near_misses": [],  # score 1-2
+    "excluded_by_patterns": 0,
+    "excluded_no_voucher_phrase": 0,
+    "excluded_no_microsoft_context": 0,
+    "verified_alerts": 0,
     "source_errors": [],
     "source_success": [],
 }
@@ -526,36 +431,35 @@ def log_alert(entry):
         except (json.JSONDecodeError, IOError):
             log = []
     log.append(entry)
-    log = log[-500:]  # Keep last 500 alerts
+    log = log[-200:]  # Keep last 200 alerts
     with open(LOG_FILE, "w", encoding="utf-8") as f:
         json.dump(log, f, indent=2, ensure_ascii=False)
 
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  Debug Log (v4.0 NEW — records every evaluated post)
+#  Debug Log
 # ═════════════════════════════════════════════════════════════════════════════
 
 debug_entries = []
 
-def debug_log_entry(title, source, score, priority, reason, link=""):
+def debug_log_entry(title, source, tier, reason, link=""):
     """Log a post evaluation for debugging."""
     entry = {
         "title": title[:150],
         "source": source,
-        "score": score,
-        "priority": priority,
+        "tier": tier,
         "reason": reason,
         "link": link,
         "time": datetime.now().isoformat(),
     }
     debug_entries.append(entry)
     if DEBUG:
-        status = f"✅ [{priority}]" if priority else "❌ FILTERED"
-        print(f"     {status} score={score} | {reason} | {title[:80]}")
+        status = f"✅ [{tier}]" if tier else "❌ FILTERED"
+        print(f"     {status} | {reason} | {title[:80]}")
 
 
 def save_debug_log():
-    """Save debug log to file (keep last 1000 entries)."""
+    """Save debug log to file (keep last 500 entries)."""
     existing = []
     if os.path.exists(DEBUG_FILE):
         try:
@@ -564,226 +468,147 @@ def save_debug_log():
         except (json.JSONDecodeError, IOError):
             existing = []
     existing.extend(debug_entries)
-    existing = existing[-1000:]
+    existing = existing[-500:]
     with open(DEBUG_FILE, "w", encoding="utf-8") as f:
         json.dump(existing, f, indent=2, ensure_ascii=False)
 
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  v4.0 — Score-Based Classification Engine (RELAXED + SMARTER)
+#  v5.0 — ULTRA-STRICT Classification Engine
 # ═════════════════════════════════════════════════════════════════════════════
 
-def check_url_boost(link):
-    """Check if a URL matches known deal domains and return bonus score."""
+def check_voucher_url(link):
+    """Check if a URL matches known voucher/event domains."""
     if not link:
-        return 0
-    for pattern in URL_BOOST_PATTERNS:
+        return False
+    for pattern in VOUCHER_URL_PATTERNS:
         if re.search(pattern, link, re.IGNORECASE):
-            return 3  # +3 bonus for links from known deal sources
-    return 0
+            return True
+    return False
 
 
 def classify_entry(title, summary, link="", source=""):
     """
-    v4.0 Score-based classifier — RELAXED for maximum coverage.
-
-    Key changes from v3.0:
-    1. CRITICAL keywords matched in BOTH title AND summary (full score for both)
-    2. Actionability gate REMOVED for CRITICAL
-    3. REQUIRED_TECH_WORDS bypassed for CRITICAL (free voucher = always valuable)
-    4. Score threshold lowered from 3 → 2
-    5. URL pattern detection for auto-boost
-    6. Near-miss tracking for debugging
+    v5.0 Ultra-strict classifier — ONLY matches verified voucher opportunities.
 
     Returns:
-        (priority, alert_type, score) or (None, None, 0) if no match.
+        (tier, reason) or (None, None) if no match.
+
+    Tiers:
+        "VOUCHER"   — Direct free voucher / 100% off
+        "EVENT"     — Event/challenge that grants a voucher upon completion
+        "DISCOUNT"  — Significant discount (50%+) on exams
     """
-    title_lower = title.lower()
-    summary_lower = summary.lower() if summary else ""
+    title_lower = title.lower().strip()
+    summary_lower = summary.lower().strip() if summary else ""
     combined = f"{title_lower} {summary_lower}"
 
     scan_stats["total_posts_evaluated"] += 1
 
     # ─── Gate 1: Exclude obviously irrelevant content ─────────────────────
-    for neg in EXCLUDE_KEYWORDS:
-        if neg in title_lower:
-            scan_stats["excluded_by_keywords"] += 1
-            debug_log_entry(title, source, 0, None, f"EXCLUDED by '{neg}'", link)
-            return None, None, 0
+    for pattern in EXCLUDE_PATTERNS:
+        if pattern in title_lower:
+            scan_stats["excluded_by_patterns"] += 1
+            debug_log_entry(title, source, None, f"EXCLUDED: '{pattern}'", link)
+            return None, None
 
-    # ─── Score calculation ────────────────────────────────────────────────
-    score = 0
+    # ─── Gate 2: Must contain a voucher-related phrase ────────────────────
     matched_tier = None
-    score_reasons = []
+    matched_reason = None
 
-    # 🔴 CRITICAL — Check BOTH title AND summary (v4.0 change: summary gets full score too)
-    critical_in_title = any(kw in title_lower for kw in CRITICAL_KEYWORDS)
-    critical_in_summary = any(kw in summary_lower for kw in CRITICAL_KEYWORDS)
+    # Check Tier 1: GUARANTEED VOUCHER phrases
+    for phrase in GUARANTEED_VOUCHER_PHRASES:
+        if phrase in combined:
+            matched_tier = "VOUCHER"
+            matched_reason = f"Guaranteed voucher phrase: '{phrase}'"
+            break
 
-    if critical_in_title:
-        score += 10
-        matched_tier = "CRITICAL"
-        score_reasons.append("CRITICAL keyword in title (+10)")
-    elif critical_in_summary:
-        score += 8  # v4.0: bumped from +3 to +8 (summary mention is still very strong)
-        matched_tier = "CRITICAL"
-        score_reasons.append("CRITICAL keyword in summary (+8)")
+    # Check Tier 2: EVENT WITH VOUCHER phrases
+    if not matched_tier:
+        for phrase in EVENT_VOUCHER_PHRASES:
+            if phrase in combined:
+                matched_tier = "EVENT"
+                matched_reason = f"Event voucher phrase: '{phrase}'"
+                break
 
-    # 🟠 HIGH — Events (title or summary, with cert context)
-    if any(kw in combined for kw in EVENT_KEYWORDS):
-        has_context = any(ctx in combined for ctx in CERT_CONTEXT_WORDS)
-        if has_context:
-            score += 6
-            score_reasons.append("EVENT keyword + cert context (+6)")
-        else:
-            score += 3  # Event without explicit cert context still gets points
-            score_reasons.append("EVENT keyword, no cert context (+3)")
-        if matched_tier is None:
-            matched_tier = "HIGH"
+    # Check Tier 3: DISCOUNT phrases
+    if not matched_tier:
+        for phrase in DISCOUNT_VOUCHER_PHRASES:
+            if phrase in combined:
+                matched_tier = "DISCOUNT"
+                matched_reason = f"Discount phrase: '{phrase}'"
+                break
 
-    # 🟡 MEDIUM — Discounts (with cert context)
-    if any(kw in combined for kw in DISCOUNT_KEYWORDS):
-        has_context = any(ctx in combined for ctx in CERT_CONTEXT_WORDS)
-        if has_context:
-            score += 4
-            score_reasons.append("DISCOUNT keyword + cert context (+4)")
-        else:
-            score += 2
-            score_reasons.append("DISCOUNT keyword, no cert context (+2)")
-        if matched_tier is None:
-            matched_tier = "MEDIUM"
+    # Check URL patterns (auto-match if URL itself is from voucher domain)
+    if not matched_tier and check_voucher_url(link):
+        matched_tier = "EVENT"
+        matched_reason = f"Voucher URL pattern matched: {link[:80]}"
 
-    # 🟢 LOW — General cert news
-    if any(kw in combined for kw in INFO_KEYWORDS):
-        score += 2
-        score_reasons.append("INFO keyword (+2)")
-        if matched_tier is None:
-            matched_tier = "LOW"
+    # If no voucher phrase matched, REJECT
+    if not matched_tier:
+        scan_stats["excluded_no_voucher_phrase"] += 1
+        debug_log_entry(title, source, None, "No voucher phrase matched", link)
+        return None, None
 
-    # 🌐 URL boost — links from known deal domains
-    url_bonus = check_url_boost(link)
-    if url_bonus > 0:
-        score += url_bonus
-        score_reasons.append(f"URL pattern boost (+{url_bonus})")
+    # ─── Gate 3: Microsoft context check ──────────────────────────────────
+    # For Reddit/Google News, the post must mention Microsoft/Azure
+    # (Web scraping from microsoft.com is auto-verified)
+    is_microsoft_source = (
+        source.startswith("Web:") or
+        source.startswith("YT:") or
+        "Microsoft" in source or
+        "Azure" in source or
+        "Power" in source or
+        "Dynamics" in source
+    )
 
-    # ─── Regex-based matching — catch natural language patterns ────────────
-    regex_patterns = [
-        (r"\bfree\b.*\b(?:exam|cert|voucher|certification)\b", 5, "Regex: 'free...exam/cert/voucher'"),
-        (r"\b(?:exam|cert|voucher|certification)\b.*\bfree\b", 5, "Regex: 'exam/cert/voucher...free'"),
-        (r"\b(?:100|hundred)\s*%?\s*(?:off|discount)\b", 5, "Regex: '100% off/discount'"),
-        (r"\b(?:no\s+cost|zero\s+cost|complimentary)\b.*\b(?:exam|cert)\b", 5, "Regex: 'no cost...exam/cert'"),
-        (r"\bgiveaway\b.*\b(?:voucher|exam|cert)\b", 4, "Regex: 'giveaway...voucher/exam/cert'"),
-        (r"\b(?:voucher|exam|cert)\b.*\bgiveaway\b", 4, "Regex: 'voucher/exam/cert...giveaway'"),
-        (r"\bdiscount\b.*\b(?:exam|cert|voucher)\b", 3, "Regex: 'discount...exam/cert/voucher'"),
-        (r"\b(?:50|fifty)\s*%?\s*off\b", 3, "Regex: '50% off'"),
-    ]
-    for pattern, points, reason in regex_patterns:
-        if re.search(pattern, combined, re.IGNORECASE):
-            score += points
-            score_reasons.append(f"{reason} (+{points})")
-            if matched_tier is None:
-                matched_tier = "CRITICAL" if points >= 5 else "MEDIUM"
+    if not is_microsoft_source:
+        has_ms_context = any(word in combined for word in MICROSOFT_CONTEXT_WORDS)
+        if not has_ms_context:
+            scan_stats["excluded_no_microsoft_context"] += 1
+            debug_log_entry(title, source, None, f"No Microsoft context (phrase was: {matched_reason})", link)
+            return None, None
 
-    # ─── Gate 2: Tech words check (BYPASSED for CRITICAL matches) ─────────
-    # v4.0 change: if score >= 8 (strong CRITICAL signal), skip tech gate entirely
-    if score < 8:
-        if not any(tech in combined for tech in REQUIRED_TECH_WORDS):
-            scan_stats["excluded_by_tech_gate"] += 1
-            # Track as near-miss if score was close
-            if score >= 1:
-                scan_stats["near_misses"].append({
-                    "title": title[:100],
-                    "source": source,
-                    "score": score,
-                    "reason": "No tech word match",
-                })
-            debug_log_entry(title, source, score, None, "No REQUIRED_TECH_WORD match", link)
-            return None, None, 0
-
-    # ─── Gate 3: Score threshold (LOWERED from 3 → 2) ────────────────────
-    if score < 2:
-        scan_stats["excluded_by_score"] += 1
-        if score >= 1:
-            scan_stats["near_misses"].append({
-                "title": title[:100],
-                "source": source,
-                "score": score,
-                "reason": f"Score {score} < 2",
-            })
-        debug_log_entry(title, source, score, None, f"Score {score} below threshold (2)", link)
-        return None, None, 0
-
-    # ─── Gate 4: Actionability — ONLY for HIGH tier (v4.0: removed for CRITICAL) ──
-    if matched_tier == "HIGH":
-        if not any(act in combined for act in ACTIONABLE_WORDS):
-            if score >= 4:
-                # Downgrade to MEDIUM instead of dropping
-                reason = " | ".join(score_reasons)
-                debug_log_entry(title, source, score, "MEDIUM", f"HIGH→MEDIUM (no action word) | {reason}", link)
-                scan_stats["passed_all_gates"] += 1
-                return "MEDIUM", "MENTION", score
-            # Still keep as LOW if score >= 2
-            if score >= 2:
-                reason = " | ".join(score_reasons)
-                debug_log_entry(title, source, score, "LOW", f"HIGH→LOW (no action word) | {reason}", link)
-                scan_stats["passed_all_gates"] += 1
-                return "LOW", "INFO", score
-
-    # ─── Determine final priority ─────────────────────────────────────────
-    reason = " | ".join(score_reasons)
-    scan_stats["passed_all_gates"] += 1
-
-    if matched_tier == "CRITICAL" and score >= 8:
-        debug_log_entry(title, source, score, "CRITICAL", reason, link)
-        return "CRITICAL", "INSTANT", score
-    elif matched_tier in ("CRITICAL", "HIGH") and score >= 6:
-        debug_log_entry(title, source, score, "HIGH", reason, link)
-        return "HIGH", "EVENT", score
-    elif score >= 4:
-        debug_log_entry(title, source, score, "MEDIUM", reason, link)
-        return "MEDIUM", "DISCOUNT", score
-    elif score >= 2:
-        debug_log_entry(title, source, score, "LOW", reason, link)
-        return "LOW", "INFO", score
-
-    debug_log_entry(title, source, score, None, f"No tier matched | {reason}", link)
-    return None, None, 0
+    # ─── PASSED ALL GATES — This is a verified voucher opportunity ────────
+    scan_stats["verified_alerts"] += 1
+    debug_log_entry(title, source, matched_tier, matched_reason, link)
+    return matched_tier, matched_reason
 
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  HTML Email Builder
+#  HTML Email Builder — Clean, focused design
 # ═════════════════════════════════════════════════════════════════════════════
 
-PRIORITY_CONFIG = {
-    "CRITICAL": {"emoji": "🚨", "color": "#FF1744", "label": "INSTANT FREE CERT"},
-    "HIGH":     {"emoji": "📅", "color": "#FF9100", "label": "EVENT → VOUCHER"},
-    "MEDIUM":   {"emoji": "💰", "color": "#FFD600", "label": "DISCOUNT DEAL"},
-    "LOW":      {"emoji": "📢", "color": "#00E676", "label": "CERT NEWS"},
+TIER_CONFIG = {
+    "VOUCHER":  {"emoji": "🎟️", "color": "#00E676", "label": "FREE VOUCHER", "bg": "#0D2818"},
+    "EVENT":    {"emoji": "📅", "color": "#448AFF", "label": "EVENT → VOUCHER", "bg": "#0D1B2A"},
+    "DISCOUNT": {"emoji": "💰", "color": "#FFD600", "label": "DISCOUNT DEAL", "bg": "#2A2500"},
 }
 
 
 def build_html_email(alerts):
-    """Build a beautiful HTML email from a list of alerts."""
+    """Build a clean HTML email from verified alerts."""
     rows = ""
     for a in alerts:
-        cfg = PRIORITY_CONFIG.get(a["priority"], PRIORITY_CONFIG["LOW"])
-        score_display = f" (score: {a.get('score', '?')})" if a.get('score') else ""
+        cfg = TIER_CONFIG.get(a["tier"], TIER_CONFIG["EVENT"])
         rows += f"""
         <tr style="border-bottom: 1px solid #333;">
-            <td style="padding: 14px; text-align: center; width: 180px;">
-                <span style="background: {cfg['color']}; color: #000; padding: 5px 12px;
-                             border-radius: 6px; font-weight: bold; font-size: 11px;
+            <td style="padding: 16px; text-align: center; width: 180px;">
+                <span style="background: {cfg['color']}; color: #000; padding: 6px 14px;
+                             border-radius: 8px; font-weight: bold; font-size: 12px;
                              letter-spacing: 0.5px;">
                     {cfg['emoji']} {cfg['label']}
                 </span>
             </td>
-            <td style="padding: 14px;">
+            <td style="padding: 16px;">
                 <a href="{a['link']}" style="color: #64B5F6; text-decoration: none;
-                   font-weight: bold; font-size: 14px;">
-                    {a['title'][:120]}
+                   font-weight: bold; font-size: 15px;">
+                    {a['title'][:150]}
                 </a>
                 <br>
-                <span style="color: #888; font-size: 11px;">📡 {a['source']}{score_display}</span>
+                <span style="color: #888; font-size: 11px;">📡 {a['source']}</span>
+                <br>
+                <span style="color: #666; font-size: 11px;">🎯 {a.get('reason', '')[:100]}</span>
             </td>
         </tr>
         """
@@ -794,12 +619,15 @@ def build_html_email(alerts):
                  padding: 24px; margin: 0;">
         <div style="max-width: 680px; margin: 0 auto;">
             <div style="text-align: center; padding: 20px 0;">
-                <h1 style="color: #58A6FF; margin: 0; font-size: 28px;">
-                    🎯 Cert Radar v4.0 Alert
+                <h1 style="color: #00E676; margin: 0; font-size: 28px;">
+                    🎟️ VERIFIED Voucher Alert!
                 </h1>
                 <p style="color: #8B949E; margin: 8px 0 0 0; font-size: 13px;">
-                    {len(alerts)} new match{"es" if len(alerts) != 1 else ""} found
+                    Cert Radar v5.0 found {len(alerts)} real voucher opportunit{"ies" if len(alerts) != 1 else "y"}
                     · {datetime.now().strftime('%B %d, %Y at %I:%M %p')}
+                </p>
+                <p style="color: #00E676; margin: 8px 0 0 0; font-size: 14px; font-weight: bold;">
+                    ⚡ ACT NOW — These opportunities are time-limited!
                 </p>
             </div>
 
@@ -808,9 +636,9 @@ def build_html_email(alerts):
                 <thead>
                     <tr style="background: #21262D;">
                         <th style="padding: 12px; text-align: center; color: #8B949E;
-                                   font-size: 11px; letter-spacing: 1px;">PRIORITY</th>
+                                   font-size: 11px; letter-spacing: 1px;">TYPE</th>
                         <th style="padding: 12px; text-align: left; color: #8B949E;
-                                   font-size: 11px; letter-spacing: 1px;">DETAILS</th>
+                                   font-size: 11px; letter-spacing: 1px;">OPPORTUNITY</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -818,146 +646,22 @@ def build_html_email(alerts):
                 </tbody>
             </table>
 
-            <!-- Permanent Active Guaranteed Deals Section -->
+            <!-- Quick Links -->
             <div style="margin-top: 24px; padding: 18px; background: #161B22; border: 1px solid #30363D; border-radius: 12px;">
                 <h3 style="color: #58A6FF; margin-top: 0; margin-bottom: 12px; font-size: 16px;">
-                    ⚡ Guaranteed Active Voucher Programs & Major Events
+                    🔗 Quick Links — Always Check These
                 </h3>
-                <ul style="padding-left: 20px; margin: 0; color: #C9D1D9; font-size: 13px; line-height: 1.8;">
-                    <li>
-                        <strong>🔥 Microsoft Ignite & Build Challenges (100% Free Vouchers):</strong> Active monitoring enabled.<br>
-                        👉 <a href="https://ignite.microsoft.com/" style="color: #58A6FF;">MS Ignite</a> ·
-                        <a href="https://build.microsoft.com/" style="color: #58A6FF;">MS Build</a>
-                    </li>
-                    <li style="margin-top: 8px;">
-                        <strong>🎁 50% Off Voucher (30 Days to Learn It):</strong> Complete a challenge for 50% off Azure, PL-300, or MB-800.<br>
-                        👉 <a href="https://developer.microsoft.com/en-us/offers/30-days-to-learn-it" style="color: #58A6FF;">Claim 50% Voucher Here</a>
-                    </li>
-                    <li style="margin-top: 8px;">
-                        <strong>🏢 50%-100% Off via Work Email (ESI):</strong> If your company uses Microsoft Cloud.<br>
-                        👉 <a href="https://esi.microsoft.com" style="color: #58A6FF;">Check ESI Eligibility</a>
-                    </li>
-                    <li style="margin-top: 8px;">
-                        <strong>🎓 Free Fundamentals & 45% Off (Student):</strong> Verify student email for free AZ-900 / PL-900 / MB-910.<br>
-                        👉 <a href="https://learn.microsoft.com/en-us/credentials/certifications/student-discounts" style="color: #58A6FF;">Verify Student Status</a>
-                    </li>
-                    <li style="margin-top: 8px;">
-                        <strong>🏅 100% Free Applied Skills:</strong> Official Microsoft badges via 2-hour lab assessments.<br>
-                        👉 <a href="https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills" style="color: #58A6FF;">Browse Applied Skills</a>
-                    </li>
-                    <li style="margin-top: 8px;">
-                        <strong>📅 Virtual Training Days (Free Vouchers!):</strong> Microsoft's free instructor-led events that include free exam vouchers.<br>
-                        👉 <a href="https://events.microsoft.com/en-us/mvtd" style="color: #58A6FF;">Browse Virtual Training Days</a>
-                    </li>
+                <ul style="padding-left: 20px; margin: 0; color: #C9D1D9; font-size: 13px; line-height: 2;">
+                    <li>📅 <a href="https://events.microsoft.com/en-us/mvtd" style="color: #58A6FF;">Virtual Training Days</a> — Free voucher after attending</li>
+                    <li>🏆 <a href="https://learn.microsoft.com/en-us/training/challenges" style="color: #58A6FF;">Learn Challenges</a> — Complete for free voucher</li>
+                    <li>🎁 <a href="https://developer.microsoft.com/en-us/offers/30-days-to-learn-it" style="color: #58A6FF;">30 Days to Learn It</a> — 50% off voucher</li>
+                    <li>🏅 <a href="https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills" style="color: #58A6FF;">Applied Skills</a> — 100% free credentials</li>
                 </ul>
             </div>
 
             <div style="text-align: center; padding: 20px 0;">
                 <p style="color: #484F58; font-size: 11px; margin: 0;">
-                    Powered by Pro Cert Radar v4.0 🛰️ | Monitoring {len(RSS_FEEDS)} feeds + {len(SCRAPE_TARGETS)} pages
-                </p>
-            </div>
-        </div>
-    </body>
-    </html>
-    """
-
-
-def build_digest_email(stats, near_misses):
-    """Build a daily digest / heartbeat email."""
-    near_miss_rows = ""
-    for nm in near_misses[:20]:
-        near_miss_rows += f"""
-        <tr style="border-bottom: 1px solid #333;">
-            <td style="padding: 8px; color: #888; font-size: 12px;">{nm.get('score', 0)}</td>
-            <td style="padding: 8px; color: #C9D1D9; font-size: 12px;">{nm.get('title', '')[:100]}</td>
-            <td style="padding: 8px; color: #888; font-size: 11px;">{nm.get('reason', '')}</td>
-        </tr>
-        """
-
-    source_errors_html = ""
-    if stats.get("source_errors"):
-        errors = "<br>".join([f"❌ {e}" for e in stats["source_errors"][:10]])
-        source_errors_html = f"""
-        <div style="margin-top: 12px; padding: 12px; background: #2D1B1B; border: 1px solid #5C2020; border-radius: 8px;">
-            <strong style="color: #FF6B6B;">⚠️ Source Errors:</strong><br>
-            <span style="color: #E8A0A0; font-size: 12px;">{errors}</span>
-        </div>
-        """
-
-    near_miss_section = ""
-    if near_misses:
-        near_miss_section = f"""
-            <div style="margin-top: 18px; padding: 18px; background: #161B22; border: 1px solid #30363D; border-radius: 12px;">
-                <h3 style="color: #FFD600; margin-top: 0;">🔍 Near Misses (scored but filtered)</h3>
-                <p style="color: #8B949E; font-size: 12px; margin-top: 0;">These posts scored points but didn't pass all gates. Review to check if filters are too strict.</p>
-                <table style="width: 100%; border-collapse: collapse;">
-                    <thead>
-                        <tr style="border-bottom: 1px solid #30363D;">
-                            <th style="padding: 6px; text-align: left; color: #8B949E; font-size: 11px;">Score</th>
-                            <th style="padding: 6px; text-align: left; color: #8B949E; font-size: 11px;">Title</th>
-                            <th style="padding: 6px; text-align: left; color: #8B949E; font-size: 11px;">Reason</th>
-                        </tr>
-                    </thead>
-                    <tbody>{near_miss_rows}</tbody>
-                </table>
-            </div>
-        """
-
-    health_status = '🟢 HEALTHY' if not stats.get('source_errors') else '🟡 DEGRADED'
-
-    return f"""
-    <html>
-    <body style="background: #0D1117; color: #E0E0E0; font-family: 'Segoe UI', Arial, sans-serif;
-                 padding: 24px; margin: 0;">
-        <div style="max-width: 680px; margin: 0 auto;">
-            <div style="text-align: center; padding: 20px 0;">
-                <h1 style="color: #58A6FF; margin: 0; font-size: 28px;">
-                    📊 Cert Radar v4.0 — Daily Digest
-                </h1>
-                <p style="color: #8B949E; margin: 8px 0 0 0; font-size: 13px;">
-                    System health report · {datetime.now().strftime('%B %d, %Y at %I:%M %p')}
-                </p>
-            </div>
-
-            <!-- Stats Box -->
-            <div style="padding: 18px; background: #161B22; border: 1px solid #30363D; border-radius: 12px;">
-                <h3 style="color: #58A6FF; margin-top: 0;">📈 Scan Statistics</h3>
-                <table style="width: 100%; color: #C9D1D9; font-size: 14px;">
-                    <tr><td>📡 Sources monitored:</td><td style="text-align:right; font-weight:bold;">{len(RSS_FEEDS) + len(SCRAPE_TARGETS) + len(REDDIT_SEARCH_QUERIES)}</td></tr>
-                    <tr><td>📄 Posts evaluated:</td><td style="text-align:right; font-weight:bold;">{stats.get('total_posts_evaluated', 0)}</td></tr>
-                    <tr><td>⛔ Excluded (keywords):</td><td style="text-align:right;">{stats.get('excluded_by_keywords', 0)}</td></tr>
-                    <tr><td>🔧 Excluded (no tech word):</td><td style="text-align:right;">{stats.get('excluded_by_tech_gate', 0)}</td></tr>
-                    <tr><td>📉 Excluded (low score):</td><td style="text-align:right;">{stats.get('excluded_by_score', 0)}</td></tr>
-                    <tr><td style="color: #00E676;">✅ Passed all gates:</td><td style="text-align:right; color: #00E676; font-weight:bold;">{stats.get('passed_all_gates', 0)}</td></tr>
-                    <tr><td>🔍 Near misses:</td><td style="text-align:right;">{len(near_misses)}</td></tr>
-                    <tr><td>✅ Sources OK:</td><td style="text-align:right; color:#00E676;">{len(stats.get('source_success', []))}</td></tr>
-                    <tr><td>❌ Sources failed:</td><td style="text-align:right; color:#FF6B6B;">{len(stats.get('source_errors', []))}</td></tr>
-                </table>
-                {source_errors_html}
-            </div>
-
-            <!-- Near Misses -->
-            {near_miss_section}
-
-            <!-- Permanent deals footer -->
-            <div style="margin-top: 24px; padding: 18px; background: #161B22; border: 1px solid #30363D; border-radius: 12px;">
-                <h3 style="color: #58A6FF; margin-top: 0; margin-bottom: 12px; font-size: 16px;">
-                    ⚡ Guaranteed Active Voucher Programs
-                </h3>
-                <ul style="padding-left: 20px; margin: 0; color: #C9D1D9; font-size: 13px; line-height: 1.8;">
-                    <li>🔥 <a href="https://ignite.microsoft.com/" style="color: #58A6FF;">MS Ignite</a> · <a href="https://build.microsoft.com/" style="color: #58A6FF;">MS Build</a> — 100% Free Vouchers</li>
-                    <li>🎁 <a href="https://developer.microsoft.com/en-us/offers/30-days-to-learn-it" style="color: #58A6FF;">30 Days to Learn It</a> — 50% Off Voucher</li>
-                    <li>🏢 <a href="https://esi.microsoft.com" style="color: #58A6FF;">ESI Portal</a> — 50-100% Off via Work Email</li>
-                    <li>🎓 <a href="https://learn.microsoft.com/en-us/credentials/certifications/student-discounts" style="color: #58A6FF;">Student Discount</a> — Free Fundamentals + 45% Off</li>
-                    <li>🏅 <a href="https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills" style="color: #58A6FF;">Applied Skills</a> — 100% Free Credentials</li>
-                    <li>📅 <a href="https://events.microsoft.com/en-us/mvtd" style="color: #58A6FF;">Virtual Training Days</a> — Free Instructor-Led + Free Voucher</li>
-                </ul>
-            </div>
-
-            <div style="text-align: center; padding: 20px 0;">
-                <p style="color: #484F58; font-size: 11px; margin: 0;">
-                    Cert Radar v4.0 Daily Digest 🛰️ | System is {health_status}
+                    Cert Radar v5.0 🛰️ | Zero noise, only verified vouchers
                 </p>
             </div>
         </div>
@@ -971,7 +675,7 @@ def build_digest_email(stats, near_misses):
 # ═════════════════════════════════════════════════════════════════════════════
 
 def send_email_alert(alerts):
-    """Send a consolidated HTML email with all new alerts."""
+    """Send a consolidated HTML email with verified alerts ONLY."""
     if not EMAIL_ADDRESS or not EMAIL_PASSWORD or not ALL_TO_EMAILS:
         print("❌ Email credentials missing! Set EMAIL_ADDRESS, EMAIL_PASSWORD, TO_EMAIL_ADDRESS")
         return False
@@ -979,19 +683,14 @@ def send_email_alert(alerts):
     if not alerts:
         return False
 
-    # Determine highest priority for subject line
-    priorities = [a["priority"] for a in alerts]
-    if "CRITICAL" in priorities:
-        top = "CRITICAL"
-    elif "HIGH" in priorities:
-        top = "HIGH"
-    elif "MEDIUM" in priorities:
-        top = "MEDIUM"
+    # Build subject based on top tier
+    tiers = [a["tier"] for a in alerts]
+    if "VOUCHER" in tiers:
+        subject = f"🎟️ FREE VOUCHER FOUND! {len(alerts)} verified opportunit{'ies' if len(alerts) != 1 else 'y'}"
+    elif "EVENT" in tiers:
+        subject = f"📅 Voucher Event Found! {len(alerts)} verified opportunit{'ies' if len(alerts) != 1 else 'y'}"
     else:
-        top = "LOW"
-
-    cfg = PRIORITY_CONFIG[top]
-    subject = f"{cfg['emoji']} Cert Radar: {len(alerts)} alert{'s' if len(alerts) != 1 else ''} — {cfg['label']}"
+        subject = f"💰 Cert Discount Found! {len(alerts)} deal{'s' if len(alerts) != 1 else ''}"
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
@@ -999,18 +698,19 @@ def send_email_alert(alerts):
     msg["To"]      = ", ".join(ALL_TO_EMAILS)
 
     # Plain text fallback
-    plain = "Cert Radar v4.0 Alerts\n" + "=" * 50 + "\n\n"
+    plain = "Cert Radar v5.0 — VERIFIED Voucher Alert\n" + "=" * 50 + "\n\n"
     for a in alerts:
-        p = PRIORITY_CONFIG.get(a["priority"], PRIORITY_CONFIG["LOW"])
-        plain += f"[{p['label']}] {a['title']}\n"
+        cfg = TIER_CONFIG.get(a["tier"], TIER_CONFIG["EVENT"])
+        plain += f"[{cfg['label']}] {a['title']}\n"
         plain += f"  Link: {a['link']}\n"
-        plain += f"  Source: {a['source']}\n\n"
+        plain += f"  Source: {a['source']}\n"
+        plain += f"  Why: {a.get('reason', '')}\n\n"
 
     msg.attach(MIMEText(plain, "plain"))
     msg.attach(MIMEText(build_html_email(alerts), "html"))
 
     if DRY_RUN:
-        print(f"🏃 DRY RUN — Would send email with {len(alerts)} alerts")
+        print(f"🏃 DRY RUN — Would send email with {len(alerts)} verified alerts")
         return True
 
     # Send with 3 retries
@@ -1021,7 +721,7 @@ def send_email_alert(alerts):
             server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
             server.send_message(msg)
             server.quit()
-            print(f"✅ Email sent! ({len(alerts)} alerts)")
+            print(f"✅ Email sent! ({len(alerts)} verified alerts)")
             return True
         except Exception as e:
             print(f"⚠️  Email attempt {attempt + 1}/3 failed: {e}")
@@ -1032,72 +732,15 @@ def send_email_alert(alerts):
     return False
 
 
-def send_digest_email():
-    """Send a daily digest/heartbeat email."""
-    if not EMAIL_ADDRESS or not EMAIL_PASSWORD or not ALL_TO_EMAILS:
-        print("❌ Email credentials missing!")
-        return False
-
-    subject = f"📊 Cert Radar v4.0 — Daily Digest · {datetime.now().strftime('%b %d')}"
-
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"]    = EMAIL_ADDRESS
-    msg["To"]      = ", ".join(ALL_TO_EMAILS)
-
-    plain = f"Cert Radar v4.0 Daily Digest\n{'=' * 50}\n\n"
-    plain += f"Posts evaluated: {scan_stats['total_posts_evaluated']}\n"
-    plain += f"Passed all gates: {scan_stats['passed_all_gates']}\n"
-    plain += f"Near misses: {len(scan_stats['near_misses'])}\n"
-
-    msg.attach(MIMEText(plain, "plain"))
-    msg.attach(MIMEText(build_digest_email(scan_stats, scan_stats["near_misses"][:20]), "html"))
-
-    if DRY_RUN:
-        print("🏃 DRY RUN — Would send digest email")
-        return True
-
-    for attempt in range(3):
-        try:
-            server = smtplib.SMTP("smtp.gmail.com", 587, timeout=30)
-            server.starttls()
-            server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
-            server.send_message(msg)
-            server.quit()
-            print("✅ Digest email sent!")
-            return True
-        except Exception as e:
-            print(f"⚠️  Digest email attempt {attempt + 1}/3 failed: {e}")
-            if attempt < 2:
-                time.sleep(5 * (attempt + 1))
-
-    print("❌ Digest email failed.")
-    return False
-
-
 def send_test_email():
     """Send a test email to verify setup."""
     test_alerts = [
         {
-            "priority": "CRITICAL",
-            "title": "🧪 TEST — Free AZ-900 Voucher Available!",
-            "link": "https://example.com/test-critical",
+            "tier": "VOUCHER",
+            "title": "🧪 TEST — Free AZ-900 Exam Voucher from Microsoft Ignite Challenge!",
+            "link": "https://example.com/test",
             "source": "Test Source",
-            "score": 10,
-        },
-        {
-            "priority": "HIGH",
-            "title": "🧪 TEST — Virtual Training Day: Get Free Cert Voucher!",
-            "link": "https://example.com/test-event",
-            "source": "Test Source",
-            "score": 6,
-        },
-        {
-            "priority": "MEDIUM",
-            "title": "🧪 TEST — 50% Off All Microsoft Exams This Week!",
-            "link": "https://example.com/test-discount",
-            "source": "Test Source",
-            "score": 4,
+            "reason": "Test: Guaranteed voucher phrase matched",
         },
     ]
     success = send_email_alert(test_alerts)
@@ -1105,36 +748,6 @@ def send_test_email():
         print("✅ Test email sent! Check your inbox.")
     else:
         print("❌ Test email failed. Check your credentials.")
-
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  Strict Sources — YouTube/HN only CRITICAL + HIGH pass through
-# ═════════════════════════════════════════════════════════════════════════════
-
-STRICT_SOURCES = [
-    "YT:",       # All YouTube channels
-    "HN:",       # Hacker News
-]
-
-# Broader community subreddits need stricter filtering
-BROAD_SOURCES = [
-    "Reddit: Freebies",
-    "Reddit: IT Career Questions",
-    "Reddit: Sysadmin",
-    "Reddit: Cloud Computing",
-    "Reddit: Learn Programming",
-    "Reddit: Information Technology",
-    "Reddit: Certs",
-    "Dev.to:",
-]
-
-def is_strict_source(source_name):
-    """Check if a source requires strict filtering (only CRITICAL/HIGH)."""
-    return any(source_name.startswith(prefix) for prefix in STRICT_SOURCES)
-
-def is_broad_source(source_name):
-    """Check if source is a broad community (only CRITICAL/HIGH/MEDIUM pass)."""
-    return any(source_name.startswith(prefix) for prefix in BROAD_SOURCES)
 
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -1155,7 +768,6 @@ def scan_rss_feeds(seen):
                 continue
 
             scan_stats["source_success"].append(source_name)
-            match_count = 0
             for entry in feed.entries:
                 link = getattr(entry, "link", "")
                 if not link or is_seen(seen, link):
@@ -1164,39 +776,25 @@ def scan_rss_feeds(seen):
                 title   = getattr(entry, "title", "")
                 summary = getattr(entry, "summary", "")
 
-                priority, alert_type, score = classify_entry(title, summary, link, source_name)
+                tier, reason = classify_entry(title, summary, link, source_name)
 
-                # Skip LOW from strict sources (YouTube, HN)
-                if priority and is_strict_source(source_name) and priority in ("LOW", "MEDIUM"):
-                    continue
-
-                # Skip LOW from broad community sources
-                if priority and is_broad_source(source_name) and priority == "LOW":
-                    continue
-
-                if priority:
+                if tier:
                     alert = {
-                        "priority": priority,
-                        "type": alert_type,
+                        "tier": tier,
                         "title": title,
                         "link": link,
                         "source": source_name,
-                        "score": score,
+                        "reason": reason,
                         "found_at": datetime.now().isoformat(),
                     }
                     alerts.append(alert)
-                    mark_seen(seen, link, source_name, priority)
-                    match_count += 1
-                    print(f"     🎯 [{priority}] (score:{score}) {title[:80]}")
-
-            if match_count == 0:
-                pass  # Silent if no matches — less noise
+                    mark_seen(seen, link, source_name, tier)
+                    print(f"     🎯 [{tier}] {title[:80]}")
 
         except Exception as e:
             print(f"     ❌ Error: {e}")
             scan_stats["source_errors"].append(f"{source_name}: {str(e)[:100]}")
 
-        # Rate limit — be polite to servers
         time.sleep(1.5)
 
     return alerts
@@ -1236,23 +834,22 @@ def scan_web_pages(seen):
                     from urllib.parse import urljoin
                     link = urljoin(target["url"], link)
 
-                if not text or len(text) < 10 or is_seen(seen, link):
+                if not text or len(text) < 15 or is_seen(seen, link):
                     continue
 
-                priority, alert_type, score = classify_entry(text, "", link, f"Web: {target['name']}")
-                if priority:
+                tier, reason = classify_entry(text, "", link, f"Web: {target['name']}")
+                if tier:
                     alert = {
-                        "priority": priority,
-                        "type": alert_type,
+                        "tier": tier,
                         "title": text[:150],
                         "link": link,
                         "source": f"Web: {target['name']}",
-                        "score": score,
+                        "reason": reason,
                         "found_at": datetime.now().isoformat(),
                     }
                     alerts.append(alert)
-                    mark_seen(seen, link, target["name"], priority)
-                    print(f"     🎯 [{priority}] (score:{score}) {text[:80]}")
+                    mark_seen(seen, link, target["name"], tier)
+                    print(f"     🎯 [{tier}] {text[:80]}")
 
         except Exception as e:
             print(f"     ❌ Error: {e}")
@@ -1264,207 +861,96 @@ def scan_web_pages(seen):
 
 
 # ═════════════════════════════════════════════════════════════════════════════
-#  Phase 3: Reddit JSON API Search (v4.0 NEW — bypasses RSS rate limits)
+#  Phase 3: GitHub Community Voucher Tracker (v5.0 NEW)
 # ═════════════════════════════════════════════════════════════════════════════
 
-def scan_reddit_search(seen):
-    """Search Reddit directly via JSON API (no auth required)."""
+def scan_github_tracker(seen):
+    """
+    Scan the community-maintained GitHub voucher tracker for active offers.
+    This tracker is updated by real people who verify voucher opportunities.
+    """
     if not HAS_SCRAPING:
-        print("  ⏭️  Skipping Reddit search (needs requests library)")
+        print("  ⏭️  Skipping GitHub tracker (needs requests library)")
         return []
 
     alerts = []
-    headers = {
-        "User-Agent": "CertRadar/4.0 (certification voucher monitor)"
+    print("  📋 GitHub: Community Voucher Tracker...")
+
+    try:
+        headers = {
+            "User-Agent": "CertRadar/5.0",
+            "Accept": "text/plain",
+        }
+        resp = requests.get(GITHUB_VOUCHER_TRACKER, headers=headers, timeout=15)
+        resp.raise_for_status()
+        content = resp.text.lower()
+        scan_stats["source_success"].append("GitHub: Voucher Tracker")
+
+        # Look for active/current offers in the README
+        lines = resp.text.split("\n")
+        in_active_section = False
+
+        for line in lines:
+            line_stripped = line.strip()
+            line_lower = line_stripped.lower()
+
+            # Detect active/current sections
+            if any(marker in line_lower for marker in ["active", "current", "ongoing", "available now", "✅", "🟢"]):
+                if "#" in line_stripped or "**" in line_stripped:
+                    in_active_section = True
+                    continue
+
+            # Detect expired/ended sections — stop reading
+            if any(marker in line_lower for marker in ["expired", "ended", "closed", "past", "❌", "🔴", "archive"]):
+                if "#" in line_stripped or "**" in line_stripped:
+                    in_active_section = False
+                    continue
+
+            # Extract links from active section
+            if in_active_section:
+                # Look for markdown links [text](url)
+                link_matches = re.findall(r'\[([^\]]+)\]\((https?://[^\)]+)\)', line_stripped)
+                for link_text, link_url in link_matches:
+                    if is_seen(seen, link_url):
+                        continue
+
+                    # Check if this mentions voucher/free/exam
+                    combined_text = f"{link_text} {line_stripped}".lower()
+                    has_voucher_mention = any(word in combined_text for word in [
+                        "voucher", "free", "exam", "certification", "challenge",
+                        "training day", "discount", "100%",
+                    ])
+
+                    if has_voucher_mention:
+                        alert = {
+                            "tier": "VOUCHER",
+                            "title": f"[Community Verified] {link_text[:120]}",
+                            "link": link_url,
+                            "source": "GitHub: Community Voucher Tracker",
+                            "reason": "Listed as active in community voucher tracker",
+                            "found_at": datetime.now().isoformat(),
+                        }
+                        alerts.append(alert)
+                        mark_seen(seen, link_url, "GitHub Tracker", "VOUCHER")
+                        print(f"     🎯 [VOUCHER] {link_text[:80]}")
+
+    except Exception as e:
+        print(f"     ❌ Error: {e}")
+        scan_stats["source_errors"].append(f"GitHub Tracker: {str(e)[:100]}")
+
+    return alerts
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+#  Save scan stats
+# ═════════════════════════════════════════════════════════════════════════════
+
+def save_scan_stats():
+    """Save scan stats to file."""
+    data = {
+        "last_scan": datetime.now().isoformat(),
+        "last_stats": dict(scan_stats),
     }
-
-    for query in REDDIT_SEARCH_QUERIES:
-        print(f"  🔍 Reddit search: '{query}'...")
-        try:
-            url = f"https://www.reddit.com/search.json?q={query.replace(' ', '+')}&sort=new&t=week&limit=25"
-            resp = requests.get(url, headers=headers, timeout=15)
-
-            if resp.status_code == 429:
-                print("     ⚠️  Rate limited, waiting 10s...")
-                time.sleep(10)
-                resp = requests.get(url, headers=headers, timeout=15)
-
-            if resp.status_code != 200:
-                print(f"     ⚠️  HTTP {resp.status_code}")
-                scan_stats["source_errors"].append(f"Reddit Search '{query}': HTTP {resp.status_code}")
-                continue
-
-            data = resp.json()
-            posts = data.get("data", {}).get("children", [])
-            scan_stats["source_success"].append(f"Reddit Search: {query}")
-
-            for post in posts:
-                pdata = post.get("data", {})
-                link = f"https://reddit.com{pdata.get('permalink', '')}"
-                title = pdata.get("title", "")
-                selftext = pdata.get("selftext", "")[:500]
-
-                if not link or not title or is_seen(seen, link):
-                    continue
-
-                priority, alert_type, score = classify_entry(title, selftext, link, f"Reddit Search: {query}")
-
-                # Only CRITICAL/HIGH/MEDIUM from search (it's broad)
-                if priority and priority in ("CRITICAL", "HIGH", "MEDIUM"):
-                    alert = {
-                        "priority": priority,
-                        "type": alert_type,
-                        "title": title,
-                        "link": link,
-                        "source": f"Reddit Search: {query}",
-                        "score": score,
-                        "found_at": datetime.now().isoformat(),
-                    }
-                    alerts.append(alert)
-                    mark_seen(seen, link, "Reddit Search", priority)
-                    print(f"     🎯 [{priority}] (score:{score}) {title[:80]}")
-
-        except Exception as e:
-            print(f"     ❌ Error: {e}")
-            scan_stats["source_errors"].append(f"Reddit Search '{query}': {str(e)[:100]}")
-
-        time.sleep(3)  # Be gentle with Reddit
-
-    return alerts
-
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  Phase 4: Nitter/Twitter Search (v4.0 NEW — best effort)
-# ═════════════════════════════════════════════════════════════════════════════
-
-def scan_twitter(seen):
-    """Search Twitter via Nitter RSS (best-effort, may fail)."""
-    alerts = []
-
-    # Try each Nitter instance until one works
-    working_instance = None
-    for instance in NITTER_INSTANCES:
-        try:
-            test_url = f"{instance}/MSLearn/rss"
-            feed = feedparser.parse(test_url)
-            if feed.entries:
-                working_instance = instance
-                print(f"  🐦 Using Nitter instance: {instance}")
-                break
-        except Exception:
-            continue
-
-    if not working_instance:
-        print("  ⏭️  No Nitter instances available (Twitter search skipped)")
-        scan_stats["source_errors"].append("Nitter: All instances unreachable")
-        return alerts
-
-    # Search queries
-    for query in TWITTER_SEARCH_QUERIES:
-        print(f"  🐦 Twitter search: '{query}'...")
-        try:
-            url = f"{working_instance}/search/rss?f=tweets&q={query.replace(' ', '+')}"
-            feed = feedparser.parse(url)
-
-            for entry in feed.entries[:15]:
-                link = getattr(entry, "link", "")
-                title = getattr(entry, "title", "")
-
-                if not link or not title or is_seen(seen, link):
-                    continue
-
-                priority, alert_type, score = classify_entry(title, "", link, f"Twitter: {query}")
-
-                if priority and priority in ("CRITICAL", "HIGH"):
-                    alert = {
-                        "priority": priority,
-                        "type": alert_type,
-                        "title": title[:150],
-                        "link": link,
-                        "source": f"Twitter: {query}",
-                        "score": score,
-                        "found_at": datetime.now().isoformat(),
-                    }
-                    alerts.append(alert)
-                    mark_seen(seen, link, "Twitter", priority)
-                    print(f"     🎯 [{priority}] (score:{score}) {title[:80]}")
-
-        except Exception as e:
-            print(f"     ❌ Error: {e}")
-
-        time.sleep(2)
-
-    # Key accounts
-    for account in TWITTER_ACCOUNTS:
-        print(f"  🐦 Twitter account: @{account}...")
-        try:
-            url = f"{working_instance}/{account}/rss"
-            feed = feedparser.parse(url)
-            scan_stats["source_success"].append(f"Twitter: @{account}")
-
-            for entry in feed.entries[:10]:
-                link = getattr(entry, "link", "")
-                title = getattr(entry, "title", "")
-
-                if not link or not title or is_seen(seen, link):
-                    continue
-
-                priority, alert_type, score = classify_entry(title, "", link, f"Twitter: @{account}")
-
-                if priority and priority in ("CRITICAL", "HIGH", "MEDIUM"):
-                    alert = {
-                        "priority": priority,
-                        "type": alert_type,
-                        "title": title[:150],
-                        "link": link,
-                        "source": f"Twitter: @{account}",
-                        "score": score,
-                        "found_at": datetime.now().isoformat(),
-                    }
-                    alerts.append(alert)
-                    mark_seen(seen, link, f"Twitter: @{account}", priority)
-                    print(f"     🎯 [{priority}] (score:{score}) {title[:80]}")
-
-        except Exception as e:
-            print(f"     ❌ Error: {e}")
-
-        time.sleep(2)
-
-    return alerts
-
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  Digest Scheduling Logic
-# ═════════════════════════════════════════════════════════════════════════════
-
-def should_send_digest():
-    """Check if it's time to send a daily digest (once per day)."""
-    if os.path.exists(STATS_FILE):
-        try:
-            with open(STATS_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-            last_digest = data.get("last_digest", "")
-            if last_digest:
-                last_date = datetime.fromisoformat(last_digest).date()
-                if last_date == datetime.now().date():
-                    return False  # Already sent today
-        except (json.JSONDecodeError, IOError, ValueError):
-            pass
-    return True
-
-
-def record_digest_sent():
-    """Record that digest was sent today."""
-    data = {}
-    if os.path.exists(STATS_FILE):
-        try:
-            with open(STATS_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except (json.JSONDecodeError, IOError):
-            data = {}
-    data["last_digest"] = datetime.now().isoformat()
-    data["last_stats"] = dict(scan_stats)
-    data["last_stats"]["near_misses"] = scan_stats["near_misses"][:20]
     with open(STATS_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False, default=str)
 
@@ -1477,18 +963,16 @@ def check_feeds():
     """Run a complete scan across all sources."""
     start = time.time()
 
-    total_sources = len(RSS_FEEDS) + len(SCRAPE_TARGETS) + len(REDDIT_SEARCH_QUERIES) + len(TWITTER_SEARCH_QUERIES) + len(TWITTER_ACCOUNTS)
+    total_sources = len(RSS_FEEDS) + len(SCRAPE_TARGETS) + 1  # +1 for GitHub tracker
 
     print("=" * 60)
-    print("🎯 PRO CERT RADAR v4.0 — Starting full scan...")
-    print(f"   📡 {len(RSS_FEEDS)} RSS feeds + {len(SCRAPE_TARGETS)} web pages")
-    print(f"   🔍 {len(REDDIT_SEARCH_QUERIES)} Reddit searches")
-    print(f"   🐦 {len(TWITTER_SEARCH_QUERIES)} Twitter searches + {len(TWITTER_ACCOUNTS)} accounts")
-    print(f"   📊 Total source channels: ~{total_sources}")
+    print("🎯 CERT RADAR v5.0 — Zero Noise Voucher Hunter")
+    print(f"   📡 {len(RSS_FEEDS)} RSS feeds + {len(SCRAPE_TARGETS)} web pages + 1 GitHub tracker")
+    print(f"   📊 Total source channels: {total_sources}")
     if DRY_RUN:
         print("   🏃 DRY RUN MODE — No emails will be sent")
     if DEBUG:
-        print("   🐛 DEBUG MODE — Full scoring breakdown enabled")
+        print("   🐛 DEBUG MODE — Full evaluation breakdown enabled")
     print("=" * 60)
 
     # Load & cleanup seen links
@@ -1509,17 +993,11 @@ def check_feeds():
     web_alerts = scan_web_pages(seen)
     all_alerts.extend(web_alerts)
 
-    # Phase 3: Reddit JSON search
-    print("\n🔍 PHASE 3: Reddit JSON Search")
+    # Phase 3: GitHub community tracker
+    print("\n📋 PHASE 3: GitHub Community Voucher Tracker")
     print("-" * 40)
-    reddit_alerts = scan_reddit_search(seen)
-    all_alerts.extend(reddit_alerts)
-
-    # Phase 4: Twitter/Nitter search
-    print("\n🐦 PHASE 4: Twitter/Nitter Search")
-    print("-" * 40)
-    twitter_alerts = scan_twitter(seen)
-    all_alerts.extend(twitter_alerts)
+    github_alerts = scan_github_tracker(seen)
+    all_alerts.extend(github_alerts)
 
     # Save updated seen links
     save_seen(seen)
@@ -1527,9 +1005,8 @@ def check_feeds():
     # Save debug log
     save_debug_log()
 
-    # Sort by priority (CRITICAL first)
-    priority_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
-    all_alerts.sort(key=lambda a: priority_order.get(a["priority"], 99))
+    # Save stats
+    save_scan_stats()
 
     # Deduplicate alerts by link
     seen_links_set = set()
@@ -1540,39 +1017,36 @@ def check_feeds():
             deduped_alerts.append(a)
     all_alerts = deduped_alerts
 
+    # Sort by tier (VOUCHER first, then EVENT, then DISCOUNT)
+    tier_order = {"VOUCHER": 0, "EVENT": 1, "DISCOUNT": 2}
+    all_alerts.sort(key=lambda a: tier_order.get(a["tier"], 99))
+
     # Print results summary
     elapsed = time.time() - start
     print("\n" + "=" * 60)
     print(f"📊 SCAN COMPLETE — {elapsed:.1f}s")
     print(f"   Posts evaluated: {scan_stats['total_posts_evaluated']}")
-    print(f"   Excluded (keywords): {scan_stats['excluded_by_keywords']}")
-    print(f"   Excluded (tech gate): {scan_stats['excluded_by_tech_gate']}")
-    print(f"   Excluded (low score): {scan_stats['excluded_by_score']}")
-    print(f"   Passed all gates: {scan_stats['passed_all_gates']}")
-    print(f"   Near misses: {len(scan_stats['near_misses'])}")
+    print(f"   Excluded (noise patterns): {scan_stats['excluded_by_patterns']}")
+    print(f"   Excluded (no voucher phrase): {scan_stats['excluded_no_voucher_phrase']}")
+    print(f"   Excluded (no Microsoft context): {scan_stats['excluded_no_microsoft_context']}")
+    print(f"   ✅ VERIFIED alerts: {scan_stats['verified_alerts']}")
     print(f"   Sources OK: {len(scan_stats['source_success'])}")
     print(f"   Sources failed: {len(scan_stats['source_errors'])}")
     print(f"   Total new alerts: {len(all_alerts)}")
-    for p in ["CRITICAL", "HIGH", "MEDIUM", "LOW"]:
-        count = sum(1 for a in all_alerts if a["priority"] == p)
+    for t in ["VOUCHER", "EVENT", "DISCOUNT"]:
+        count = sum(1 for a in all_alerts if a["tier"] == t)
         if count > 0:
-            cfg = PRIORITY_CONFIG[p]
-            print(f"   {cfg['emoji']} {p}: {count}")
+            cfg = TIER_CONFIG[t]
+            print(f"   {cfg['emoji']} {t}: {count}")
     print("=" * 60)
 
-    # Send email & log if alerts found
+    # Send email ONLY if there are verified alerts
     if all_alerts:
         for a in all_alerts:
             log_alert(a)
         send_email_alert(all_alerts)
     else:
-        print("✅ No new matching posts found. All quiet.")
-
-    # Daily digest (send once per day, even if no alerts)
-    if should_send_digest():
-        print("\n📊 Sending daily digest email...")
-        send_digest_email()
-        record_digest_sent()
+        print("🔇 No verified voucher opportunities found. Staying silent.")
 
     return all_alerts
 
@@ -1582,10 +1056,6 @@ if __name__ == "__main__":
     if "--test-email" in sys.argv:
         print("📧 Sending test email...")
         send_test_email()
-    elif "--digest" in sys.argv:
-        print("📊 Forcing daily digest email...")
-        # Run a quick scan to collect stats
-        check_feeds()
     else:
         print(r"""
   ██████╗███████╗██████╗ ████████╗    ██████╗  █████╗ ██████╗  █████╗ ██████╗
@@ -1594,6 +1064,6 @@ if __name__ == "__main__":
  ██║     ██╔══╝  ██╔══██╗   ██║       ██╔══██╗██╔══██║██║  ██║██╔══██║██╔══██╗
  ╚██████╗███████╗██║  ██║   ██║       ██║  ██║██║  ██║██████╔╝██║  ██║██║  ██║
   ╚═════╝╚══════╝╚═╝  ╚═╝   ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-                    🎯 Pro Cert Radar v4.0 — Ultimate Voucher Hunter
+                    🎯 Cert Radar v5.0 — Zero Noise Voucher Hunter
         """)
         check_feeds()
