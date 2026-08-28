@@ -1,11 +1,11 @@
 {
-  "last_digest": "2026-08-27T02:59:19.620728",
+  "last_digest": "2026-08-28T07:08:30.029864",
   "last_stats": {
-    "total_posts_evaluated": 662,
+    "total_posts_evaluated": 700,
     "excluded_by_keywords": 13,
-    "excluded_by_tech_gate": 326,
-    "excluded_by_score": 319,
-    "passed_all_gates": 4,
+    "excluded_by_tech_gate": 348,
+    "excluded_by_score": 336,
+    "passed_all_gates": 3,
     "near_misses": [
       {
         "title": "OCI Certification Learning Paths and Exams: 2026 Updates Now Available - Oracle Blogs",
@@ -39,12 +39,6 @@
       },
       {
         "title": "Why Industry AI Certification Is Becoming Essential for Enterprise AI Adoption",
-        "source": "Dev.to: Certification",
-        "score": 2,
-        "reason": "No tech word match"
-      },
-      {
-        "title": "ServiceNow CIS-DF Learning Resources",
         "source": "Dev.to: Certification",
         "score": 2,
         "reason": "No tech word match"
@@ -126,10 +120,16 @@
         "source": "Web: Microsoft Virtual Training Days",
         "score": 3,
         "reason": "No tech word match"
+      },
+      {
+        "title": "Share results",
+        "source": "Web: Microsoft Virtual Training Days",
+        "score": 3,
+        "reason": "No tech word match"
       }
     ],
     "source_errors": [
-      "MS Learn Blog: <unknown>:14:71: not well-formed (invalid token)",
+      "MS Learn Blog: <unknown>:14:73: not well-formed (invalid token)",
       "MS TechCommunity: <unknown>:14:73: not well-formed (invalid token)",
       "Web: Microsoft Credentials - 30 Days: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/credentials/certifications/30",
       "Web: Microsoft Training Events: 404 Client Error: Not Found for url: https://learn.microsoft.com/en-us/training/events/",
