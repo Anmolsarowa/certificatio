@@ -59,13 +59,10 @@ except ImportError:
 EMAIL_ADDRESS  = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 TO_EMAIL       = os.environ.get("TO_EMAIL_ADDRESS")
-TO_EMAIL_2     = os.environ.get("TO_EMAIL_ADDRESS_2")
 
 ALL_TO_EMAILS = []
 if TO_EMAIL:
     ALL_TO_EMAILS.extend([e.strip() for e in TO_EMAIL.split(",") if e.strip()])
-if TO_EMAIL_2:
-    ALL_TO_EMAILS.extend([e.strip() for e in TO_EMAIL_2.split(",") if e.strip()])
 
 # File paths
 SEEN_FILE  = "seen_links.json"
