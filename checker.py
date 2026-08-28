@@ -190,6 +190,13 @@ GUARANTEED_VOUCHER_PHRASES = [
     "skills fest free exam",
     "certification week free",
     "certification week voucher",
+    # LevelUp platform (Microsoft partner — gives 100% off vouchers)
+    "levelup practice assessment",
+    "levelup free voucher",
+    "levelup certification",
+    "levelup exam voucher",
+    "skillupwithlevelup",
+    "skill up with levelup",
 ]
 
 # Tier 2: EVENT WITH VOUCHER — Events/challenges that grant vouchers
@@ -212,8 +219,13 @@ EVENT_VOUCHER_PHRASES = [
     "free exam opportunity",
     "certification challenge voucher",
     "microsoft learn challenge",
-    "levelup practice assessment",
     "certification bootcamp free",
+    # LevelUp events
+    "certification week",
+    "certification prep on-demand",
+    "certification prep on demand",
+    "score 80% or higher",
+    "pass the practice assessment",
 ]
 
 # Tier 3: DISCOUNT — Significant discounts (50%+)
@@ -247,6 +259,7 @@ VOUCHER_URL_PATTERNS = [
     r"esi\.microsoft\.com",
     r"microsoft\.com/.*virtual-training-day",
     r"microsoft\.com/.*skills-challenge",
+    r"skillupwithlevelup\.com",
 ]
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -269,6 +282,7 @@ MICROSOFT_CONTEXT_WORDS = [
     "mb-910", "mb-920", "mb-210", "mb-220", "mb-230", "mb-240",
     "mb-300", "mb-310", "mb-330", "mb-500", "mb-700", "mb-800",
     "ignite", "microsoft build",
+    "levelup", "skillupwithlevelup",
 ]
 
 
@@ -297,6 +311,7 @@ RSS_FEEDS = {
     "Google News: Cert Week Voucher":    "https://news.google.com/rss/search?q=microsoft+certification+week+free+exam&hl=en-US&gl=US&ceid=US:en",
     "Google News: Skills Fest Voucher":  "https://news.google.com/rss/search?q=microsoft+skills+fest+free+certification&hl=en-US&gl=US&ceid=US:en",
     "Google News: MS Free Cert 2026":    "https://news.google.com/rss/search?q=microsoft+free+certification+voucher+2026&hl=en-US&gl=US&ceid=US:en",
+    "Google News: LevelUp Voucher":      "https://news.google.com/rss/search?q=levelup+microsoft+certification+voucher+free&hl=en-US&gl=US&ceid=US:en",
 
     # ── Microsoft Official ────────────────────────────────────────────────
     "MS Azure Blog":          "https://azure.microsoft.com/en-us/blog/feed/",
@@ -339,6 +354,22 @@ SCRAPE_TARGETS = [
         "name": "Microsoft Events",
         "url": "https://events.microsoft.com/",
         "selector": "a, h1, h2, h3, p",
+    },
+    # ── LevelUp (Microsoft partner — free voucher events) ────────────────
+    {
+        "name": "LevelUp Home",
+        "url": "https://skillupwithlevelup.com/",
+        "selector": "a, h1, h2, h3, p, span",
+    },
+    {
+        "name": "LevelUp Courses",
+        "url": "https://skillupwithlevelup.com/courses",
+        "selector": "a, h1, h2, h3, p, span",
+    },
+    {
+        "name": "LevelUp Certification Prep",
+        "url": "https://skillupwithlevelup.com/certification-prep-on-demand",
+        "selector": "a, h1, h2, h3, p, span",
     },
 ]
 
