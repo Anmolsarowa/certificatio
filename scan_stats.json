@@ -1,12 +1,14 @@
 {
-  "last_scan": "2026-09-03T22:25:49.252118",
+  "last_scan": "2026-09-04T03:40:14.910431",
   "last_stats": {
-    "total_posts_evaluated": 473,
-    "excluded_by_patterns": 21,
-    "excluded_no_voucher_phrase": 452,
+    "total_posts_evaluated": 476,
+    "excluded_by_patterns": 25,
+    "excluded_no_voucher_phrase": 451,
     "excluded_no_microsoft_context": 0,
     "verified_alerts": 0,
-    "source_errors": [],
+    "source_errors": [
+      "YT: Microsoft Learn: <unknown>:3:11: not well-formed (invalid token)"
+    ],
     "source_success": [
       "Reddit: Microsoft Certifications",
       "Reddit: Azure Certification",
@@ -27,7 +29,6 @@
       "Google News: MS Free Cert 2026",
       "Google News: LevelUp Voucher",
       "MS Azure Blog",
-      "YT: Microsoft Learn",
       "Web: Microsoft Ignite Hub",
       "Web: Microsoft Build Hub",
       "Web: Microsoft 30 Days to Learn It",
