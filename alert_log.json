@@ -1,23 +1,5 @@
 [
   {
-    "priority": "LOW",
-    "type": "INFO",
-    "title": "Microsoft Ignite 2022 | All the details and releases - Plain Concepts",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yYnU0cEhodkhTdmxpNnZaSndBeFdaSDZhZlZlZEJEY0EyMy1YZzVXUFRDS3d5VFlyX25BekZicmY3eU5kYVZGZ0QxS1dzWXdWZDNqdmU0QllhaGdBMjVJSC1zTVlXVnB0Q2c?oc=5",
-    "source": "Google News: MS Ignite Challenge",
-    "score": 3,
-    "found_at": "2026-08-04T09:20:48.826513"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Your Complete Microsoft DP-750 Exam Study Guide & Simulator",
-    "link": "https://dev.to/millerliam660/your-complete-microsoft-dp-750-exam-study-guide-simulator-10i",
-    "source": "Dev.to: Microsoft Certs",
-    "score": 12,
-    "found_at": "2026-08-04T22:14:01.003752"
-  },
-  {
     "priority": "CRITICAL",
     "type": "INSTANT",
     "title": "[Guide] AZ-104 Ultimate Resource Guide",
@@ -1730,5 +1712,21 @@
     "source": "Web: LevelUp Certification Prep",
     "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776169",
     "found_at": "2026-08-28T23:29:15.487063"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Microsoft Virtual Training Days",
+    "link": "https://www.microsoft.com/es-mx/events/category/microsoft-virtual-training-days",
+    "source": "Web: Microsoft Virtual Training Days",
+    "reason": "Event voucher phrase: 'virtual training day'",
+    "found_at": "2026-09-09T03:51:05.118943"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Copiar URL al correo electrónico",
+    "link": "mailto:?subject=Check%20out%20these%20upcoming%20Microsoft%20Events&body=https://www.microsoft.com/es-mx/events/category/microsoft-virtual-training-days",
+    "source": "Web: Microsoft Virtual Training Days",
+    "reason": "Voucher URL pattern matched: mailto:?subject=Check%20out%20these%20upcoming%20Microsoft%20Events&body=https:/",
+    "found_at": "2026-09-09T03:51:05.121399"
   }
 ]
