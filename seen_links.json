@@ -418,5 +418,11 @@
     "source": "Microsoft Virtual Training Days",
     "priority": "EVENT",
     "seen_at": "2026-09-09T03:51:05.121402"
+  },
+  "887f1d3f8ee0c5d83f796802549f5a4e": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1warkd3/ai300_locked_in_need_cram_tipsresources/",
+    "source": "Reddit: Azure Certification",
+    "priority": "VOUCHER",
+    "seen_at": "2026-09-09T14:15:02.133063"
   }
 }

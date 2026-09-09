@@ -2,15 +2,6 @@
   {
     "priority": "CRITICAL",
     "type": "INSTANT",
-    "title": "[Guide] AZ-104 Ultimate Resource Guide",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1ldn9dd/guide_az104_ultimate_resource_guide/",
-    "source": "Reddit: Azure Certification",
-    "score": 10,
-    "found_at": "2026-08-04T23:19:01.921104"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
     "title": "I created 240+ Azure AI Cloud Developer study notes and practice questions for exam preparation",
     "link": "https://www.reddit.com/r/AzureCertification/comments/1vf91nf/i_created_240_azure_ai_cloud_developer_study/",
     "source": "Reddit: Azure Certification",
@@ -1728,5 +1719,13 @@
     "source": "Web: Microsoft Virtual Training Days",
     "reason": "Voucher URL pattern matched: mailto:?subject=Check%20out%20these%20upcoming%20Microsoft%20Events&body=https:/",
     "found_at": "2026-09-09T03:51:05.121399"
+  },
+  {
+    "tier": "VOUCHER",
+    "title": "AI-300 (Locked in - need cram tips/resources)",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1warkd3/ai300_locked_in_need_cram_tipsresources/",
+    "source": "Reddit: Azure Certification",
+    "reason": "Guaranteed voucher phrase: 'skills fest voucher'",
+    "found_at": "2026-09-09T14:15:02.133060"
   }
 ]
