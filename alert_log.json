@@ -1,14 +1,5 @@
 [
   {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "I created 240+ Azure AI Cloud Developer study notes and practice questions for exam preparation",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vf91nf/i_created_240_azure_ai_cloud_developer_study/",
-    "source": "Reddit: Azure Certification",
-    "score": 10,
-    "found_at": "2026-08-04T23:19:01.923873"
-  },
-  {
     "priority": "HIGH",
     "type": "EVENT",
     "title": "[Guide] AZ-900 Ultimate Resource Guide",
@@ -1727,5 +1718,13 @@
     "source": "Reddit: Azure Certification",
     "reason": "Guaranteed voucher phrase: 'skills fest voucher'",
     "found_at": "2026-09-09T14:15:02.133060"
+  },
+  {
+    "tier": "EVENT",
+    "title": "*Terms and Conditions apply",
+    "link": "https://skillupwithlevelup.com/cert-faqs",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/cert-faqs",
+    "found_at": "2026-09-16T07:26:03.747332"
   }
 ]
