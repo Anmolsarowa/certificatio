@@ -1,9 +1,9 @@
 {
-  "last_scan": "2026-09-18T00:00:32.427831",
+  "last_scan": "2026-09-18T04:32:44.036967",
   "last_stats": {
     "total_posts_evaluated": 514,
-    "excluded_by_patterns": 19,
-    "excluded_no_voucher_phrase": 495,
+    "excluded_by_patterns": 18,
+    "excluded_no_voucher_phrase": 496,
     "excluded_no_microsoft_context": 0,
     "verified_alerts": 0,
     "source_errors": [],
