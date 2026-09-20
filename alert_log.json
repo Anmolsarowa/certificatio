@@ -1,23 +1,5 @@
 [
   {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "[Guide] AZ-900 Ultimate Resource Guide",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1kg92v8/guide_az900_ultimate_resource_guide/",
-    "source": "Reddit: Azure Certification",
-    "score": 16,
-    "found_at": "2026-08-04T23:19:01.922758"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "AZ-900 is MS Learn enough?",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vfg844/az900_is_ms_learn_enough/",
-    "source": "Reddit: Azure Certification",
-    "score": 6,
-    "found_at": "2026-08-04T23:19:01.926935"
-  },
-  {
     "priority": "MEDIUM",
     "type": "DISCOUNT",
     "title": "New to Azure – Best Certification & Learning Path?",
@@ -1726,5 +1708,21 @@
     "source": "Web: LevelUp Home",
     "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/cert-faqs",
     "found_at": "2026-09-16T07:26:03.747332"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Microsoft Virtual Training Days",
+    "link": "https://www.microsoft.com/es-cl/events/category/microsoft-virtual-training-days",
+    "source": "Web: Microsoft Virtual Training Days",
+    "reason": "Event voucher phrase: 'virtual training day'",
+    "found_at": "2026-09-20T15:43:44.978363"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Copiar URL al correo electrónico",
+    "link": "mailto:?subject=Check%20out%20these%20upcoming%20Microsoft%20Events&body=https://www.microsoft.com/es-cl/events/category/microsoft-virtual-training-days",
+    "source": "Web: Microsoft Virtual Training Days",
+    "reason": "Voucher URL pattern matched: mailto:?subject=Check%20out%20these%20upcoming%20Microsoft%20Events&body=https:/",
+    "found_at": "2026-09-20T15:43:44.981385"
   }
 ]

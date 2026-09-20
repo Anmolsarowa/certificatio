@@ -430,5 +430,17 @@
     "source": "LevelUp Home",
     "priority": "EVENT",
     "seen_at": "2026-09-16T07:26:03.747337"
+  },
+  "3e02608fd385ada3cbf5dec249526cd7": {
+    "link": "https://www.microsoft.com/es-cl/events/category/microsoft-virtual-training-days",
+    "source": "Microsoft Virtual Training Days",
+    "priority": "EVENT",
+    "seen_at": "2026-09-20T15:43:44.978367"
+  },
+  "73091e81ddeabc153b708aad5277c88a": {
+    "link": "mailto:?subject=Check%20out%20these%20upcoming%20Microsoft%20Events&body=https://www.microsoft.com/es-cl/events/category/microsoft-virtual-training-days",
+    "source": "Microsoft Virtual Training Days",
+    "priority": "EVENT",
+    "seen_at": "2026-09-20T15:43:44.981389"
   }
 }
