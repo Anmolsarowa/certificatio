@@ -442,5 +442,11 @@
     "source": "Microsoft Virtual Training Days",
     "priority": "EVENT",
     "seen_at": "2026-09-20T15:43:44.981389"
+  },
+  "eedcf87c1dd0f5968357d34bd0c35d9e": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1wqn611/passed_ai103_today_2_months_prep/",
+    "source": "Reddit: Azure Certification",
+    "priority": "VOUCHER",
+    "seen_at": "2026-09-26T17:40:01.648523"
   }
 }

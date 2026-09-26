@@ -2,15 +2,6 @@
   {
     "priority": "MEDIUM",
     "type": "DISCOUNT",
-    "title": "New to Azure – Best Certification & Learning Path?",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vfj2zg/new_to_azure_best_certification_learning_path/",
-    "source": "Reddit: Azure Certification",
-    "score": 12,
-    "found_at": "2026-08-04T23:19:01.927433"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
     "title": "SC-200 in 2 weeks, everyone says it punishes video-only prep, how do you keep the hands on part mostly free?",
     "link": "https://www.reddit.com/r/AzureCertification/comments/1vf7a6e/sc200_in_2_weeks_everyone_says_it_punishes/",
     "source": "Reddit: Azure Certification",
@@ -1724,5 +1715,13 @@
     "source": "Web: Microsoft Virtual Training Days",
     "reason": "Voucher URL pattern matched: mailto:?subject=Check%20out%20these%20upcoming%20Microsoft%20Events&body=https:/",
     "found_at": "2026-09-20T15:43:44.981385"
+  },
+  {
+    "tier": "VOUCHER",
+    "title": "Passed AI-103 today (2 months prep)",
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1wqn611/passed_ai103_today_2_months_prep/",
+    "source": "Reddit: Azure Certification",
+    "reason": "Guaranteed voucher phrase: 'free exam voucher'",
+    "found_at": "2026-09-26T17:40:01.648520"
   }
 ]
