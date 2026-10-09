@@ -1,32 +1,5 @@
 [
   {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "MOS Examen bestellen",
-    "link": "https://www.reddit.com/r/microsoft/comments/1vry8cn/mos_examen_bestellen/",
-    "source": "Reddit: Microsoft",
-    "score": 4,
-    "found_at": "2026-08-21T04:54:01.773681"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Introduction to Dapr for Azure Developers",
-    "link": "https://dev.to/martin_oehlert/introduction-to-dapr-for-azure-developers-1l9h",
-    "source": "Dev.to: Azure",
-    "score": 4,
-    "found_at": "2026-08-21T07:08:35.431296"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "Free Post Fridays is now live, please follow these rules!",
-    "link": "https://www.reddit.com/r/AZURE/comments/1vu0f0e/free_post_fridays_is_now_live_please_follow_these/",
-    "source": "Reddit: Azure",
-    "score": 10,
-    "found_at": "2026-08-21T11:03:01.803553"
-  },
-  {
     "priority": "LOW",
     "type": "INFO",
     "title": "Microsoft Ignite 2023: A front-row seat to the tangible impact of AI - Microsoft",
@@ -1643,5 +1616,29 @@
     "source": "Web: LevelUp Courses",
     "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2625730",
     "found_at": "2026-10-09T12:52:08.073547"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAB-210: Dynamics 365 Sales AI Consultant Associate - ENThis certification p",
+    "link": "https://skillupwithlevelup.com/course-detail/2620379",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2620379",
+    "found_at": "2026-10-09T19:21:25.680286"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAB-250: Transforming Contact Center Experiences with AI in Dynamics 365 - E",
+    "link": "https://skillupwithlevelup.com/course-detail/2620389",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2620389",
+    "found_at": "2026-10-09T19:21:25.680370"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAB-410: Intelligent Applications Builder Associate - ENThis certification p",
+    "link": "https://skillupwithlevelup.com/course-detail/2620361",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2620361",
+    "found_at": "2026-10-09T19:21:25.680450"
   }
 ]

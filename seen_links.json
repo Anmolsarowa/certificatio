@@ -1,10 +1,4 @@
 {
-  "887f1d3f8ee0c5d83f796802549f5a4e": {
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1warkd3/ai300_locked_in_need_cram_tipsresources/",
-    "source": "Reddit: Azure Certification",
-    "priority": "VOUCHER",
-    "seen_at": "2026-09-09T14:15:02.133063"
-  },
   "cba5925aa4895e64e40f09f6fcb8b349": {
     "link": "https://skillupwithlevelup.com/cert-faqs",
     "source": "LevelUp Home",
@@ -508,5 +502,23 @@
     "source": "LevelUp Courses",
     "priority": "EVENT",
     "seen_at": "2026-10-09T12:52:08.073549"
+  },
+  "b86f0047a751f144c4695ae26795f7e3": {
+    "link": "https://skillupwithlevelup.com/course-detail/2620379",
+    "source": "LevelUp Courses",
+    "priority": "EVENT",
+    "seen_at": "2026-10-09T19:21:25.680291"
+  },
+  "1dc7ee2d75e19a0dbf7f3c46474de912": {
+    "link": "https://skillupwithlevelup.com/course-detail/2620389",
+    "source": "LevelUp Courses",
+    "priority": "EVENT",
+    "seen_at": "2026-10-09T19:21:25.680374"
+  },
+  "35987af55ceebafa27aa957a5147d630": {
+    "link": "https://skillupwithlevelup.com/course-detail/2620361",
+    "source": "LevelUp Courses",
+    "priority": "EVENT",
+    "seen_at": "2026-10-09T19:21:25.680451"
   }
 }
