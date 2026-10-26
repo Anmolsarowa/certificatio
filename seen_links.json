@@ -502,5 +502,11 @@
     "source": "LevelUp Courses",
     "priority": "EVENT",
     "seen_at": "2026-10-09T19:21:25.680451"
+  },
+  "50e7f7f8d50cff070e609bc543d405e7": {
+    "link": "https://www.reddit.com/r/AzureCertification/comments/1xekss2/title_has_anyone_received_their_free_sc500_exam/",
+    "source": "Reddit: Azure Certification",
+    "priority": "VOUCHER",
+    "seen_at": "2026-10-26T04:25:00.920744"
   }
 }
