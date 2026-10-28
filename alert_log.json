@@ -1,390 +1,5 @@
 [
   {
-    "priority": "LOW",
-    "type": "INFO",
-    "title": "Microsoft Ignite 2025 — get the latest news and insights - Computerworld",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTFVxTWhmNExLeGJqVUJYY3VRRDZtYXRnNFBfS2t0aGs3RVFqX2I4SkQ5QXdHd0g3M3BTRTg5M3gxckQ3T3MyelFycjNZWUFfdGVObjFJaThjb0lHTzFXVkJnaTRBYkE1Y1hCenpxS20yS2ExN3prdHltMURIMGFFRXFMUEFpSjJ6SnF0RlE1eUdIWmUyWTlr?oc=5",
-    "source": "Google News: MS Ignite Challenge",
-    "score": 3,
-    "found_at": "2026-08-21T15:16:14.469966"
-  },
-  {
-    "priority": "LOW",
-    "type": "INFO",
-    "title": "14 Top Azure Announcements From Microsoft Ignite 2020 - crn.com",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWG52Tks3a01wcVI2U2pFdlE1ZE9Kdy1HVlJsSVdEWndvQmRtakdPaUpvOGRyTUVpRzhaaFVuNmk5MkExTWIydnduQ191S3Zyd3c5SGFIVXNmWXlZb1loSnpDNTVubTlEQkItNUNZNmhWbkd1SzR4engxODlxMTI3WjNaemRsR3huRUhfaUE2OGRRLUlQZnc?oc=5",
-    "source": "Google News: MS Ignite Challenge",
-    "score": 3,
-    "found_at": "2026-08-21T15:16:14.470755"
-  },
-  {
-    "priority": "LOW",
-    "type": "INFO",
-    "title": "Microsoft Build 2021 | Everything You Need to Know - Plain Concepts",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wdE1uckhvVjI3V1ZhWF9VOUNvc0hCWVY1V2VwZm9TVnhPSTBSWHRaZHlpdDd0SGRFVkJwSFpJZDlHSWRwb01HZEdwOE5aRHRBNUxtb292Wk5qcGY5bmp5MDJ6bFV0Z2Jr?oc=5",
-    "source": "Google News: MS Build Challenge",
-    "score": 3,
-    "found_at": "2026-08-21T19:31:53.317177"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Celebrating 30 Years of MySQL: Free Training & Certification Results - Oracle Blogs",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY2YzV0d6R1QxMS0zSnZaZ1Q1bk9fc2RKbFlXTHhYaHJ4WHRmMXRrWEZHeW9aX19BR3o0aHlTWmlaUGhHQUluenk4TU5UejRvX25HeXNLbWhvNm5WU2NoS2Fva3IzVEdOSzRBRXUyOHgzMzl0cW1xbnAwOVNGRXktTUZWVWZUOGlnOFVBNlEyVTZVRDdIRUVwS1k1S2s?oc=5",
-    "source": "Google News: Free Cloud Cert",
-    "score": 12,
-    "found_at": "2026-08-21T20:29:49.836910"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Your guide to Dynamics 365 at Microsoft Ignite 2022 - Microsoft",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcVpVRzdqRW5wT2VpRjI4alZvYTd1VHNpaFptbFRBaHQwdFh2Z0c0MGlldHd3czdYb0pwM2M2eFNsNVpabFRobW1OdXRLWWVrNl9JSG95TVJMM0JXSHlYWlZvbnFscHluSXJhd21EYWtsUi13Y1dLRnozUVVieXBxYUdSaUhmSHEyQnlIa3paX0Y3Nm03OFk2ZWJBNHJNSDBWOXZHbnFNamt0SGFTeXJ6Z2FPZWtXSXpmTUZUd3RnWlR1QXd1S1MyTQ?oc=5",
-    "source": "Google News: MS Ignite Challenge",
-    "score": 6,
-    "found_at": "2026-08-22T09:32:30.322276"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Passed AZ-104 with a score of 908/1000!",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vufhy8/passed_az104_with_a_score_of_9081000/",
-    "source": "Reddit: Azure Certification",
-    "score": 16,
-    "found_at": "2026-08-22T10:32:01.664689"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Passed DP-800: SQL AI Developer Associate.",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vtvqrt/passed_dp800_sql_ai_developer_associate/",
-    "source": "Reddit: Azure Certification",
-    "score": 6,
-    "found_at": "2026-08-22T10:32:01.669905"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Cleared the DP-800 (4 Weeks) here's what helped",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vsxng2/cleared_the_dp800_4_weeks_heres_what_helped/",
-    "source": "Reddit: Azure Certification",
-    "score": 6,
-    "found_at": "2026-08-22T10:32:01.673056"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "AI-901 voucher doesn't work",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vtcexr/ai901_voucher_doesnt_work/",
-    "source": "Reddit: Azure Certification",
-    "score": 13,
-    "found_at": "2026-08-22T10:32:01.673860"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Passed SC-300 - Some tips",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vtpgja/passed_sc300_some_tips/",
-    "source": "Reddit: Azure Certification",
-    "score": 5,
-    "found_at": "2026-08-22T10:32:01.669486"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Student discount on Microsoft Certifications",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vsulz5/student_discount_on_microsoft_certifications/",
-    "source": "Reddit: Azure Certification",
-    "score": 7,
-    "found_at": "2026-08-22T10:32:01.671370"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Study advice for AZ104?",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vt6qc2/study_advice_for_az104/",
-    "source": "Reddit: Azure Certification",
-    "score": 5,
-    "found_at": "2026-08-22T10:32:01.673450"
-  },
-  {
-    "priority": "LOW",
-    "type": "INFO",
-    "title": "Microsoft events support team",
-    "link": "mailto:events@microsoft.regsvc.com",
-    "source": "Web: Microsoft Virtual Training Days",
-    "score": 3,
-    "found_at": "2026-08-23T04:01:45.909122"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Microsoft AI-200 Exam: Study Guide, Topics & Preparation Tips",
-    "link": "https://dev.to/judsonlarkinv567/microsoft-ai-200-exam-study-guide-topics-preparation-tips-2mdj",
-    "source": "Dev.to: Microsoft Certs",
-    "score": 6,
-    "found_at": "2026-08-23T09:04:41.823856"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "AZ-104 or PL-300 — which is more worth it?",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vw2zpg/az104_or_pl300_which_is_more_worth_it/",
-    "source": "Reddit: Azure Certification",
-    "score": 18,
-    "found_at": "2026-08-23T12:36:00.960997"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Passed AZ-400 - DevOps expert without AZ-204 but with AI-200!",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vv6aut/passed_az400_devops_expert_without_az204_but_with/",
-    "source": "Reddit: Azure Certification",
-    "score": 6,
-    "found_at": "2026-08-23T12:36:00.965714"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Any discounts on the AI-901: Microsoft Azure AI Fundamentals Exam?",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vw5s25/any_discounts_on_the_ai901_microsoft_azure_ai/",
-    "source": "Reddit: Azure Certification",
-    "score": 10,
-    "found_at": "2026-08-23T12:36:00.961378"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "AB-650 Exam",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vvfp97/ab650_exam/",
-    "source": "Reddit: Azure Certification",
-    "score": 4,
-    "found_at": "2026-08-23T12:36:00.964149"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "PL-300 Passed",
-    "link": "https://www.reddit.com/r/PowerBI/comments/1vvjslj/pl300_passed/",
-    "source": "Reddit: Power BI",
-    "score": 8,
-    "found_at": "2026-08-23T13:20:01.156415"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "DAX Anki cards",
-    "link": "https://www.reddit.com/r/PowerBI/comments/1vvoan8/dax_anki_cards/",
-    "source": "Reddit: Power BI",
-    "score": 5,
-    "found_at": "2026-08-23T13:20:01.152485"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "Azure OpenAI PTU vs PAYG: The Real Break-Even Table",
-    "link": "https://dev.to/az365ai/azure-openai-ptu-vs-payg-the-real-break-even-table-30m5",
-    "source": "Dev.to: Azure",
-    "score": 15,
-    "found_at": "2026-08-23T14:22:01.626893"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "Building a Scalable, HIPAA‑Compliant Healthcare Document Processing Pipeline in .NET & Azure",
-    "link": "https://dev.to/amitesh0512/building-a-scalable-hipaa-compliant-healthcare-document-processing-pipeline-in-net-azure-38g7",
-    "source": "Dev.to: Azure",
-    "score": 8,
-    "found_at": "2026-08-24T04:06:26.105491"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Complete Microsoft Certified DevOps Engineer Expert Certification and Career Guide",
-    "link": "https://dev.to/manshi2026/complete-microsoft-certified-devops-engineer-expert-certification-and-career-guide-1f48",
-    "source": "Dev.to: Microsoft Certs",
-    "score": 13,
-    "found_at": "2026-08-24T05:54:11.358136"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Microsoft AZ-400 Exam: Study Guide, Skills, and Preparation Tips",
-    "link": "https://dev.to/judsonlarkinv567/microsoft-az-400-exam-study-guide-skills-and-preparation-tips-5gd1",
-    "source": "Dev.to: Azure",
-    "score": 13,
-    "found_at": "2026-08-24T06:55:31.728685"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Get this Microsoft Windows PowerShell Certification Bundle at 50% off - Neowin",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNXzR0QVc5clM2TUZzVG1IZ0l1a1BjZ0xxck5zQVByMllacmJvRWxzM09NYmE4QTlLc0lYS3ZOU3ZWQW9sMVNYVEM5R2RKNnZ3Y2pLV3N3ZkZQUUp6QlNidTBKYzlDZlNTSkl4RjRCMDhKekwwcTBZT09oT2loUWN6bTN3U2Y0MFh0MXR6aVNfZDdkb3l2NlNhbVV1NGFOTk3SAZwBQVVfeXFMUEYyVERZNW9mR2pFdmQxeTB6VHdjOHM3c2pvTDh3NzdDRTY1c01IRnoxUHlfa201VTRlMmdkZHRZWjRaU0JFOUZuRUx6Umh2bkFaS1RLZHNJQkg4am80M3NraU4xYkVSMjZxeFdiRVBscWN6WEEwdGNMSU4tZlFqdXMwY0FaWVNzMURGT0F4WGZHY1hqY2c4ZTFYLU9s?oc=5",
-    "source": "Google News: MS Exam Deal",
-    "score": 7,
-    "found_at": "2026-08-24T10:23:47.782303"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "# Azure Course in Chennai: Build Your Career in Cloud Computing",
-    "link": "https://dev.to/swarnalakshmi_backiyalaks/-azure-course-in-chennai-build-your-career-in-cloud-computing-1iof",
-    "source": "Dev.to: Azure",
-    "score": 8,
-    "found_at": "2026-08-24T11:03:24.176627"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "AI Copilots vs Custom AI on Azure: When to Build and When to Buy",
-    "link": "https://dev.to/az365ai/ai-copilots-vs-custom-ai-on-azure-when-to-build-and-when-to-buy-22kh",
-    "source": "Dev.to: Azure",
-    "score": 8,
-    "found_at": "2026-08-24T15:01:03.872626"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Mastering Azure Virtual Desktop Specialty",
-    "link": "https://dev.to/lucasitpro/mastering-azure-virtual-desktop-specialty-36o2",
-    "source": "Dev.to: Azure",
-    "score": 6,
-    "found_at": "2026-08-24T15:50:02.475160"
-  },
-  {
-    "priority": "LOW",
-    "type": "INFO",
-    "title": "Studying On PL-900",
-    "link": "https://www.reddit.com/r/PowerPlatform/comments/1vx55v9/studying_on_pl900/",
-    "source": "Reddit: Power Platform",
-    "score": 2,
-    "found_at": "2026-08-24T17:16:01.772104"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Azure Certification: What It Is, Career Benefits, and How to Get Certified - Coursera",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xRmI0ZHgtZzBtRjBHWVZXLThMX1BIZlNjNTFldzFTUHJiMS1vbV93eEVta25yczJneGxLdkc3X0kzZnBrN1YweGlLLWo1R1dzanktVlF2Z193THE5UWMtRE4tVmZxRU0?oc=5",
-    "source": "Google News: Virtual Training Day",
-    "score": 6,
-    "found_at": "2026-08-24T17:58:11.602785"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "Azure App Service retired Node 22 LTS for 30 April 2027 and named a target that expires 366 days later",
-    "link": "https://dev.to/mr_manushukla/azure-app-service-retired-node-22-lts-for-30-april-2027-and-named-a-target-that-expires-366-days-4nbp",
-    "source": "Dev.to: Azure",
-    "score": 8,
-    "found_at": "2026-08-24T19:28:47.533679"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "Application Gateway WAF custom block responses shipped 24 August 2026 with no documented code list",
-    "link": "https://dev.to/mr_manushukla/application-gateway-waf-custom-block-responses-shipped-24-august-2026-with-no-documented-code-list-4dk6",
-    "source": "Dev.to: Azure",
-    "score": 8,
-    "found_at": "2026-08-24T19:28:47.538496"
-  },
-  {
-    "priority": "HIGH",
-    "type": "EVENT",
-    "title": "Passed DP-800 today (SQL AI Developer Associate)",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vwsjbi/passed_dp800_today_sql_ai_developer_associate/",
-    "source": "Reddit: Azure Certification",
-    "score": 6,
-    "found_at": "2026-08-24T22:44:01.383505"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Passed AI-103, 1 week prep (800/1000)",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vxe26r/passed_ai103_1_week_prep_8001000/",
-    "source": "Reddit: Azure Certification",
-    "score": 5,
-    "found_at": "2026-08-24T22:44:01.382543"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "Looking for a study partner for the MD-102 certification (free MS Learn path + some extra resources)",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vxf3uy/looking_for_a_study_partner_for_the_md102/",
-    "source": "Reddit: Azure Certification",
-    "score": 12,
-    "found_at": "2026-08-24T22:44:01.384281"
-  },
-  {
-    "priority": "MEDIUM",
-    "type": "DISCOUNT",
-    "title": "BEST FREE MATERIAL TO PREP FOR SC-200?",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vx0sci/best_free_material_to_prep_for_sc200/",
-    "source": "Reddit: Azure Certification",
-    "score": 5,
-    "found_at": "2026-08-24T22:44:01.385400"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "$0.07/vCore-hour: Azure Postgres extended support billing starts 1 September 2026",
-    "link": "https://dev.to/mr_manushukla/007vcore-hour-azure-postgres-extended-support-billing-starts-1-september-2026-1efg",
-    "source": "Dev.to: Azure",
-    "score": 10,
-    "found_at": "2026-08-25T07:33:02.399652"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "Azure Event Grid: Push-Based Events Without the Kafka Overhead",
-    "link": "https://dev.to/brywritescode/azure-event-grid-push-based-events-without-the-kafka-overhead-1nhm",
-    "source": "Dev.to: Azure",
-    "score": 14,
-    "found_at": "2026-08-25T15:21:48.123568"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "Az-104 exam",
-    "link": "https://www.reddit.com/r/AzureCertification/comments/1vxe3nh/az104_exam/",
-    "source": "Reddit: Azure Certification",
-    "score": 10,
-    "found_at": "2026-08-25T17:30:02.258709"
-  },
-  {
-    "priority": "LOW",
-    "type": "INFO",
-    "title": "AMD at Microsoft Build 2026: Building Local & Cloud AI with Open-Source Tools - AMD",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOakZMZTlOZDhtRXI0S3F6RVRTOTFwTkFBd1hxcmFBN3lCdVRkYlRubGFWcERBZGFBOUUwZXl1akFxczNEYk9LODhGSnpUV3RYUElsdDRlcHNJM2JwZDN4QkZ6ME1JdXM5NVEwRHc1MzB4TE9EUzhHa0FBdmdwR0dScDVaWnE3RUpjTnhVMktsWGh1MklOaG1QVlI2bXl6M29y?oc=5",
-    "source": "Google News: MS Build Challenge",
-    "score": 3,
-    "found_at": "2026-08-25T23:10:50.513676"
-  },
-  {
-    "priority": "CRITICAL",
-    "type": "INSTANT",
-    "title": "Azure OpenAI Service vs OpenAI API, which to use and when in 2026",
-    "link": "https://dev.to/carlosjcastrog/azure-openai-service-vs-openai-api-which-to-use-and-when-in-2026-1nic",
-    "source": "Dev.to: Azure",
-    "score": 8,
-    "found_at": "2026-08-26T01:51:35.747377"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Develop Microsoft Azure skills with 30 Days to Learn It - Microsoft Azure",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORXVZYTVJak11THkxVFhKSHhYdE16dDFBUkZFVGkyMW1RNFRxeHlpV1JGZnBOWC1HVGtmNWF2UE9VYXBwX1RUNEplTklybmlvUEExaUFwZlA3bUpEdGdTMzJGSEUtTVFTd1FOanhjQms1REwtUnZRWVMxVjJUeXdMZGZnenlRUDN3Y3JPX2R1dS15bGVCdEtUVkZMNA?oc=5",
-    "source": "Google News: MS Cert Voucher",
-    "reason": "Event voucher phrase: '30 days to learn it'",
-    "found_at": "2026-08-28T23:28:31.841580"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Skip to main content",
-    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it#main",
-    "source": "Web: Microsoft 30 Days to Learn It",
-    "reason": "Voucher URL pattern matched: https://developer.microsoft.com/en-us/offers/30-days-to-learn-it#main",
-    "found_at": "2026-08-28T23:28:56.218162"
-  },
-  {
     "tier": "EVENT",
     "title": "This browser is no longer supported.",
     "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
@@ -1639,5 +1254,349 @@
     "source": "Reddit: Azure Certification",
     "reason": "Guaranteed voucher phrase: 'levelup certification'",
     "found_at": "2026-10-26T04:25:00.920741"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Develop Microsoft Azure skills with 30 Days to Learn It - Microsoft Azure",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORXVZYTVJak11THkxVFhKSHhYdE16dDFBUkZFVGkyMW1RNFRxeHlpV1JGZnBOWC1HVGtmNWF2UE9VYXBwX1RUNEplTklybmlvUEExaUFwZlA3bUpEdGdTMzJGSEUtTVFTd1FOanhjQms1REwtUnZRWVMxVjJUeXdMZGZnenlRUDN3Y3JPX2R1dS15bGVCdEtUVkZMNA?oc=5",
+    "source": "Google News: MS Ignite Voucher",
+    "reason": "Event voucher phrase: '30 days to learn it'",
+    "found_at": "2026-10-28T08:03:41.476982"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Skip to main content",
+    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it#main",
+    "source": "Web: Microsoft 30 Days to Learn It",
+    "reason": "Voucher URL pattern matched: https://developer.microsoft.com/en-us/offers/30-days-to-learn-it#main",
+    "found_at": "2026-10-28T08:04:03.542463"
+  },
+  {
+    "tier": "EVENT",
+    "title": "This browser is no longer supported.",
+    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
+    "source": "Web: Microsoft 30 Days to Learn It",
+    "reason": "Voucher URL pattern matched: https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
+    "found_at": "2026-10-28T08:04:03.542500"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Skip to main content",
+    "link": "https://learn.microsoft.com/en-us/training/challenges#main",
+    "source": "Web: Microsoft Learn Challenges",
+    "reason": "Voucher URL pattern matched: https://learn.microsoft.com/en-us/training/challenges#main",
+    "found_at": "2026-10-28T08:04:05.778321"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Read in English",
+    "link": "https://learn.microsoft.com/en-us/training/challenges",
+    "source": "Web: Microsoft Learn Challenges",
+    "reason": "Voucher URL pattern matched: https://learn.microsoft.com/en-us/training/challenges",
+    "found_at": "2026-10-28T08:04:05.778417"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Microsoft Learn profile",
+    "link": "https://learn.microsoft.com/en-us/users/me/challenges",
+    "source": "Web: Microsoft Learn Challenges",
+    "reason": "Voucher URL pattern matched: https://learn.microsoft.com/en-us/users/me/challenges",
+    "found_at": "2026-10-28T08:04:05.778508"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Cloud and AI Platforms",
+    "link": "https://skillupwithlevelup.com/courses?solution_areas=118071",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses?solution_areas=118071",
+    "found_at": "2026-10-28T08:04:20.822473"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Cloud and AI Platforms",
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=118071",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=11807",
+    "found_at": "2026-10-28T08:04:20.822515"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Deal-Ready Demo Accelerators",
+    "link": "https://skillupwithlevelup.com/dealreadyaccelerators",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/dealreadyaccelerators",
+    "found_at": "2026-10-28T08:04:20.822548"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Learning Journeys",
+    "link": "https://skillupwithlevelup.com/journeys",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/journeys",
+    "found_at": "2026-10-28T08:04:20.822568"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Français\n                                                / French",
+    "link": "https://skillupwithlevelup.com/lang/fr",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/fr",
+    "found_at": "2026-10-28T08:04:20.822620"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Español\n                                                / Spanish",
+    "link": "https://skillupwithlevelup.com/lang/es",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/es",
+    "found_at": "2026-10-28T08:04:20.822656"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Deutsch\n                                                / German",
+    "link": "https://skillupwithlevelup.com/lang/de",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/de",
+    "found_at": "2026-10-28T08:04:20.822689"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Português\n                                                / Portuguese",
+    "link": "https://skillupwithlevelup.com/lang/pt",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/pt",
+    "found_at": "2026-10-28T08:04:20.822722"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Italiano\n                                                / Italian",
+    "link": "https://skillupwithlevelup.com/lang/it",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/it",
+    "found_at": "2026-10-28T08:04:20.822756"
+  },
+  {
+    "tier": "EVENT",
+    "title": "日本語\n                                                / Japanese",
+    "link": "https://skillupwithlevelup.com/lang/ja",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/ja",
+    "found_at": "2026-10-28T08:04:20.822792"
+  },
+  {
+    "tier": "EVENT",
+    "title": "한국어\n                                                / Korean",
+    "link": "https://skillupwithlevelup.com/lang/ko",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/ko",
+    "found_at": "2026-10-28T08:04:20.822830"
+  },
+  {
+    "tier": "EVENT",
+    "title": "现代汉语\n                                                / Simplified Chinese",
+    "link": "https://skillupwithlevelup.com/lang/zh",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/zh",
+    "found_at": "2026-10-28T08:04:20.822867"
+  },
+  {
+    "tier": "EVENT",
+    "title": "繁體中文\n                                                / Traditional Chinese",
+    "link": "https://skillupwithlevelup.com/lang/zt",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/zt",
+    "found_at": "2026-10-28T08:04:20.822907"
+  },
+  {
+    "tier": "EVENT",
+    "title": "LIVE ACCELERATOR",
+    "link": "https://skillupwithlevelup.com/",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/",
+    "found_at": "2026-10-28T08:04:20.822932"
+  },
+  {
+    "tier": "EVENT",
+    "title": "View All Courses",
+    "link": "https://skillupwithlevelup.com/courses",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses",
+    "found_at": "2026-10-28T08:04:20.823003"
+  },
+  {
+    "tier": "EVENT",
+    "title": "View Full Journey",
+    "link": "https://skillupwithlevelup.com/frontier",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/frontier",
+    "found_at": "2026-10-28T08:04:20.823088"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Terms & Conditions",
+    "link": "https://skillupwithlevelup.com/cert-terms-and-conditions",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/cert-terms-and-conditions",
+    "found_at": "2026-10-28T08:04:20.823348"
+  },
+  {
+    "tier": "EVENT",
+    "title": "AI Business Process",
+    "link": "https://skillupwithlevelup.com/journeys?solution_area=AI+Business+Process",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/journeys?solution_area=AI+Business+Process",
+    "found_at": "2026-10-28T08:04:20.823418"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Cloud & AI Platform",
+    "link": "https://skillupwithlevelup.com/journeys?solution_area=Cloud+%26+AI+Platform",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/journeys?solution_area=Cloud+%26+AI+Platform",
+    "found_at": "2026-10-28T08:04:20.823447"
+  },
+  {
+    "tier": "EVENT",
+    "title": "LevelUpCertification Prep",
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand",
+    "found_at": "2026-10-28T08:04:29.380211"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Learn more about the Certification Requirements here",
+    "link": "https://skillupwithlevelup.com/cert-requirement-maicpp-solution-designation/cloud-and-ai",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/cert-requirement-maicpp-solution-designation/clou",
+    "found_at": "2026-10-28T08:04:29.380253"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Start Your Certification Journey",
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand#cert-course-catalog",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand#cert-course-catalog",
+    "found_at": "2026-10-28T08:04:29.380303"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-104: Azure Administrator - ENThis course teaches IT Professionals how to",
+    "link": "https://skillupwithlevelup.com/course-detail/1774652",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1774652",
+    "found_at": "2026-10-28T08:04:29.380527"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-204: Azure Developer - ENThis course teaches developers how to create en",
+    "link": "https://skillupwithlevelup.com/course-detail/1774660",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1774660",
+    "found_at": "2026-10-28T08:04:29.380652"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-400: DevOps Engineer - ENThis course enables ability to accomplish the f",
+    "link": "https://skillupwithlevelup.com/course-detail/1775593",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1775593",
+    "found_at": "2026-10-28T08:04:29.380746"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-700: Network Engineer - ENThis course teaches Network Engineers how to d",
+    "link": "https://skillupwithlevelup.com/course-detail/1775753",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1775753",
+    "found_at": "2026-10-28T08:04:29.380861"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursDP-300: Azure Database Administrator - ENDP-300 is designed to administer a",
+    "link": "https://skillupwithlevelup.com/course-detail/1775755",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1775755",
+    "found_at": "2026-10-28T08:04:29.380936"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursDP-600: Fabric Analytics Engineer - ENAs a participant in the Candidate Pre",
+    "link": "https://skillupwithlevelup.com/course-detail/1776160",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776160",
+    "found_at": "2026-10-28T08:04:29.381048"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursGH-300: GitHub CopilotThe GitHub Copilot certification prep courses evaluat",
+    "link": "https://skillupwithlevelup.com/course-detail/1776161",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776161",
+    "found_at": "2026-10-28T08:04:29.381160"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursMB-800: Business Central Functional Consultant - ENAs a functional consulta",
+    "link": "https://skillupwithlevelup.com/course-detail/1776162",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776162",
+    "found_at": "2026-10-28T08:04:29.381245"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursPL-200: Power Platform Functional Consultant - ENThis course will teach you",
+    "link": "https://skillupwithlevelup.com/course-detail/1776163",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776163",
+    "found_at": "2026-10-28T08:04:29.381350"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursPL-400: Power Platform Developer - ENIn this course you will demonstrate ho",
+    "link": "https://skillupwithlevelup.com/course-detail/1776164",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776164",
+    "found_at": "2026-10-28T08:04:29.381422"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursPL-500: Power Automate RPA Developer - ENIn this course you will demonstrat",
+    "link": "https://skillupwithlevelup.com/course-detail/1776165",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776165",
+    "found_at": "2026-10-28T08:04:29.381488"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursPL-600: Power Platform Solution Architect - ENIn this course, you will lear",
+    "link": "https://skillupwithlevelup.com/course-detail/1776166",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776166",
+    "found_at": "2026-10-28T08:04:29.381575"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-500: Azure Security Engineer - ENAZ-500 is designed to Demonstrate the s",
+    "link": "https://skillupwithlevelup.com/course-detail/1776167",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776167",
+    "found_at": "2026-10-28T08:04:29.381665"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursSC-300: Identity and Access Administrator - ENIn this course you will demon",
+    "link": "https://skillupwithlevelup.com/course-detail/1776168",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776168",
+    "found_at": "2026-10-28T08:04:29.381738"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-305: Designing Microsoft Azure Infrastructure Solutions - ENCompleting t",
+    "link": "https://skillupwithlevelup.com/course-detail/1776169",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776169",
+    "found_at": "2026-10-28T08:04:29.381840"
   }
 ]
