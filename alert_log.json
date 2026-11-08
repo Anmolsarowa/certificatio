@@ -1,110 +1,6 @@
 [
   {
     "tier": "EVENT",
-    "title": "This browser is no longer supported.",
-    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
-    "source": "Web: Microsoft 30 Days to Learn It",
-    "reason": "Voucher URL pattern matched: https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
-    "found_at": "2026-08-28T23:28:56.218207"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Skip to main content",
-    "link": "https://learn.microsoft.com/en-us/training/challenges#main",
-    "source": "Web: Microsoft Learn Challenges",
-    "reason": "Voucher URL pattern matched: https://learn.microsoft.com/en-us/training/challenges#main",
-    "found_at": "2026-08-28T23:28:58.387772"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Read in English",
-    "link": "https://learn.microsoft.com/en-us/training/challenges",
-    "source": "Web: Microsoft Learn Challenges",
-    "reason": "Voucher URL pattern matched: https://learn.microsoft.com/en-us/training/challenges",
-    "found_at": "2026-08-28T23:28:58.387896"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Microsoft Learn profile",
-    "link": "https://learn.microsoft.com/en-us/users/me/challenges",
-    "source": "Web: Microsoft Learn Challenges",
-    "reason": "Voucher URL pattern matched: https://learn.microsoft.com/en-us/users/me/challenges",
-    "found_at": "2026-08-28T23:28:58.388014"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Microsoft Virtual Training Days",
-    "link": "https://www.microsoft.com/en-us/events/category/microsoft-virtual-training-days",
-    "source": "Web: Microsoft Virtual Training Days",
-    "reason": "Event voucher phrase: 'virtual training day'",
-    "found_at": "2026-08-28T23:29:01.142850"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Microsoft Virtual Training Days",
-    "link": "https://events.microsoft.com/en-us/mvtd",
-    "source": "Web: Microsoft Virtual Training Days",
-    "reason": "Event voucher phrase: 'virtual training day'",
-    "found_at": "2026-08-28T23:29:01.143852"
-  },
-  {
-    "tier": "EVENT",
-    "title": "All Virtual Training Days",
-    "link": "https://events.microsoft.com/en-us/mvtd#section-master-explore-all",
-    "source": "Web: Microsoft Virtual Training Days",
-    "reason": "Event voucher phrase: 'virtual training day'",
-    "found_at": "2026-08-28T23:29:01.144042"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Copy URL to email",
-    "link": "mailto:?subject=Microsoft%20events%20results&body=https://www.microsoft.com/en-us/events/category/microsoft-virtual-training-days",
-    "source": "Web: Microsoft Virtual Training Days",
-    "reason": "Voucher URL pattern matched: mailto:?subject=Microsoft%20events%20results&body=https://www.microsoft.com/en-u",
-    "found_at": "2026-08-28T23:29:01.145751"
-  },
-  {
-    "tier": "EVENT",
-    "title": "AI Business Process",
-    "link": "https://skillupwithlevelup.com/courses?solution_areas=132003",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses?solution_areas=132003",
-    "found_at": "2026-08-28T23:29:07.496170"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Cloud & AI Platform",
-    "link": "https://skillupwithlevelup.com/courses?solution_areas=118071",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses?solution_areas=118071",
-    "found_at": "2026-08-28T23:29:07.496210"
-  },
-  {
-    "tier": "EVENT",
-    "title": "AI Business Process",
-    "link": "https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=132003",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=13200",
-    "found_at": "2026-08-28T23:29:07.496248"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Cloud & AI Platform",
-    "link": "https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=118071",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=11807",
-    "found_at": "2026-08-28T23:29:07.496278"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Deal-Ready Demo Accelerators",
-    "link": "https://skillupwithlevelup.com/dealreadyaccelerators",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/dealreadyaccelerators",
-    "found_at": "2026-08-28T23:29:07.496317"
-  },
-  {
-    "tier": "EVENT",
     "title": "Learning Journeys",
     "link": "https://skillupwithlevelup.com/journeys",
     "source": "Web: LevelUp Home",
@@ -1598,5 +1494,109 @@
     "source": "Web: LevelUp Certification Prep",
     "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776169",
     "found_at": "2026-10-28T08:04:29.381840"
+  },
+  {
+    "tier": "EVENT",
+    "title": "AI Business Solutions (ABS)",
+    "link": "https://skillupwithlevelup.com/courses?solution_areas=81034",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses?solution_areas=81034",
+    "found_at": "2026-11-08T12:59:13.435928"
+  },
+  {
+    "tier": "EVENT",
+    "title": "AI Business Solutions (ABS)",
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=81034",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=81034",
+    "found_at": "2026-11-08T12:59:13.435982"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAB-100: Agentic AI Business Solutions ArchitectAs a learner for this certif",
+    "link": "https://skillupwithlevelup.com/course-detail/2426785",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2426785",
+    "found_at": "2026-11-08T12:59:20.701321"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        12 HoursAB-730 & AB-731: AI Business Certification Prep – ENAB-730: AI Business Pro",
+    "link": "https://skillupwithlevelup.com/course-detail/2331326",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2331326",
+    "found_at": "2026-11-08T12:59:20.701570"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        20 HoursAccelerate Agentic AIThis is a comprehensive learning journey designed to r",
+    "link": "https://skillupwithlevelup.com/course-detail/2307124",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2307124",
+    "found_at": "2026-11-08T12:59:20.701741"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        1 HourAccelerate Agentic AI - Frontier Engineer AssessmentTake this Frontier Transf",
+    "link": "https://skillupwithlevelup.com/course-detail/2431478",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2431478",
+    "found_at": "2026-11-08T12:59:20.701840"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        1.5 HoursAccelerate Frontier transformation with Microsoft Copilot, Cowork & Agents",
+    "link": "https://skillupwithlevelup.com/course-detail/1788071",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1788071",
+    "found_at": "2026-11-08T12:59:20.702025"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        6 HoursAccelerate Transformation with Microsoft Cloud and AI technologies through A",
+    "link": "https://skillupwithlevelup.com/course-detail/2262864",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2262864",
+    "found_at": "2026-11-08T12:59:20.702180"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        1 HourActivate organizational intelligence with Microsoft IQThis course explores ho",
+    "link": "https://skillupwithlevelup.com/course-detail/2435386",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2435386",
+    "found_at": "2026-11-08T12:59:20.702341"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        1 HourActivate Organizational Intelligence with Microsoft IQ - Frontier Engineer As",
+    "link": "https://skillupwithlevelup.com/course-detail/2421493",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2421493",
+    "found_at": "2026-11-08T12:59:20.702442"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        30 MinuteAdditional ResellersThis training module provides a comprehensive overview",
+    "link": "https://skillupwithlevelup.com/course-detail/2440103",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2440103",
+    "found_at": "2026-11-08T12:59:20.702546"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        30 MinuteAfter the Fact DiscountingThis module introduces the concept of After the ",
+    "link": "https://skillupwithlevelup.com/course-detail/2440107",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2440107",
+    "found_at": "2026-11-08T12:59:20.702679"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        12 HoursAgent-powered business process automationThis course adopts an AI‑first aut",
+    "link": "https://skillupwithlevelup.com/course-detail/2266495",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2266495",
+    "found_at": "2026-11-08T12:59:20.702813"
   }
 ]
