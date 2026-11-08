@@ -1,22 +1,4 @@
 {
-  "b86f0047a751f144c4695ae26795f7e3": {
-    "link": "https://skillupwithlevelup.com/course-detail/2620379",
-    "source": "LevelUp Courses",
-    "priority": "EVENT",
-    "seen_at": "2026-10-09T19:21:25.680291"
-  },
-  "1dc7ee2d75e19a0dbf7f3c46474de912": {
-    "link": "https://skillupwithlevelup.com/course-detail/2620389",
-    "source": "LevelUp Courses",
-    "priority": "EVENT",
-    "seen_at": "2026-10-09T19:21:25.680374"
-  },
-  "35987af55ceebafa27aa957a5147d630": {
-    "link": "https://skillupwithlevelup.com/course-detail/2620361",
-    "source": "LevelUp Courses",
-    "priority": "EVENT",
-    "seen_at": "2026-10-09T19:21:25.680451"
-  },
   "50e7f7f8d50cff070e609bc543d405e7": {
     "link": "https://www.reddit.com/r/AzureCertification/comments/1xekss2/title_has_anyone_received_their_free_sc500_exam/",
     "source": "Reddit: Azure Certification",
@@ -358,5 +340,23 @@
     "source": "LevelUp Courses",
     "priority": "EVENT",
     "seen_at": "2026-11-08T12:59:20.702815"
+  },
+  "b86f0047a751f144c4695ae26795f7e3": {
+    "link": "https://skillupwithlevelup.com/course-detail/2620379",
+    "source": "LevelUp Courses",
+    "priority": "EVENT",
+    "seen_at": "2026-11-08T23:30:35.182424"
+  },
+  "1dc7ee2d75e19a0dbf7f3c46474de912": {
+    "link": "https://skillupwithlevelup.com/course-detail/2620389",
+    "source": "LevelUp Courses",
+    "priority": "EVENT",
+    "seen_at": "2026-11-08T23:30:35.182531"
+  },
+  "35987af55ceebafa27aa957a5147d630": {
+    "link": "https://skillupwithlevelup.com/course-detail/2620361",
+    "source": "LevelUp Courses",
+    "priority": "EVENT",
+    "seen_at": "2026-11-08T23:30:35.182629"
   }
 }
