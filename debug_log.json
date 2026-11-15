@@ -5,15 +5,15 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQQW1pMk5zMkpOb1F6OHhyRDFhcEhaMVdFWmRrTjZocnNyVndZenctRWdhMXNWYWlCSVo1aTM4dUNKdTM3UnRhcEV6VmFkWjAwMUpRNFVGYUFFV2pOQ1ZDMmM1VDZ2Y3loUjBObWJDU3gzWUFMNF9fZ3BncjIxUEctaFRKUmd5Rm5lUWstMVlmUF9DalYzMENvVU42YmVoS29vdlNWTzNDT1pXWjJMR1AteVRoaVJYYXFCNTJIN0RlX3VLQWtMLWRkd25YdWlNeEtaR0loTTEyVF9vSHNKa1JRX1pkLTBDdGtTRXF0dzJINDhyZw?oc=5",
-    "time": "2026-11-15T13:40:44.082370"
+    "time": "2026-11-15T19:38:10.599152"
   },
   {
-    "title": "Microsoft Office Certification: Benefits + How to Get Started - Coursera",
+    "title": "What Is the CompTIA A+ Certification? (And How to Get One) - Coursera",
     "source": "Google News: MS Free Cert 2026",
     "tier": null,
-    "reason": "No voucher phrase matched",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE05SjQ5eVpKV1JBMDA0TkxvYUhRTEx4RWd2RGVJT2paRkpRT2U2RmhCc2t0cTdWbk03MXhKMnIzbnBvTWpCZ2NFTmNNTGFYUjRCZ01NSDBHYjFpc0VoMmtsUVl4dXZFV2hUby1IUU9va2NKdw?oc=5",
-    "time": "2026-11-15T13:40:44.082413"
+    "reason": "EXCLUDED: 'comptia a+'",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOalItUGJ2aXZfUFp5Y2Jyd3BxcnJTU2MtOFRJSUpacU9oOWZZTU1ST3k2dnZvbnZaYnV5Q2dudXY4QzV2eTZVOGJiQ2wza1BZUkFSaEZJRUQ5RTFEamh0U194dWZud05jQUZ3VzFzVnJXa1NVWDFkWDhHNWhKdzBRcTBVbmlqY3Y2eXc?oc=5",
+    "time": "2026-11-15T19:38:10.599165"
   },
   {
     "title": "Microsoft AI Skilling Day powers SA’s digital future - Microsoft Source",
@@ -21,7 +21,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVnJWY2N4bzZNNmxUNVlrTlpRRzRCN3RybEZBVUdzQndEdFZOaFZlSXpxQUlPdTBYcmlhR3EwZUFpbUF0aXF4ajZEcDVSVjBQYk9nWUM3WWhrajVzUFVYNzJ3LUZfNGVRWjBhbUcwYkFYR3JrNWl6ejNzZF83UlRfUi1xekxOdnlIT2djZnF1RElRRFVwTVlJQVZVb2llTktDN2lmV053OUZwM1F6TU41RXlBeDZMdG1mRWQ4ZERHTTRiWVZjUjdmYzlqUjdFeFZoVlE?oc=5",
-    "time": "2026-11-15T13:40:44.082473"
+    "time": "2026-11-15T19:38:10.599250"
   },
   {
     "title": "Power your AI transformation with Microsoft Fabric skilling plans and a certification discount - Microsoft",
@@ -29,7 +29,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPaC1qbWRESmprdGN0ZEF3YVR0TEVjZHMwMllKb1JQd1lPT0ExN19WdjlkWUo3TGdIVXpRalJTSTdfc2RNazZ6Q2IwUDdKWGVoUG1ZYnpzbmp1YWNhV1FxX0d1bnN3aDhVQkt0WmN0QVdqbVJ4ckduZWMxQjlQbzhCV0NLZ2UwRXI4MVhYYVpkZW9ZRm1OdndLaXBJejdkZkwtam1aYUtkMTdqdnBLWXlIQ3FiSVgwZC1VTVZlbERYX0dsMy1NLTEzWTZVMDNiUjdpSW1qOG1hUl9SYVVTWFhsd1lXanlnWUV2WFl0SDBKVWRhQQ?oc=5",
-    "time": "2026-11-15T13:40:44.082534"
+    "time": "2026-11-15T19:38:10.599328"
   },
   {
     "title": "FabCon Europe: Highlights from the European Microsoft Fabric Community Conference 2025 - Microsoft",
@@ -37,23 +37,15 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUFp3bmR1bEZtSlZoS080ZjVOLVhHZVY5a0JSQTVDc1NkVkRjV1dsQ3pPbjZqY1FwVlF0RHBESlBOZEZQRU1qMFB6d2tfZkp4a3IyNXc5bWNMa3ZwN1dDWEhRMF9Gem01Y01PcGhMWlgyMDdyazBiSXpEN09CVWdMX3QwSWpSTmtOVWVHR3dZZmRJczVjSWhyQ0xydXVvOXcwRDlLVVNYRzRVNTRneHNGZzZfTW94cExJMHpYUnJqZlgzRjFBdDU2b1lKM3ZLRWNNaklzSDFkRVVWVklCSWhfX2RmS283UQ?oc=5",
-    "time": "2026-11-15T13:40:44.082592"
+    "time": "2026-11-15T19:38:10.599403"
   },
   {
-    "title": "What Is the Best Way to Learn Azure? - Coursera",
+    "title": "FabCon Vienna: Build data-rich agents on an enterprise-ready foundation - Microsoft",
     "source": "Google News: MS Free Cert 2026",
     "tier": null,
     "reason": "No voucher phrase matched",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBadElpSEdJZzlXTWJVNzRCZEpnWGJwNDY1TjJHTFQxa1JQUEJYUy13ZHRManE1X2Nfa2lRZFJ4U0RnS1lMMV9TbEpFc3JPbmpjc3VyUTd0R1pwRGR5YmszU2xCTy14aURX?oc=5",
-    "time": "2026-11-15T13:40:44.082631"
-  },
-  {
-    "title": "7 Popular Cloud Security Certifications for 2026 - Coursera",
-    "source": "Google News: MS Free Cert 2026",
-    "tier": null,
-    "reason": "No voucher phrase matched",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10aW9ucENSRjhlMEoxWV9WRndMdDZzS2c1X3p3Vkh3bDBzMk54dVVlRzUyN09lYWlkc2xLVHdtTV9wVEdyT0pXeU9zM1NzT0dXcTR0WUliQXIxcDJPVW40NHJRN256Q0hyU1pVQVBvZmYxQXlKRVhvRjRyQQ?oc=5",
-    "time": "2026-11-15T13:40:44.082671"
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZE9nOWZhOXJfNW1qN1RLMldiNm1PZGRoZWt1OHVWZksxQ1lMc0o1VnMwSDFpVTJRMXRHQm82X3pXQmwyMVd0bXR5SmNWeFlaNDNOV3RMZjMyUTFBU3JTMDdDQkdoYUl2d21VODNPUnVIZ3laOFdZNG1sTlMzbVE2X1lQSlNZRFZVMGF6Wjk4UWtXVm9rR0VCaGFUbTFLZHZBRWtucEIzSkcwUEExVkM4b2RnYlQzbnRpYVBzMm1WY0V1LWJwNUs0dFNjMjJuZGdEZ0E?oc=5",
+    "time": "2026-11-15T19:38:10.599473"
   },
   {
     "title": "Implement analytics solutions using Microsoft Fabric with Exam DP-600—now generally available - Microsoft",
@@ -61,7 +53,23 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQnFlWnQ5eGhsSjhTN2RzNnM3SU1MSldSUWo5UXp6RjU1dFg0a0RETy0tdFlOMmZoZ3hEYzBOUTRmWE9KM0NZUG9xTHZWWjU2bm9XNkxkQ3NLMUpwU1lDQVhVbGVDN2J5Ymp5bWhoYWNaOEV6dU44Z1ctdGYwYldkWDlIVHJWOW5IS3daX3FPZFVYdVJZcUQ1TE5pTnRtX2hpQWp2VU9YZGpOTkNCWmQ5ZERNbnhzczdULS1lUUtGMXlSd1Q2MkdNOHZKOVh3R21hNnNCRnNxN3JUUkRILXNjczdidlpKMmxBcGV5SFl0M1o?oc=5",
-    "time": "2026-11-15T13:40:44.082751"
+    "time": "2026-11-15T19:38:10.599563"
+  },
+  {
+    "title": "What Is the Best Way to Learn Azure? - Coursera",
+    "source": "Google News: MS Free Cert 2026",
+    "tier": null,
+    "reason": "No voucher phrase matched",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBadElpSEdJZzlXTWJVNzRCZEpnWGJwNDY1TjJHTFQxa1JQUEJYUy13ZHRManE1X2Nfa2lRZFJ4U0RnS1lMMV9TbEpFc3JPbmpjc3VyUTd0R1pwRGR5YmszU2xCTy14aURX?oc=5",
+    "time": "2026-11-15T19:38:10.599611"
+  },
+  {
+    "title": "7 Popular Cloud Security Certifications for 2026 - Coursera",
+    "source": "Google News: MS Free Cert 2026",
+    "tier": null,
+    "reason": "No voucher phrase matched",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE10aW9ucENSRjhlMEoxWV9WRndMdDZzS2c1X3p3Vkh3bDBzMk54dVVlRzUyN09lYWlkc2xLVHdtTV9wVEdyT0pXeU9zM1NzT0dXcTR0WUliQXIxcDJPVW40NHJRN256Q0hyU1pVQVBvZmYxQXlKRVhvRjRyQQ?oc=5",
+    "time": "2026-11-15T19:38:10.599664"
   },
   {
     "title": "What Were MTA Certifications from Microsoft? + 5 Certifications to Consider Instead - Coursera",
@@ -69,7 +77,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82Mkt6c0JZeTdlNzdqSGN6dVdQYzZaQk9tYXNQMXB6TGJKUWVrTk5UU2p1OGJPaHpzd3hWbkR0UXIzb1FnMmJNNEJ0anY2cG1aS281U1dtYnVWX3hEWllaRA?oc=5",
-    "time": "2026-11-15T13:40:44.082798"
+    "time": "2026-11-15T19:38:10.599719"
   },
   {
     "title": "Supercharge your skills with Microsoft CLX tracks for Azure - Microsoft Azure",
@@ -77,15 +85,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZjV6bTlwZmtKZDFSR290ZXpTcDdxbnVtSzRZRXZwTW9yMXItbEY4OXhkd3huX1BYa19jZU9vbDZXTjhFVmUxMU5xdHBOWjdBVjJuTm9TN0pnTFNwNmRBWHVtV2FORGJCaS1RMC15WUxoeW5UYmM0YkstaHZrY1ZLcV9mcU9PcTFNTGZSZ0gzLU1TTWlxdlZPRk1ObzFfb0t5?oc=5",
-    "time": "2026-11-15T13:40:44.082843"
-  },
-  {
-    "title": "Google Cloud Certification: 2026 Guide - Coursera",
-    "source": "Google News: MS Free Cert 2026",
-    "tier": null,
-    "reason": "No voucher phrase matched",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9paEdkY3FOR0ZfMnlvTHFOQ2lSQS1IOXVQRzFrMVFocVpTZ202NWdyTGllNE1yaHZ2WTVFYzhDVXF3TlY3X3psQlJaRGc4Vkg0LTM2bmF4VkdaYU5ULURWajRpSEJUMWE2WmpRTQ?oc=5",
-    "time": "2026-11-15T13:40:44.082881"
+    "time": "2026-11-15T19:38:10.599780"
   },
   {
     "title": "Best IT Courses and Certifications for Career Growth - Simplilearn.com",
@@ -93,7 +93,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcW9xcllRNWo3aGdVb0R4UDktbHZkczZRcUdkU29fRy1OZnpVd0dwR3VnZDRzYmJ3OHVCV2xZeTNORW5qeEg0aVlpX1o3SzRZX211M1B3YWc1Y3pRQjhiaW8tRHdtcnVscFFXQWVndFp3V2pMWm1kNHRZSTVmejUxME0yUV9iYzVVV0w5dEh1c2NPazBKckdGU0dYZ3NxcFA5SXZDY1lB?oc=5",
-    "time": "2026-11-15T13:40:44.082929"
+    "time": "2026-11-15T19:38:10.599855"
   },
   {
     "title": "Free AI training for all, as government and industry programme expands to provide 10 million workers with key AI skills by 2030 - GOV.UK",
@@ -101,7 +101,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPRFUxYjB1cTFReVkxRmRzYkV5WVdfWnVtNVBkUE1QWGNkczBmOFItcUZVYW1FRm9XSFBpWmRsTk01N2dxNzJsdUFRWjJKZnpUeUZPY3J2V2lwN19WeVVUOHFWTm0yNUZGVG4zX3VZM0FOZTRleU5HNFQzYkE0QmN6WFh3bUVhdnJ2UWRHSTJ4RjZpTFJ1bVh6VHJ1dFdHRzhCT2pjeWJCWi11VTZ2bUtIM20yYlNZQ3ppUUNxSHZCMW9rSmtYUmhJRktmSHB3UkpfVzN6dFhEVUNuM2ZndmE0Wk9NdEZDLTVKOGRNUllZTmNjYUU?oc=5",
-    "time": "2026-11-15T13:40:44.082994"
+    "time": "2026-11-15T19:38:10.599938"
   },
   {
     "title": "6 Popular Data Analytics Certifications: Your 2026 Guide - Coursera",
@@ -109,7 +109,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE90aXl3UlBvZk5lSGdadUZRSC16R2JHR3dCdENEWktOZHZyVG5tMFZYbTIxeGU5dFQyTTFzSnRXX1JqQ1owaUlBeFBRWjRyT24ybUlYLUdHVW1OV1VTZnJ4cEpnLTBrNjJoTmI5Q0JGSjNJNG8?oc=5",
-    "time": "2026-11-15T13:40:44.083034"
+    "time": "2026-11-15T19:38:10.599991"
   },
   {
     "title": "Free premium AI subscriptions for those taking certain SkillsFuture courses from 2nd half of 2026 - The Straits Times",
@@ -117,7 +117,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUENuOFlTWDJESkNkVlZMX1FhdkZ3M25FQkpnZENBYTBEbEF0aC0xYkZQZDVXc2hYMHZ1WHpLcDl3aDlYNG5ueG1TN2FUTFRGVGlfQ1F5V3dVRVEyeV9fRUZ6ekFTRzY0WGwtNWljaVEzd0theE9wZmxHZFI4Y3RoWXdKbWRYelJIWmJadFN4UVJ5TFpyOWE1N1VuSHhpM29GaExqYmZTaHV5ZllYT29Qb0k1Y3RTaTlhaWYySTRsS3ZMRFRz?oc=5",
-    "time": "2026-11-15T13:40:44.083096"
+    "time": "2026-11-15T19:38:10.600064"
   },
   {
     "title": "Microsoft AI Skills Fest Is Live Now: Here's What We Know - TechJuice",
@@ -125,7 +125,7 @@
     "tier": null,
     "reason": "EXCLUDED: 'what we know'",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUG5zWjNHcTdBdHdUOVJpM1djZTMxX2tJRm5OLXpwUU5FX2ZOU1FzQ19jMVplSXZmQm0wa2l3Z2p2bmhpTTdVTVlyZHVnQlZ0U3loLUpQb3UzWDFIT1JVWUFabV95OUFpeE0tZGF0dG16T3p0bWVPTjhfLWl4ZkRyYUc0eUZQeEhENFZHTmVxanQ?oc=5",
-    "time": "2026-11-15T13:40:44.083108"
+    "time": "2026-11-15T19:38:10.600079"
   },
   {
     "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
@@ -133,7 +133,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
-    "time": "2026-11-15T13:40:47.441260"
+    "time": "2026-11-15T19:38:14.073416"
   },
   {
     "title": "Stop treating agents as one-off projects and start running them as a continuous discipline",
@@ -141,7 +141,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
-    "time": "2026-11-15T13:40:47.441324"
+    "time": "2026-11-15T19:38:14.073488"
   },
   {
     "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
@@ -149,7 +149,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
-    "time": "2026-11-15T13:40:47.441378"
+    "time": "2026-11-15T19:38:14.073551"
   },
   {
     "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
@@ -157,7 +157,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
-    "time": "2026-11-15T13:40:47.441434"
+    "time": "2026-11-15T19:38:14.073619"
   },
   {
     "title": "The Platform Behind the Next AI Breakthrough",
@@ -165,7 +165,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.wired.com/sponsored/story/the-platform-behind-the-next-ai-breakthrough/",
-    "time": "2026-11-15T13:40:47.441469"
+    "time": "2026-11-15T19:38:14.073662"
   },
   {
     "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
@@ -173,7 +173,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
-    "time": "2026-11-15T13:40:47.441519"
+    "time": "2026-11-15T19:38:14.073725"
   },
   {
     "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
@@ -181,7 +181,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
-    "time": "2026-11-15T13:40:47.441564"
+    "time": "2026-11-15T19:38:14.073783"
   },
   {
     "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
@@ -189,7 +189,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
-    "time": "2026-11-15T13:40:47.441607"
+    "time": "2026-11-15T19:38:14.073852"
   },
   {
     "title": "Advancing digital sovereignty with greater control and choice",
@@ -197,7 +197,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
-    "time": "2026-11-15T13:40:47.441653"
+    "time": "2026-11-15T19:38:14.073910"
   },
   {
     "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
@@ -205,7 +205,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
-    "time": "2026-11-15T13:40:47.441696"
+    "time": "2026-11-15T19:38:14.073963"
   },
   {
     "title": "Is AI involved in today’s FAA nationwide ground stop?",
@@ -213,7 +213,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/8KbN0Rh2O44",
-    "time": "2026-11-15T13:40:48.973047"
+    "time": "2026-11-15T19:38:15.629426"
   },
   {
     "title": "Nvidia's circular financing #Vergecast",
@@ -221,7 +221,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/kTiHK_fNvpY",
-    "time": "2026-11-15T13:40:48.973115"
+    "time": "2026-11-15T19:38:15.629507"
   },
   {
     "title": "Who is the next face of AI? #Vergecast",
@@ -229,7 +229,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/Y8A3V5qb2ec",
-    "time": "2026-11-15T13:40:48.973171"
+    "time": "2026-11-15T19:38:15.629574"
   },
   {
     "title": "What's really at stake in the Jensen Huang saga | The Vergecast",
@@ -237,7 +237,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/watch?v=niuBe7Ijc1w",
-    "time": "2026-11-15T13:40:48.973267"
+    "time": "2026-11-15T19:38:15.629686"
   },
   {
     "title": "The purest Decoder bait of all time",
@@ -245,7 +245,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/9zjY_Ax3jLQ",
-    "time": "2026-11-15T13:40:48.973330"
+    "time": "2026-11-15T19:38:15.629749"
   },
   {
     "title": "Jensen Huang resigns, and our HomeView review | The Vergecast",
@@ -253,7 +253,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/watch?v=kVMp5m7-d_o",
-    "time": "2026-11-15T13:40:48.973416"
+    "time": "2026-11-15T19:38:15.629856"
   },
   {
     "title": "Jensen Huang’s cult of personality #Vergecast",
@@ -261,7 +261,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/ANyd_nSlCWM",
-    "time": "2026-11-15T13:40:48.973481"
+    "time": "2026-11-15T19:38:15.629937"
   },
   {
     "title": "What Nvidia’s scandal is really about #Vergecast",
@@ -269,7 +269,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/b996PeCI-AU",
-    "time": "2026-11-15T13:40:48.973553"
+    "time": "2026-11-15T19:38:15.630020"
   },
   {
     "title": "Nvidia CEO Jensen Huang resigns",
@@ -277,7 +277,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/74k4UgmtmrY",
-    "time": "2026-11-15T13:40:48.973612"
+    "time": "2026-11-15T19:38:15.630087"
   },
   {
     "title": "Apple HomeView review",
@@ -285,7 +285,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/QkJWorbvlds",
-    "time": "2026-11-15T13:40:48.973682"
+    "time": "2026-11-15T19:38:15.630164"
   },
   {
     "title": "Google's AI glasses take privacy more seriously",
@@ -293,7 +293,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/0aCLnZp_ZFA",
-    "time": "2026-11-15T13:40:48.973757"
+    "time": "2026-11-15T19:38:15.630232"
   },
   {
     "title": "Apple HomeView review: late but great",
@@ -301,7 +301,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/watch?v=20fBrOG2XGo",
-    "time": "2026-11-15T13:40:48.973852"
+    "time": "2026-11-15T19:38:15.630335"
   },
   {
     "title": "Your internet browser matters #Vergecast",
@@ -309,7 +309,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/IZMwAteFrW4",
-    "time": "2026-11-15T13:40:48.973906"
+    "time": "2026-11-15T19:38:15.630399"
   },
   {
     "title": "Why Apple and Amazon can't stop launching stuff | The Vergecast",
@@ -317,7 +317,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/watch?v=EHpozFmmRos",
-    "time": "2026-11-15T13:40:48.973974"
+    "time": "2026-11-15T19:38:15.630476"
   },
   {
     "title": "Apple's product strategy #Vergecast",
@@ -325,7 +325,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.youtube.com/shorts/RssVW0PcMuE",
-    "time": "2026-11-15T13:40:48.974032"
+    "time": "2026-11-15T19:38:15.630539"
   },
   {
     "title": "Download Microsoft Edge",
@@ -333,7 +333,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://go.microsoft.com/fwlink/p/?LinkID=2092881 ",
-    "time": "2026-11-15T13:40:59.341404"
+    "time": "2026-11-15T19:38:23.446143"
   },
   {
     "title": "More info about Internet Explorer and Microsoft Edge",
@@ -341,7 +341,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge",
-    "time": "2026-11-15T13:40:59.341441"
+    "time": "2026-11-15T19:38:23.446190"
   },
   {
     "title": "Browse all paths",
@@ -349,7 +349,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://developer.microsoft.com/en-us/training/browse/",
-    "time": "2026-11-15T13:40:59.341485"
+    "time": "2026-11-15T19:38:23.446254"
   },
   {
     "title": "Browse training",
@@ -357,7 +357,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://developer.microsoft.com/en-us/training/browse/",
-    "time": "2026-11-15T13:40:59.341515"
+    "time": "2026-11-15T19:38:23.446301"
   },
   {
     "title": "Explore career paths",
@@ -365,7 +365,7 @@
     "tier": null,
     "reason": "EXCLUDED: 'career path'",
     "link": "https://developer.microsoft.com/en-us/training/career-paths/",
-    "time": "2026-11-15T13:40:59.341535"
+    "time": "2026-11-15T19:38:23.446332"
   },
   {
     "title": "Explore Student Hub",
@@ -373,7 +373,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://developer.microsoft.com/en-us/training/student-hub",
-    "time": "2026-11-15T13:40:59.341566"
+    "time": "2026-11-15T19:38:23.446380"
   },
   {
     "title": "Browse learning paths and modules",
@@ -381,7 +381,7 @@
     "tier": null,
     "reason": "EXCLUDED: 'learning path'",
     "link": "https://developer.microsoft.com/en-us/training/browse/",
-    "time": "2026-11-15T13:40:59.341585"
+    "time": "2026-11-15T19:38:23.446409"
   },
   {
     "title": "Explore career paths",
@@ -389,7 +389,7 @@
     "tier": null,
     "reason": "EXCLUDED: 'career path'",
     "link": "https://developer.microsoft.com/en-us/training/career-paths/",
-    "time": "2026-11-15T13:40:59.341602"
+    "time": "2026-11-15T19:38:23.446435"
   },
   {
     "title": "Explore Student Hub",
@@ -397,7 +397,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://developer.microsoft.com/en-us/training/student-hub/",
-    "time": "2026-11-15T13:40:59.341632"
+    "time": "2026-11-15T19:38:23.446481"
   },
   {
     "title": "See what others are learning",
@@ -405,7 +405,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://developer.microsoft.com/en-us/learn/browse/",
-    "time": "2026-11-15T13:40:59.341667"
+    "time": "2026-11-15T19:38:23.446533"
   },
   {
     "title": "Your Privacy Choices",
@@ -413,7 +413,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://aka.ms/yourcaliforniaprivacychoices",
-    "time": "2026-11-15T13:40:59.341708"
+    "time": "2026-11-15T19:38:23.446594"
   },
   {
     "title": "Previous Versions",
@@ -421,7 +421,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/previous-versions/",
-    "time": "2026-11-15T13:40:59.341740"
+    "time": "2026-11-15T19:38:23.446622"
   },
   {
     "title": "Consumer Health Privacy",
@@ -429,7 +429,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://go.microsoft.com/fwlink/?linkid=2259814",
-    "time": "2026-11-15T13:40:59.341763"
+    "time": "2026-11-15T19:38:23.446652"
   },
   {
     "title": "Download Microsoft Edge",
@@ -437,7 +437,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://go.microsoft.com/fwlink/p/?LinkID=2092881 ",
-    "time": "2026-11-15T13:41:01.461962"
+    "time": "2026-11-15T19:38:25.855635"
   },
   {
     "title": "More info about Internet Explorer and Microsoft Edge",
@@ -445,7 +445,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge",
-    "time": "2026-11-15T13:41:01.461998"
+    "time": "2026-11-15T19:38:25.855679"
   },
   {
     "title": "Microsoft Learn troubleshooting page",
@@ -453,7 +453,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/training/support/troubleshooting",
-    "time": "2026-11-15T13:41:01.462061"
+    "time": "2026-11-15T19:38:25.855763"
   },
   {
     "title": "Microsoft Learn profile",
@@ -461,7 +461,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462101"
+    "time": "2026-11-15T19:38:25.855846"
   },
   {
     "title": "Microsoft Learn profile",
@@ -469,7 +469,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462123"
+    "time": "2026-11-15T19:38:25.855884"
   },
   {
     "title": "Microsoft Learn troubleshooting page",
@@ -477,7 +477,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/training/support/troubleshooting",
-    "time": "2026-11-15T13:41:01.462149"
+    "time": "2026-11-15T19:38:25.855922"
   },
   {
     "title": "Microsoft Learn profile",
@@ -485,7 +485,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462178"
+    "time": "2026-11-15T19:38:25.855969"
   },
   {
     "title": "Microsoft Learn profile",
@@ -493,7 +493,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462197"
+    "time": "2026-11-15T19:38:25.856001"
   },
   {
     "title": "Microsoft Learn troubleshooting page",
@@ -501,7 +501,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/training/support/troubleshooting",
-    "time": "2026-11-15T13:41:01.462221"
+    "time": "2026-11-15T19:38:25.856040"
   },
   {
     "title": "Microsoft Learn profile",
@@ -509,7 +509,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462247"
+    "time": "2026-11-15T19:38:25.856087"
   },
   {
     "title": "Microsoft Learn profile",
@@ -517,7 +517,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462266"
+    "time": "2026-11-15T19:38:25.856119"
   },
   {
     "title": "Microsoft Learn troubleshooting page",
@@ -525,7 +525,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/training/support/troubleshooting",
-    "time": "2026-11-15T13:41:01.462288"
+    "time": "2026-11-15T19:38:25.856155"
   },
   {
     "title": "Microsoft Learn profile",
@@ -533,7 +533,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462313"
+    "time": "2026-11-15T19:38:25.856201"
   },
   {
     "title": "Microsoft Learn profile",
@@ -541,7 +541,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462332"
+    "time": "2026-11-15T19:38:25.856231"
   },
   {
     "title": "Microsoft Learn troubleshooting page",
@@ -549,7 +549,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/training/support/troubleshooting",
-    "time": "2026-11-15T13:41:01.462353"
+    "time": "2026-11-15T19:38:25.856266"
   },
   {
     "title": "Microsoft Learn profile",
@@ -557,7 +557,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462378"
+    "time": "2026-11-15T19:38:25.856309"
   },
   {
     "title": "Microsoft Learn profile",
@@ -565,7 +565,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/users/me/settings",
-    "time": "2026-11-15T13:41:01.462397"
+    "time": "2026-11-15T19:38:25.856339"
   },
   {
     "title": "Your Privacy Choices",
@@ -573,7 +573,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://aka.ms/yourcaliforniaprivacychoices",
-    "time": "2026-11-15T13:41:01.462425"
+    "time": "2026-11-15T19:38:25.856380"
   },
   {
     "title": "Previous Versions",
@@ -581,7 +581,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/previous-versions/",
-    "time": "2026-11-15T13:41:01.462444"
+    "time": "2026-11-15T19:38:25.856406"
   },
   {
     "title": "Consumer Health Privacy",
@@ -589,15 +589,15 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://go.microsoft.com/fwlink/?linkid=2259814",
-    "time": "2026-11-15T13:41:01.462463"
+    "time": "2026-11-15T19:38:25.856435"
   },
   {
-    "title": "This is the Trace Id: 902b92ed8ddc17706e8b40489d4c8374",
+    "title": "This is the Trace Id: df37a62c83b9032f0fec63cacdc9b006",
     "source": "Web: Microsoft Virtual Training Days",
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.116272"
+    "time": "2026-11-15T19:38:35.669506"
   },
   {
     "title": "Skip to main content",
@@ -605,7 +605,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd#mainContent",
-    "time": "2026-11-15T13:41:10.116333"
+    "time": "2026-11-15T19:38:35.669585"
   },
   {
     "title": "Microsoft events",
@@ -613,7 +613,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events",
-    "time": "2026-11-15T13:41:10.116351"
+    "time": "2026-11-15T19:38:35.669614"
   },
   {
     "title": "Microsoft events",
@@ -621,7 +621,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.116366"
+    "time": "2026-11-15T19:38:35.669633"
   },
   {
     "title": "Microsoft Ignite",
@@ -629,7 +629,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://ignite.microsoft.com/home",
-    "time": "2026-11-15T13:41:10.116380"
+    "time": "2026-11-15T19:38:35.669653"
   },
   {
     "title": "Microsoft Frontier Tour",
@@ -637,7 +637,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://aitour.microsoft.com/flow/microsoft/aitour27/globallanding/page/globalhome",
-    "time": "2026-11-15T13:41:10.116401"
+    "time": "2026-11-15T19:38:35.669681"
   },
   {
     "title": "Microsoft Build",
@@ -645,7 +645,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://build.microsoft.com/home",
-    "time": "2026-11-15T13:41:10.116414"
+    "time": "2026-11-15T19:38:35.669706"
   },
   {
     "title": "Microsoft Agent-a-Thon",
@@ -653,7 +653,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/local-events/microsoft-agent-a-thon",
-    "time": "2026-11-15T13:41:10.116433"
+    "time": "2026-11-15T19:38:35.669733"
   },
   {
     "title": "Microsoft Frontier Transformation Week",
@@ -661,7 +661,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/local-events/microsoft-frontier-transformation-week",
-    "time": "2026-11-15T13:41:10.116456"
+    "time": "2026-11-15T19:38:35.669765"
   },
   {
     "title": "Microsoft Discovery Sessions",
@@ -669,7 +669,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/flow/microsoft/microsoftds/registration/page/landing?tab.deliverymethod=deliverymethod_live",
-    "time": "2026-11-15T13:41:10.116481"
+    "time": "2026-11-15T19:38:35.669801"
   },
   {
     "title": "In a Day Workshops",
@@ -677,7 +677,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/category/microsoft-in-a-day-workshops",
-    "time": "2026-11-15T13:41:10.116498"
+    "time": "2026-11-15T19:38:35.669846"
   },
   {
     "title": "Industry events",
@@ -685,7 +685,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/category/industry-events",
-    "time": "2026-11-15T13:41:10.116513"
+    "time": "2026-11-15T19:38:35.669872"
   },
   {
     "title": "Browse all events",
@@ -693,7 +693,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog",
-    "time": "2026-11-15T13:41:10.116529"
+    "time": "2026-11-15T19:38:35.669899"
   },
   {
     "title": "Business applications",
@@ -701,7 +701,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=topic%3Abusiness-applications",
-    "time": "2026-11-15T13:41:10.116549"
+    "time": "2026-11-15T19:38:35.669932"
   },
   {
     "title": "Data and analytics",
@@ -709,7 +709,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=topic%3Adata-and-analytics",
-    "time": "2026-11-15T13:41:10.116568"
+    "time": "2026-11-15T19:38:35.669962"
   },
   {
     "title": "Developer tools",
@@ -717,7 +717,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=topic%3Adeveloper-tools",
-    "time": "2026-11-15T13:41:10.116584"
+    "time": "2026-11-15T19:38:35.669987"
   },
   {
     "title": "Industry focused",
@@ -725,7 +725,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=topic%3Aindustry-focused",
-    "time": "2026-11-15T13:41:10.116604"
+    "time": "2026-11-15T19:38:35.670019"
   },
   {
     "title": "Microsoft Copilot",
@@ -733,7 +733,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=product%3Amicrosoft-copilot",
-    "time": "2026-11-15T13:41:10.116630"
+    "time": "2026-11-15T19:38:35.670064"
   },
   {
     "title": "Microsoft Fabric",
@@ -741,7 +741,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=product%3Amicrosoft-fabric",
-    "time": "2026-11-15T13:41:10.116647"
+    "time": "2026-11-15T19:38:35.670089"
   },
   {
     "title": "Microsoft Power Platform",
@@ -749,7 +749,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=product%3Amicrosoft-power-platform",
-    "time": "2026-11-15T13:41:10.116667"
+    "time": "2026-11-15T19:38:35.670119"
   },
   {
     "title": "Microsoft Security",
@@ -757,7 +757,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=product%3Amicrosoft-security",
-    "time": "2026-11-15T13:41:10.116684"
+    "time": "2026-11-15T19:38:35.670145"
   },
   {
     "title": "Decision-makers",
@@ -765,7 +765,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=audience%3Adecision-makers",
-    "time": "2026-11-15T13:41:10.116705"
+    "time": "2026-11-15T19:38:35.670182"
   },
   {
     "title": "IT professionals",
@@ -773,7 +773,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=audience%3Ait-professionals",
-    "time": "2026-11-15T13:41:10.116734"
+    "time": "2026-11-15T19:38:35.670212"
   },
   {
     "title": "Students and education",
@@ -781,7 +781,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=audience%3Astudents-and-education",
-    "time": "2026-11-15T13:41:10.116757"
+    "time": "2026-11-15T19:38:35.670243"
   },
   {
     "title": "Other professionals",
@@ -789,7 +789,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=audience%3Aother-professionals",
-    "time": "2026-11-15T13:41:10.116775"
+    "time": "2026-11-15T19:38:35.670270"
   },
   {
     "title": "Code of conduct",
@@ -797,7 +797,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/code-of-conduct",
-    "time": "2026-11-15T13:41:10.116792"
+    "time": "2026-11-15T19:38:35.670294"
   },
   {
     "title": "Microsoft Learn",
@@ -805,7 +805,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/training/",
-    "time": "2026-11-15T13:41:10.116806"
+    "time": "2026-11-15T19:38:35.670317"
   },
   {
     "title": "Become a partner",
@@ -813,7 +813,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://sponsor.microsoft.com/",
-    "time": "2026-11-15T13:41:10.116820"
+    "time": "2026-11-15T19:38:35.670336"
   },
   {
     "title": "Search all events",
@@ -821,7 +821,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog",
-    "time": "2026-11-15T13:41:10.116835"
+    "time": "2026-11-15T19:38:35.670359"
   },
   {
     "title": "Microsoft Security",
@@ -829,7 +829,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/security",
-    "time": "2026-11-15T13:41:10.116849"
+    "time": "2026-11-15T19:38:35.670378"
   },
   {
     "title": "Microsoft Teams",
@@ -837,7 +837,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
-    "time": "2026-11-15T13:41:10.116868"
+    "time": "2026-11-15T19:38:35.670410"
   },
   {
     "title": "Microsoft HoloLens",
@@ -845,7 +845,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/hololens",
-    "time": "2026-11-15T13:41:10.116888"
+    "time": "2026-11-15T19:38:35.670441"
   },
   {
     "title": "Quantum computing",
@@ -853,7 +853,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://azure.microsoft.com/en-us/solutions/quantum-computing/",
-    "time": "2026-11-15T13:41:10.116906"
+    "time": "2026-11-15T19:38:35.670465"
   },
   {
     "title": "Financial services",
@@ -861,7 +861,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/industry/financial-services/banking",
-    "time": "2026-11-15T13:41:10.116926"
+    "time": "2026-11-15T19:38:35.670496"
   },
   {
     "title": "Become a partner",
@@ -869,7 +869,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://partner.microsoft.com/en-US/membership/cloud-solution-provider",
-    "time": "2026-11-15T13:41:10.116949"
+    "time": "2026-11-15T19:38:35.670532"
   },
   {
     "title": "Partner Network",
@@ -877,7 +877,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://partner.microsoft.com/en-us/membership",
-    "time": "2026-11-15T13:41:10.116962"
+    "time": "2026-11-15T19:38:35.670551"
   },
   {
     "title": "Microsoft Marketplace",
@@ -885,7 +885,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://marketplace.microsoft.com?icid=DSM_AllCommercial_Marketplace&ocid=cmm3c8ee9bs",
-    "time": "2026-11-15T13:41:10.116980"
+    "time": "2026-11-15T19:38:35.670577"
   },
   {
     "title": "Software companies",
@@ -893,7 +893,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/software-development-companies?icid=DSM_AllCommercial_SoftwareCompanies&ocid=cmm3c8ee9bs",
-    "time": "2026-11-15T13:41:10.116999"
+    "time": "2026-11-15T19:38:35.670606"
   },
   {
     "title": "Microsoft Advertising",
@@ -901,7 +901,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://about.ads.microsoft.com/en-us?s_cid=dig-src_uhfcomm",
-    "time": "2026-11-15T13:41:10.117017"
+    "time": "2026-11-15T19:38:35.670633"
   },
   {
     "title": "Developer Center",
@@ -909,7 +909,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://developer.microsoft.com/en-us/",
-    "time": "2026-11-15T13:41:10.117031"
+    "time": "2026-11-15T19:38:35.670655"
   },
   {
     "title": "Microsoft Learn",
@@ -917,7 +917,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/",
-    "time": "2026-11-15T13:41:10.117046"
+    "time": "2026-11-15T19:38:35.670682"
   },
   {
     "title": "Microsoft Research",
@@ -925,7 +925,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/research/",
-    "time": "2026-11-15T13:41:10.117060"
+    "time": "2026-11-15T19:38:35.670703"
   },
   {
     "title": "Discover what's coming to Microsoft Ignite, Nov 17-20, 2026.",
@@ -933,7 +933,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117085"
+    "time": "2026-11-15T19:38:35.670737"
   },
   {
     "title": "Expand your network.Grow your knowledge.",
@@ -941,7 +941,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117108"
+    "time": "2026-11-15T19:38:35.670769"
   },
   {
     "title": "Explore all events",
@@ -949,7 +949,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog",
-    "time": "2026-11-15T13:41:10.117142"
+    "time": "2026-11-15T19:38:35.670834"
   },
   {
     "title": "Explore all events",
@@ -957,7 +957,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117157"
+    "time": "2026-11-15T19:38:35.670867"
   },
   {
     "title": "Featured events",
@@ -965,7 +965,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd#featuredevents",
-    "time": "2026-11-15T13:41:10.117212"
+    "time": "2026-11-15T19:38:35.670963"
   },
   {
     "title": "Featured events",
@@ -973,7 +973,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117226"
+    "time": "2026-11-15T19:38:35.670988"
   },
   {
     "title": "Events by category",
@@ -981,7 +981,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd#eventsbycategory",
-    "time": "2026-11-15T13:41:10.117254"
+    "time": "2026-11-15T19:38:35.671034"
   },
   {
     "title": "Events by category",
@@ -989,7 +989,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117268"
+    "time": "2026-11-15T19:38:35.671059"
   },
   {
     "title": "Upcoming events",
@@ -997,7 +997,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd#upcomingevents",
-    "time": "2026-11-15T13:41:10.117302"
+    "time": "2026-11-15T19:38:35.671101"
   },
   {
     "title": "Upcoming events",
@@ -1005,7 +1005,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117319"
+    "time": "2026-11-15T19:38:35.671124"
   },
   {
     "title": "Industry events",
@@ -1013,7 +1013,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd#industryevents",
-    "time": "2026-11-15T13:41:10.117347"
+    "time": "2026-11-15T19:38:35.671165"
   },
   {
     "title": "Industry events",
@@ -1021,7 +1021,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117361"
+    "time": "2026-11-15T19:38:35.671188"
   },
   {
     "title": "Additional learning",
@@ -1029,7 +1029,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd#additionallearning",
-    "time": "2026-11-15T13:41:10.117394"
+    "time": "2026-11-15T19:38:35.671232"
   },
   {
     "title": "Additional learning",
@@ -1037,7 +1037,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117409"
+    "time": "2026-11-15T19:38:35.671257"
   },
   {
     "title": "Browse all events",
@@ -1045,7 +1045,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog",
-    "time": "2026-11-15T13:41:10.117442"
+    "time": "2026-11-15T19:38:35.671310"
   },
   {
     "title": "Browse all events",
@@ -1053,7 +1053,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117454"
+    "time": "2026-11-15T19:38:35.671330"
   },
   {
     "title": "Discover events tailored to you",
@@ -1061,7 +1061,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117472"
+    "time": "2026-11-15T19:38:35.671354"
   },
   {
     "title": "Business applications",
@@ -1069,7 +1069,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117489"
+    "time": "2026-11-15T19:38:35.671379"
   },
   {
     "title": "Data and analytics",
@@ -1077,7 +1077,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117504"
+    "time": "2026-11-15T19:38:35.671403"
   },
   {
     "title": "Developer tools",
@@ -1085,7 +1085,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117517"
+    "time": "2026-11-15T19:38:35.671422"
   },
   {
     "title": "Decision-makers",
@@ -1093,7 +1093,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117533"
+    "time": "2026-11-15T19:38:35.671450"
   },
   {
     "title": "IT professionals",
@@ -1101,7 +1101,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117549"
+    "time": "2026-11-15T19:38:35.671475"
   },
   {
     "title": "Stay ahead of the curve",
@@ -1109,7 +1109,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117589"
+    "time": "2026-11-15T19:38:35.671537"
   },
   {
     "title": "Microsoft Ignite 2026",
@@ -1117,7 +1117,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117605"
+    "time": "2026-11-15T19:38:35.671563"
   },
   {
     "title": "November 17–20, 2026",
@@ -1125,7 +1125,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117628"
+    "time": "2026-11-15T19:38:35.671594"
   },
   {
     "title": "Get the latest Microsoft news and announcements first, with direct access to the leaders, experts, customers, and partners driving what's next.",
@@ -1133,7 +1133,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117661"
+    "time": "2026-11-15T19:38:35.671635"
   },
   {
     "title": "Microsoft Frontier Transformation Week",
@@ -1141,7 +1141,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117685"
+    "time": "2026-11-15T19:38:35.671673"
   },
   {
     "title": "Registration and details",
@@ -1149,7 +1149,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/local-events/microsoft-frontier-transformation-week",
-    "time": "2026-11-15T13:41:10.117708"
+    "time": "2026-11-15T19:38:35.671705"
   },
   {
     "title": "Registration and details",
@@ -1157,7 +1157,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117733"
+    "time": "2026-11-15T19:38:35.671724"
   },
   {
     "title": "Microsoft Discovery Sessions",
@@ -1165,7 +1165,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117753"
+    "time": "2026-11-15T19:38:35.671748"
   },
   {
     "title": "Pursue your interests",
@@ -1173,7 +1173,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117772"
+    "time": "2026-11-15T19:38:35.671777"
   },
   {
     "title": "Decision-makers",
@@ -1181,7 +1181,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117885"
+    "time": "2026-11-15T19:38:35.671990"
   },
   {
     "title": "Decision-makers",
@@ -1189,7 +1189,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117897"
+    "time": "2026-11-15T19:38:35.672010"
   },
   {
     "title": "Explore related events",
@@ -1197,7 +1197,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Adecision-makers&scenario=events",
-    "time": "2026-11-15T13:41:10.117919"
+    "time": "2026-11-15T19:38:35.672049"
   },
   {
     "title": "Explore related events",
@@ -1205,7 +1205,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117935"
+    "time": "2026-11-15T19:38:35.672076"
   },
   {
     "title": "Explore related events",
@@ -1213,7 +1213,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Adevelopers&scenario=events",
-    "time": "2026-11-15T13:41:10.117956"
+    "time": "2026-11-15T19:38:35.672113"
   },
   {
     "title": "Explore related events",
@@ -1221,7 +1221,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.117972"
+    "time": "2026-11-15T19:38:35.672135"
   },
   {
     "title": "Explore related events",
@@ -1229,7 +1229,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Aexecutives&scenario=events",
-    "time": "2026-11-15T13:41:10.117994"
+    "time": "2026-11-15T19:38:35.672170"
   },
   {
     "title": "Explore related events",
@@ -1237,7 +1237,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118008"
+    "time": "2026-11-15T19:38:35.672192"
   },
   {
     "title": "IT professionals",
@@ -1245,7 +1245,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118021"
+    "time": "2026-11-15T19:38:35.672212"
   },
   {
     "title": "IT professionals",
@@ -1253,7 +1253,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118033"
+    "time": "2026-11-15T19:38:35.672230"
   },
   {
     "title": "Explore related events",
@@ -1261,7 +1261,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Ait-professionals&scenario=events",
-    "time": "2026-11-15T13:41:10.118053"
+    "time": "2026-11-15T19:38:35.672262"
   },
   {
     "title": "Explore related events",
@@ -1269,7 +1269,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118066"
+    "time": "2026-11-15T19:38:35.672287"
   },
   {
     "title": "Explore related events",
@@ -1277,7 +1277,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Apartners&scenario=events",
-    "time": "2026-11-15T13:41:10.118087"
+    "time": "2026-11-15T19:38:35.672321"
   },
   {
     "title": "Explore related events",
@@ -1285,7 +1285,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118101"
+    "time": "2026-11-15T19:38:35.672343"
   },
   {
     "title": "Students and education",
@@ -1293,7 +1293,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118116"
+    "time": "2026-11-15T19:38:35.672365"
   },
   {
     "title": "Students and education",
@@ -1301,7 +1301,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118129"
+    "time": "2026-11-15T19:38:35.672384"
   },
   {
     "title": "Explore related events",
@@ -1309,7 +1309,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Astudents-and-education&scenario=events",
-    "time": "2026-11-15T13:41:10.118148"
+    "time": "2026-11-15T19:38:35.672414"
   },
   {
     "title": "Explore related events",
@@ -1317,7 +1317,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118161"
+    "time": "2026-11-15T19:38:35.672436"
   },
   {
     "title": "Other professionals",
@@ -1325,7 +1325,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118176"
+    "time": "2026-11-15T19:38:35.672456"
   },
   {
     "title": "Other professionals",
@@ -1333,7 +1333,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118188"
+    "time": "2026-11-15T19:38:35.672475"
   },
   {
     "title": "Explore related events",
@@ -1341,7 +1341,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Aother-professionals&scenario=events",
-    "time": "2026-11-15T13:41:10.118207"
+    "time": "2026-11-15T19:38:35.672505"
   },
   {
     "title": "Explore related events",
@@ -1349,7 +1349,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118221"
+    "time": "2026-11-15T19:38:35.672527"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -1357,7 +1357,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:10.118249"
+    "time": "2026-11-15T19:38:35.672565"
   },
   {
     "title": "Explore related events",
@@ -1365,7 +1365,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Aai&scenario=events",
-    "time": "2026-11-15T13:41:10.118399"
+    "time": "2026-11-15T19:38:35.672837"
   },
   {
     "title": "Explore related events",
@@ -1373,7 +1373,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118413"
+    "time": "2026-11-15T19:38:35.672863"
   },
   {
     "title": "Business applications",
@@ -1381,7 +1381,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118428"
+    "time": "2026-11-15T19:38:35.672885"
   },
   {
     "title": "Business applications",
@@ -1389,7 +1389,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118444"
+    "time": "2026-11-15T19:38:35.672904"
   },
   {
     "title": "Explore related events",
@@ -1397,7 +1397,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Abusiness-applications&scenario=events",
-    "time": "2026-11-15T13:41:10.118464"
+    "time": "2026-11-15T19:38:35.672939"
   },
   {
     "title": "Explore related events",
@@ -1405,7 +1405,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118477"
+    "time": "2026-11-15T19:38:35.672962"
   },
   {
     "title": "Explore related events",
@@ -1413,7 +1413,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Acloud-platform&scenario=events",
-    "time": "2026-11-15T13:41:10.118497"
+    "time": "2026-11-15T19:38:35.672998"
   },
   {
     "title": "Explore related events",
@@ -1421,7 +1421,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118511"
+    "time": "2026-11-15T19:38:35.673020"
   },
   {
     "title": "Data and analytics",
@@ -1429,7 +1429,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118525"
+    "time": "2026-11-15T19:38:35.673044"
   },
   {
     "title": "Data and analytics",
@@ -1437,7 +1437,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118537"
+    "time": "2026-11-15T19:38:35.673062"
   },
   {
     "title": "Explore related events",
@@ -1445,7 +1445,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Adata-and-analytics&scenario=events",
-    "time": "2026-11-15T13:41:10.118554"
+    "time": "2026-11-15T19:38:35.673092"
   },
   {
     "title": "Explore related events",
@@ -1453,7 +1453,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118567"
+    "time": "2026-11-15T19:38:35.673113"
   },
   {
     "title": "Developer tools",
@@ -1461,7 +1461,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118581"
+    "time": "2026-11-15T19:38:35.673134"
   },
   {
     "title": "Developer tools",
@@ -1469,7 +1469,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118592"
+    "time": "2026-11-15T19:38:35.673151"
   },
   {
     "title": "Explore related events",
@@ -1477,7 +1477,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Adeveloper-tools&scenario=events",
-    "time": "2026-11-15T13:41:10.118610"
+    "time": "2026-11-15T19:38:35.673182"
   },
   {
     "title": "Explore related events",
@@ -1485,7 +1485,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118623"
+    "time": "2026-11-15T19:38:35.673204"
   },
   {
     "title": "Explore related events",
@@ -1493,7 +1493,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Adevices&scenario=events",
-    "time": "2026-11-15T13:41:10.118643"
+    "time": "2026-11-15T19:38:35.673239"
   },
   {
     "title": "Explore related events",
@@ -1501,7 +1501,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118656"
+    "time": "2026-11-15T19:38:35.673262"
   },
   {
     "title": "Industry focused",
@@ -1509,7 +1509,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118670"
+    "time": "2026-11-15T19:38:35.673282"
   },
   {
     "title": "Industry focused",
@@ -1517,7 +1517,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118681"
+    "time": "2026-11-15T19:38:35.673300"
   },
   {
     "title": "Explore related events",
@@ -1525,7 +1525,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Aindustry-focused&scenario=events",
-    "time": "2026-11-15T13:41:10.118699"
+    "time": "2026-11-15T19:38:35.673329"
   },
   {
     "title": "Explore related events",
@@ -1533,7 +1533,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118713"
+    "time": "2026-11-15T19:38:35.673351"
   },
   {
     "title": "Explore related events",
@@ -1541,7 +1541,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Ainfrastructure&scenario=events",
-    "time": "2026-11-15T13:41:10.118745"
+    "time": "2026-11-15T19:38:35.673386"
   },
   {
     "title": "Explore related events",
@@ -1549,7 +1549,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118759"
+    "time": "2026-11-15T19:38:35.673408"
   },
   {
     "title": "Explore related events",
@@ -1557,7 +1557,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Aproductivity&scenario=events",
-    "time": "2026-11-15T13:41:10.118779"
+    "time": "2026-11-15T19:38:35.673442"
   },
   {
     "title": "Explore related events",
@@ -1565,7 +1565,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118794"
+    "time": "2026-11-15T19:38:35.673468"
   },
   {
     "title": "Explore related events",
@@ -1573,7 +1573,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Asecurity&scenario=events",
-    "time": "2026-11-15T13:41:10.118814"
+    "time": "2026-11-15T19:38:35.673505"
   },
   {
     "title": "Explore related events",
@@ -1581,7 +1581,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118827"
+    "time": "2026-11-15T19:38:35.673531"
   },
   {
     "title": "Explore related events",
@@ -1589,7 +1589,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Asustainability&scenario=events",
-    "time": "2026-11-15T13:41:10.118848"
+    "time": "2026-11-15T19:38:35.673569"
   },
   {
     "title": "Explore related events",
@@ -1597,7 +1597,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.118861"
+    "time": "2026-11-15T19:38:35.673592"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -1605,7 +1605,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:10.118884"
+    "time": "2026-11-15T19:38:35.673627"
   },
   {
     "title": "Explore related events",
@@ -1613,7 +1613,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Aazure&scenario=events",
-    "time": "2026-11-15T13:41:10.119025"
+    "time": "2026-11-15T19:38:35.673893"
   },
   {
     "title": "Explore related events",
@@ -1621,7 +1621,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119039"
+    "time": "2026-11-15T19:38:35.673921"
   },
   {
     "title": "Explore related events",
@@ -1629,7 +1629,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Adynamics-365&scenario=events",
-    "time": "2026-11-15T13:41:10.119059"
+    "time": "2026-11-15T19:38:35.673957"
   },
   {
     "title": "Explore related events",
@@ -1637,7 +1637,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119073"
+    "time": "2026-11-15T19:38:35.673979"
   },
   {
     "title": "Explore related events",
@@ -1645,7 +1645,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-365&scenario=events",
-    "time": "2026-11-15T13:41:10.119094"
+    "time": "2026-11-15T19:38:35.674016"
   },
   {
     "title": "Explore related events",
@@ -1653,7 +1653,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119107"
+    "time": "2026-11-15T19:38:35.674038"
   },
   {
     "title": "Copilot and Agents",
@@ -1661,7 +1661,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119121"
+    "time": "2026-11-15T19:38:35.674060"
   },
   {
     "title": "Copilot and Agents",
@@ -1669,7 +1669,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119133"
+    "time": "2026-11-15T19:38:35.674078"
   },
   {
     "title": "Explore related events",
@@ -1677,7 +1677,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-copilot&scenario=events",
-    "time": "2026-11-15T13:41:10.119151"
+    "time": "2026-11-15T19:38:35.674109"
   },
   {
     "title": "Explore related events",
@@ -1685,7 +1685,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119165"
+    "time": "2026-11-15T19:38:35.674130"
   },
   {
     "title": "Microsoft Fabric",
@@ -1693,7 +1693,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119178"
+    "time": "2026-11-15T19:38:35.674151"
   },
   {
     "title": "Microsoft Fabric",
@@ -1701,7 +1701,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119189"
+    "time": "2026-11-15T19:38:35.674168"
   },
   {
     "title": "Explore related events",
@@ -1709,7 +1709,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-fabric&scenario=events",
-    "time": "2026-11-15T13:41:10.119207"
+    "time": "2026-11-15T19:38:35.674198"
   },
   {
     "title": "Explore related events",
@@ -1717,7 +1717,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119220"
+    "time": "2026-11-15T19:38:35.674221"
   },
   {
     "title": "Explore related events",
@@ -1725,7 +1725,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-power-platform&scenario=events%20",
-    "time": "2026-11-15T13:41:10.119242"
+    "time": "2026-11-15T19:38:35.674259"
   },
   {
     "title": "Explore related events",
@@ -1733,7 +1733,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119256"
+    "time": "2026-11-15T19:38:35.674281"
   },
   {
     "title": "Microsoft Security",
@@ -1741,7 +1741,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119270"
+    "time": "2026-11-15T19:38:35.674305"
   },
   {
     "title": "Microsoft Security",
@@ -1749,7 +1749,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119282"
+    "time": "2026-11-15T19:38:35.674323"
   },
   {
     "title": "Explore related events",
@@ -1757,7 +1757,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-security&scenario=events",
-    "time": "2026-11-15T13:41:10.119300"
+    "time": "2026-11-15T19:38:35.674353"
   },
   {
     "title": "Explore related events",
@@ -1765,7 +1765,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119313"
+    "time": "2026-11-15T19:38:35.674375"
   },
   {
     "title": "Explore related events",
@@ -1773,7 +1773,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Apower-bi&scenario=events",
-    "time": "2026-11-15T13:41:10.119335"
+    "time": "2026-11-15T19:38:35.674409"
   },
   {
     "title": "Explore related events",
@@ -1781,7 +1781,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119348"
+    "time": "2026-11-15T19:38:35.674430"
   },
   {
     "title": "Explore related events",
@@ -1789,7 +1789,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Asurface&scenario=events",
-    "time": "2026-11-15T13:41:10.119368"
+    "time": "2026-11-15T19:38:35.674464"
   },
   {
     "title": "Explore related events",
@@ -1797,7 +1797,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119381"
+    "time": "2026-11-15T19:38:35.674486"
   },
   {
     "title": "Explore related events",
@@ -1805,7 +1805,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Awindows&scenario=events",
-    "time": "2026-11-15T13:41:10.119401"
+    "time": "2026-11-15T19:38:35.674520"
   },
   {
     "title": "Explore related events",
@@ -1813,7 +1813,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119415"
+    "time": "2026-11-15T19:38:35.674543"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -1821,7 +1821,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:10.119436"
+    "time": "2026-11-15T19:38:35.674573"
   },
   {
     "title": "Join an event at your next earliest opportunity",
@@ -1829,7 +1829,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119457"
+    "time": "2026-11-15T19:38:35.674603"
   },
   {
     "title": "Developer tools",
@@ -1837,7 +1837,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119472"
+    "time": "2026-11-15T19:38:35.674626"
   },
   {
     "title": "View all AI events",
@@ -1845,7 +1845,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?&filters=topic%3Aai&scenario=events",
-    "time": "2026-11-15T13:41:10.119577"
+    "time": "2026-11-15T19:38:35.674800"
   },
   {
     "title": "View all AI events",
@@ -1853,7 +1853,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119590"
+    "time": "2026-11-15T19:38:35.674832"
   },
   {
     "title": "Registration and details",
@@ -1861,7 +1861,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119617"
+    "time": "2026-11-15T19:38:35.674875"
   },
   {
     "title": "Registration and details",
@@ -1869,7 +1869,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119630"
+    "time": "2026-11-15T19:38:35.674895"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -1877,7 +1877,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119648"
+    "time": "2026-11-15T19:38:35.674920"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -1885,7 +1885,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119665"
+    "time": "2026-11-15T19:38:35.674942"
   },
   {
     "title": "Watch on demand",
@@ -1893,7 +1893,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119686"
+    "time": "2026-11-15T19:38:35.674979"
   },
   {
     "title": "Watch on demand",
@@ -1901,7 +1901,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119700"
+    "time": "2026-11-15T19:38:35.675002"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -1909,7 +1909,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119726"
+    "time": "2026-11-15T19:38:35.675023"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -1917,7 +1917,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119744"
+    "time": "2026-11-15T19:38:35.675045"
   },
   {
     "title": "Watch on demand",
@@ -1925,7 +1925,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119765"
+    "time": "2026-11-15T19:38:35.675075"
   },
   {
     "title": "Watch on demand",
@@ -1933,7 +1933,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119779"
+    "time": "2026-11-15T19:38:35.675098"
   },
   {
     "title": "Data Security Posture Management for AI",
@@ -1941,7 +1941,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119799"
+    "time": "2026-11-15T19:38:35.675124"
   },
   {
     "title": "Data Security Posture Management for AI",
@@ -1949,7 +1949,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119815"
+    "time": "2026-11-15T19:38:35.675145"
   },
   {
     "title": "Watch on demand",
@@ -1957,7 +1957,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119833"
+    "time": "2026-11-15T19:38:35.675175"
   },
   {
     "title": "Watch on demand",
@@ -1965,7 +1965,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119846"
+    "time": "2026-11-15T19:38:35.675197"
   },
   {
     "title": "Productivity, Security, and Data Protection",
@@ -1973,7 +1973,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119866"
+    "time": "2026-11-15T19:38:35.675223"
   },
   {
     "title": "Productivity, Security, and Data Protection",
@@ -1981,7 +1981,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.119882"
+    "time": "2026-11-15T19:38:35.675244"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -1989,7 +1989,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:10.119903"
+    "time": "2026-11-15T19:38:35.675272"
   },
   {
     "title": "View all Developer tools events",
@@ -1997,7 +1997,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Adeveloper-tools&scenario=events",
-    "time": "2026-11-15T13:41:10.119996"
+    "time": "2026-11-15T19:38:35.675423"
   },
   {
     "title": "View all Developer tools events",
@@ -2005,7 +2005,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120011"
+    "time": "2026-11-15T19:38:35.675445"
   },
   {
     "title": "Registration and details",
@@ -2013,7 +2013,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120037"
+    "time": "2026-11-15T19:38:35.675483"
   },
   {
     "title": "Registration and details",
@@ -2021,7 +2021,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120051"
+    "time": "2026-11-15T19:38:35.675503"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -2029,7 +2029,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120067"
+    "time": "2026-11-15T19:38:35.675527"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -2037,7 +2037,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120080"
+    "time": "2026-11-15T19:38:35.675547"
   },
   {
     "title": "Watch on demand",
@@ -2045,7 +2045,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120102"
+    "time": "2026-11-15T19:38:35.675576"
   },
   {
     "title": "Watch on demand",
@@ -2053,7 +2053,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120113"
+    "time": "2026-11-15T19:38:35.675597"
   },
   {
     "title": "Data Security Posture Management for AI",
@@ -2061,7 +2061,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120131"
+    "time": "2026-11-15T19:38:35.675622"
   },
   {
     "title": "Data Security Posture Management for AI",
@@ -2069,7 +2069,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120146"
+    "time": "2026-11-15T19:38:35.675642"
   },
   {
     "title": "Watch on demand",
@@ -2077,7 +2077,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120163"
+    "time": "2026-11-15T19:38:35.675671"
   },
   {
     "title": "Watch on demand",
@@ -2085,7 +2085,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120174"
+    "time": "2026-11-15T19:38:35.675688"
   },
   {
     "title": "Exploring Identity and Access Management",
@@ -2093,7 +2093,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120192"
+    "time": "2026-11-15T19:38:35.675714"
   },
   {
     "title": "Exploring Identity and Access Management",
@@ -2101,7 +2101,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120208"
+    "time": "2026-11-15T19:38:35.675735"
   },
   {
     "title": "Watch on demand",
@@ -2109,7 +2109,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120226"
+    "time": "2026-11-15T19:38:35.675764"
   },
   {
     "title": "Watch on demand",
@@ -2117,7 +2117,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120237"
+    "time": "2026-11-15T19:38:35.675782"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -2125,7 +2125,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:10.120257"
+    "time": "2026-11-15T19:38:35.675822"
   },
   {
     "title": "View all Security events",
@@ -2133,7 +2133,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Asecurity&scenario=events",
-    "time": "2026-11-15T13:41:10.120348"
+    "time": "2026-11-15T19:38:35.675971"
   },
   {
     "title": "View all Security events",
@@ -2141,7 +2141,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120362"
+    "time": "2026-11-15T19:38:35.675992"
   },
   {
     "title": "Registration and details",
@@ -2149,7 +2149,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120389"
+    "time": "2026-11-15T19:38:35.676031"
   },
   {
     "title": "Registration and details",
@@ -2157,7 +2157,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120402"
+    "time": "2026-11-15T19:38:35.676051"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -2165,7 +2165,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120419"
+    "time": "2026-11-15T19:38:35.676078"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -2173,7 +2173,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120433"
+    "time": "2026-11-15T19:38:35.676099"
   },
   {
     "title": "Watch on demand",
@@ -2181,7 +2181,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120451"
+    "time": "2026-11-15T19:38:35.676128"
   },
   {
     "title": "Watch on demand",
@@ -2189,7 +2189,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120461"
+    "time": "2026-11-15T19:38:35.676149"
   },
   {
     "title": "Data Security Posture Management for AI",
@@ -2197,7 +2197,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120481"
+    "time": "2026-11-15T19:38:35.676174"
   },
   {
     "title": "Data Security Posture Management for AI",
@@ -2205,7 +2205,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120496"
+    "time": "2026-11-15T19:38:35.676197"
   },
   {
     "title": "Watch on demand",
@@ -2213,7 +2213,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120516"
+    "time": "2026-11-15T19:38:35.676225"
   },
   {
     "title": "Watch on demand",
@@ -2221,7 +2221,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120528"
+    "time": "2026-11-15T19:38:35.676243"
   },
   {
     "title": "Exploring Identity and Access Management",
@@ -2229,7 +2229,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120547"
+    "time": "2026-11-15T19:38:35.676267"
   },
   {
     "title": "Exploring Identity and Access Management",
@@ -2237,7 +2237,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120563"
+    "time": "2026-11-15T19:38:35.676288"
   },
   {
     "title": "Watch on demand",
@@ -2245,7 +2245,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120579"
+    "time": "2026-11-15T19:38:35.676314"
   },
   {
     "title": "Watch on demand",
@@ -2253,7 +2253,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120590"
+    "time": "2026-11-15T19:38:35.676332"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -2261,7 +2261,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:10.120610"
+    "time": "2026-11-15T19:38:35.676363"
   },
   {
     "title": "Join us at an upcoming industry event",
@@ -2269,7 +2269,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120632"
+    "time": "2026-11-15T19:38:35.676393"
   },
   {
     "title": "Become a Sponsor",
@@ -2277,7 +2277,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120651"
+    "time": "2026-11-15T19:38:35.676420"
   },
   {
     "title": "Select and plan your next event experience",
@@ -2285,7 +2285,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120677"
+    "time": "2026-11-15T19:38:35.676454"
   },
   {
     "title": "Find events to fit your needs",
@@ -2293,7 +2293,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120695"
+    "time": "2026-11-15T19:38:35.676477"
   },
   {
     "title": "Follow Microsoft Events",
@@ -2301,7 +2301,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.120741"
+    "time": "2026-11-15T19:38:35.676525"
   },
   {
     "title": "Surface Laptop Ultra",
@@ -2309,7 +2309,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra",
-    "time": "2026-11-15T13:41:10.120773"
+    "time": "2026-11-15T19:38:35.676568"
   },
   {
     "title": "Surface RTX Spark Dev Box",
@@ -2317,7 +2317,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox",
-    "time": "2026-11-15T13:41:10.120798"
+    "time": "2026-11-15T19:38:35.676604"
   },
   {
     "title": "Explore Copilot",
@@ -2325,7 +2325,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot",
-    "time": "2026-11-15T13:41:10.120814"
+    "time": "2026-11-15T19:38:35.676627"
   },
   {
     "title": "Explore Microsoft products",
@@ -2333,7 +2333,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/microsoft-products-and-apps",
-    "time": "2026-11-15T13:41:10.120832"
+    "time": "2026-11-15T19:38:35.676653"
   },
   {
     "title": "Windows 11 apps",
@@ -2341,7 +2341,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps",
-    "time": "2026-11-15T13:41:10.120849"
+    "time": "2026-11-15T19:38:35.676677"
   },
   {
     "title": "Account profile",
@@ -2349,7 +2349,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://account.microsoft.com/",
-    "time": "2026-11-15T13:41:10.120862"
+    "time": "2026-11-15T19:38:35.676695"
   },
   {
     "title": "Download Center",
@@ -2357,7 +2357,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/download",
-    "time": "2026-11-15T13:41:10.120876"
+    "time": "2026-11-15T19:38:35.676714"
   },
   {
     "title": "Microsoft Store support",
@@ -2365,7 +2365,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://go.microsoft.com/fwlink/?linkid=2139749",
-    "time": "2026-11-15T13:41:10.120893"
+    "time": "2026-11-15T19:38:35.676740"
   },
   {
     "title": "Certified Refurbished",
@@ -2373,7 +2373,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
-    "time": "2026-11-15T13:41:10.120913"
+    "time": "2026-11-15T19:38:35.676769"
   },
   {
     "title": "Why buy from Microsoft Store",
@@ -2381,7 +2381,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy",
-    "time": "2026-11-15T13:41:10.120936"
+    "time": "2026-11-15T19:38:35.676801"
   },
   {
     "title": "Flexible Payments",
@@ -2389,7 +2389,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
-    "time": "2026-11-15T13:41:10.120953"
+    "time": "2026-11-15T19:38:35.676840"
   },
   {
     "title": "Microsoft in education",
@@ -2397,7 +2397,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education",
-    "time": "2026-11-15T13:41:10.120970"
+    "time": "2026-11-15T19:38:35.676863"
   },
   {
     "title": "Devices for education",
@@ -2405,7 +2405,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education/devices/overview",
-    "time": "2026-11-15T13:41:10.120988"
+    "time": "2026-11-15T19:38:35.676890"
   },
   {
     "title": "Microsoft Teams for Education",
@@ -2413,7 +2413,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education/products/teams",
-    "time": "2026-11-15T13:41:10.121007"
+    "time": "2026-11-15T19:38:35.676915"
   },
   {
     "title": "Microsoft 365 Education",
@@ -2421,7 +2421,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education/products/microsoft-365",
-    "time": "2026-11-15T13:41:10.121026"
+    "time": "2026-11-15T19:38:35.676939"
   },
   {
     "title": "How to buy for your school",
@@ -2429,7 +2429,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/education/how-to-buy",
-    "time": "2026-11-15T13:41:10.121042"
+    "time": "2026-11-15T19:38:35.676961"
   },
   {
     "title": "Educator training and development",
@@ -2437,7 +2437,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://education.microsoft.com/",
-    "time": "2026-11-15T13:41:10.121059"
+    "time": "2026-11-15T19:38:35.676984"
   },
   {
     "title": "Deals for students and parents",
@@ -2445,7 +2445,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/store/b/education",
-    "time": "2026-11-15T13:41:10.121077"
+    "time": "2026-11-15T19:38:35.677008"
   },
   {
     "title": "AI for education",
@@ -2453,7 +2453,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education/ai-in-education",
-    "time": "2026-11-15T13:41:10.121093"
+    "time": "2026-11-15T19:38:35.677030"
   },
   {
     "title": "Microsoft Security",
@@ -2461,7 +2461,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/security",
-    "time": "2026-11-15T13:41:10.121108"
+    "time": "2026-11-15T19:38:35.677055"
   },
   {
     "title": "Microsoft Power Platform",
@@ -2469,7 +2469,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/power-platform",
-    "time": "2026-11-15T13:41:10.121127"
+    "time": "2026-11-15T19:38:35.677081"
   },
   {
     "title": "Microsoft Teams",
@@ -2477,7 +2477,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
-    "time": "2026-11-15T13:41:10.121143"
+    "time": "2026-11-15T19:38:35.677104"
   },
   {
     "title": "Microsoft Copilot",
@@ -2485,7 +2485,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot",
-    "time": "2026-11-15T13:41:10.121159"
+    "time": "2026-11-15T19:38:35.677127"
   },
   {
     "title": "Microsoft Developer",
@@ -2493,7 +2493,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://developer.microsoft.com/en-us/",
-    "time": "2026-11-15T13:41:10.121176"
+    "time": "2026-11-15T19:38:35.677152"
   },
   {
     "title": "Microsoft Learn",
@@ -2501,7 +2501,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/",
-    "time": "2026-11-15T13:41:10.121188"
+    "time": "2026-11-15T19:38:35.677169"
   },
   {
     "title": "Support for AI marketplace apps",
@@ -2509,7 +2509,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98",
-    "time": "2026-11-15T13:41:10.121214"
+    "time": "2026-11-15T19:38:35.677204"
   },
   {
     "title": "Microsoft Tech Community",
@@ -2517,7 +2517,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://techcommunity.microsoft.com/",
-    "time": "2026-11-15T13:41:10.121229"
+    "time": "2026-11-15T19:38:35.677227"
   },
   {
     "title": "Microsoft Marketplace",
@@ -2525,7 +2525,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://marketplace.microsoft.com?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98",
-    "time": "2026-11-15T13:41:10.121246"
+    "time": "2026-11-15T19:38:35.677250"
   },
   {
     "title": "Software companies",
@@ -2533,7 +2533,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98",
-    "time": "2026-11-15T13:41:10.121265"
+    "time": "2026-11-15T19:38:35.677278"
   },
   {
     "title": "About Microsoft",
@@ -2541,7 +2541,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/about",
-    "time": "2026-11-15T13:41:10.121280"
+    "time": "2026-11-15T19:38:35.677301"
   },
   {
     "title": "Privacy at Microsoft",
@@ -2549,7 +2549,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy",
-    "time": "2026-11-15T13:41:10.121306"
+    "time": "2026-11-15T19:38:35.677327"
   },
   {
     "title": "Diversity and inclusion",
@@ -2557,7 +2557,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity",
-    "time": "2026-11-15T13:41:10.121328"
+    "time": "2026-11-15T19:38:35.677355"
   },
   {
     "title": "English (United States)",
@@ -2565,7 +2565,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/locale",
-    "time": "2026-11-15T13:41:10.121347"
+    "time": "2026-11-15T19:38:35.677381"
   },
   {
     "title": "Your Privacy Choices Opt-Out IconYour Privacy Choices",
@@ -2573,7 +2573,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://aka.ms/yourcaliforniaprivacychoices",
-    "time": "2026-11-15T13:41:10.121373"
+    "time": "2026-11-15T19:38:35.677416"
   },
   {
     "title": "Your Privacy Choices",
@@ -2581,7 +2581,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.121387"
+    "time": "2026-11-15T19:38:35.677436"
   },
   {
     "title": "Your Privacy Choices Opt-Out IconYour Privacy Choices",
@@ -2589,7 +2589,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://aka.ms/yourcaliforniaprivacychoices",
-    "time": "2026-11-15T13:41:10.121410"
+    "time": "2026-11-15T19:38:35.677465"
   },
   {
     "title": "Your Privacy Choices",
@@ -2597,7 +2597,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/en-us/mvtd",
-    "time": "2026-11-15T13:41:10.121423"
+    "time": "2026-11-15T19:38:35.677484"
   },
   {
     "title": "Consumer Health Privacy",
@@ -2605,7 +2605,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://go.microsoft.com/fwlink/?linkid=2259814",
-    "time": "2026-11-15T13:41:10.121439"
+    "time": "2026-11-15T19:38:35.677506"
   },
   {
     "title": "Contact Microsoft",
@@ -2613,7 +2613,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://support.microsoft.com/contactus",
-    "time": "2026-11-15T13:41:10.121453"
+    "time": "2026-11-15T19:38:35.677528"
   },
   {
     "title": "Skip to main content",
@@ -2621,7 +2621,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/#mainContent",
-    "time": "2026-11-15T13:41:16.795132"
+    "time": "2026-11-15T19:38:41.199416"
   },
   {
     "title": "Microsoft events",
@@ -2629,7 +2629,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events",
-    "time": "2026-11-15T13:41:16.795160"
+    "time": "2026-11-15T19:38:41.199455"
   },
   {
     "title": "Microsoft Ignite",
@@ -2637,7 +2637,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://ignite.microsoft.com/home",
-    "time": "2026-11-15T13:41:16.795174"
+    "time": "2026-11-15T19:38:41.199478"
   },
   {
     "title": "Microsoft Frontier Tour",
@@ -2645,7 +2645,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://aitour.microsoft.com/flow/microsoft/aitour27/globallanding/page/globalhome",
-    "time": "2026-11-15T13:41:16.795195"
+    "time": "2026-11-15T19:38:41.199507"
   },
   {
     "title": "Microsoft Build",
@@ -2653,7 +2653,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://build.microsoft.com/home",
-    "time": "2026-11-15T13:41:16.795207"
+    "time": "2026-11-15T19:38:41.199526"
   },
   {
     "title": "Microsoft Agent-a-Thon",
@@ -2661,7 +2661,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/local-events/microsoft-agent-a-thon",
-    "time": "2026-11-15T13:41:16.795226"
+    "time": "2026-11-15T19:38:41.199554"
   },
   {
     "title": "Microsoft Frontier Transformation Week",
@@ -2669,7 +2669,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/local-events/microsoft-frontier-transformation-week",
-    "time": "2026-11-15T13:41:16.795251"
+    "time": "2026-11-15T19:38:41.199585"
   },
   {
     "title": "Microsoft Discovery Sessions",
@@ -2677,7 +2677,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/flow/microsoft/microsoftds/registration/page/landing?tab.deliverymethod=deliverymethod_live",
-    "time": "2026-11-15T13:41:16.795277"
+    "time": "2026-11-15T19:38:41.199633"
   },
   {
     "title": "In a Day Workshops",
@@ -2685,7 +2685,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/category/microsoft-in-a-day-workshops",
-    "time": "2026-11-15T13:41:16.795294"
+    "time": "2026-11-15T19:38:41.199667"
   },
   {
     "title": "Industry events",
@@ -2693,7 +2693,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/category/industry-events",
-    "time": "2026-11-15T13:41:16.795310"
+    "time": "2026-11-15T19:38:41.199691"
   },
   {
     "title": "Browse all events",
@@ -2701,7 +2701,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog",
-    "time": "2026-11-15T13:41:16.795325"
+    "time": "2026-11-15T19:38:41.199714"
   },
   {
     "title": "Business applications",
@@ -2709,7 +2709,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=topic%3Abusiness-applications",
-    "time": "2026-11-15T13:41:16.795346"
+    "time": "2026-11-15T19:38:41.199745"
   },
   {
     "title": "Data and analytics",
@@ -2717,7 +2717,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=topic%3Adata-and-analytics",
-    "time": "2026-11-15T13:41:16.795366"
+    "time": "2026-11-15T19:38:41.199774"
   },
   {
     "title": "Developer tools",
@@ -2725,7 +2725,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=topic%3Adeveloper-tools",
-    "time": "2026-11-15T13:41:16.795386"
+    "time": "2026-11-15T19:38:41.199799"
   },
   {
     "title": "Industry focused",
@@ -2733,7 +2733,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=topic%3Aindustry-focused",
-    "time": "2026-11-15T13:41:16.795405"
+    "time": "2026-11-15T19:38:41.199847"
   },
   {
     "title": "Microsoft Copilot",
@@ -2741,7 +2741,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=product%3Amicrosoft-copilot",
-    "time": "2026-11-15T13:41:16.795430"
+    "time": "2026-11-15T19:38:41.199888"
   },
   {
     "title": "Microsoft Fabric",
@@ -2749,7 +2749,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=product%3Amicrosoft-fabric",
-    "time": "2026-11-15T13:41:16.795448"
+    "time": "2026-11-15T19:38:41.199913"
   },
   {
     "title": "Microsoft Power Platform",
@@ -2757,7 +2757,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=product%3Amicrosoft-power-platform",
-    "time": "2026-11-15T13:41:16.795468"
+    "time": "2026-11-15T19:38:41.199942"
   },
   {
     "title": "Microsoft Security",
@@ -2765,7 +2765,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=product%3Amicrosoft-security",
-    "time": "2026-11-15T13:41:16.795486"
+    "time": "2026-11-15T19:38:41.199968"
   },
   {
     "title": "Decision-makers",
@@ -2773,7 +2773,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=audience%3Adecision-makers",
-    "time": "2026-11-15T13:41:16.795507"
+    "time": "2026-11-15T19:38:41.200002"
   },
   {
     "title": "IT professionals",
@@ -2781,7 +2781,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=audience%3Ait-professionals",
-    "time": "2026-11-15T13:41:16.795526"
+    "time": "2026-11-15T19:38:41.200032"
   },
   {
     "title": "Students and education",
@@ -2789,7 +2789,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=audience%3Astudents-and-education",
-    "time": "2026-11-15T13:41:16.795547"
+    "time": "2026-11-15T19:38:41.200064"
   },
   {
     "title": "Other professionals",
@@ -2797,7 +2797,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog?filters=audience%3Aother-professionals",
-    "time": "2026-11-15T13:41:16.795565"
+    "time": "2026-11-15T19:38:41.200091"
   },
   {
     "title": "Code of conduct",
@@ -2805,7 +2805,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/code-of-conduct",
-    "time": "2026-11-15T13:41:16.795581"
+    "time": "2026-11-15T19:38:41.200116"
   },
   {
     "title": "Microsoft Learn",
@@ -2813,7 +2813,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/en-us/training/",
-    "time": "2026-11-15T13:41:16.795596"
+    "time": "2026-11-15T19:38:41.200136"
   },
   {
     "title": "Become a partner",
@@ -2821,7 +2821,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://sponsor.microsoft.com/",
-    "time": "2026-11-15T13:41:16.795609"
+    "time": "2026-11-15T19:38:41.200189"
   },
   {
     "title": "Search all events",
@@ -2829,7 +2829,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog",
-    "time": "2026-11-15T13:41:16.795624"
+    "time": "2026-11-15T19:38:41.200212"
   },
   {
     "title": "Microsoft Security",
@@ -2837,7 +2837,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/security",
-    "time": "2026-11-15T13:41:16.795637"
+    "time": "2026-11-15T19:38:41.200232"
   },
   {
     "title": "Microsoft Teams",
@@ -2845,7 +2845,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
-    "time": "2026-11-15T13:41:16.795657"
+    "time": "2026-11-15T19:38:41.200262"
   },
   {
     "title": "Microsoft HoloLens",
@@ -2853,7 +2853,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/hololens",
-    "time": "2026-11-15T13:41:16.795675"
+    "time": "2026-11-15T19:38:41.200291"
   },
   {
     "title": "Quantum computing",
@@ -2861,7 +2861,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://azure.microsoft.com/en-us/solutions/quantum-computing/",
-    "time": "2026-11-15T13:41:16.795691"
+    "time": "2026-11-15T19:38:41.200316"
   },
   {
     "title": "Financial services",
@@ -2869,7 +2869,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/industry/financial-services/banking",
-    "time": "2026-11-15T13:41:16.795711"
+    "time": "2026-11-15T19:38:41.200347"
   },
   {
     "title": "Become a partner",
@@ -2877,7 +2877,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://partner.microsoft.com/en-US/membership/cloud-solution-provider",
-    "time": "2026-11-15T13:41:16.795750"
+    "time": "2026-11-15T19:38:41.200381"
   },
   {
     "title": "Partner Network",
@@ -2885,7 +2885,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://partner.microsoft.com/en-us/membership",
-    "time": "2026-11-15T13:41:16.795765"
+    "time": "2026-11-15T19:38:41.200400"
   },
   {
     "title": "Microsoft Marketplace",
@@ -2893,7 +2893,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://marketplace.microsoft.com?icid=DSM_AllCommercial_Marketplace&ocid=cmm3c8ee9bs",
-    "time": "2026-11-15T13:41:16.795783"
+    "time": "2026-11-15T19:38:41.200428"
   },
   {
     "title": "Software companies",
@@ -2901,7 +2901,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/software-development-companies?icid=DSM_AllCommercial_SoftwareCompanies&ocid=cmm3c8ee9bs",
-    "time": "2026-11-15T13:41:16.795803"
+    "time": "2026-11-15T19:38:41.200458"
   },
   {
     "title": "Microsoft Advertising",
@@ -2909,7 +2909,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://about.ads.microsoft.com/en-us?s_cid=dig-src_uhfcomm",
-    "time": "2026-11-15T13:41:16.795821"
+    "time": "2026-11-15T19:38:41.200485"
   },
   {
     "title": "Developer Center",
@@ -2917,7 +2917,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://developer.microsoft.com/en-us/",
-    "time": "2026-11-15T13:41:16.795835"
+    "time": "2026-11-15T19:38:41.200505"
   },
   {
     "title": "Microsoft Learn",
@@ -2925,7 +2925,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/",
-    "time": "2026-11-15T13:41:16.795850"
+    "time": "2026-11-15T19:38:41.200529"
   },
   {
     "title": "Microsoft Research",
@@ -2933,7 +2933,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/research/",
-    "time": "2026-11-15T13:41:16.795864"
+    "time": "2026-11-15T19:38:41.200550"
   },
   {
     "title": "Discover what's coming to Microsoft Ignite, Nov 17-20, 2026.",
@@ -2941,7 +2941,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.795892"
+    "time": "2026-11-15T19:38:41.200581"
   },
   {
     "title": "Expand your network.Grow your knowledge.",
@@ -2949,7 +2949,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.795912"
+    "time": "2026-11-15T19:38:41.200608"
   },
   {
     "title": "Explore all events",
@@ -2957,7 +2957,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog",
-    "time": "2026-11-15T13:41:16.795946"
+    "time": "2026-11-15T19:38:41.200656"
   },
   {
     "title": "Featured events",
@@ -2965,7 +2965,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/#featuredevents",
-    "time": "2026-11-15T13:41:16.795992"
+    "time": "2026-11-15T19:38:41.200720"
   },
   {
     "title": "Events by category",
@@ -2973,7 +2973,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/#eventsbycategory",
-    "time": "2026-11-15T13:41:16.796017"
+    "time": "2026-11-15T19:38:41.200769"
   },
   {
     "title": "Upcoming events",
@@ -2981,7 +2981,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/#upcomingevents",
-    "time": "2026-11-15T13:41:16.796041"
+    "time": "2026-11-15T19:38:41.200819"
   },
   {
     "title": "Industry events",
@@ -2989,7 +2989,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/#industryevents",
-    "time": "2026-11-15T13:41:16.796062"
+    "time": "2026-11-15T19:38:41.200857"
   },
   {
     "title": "Additional learning",
@@ -2997,7 +2997,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/#additionallearning",
-    "time": "2026-11-15T13:41:16.796088"
+    "time": "2026-11-15T19:38:41.200895"
   },
   {
     "title": "Browse all events",
@@ -3005,7 +3005,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog",
-    "time": "2026-11-15T13:41:16.796115"
+    "time": "2026-11-15T19:38:41.200937"
   },
   {
     "title": "Discover events tailored to you",
@@ -3013,7 +3013,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796132"
+    "time": "2026-11-15T19:38:41.200961"
   },
   {
     "title": "Stay ahead of the curve",
@@ -3021,7 +3021,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796163"
+    "time": "2026-11-15T19:38:41.201004"
   },
   {
     "title": "Microsoft Ignite 2026",
@@ -3029,7 +3029,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796179"
+    "time": "2026-11-15T19:38:41.201025"
   },
   {
     "title": "November 17–20, 2026",
@@ -3037,7 +3037,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796202"
+    "time": "2026-11-15T19:38:41.201054"
   },
   {
     "title": "Get the latest Microsoft news and announcements first, with direct access to the leaders, experts, customers, and partners driving what's next.",
@@ -3045,7 +3045,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796234"
+    "time": "2026-11-15T19:38:41.201097"
   },
   {
     "title": "Registration and details",
@@ -3053,7 +3053,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/local-events/microsoft-frontier-transformation-week",
-    "time": "2026-11-15T13:41:16.796258"
+    "time": "2026-11-15T19:38:41.201131"
   },
   {
     "title": "Pursue your interests",
@@ -3061,7 +3061,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796277"
+    "time": "2026-11-15T19:38:41.201156"
   },
   {
     "title": "Decision-makers",
@@ -3069,7 +3069,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796353"
+    "time": "2026-11-15T19:38:41.201270"
   },
   {
     "title": "Explore related events",
@@ -3077,7 +3077,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Adecision-makers&scenario=events",
-    "time": "2026-11-15T13:41:16.796376"
+    "time": "2026-11-15T19:38:41.201308"
   },
   {
     "title": "Explore related events",
@@ -3085,7 +3085,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Adevelopers&scenario=events",
-    "time": "2026-11-15T13:41:16.796400"
+    "time": "2026-11-15T19:38:41.201342"
   },
   {
     "title": "Explore related events",
@@ -3093,7 +3093,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Aexecutives&scenario=events",
-    "time": "2026-11-15T13:41:16.796422"
+    "time": "2026-11-15T19:38:41.201374"
   },
   {
     "title": "IT professionals",
@@ -3101,7 +3101,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796435"
+    "time": "2026-11-15T19:38:41.201394"
   },
   {
     "title": "Explore related events",
@@ -3109,7 +3109,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Ait-professionals&scenario=events",
-    "time": "2026-11-15T13:41:16.796455"
+    "time": "2026-11-15T19:38:41.201424"
   },
   {
     "title": "Explore related events",
@@ -3117,7 +3117,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Apartners&scenario=events",
-    "time": "2026-11-15T13:41:16.796475"
+    "time": "2026-11-15T19:38:41.201458"
   },
   {
     "title": "Students and education",
@@ -3125,7 +3125,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796490"
+    "time": "2026-11-15T19:38:41.201479"
   },
   {
     "title": "Explore related events",
@@ -3133,7 +3133,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Astudents-and-education&scenario=events",
-    "time": "2026-11-15T13:41:16.796510"
+    "time": "2026-11-15T19:38:41.201509"
   },
   {
     "title": "Other professionals",
@@ -3141,7 +3141,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796524"
+    "time": "2026-11-15T19:38:41.201530"
   },
   {
     "title": "Explore related events",
@@ -3149,7 +3149,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=audience%3Aother-professionals&scenario=events",
-    "time": "2026-11-15T13:41:16.796543"
+    "time": "2026-11-15T19:38:41.201559"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -3157,7 +3157,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:16.796567"
+    "time": "2026-11-15T19:38:41.201591"
   },
   {
     "title": "Explore related events",
@@ -3165,7 +3165,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Aai&scenario=events",
-    "time": "2026-11-15T13:41:16.796682"
+    "time": "2026-11-15T19:38:41.201762"
   },
   {
     "title": "Business applications",
@@ -3173,7 +3173,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796698"
+    "time": "2026-11-15T19:38:41.201784"
   },
   {
     "title": "Explore related events",
@@ -3181,7 +3181,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Abusiness-applications&scenario=events",
-    "time": "2026-11-15T13:41:16.796730"
+    "time": "2026-11-15T19:38:41.201828"
   },
   {
     "title": "Explore related events",
@@ -3189,7 +3189,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Acloud-platform&scenario=events",
-    "time": "2026-11-15T13:41:16.796754"
+    "time": "2026-11-15T19:38:41.201865"
   },
   {
     "title": "Data and analytics",
@@ -3197,7 +3197,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796770"
+    "time": "2026-11-15T19:38:41.201886"
   },
   {
     "title": "Explore related events",
@@ -3205,7 +3205,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Adata-and-analytics&scenario=events",
-    "time": "2026-11-15T13:41:16.796789"
+    "time": "2026-11-15T19:38:41.201919"
   },
   {
     "title": "Developer tools",
@@ -3213,7 +3213,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796802"
+    "time": "2026-11-15T19:38:41.201939"
   },
   {
     "title": "Explore related events",
@@ -3221,7 +3221,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Adeveloper-tools&scenario=events",
-    "time": "2026-11-15T13:41:16.796821"
+    "time": "2026-11-15T19:38:41.201968"
   },
   {
     "title": "Explore related events",
@@ -3229,7 +3229,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Adevices&scenario=events",
-    "time": "2026-11-15T13:41:16.796841"
+    "time": "2026-11-15T19:38:41.201998"
   },
   {
     "title": "Industry focused",
@@ -3237,7 +3237,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.796854"
+    "time": "2026-11-15T19:38:41.202017"
   },
   {
     "title": "Explore related events",
@@ -3245,7 +3245,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Aindustry-focused&scenario=events",
-    "time": "2026-11-15T13:41:16.796873"
+    "time": "2026-11-15T19:38:41.202045"
   },
   {
     "title": "Explore related events",
@@ -3253,7 +3253,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Ainfrastructure&scenario=events",
-    "time": "2026-11-15T13:41:16.796895"
+    "time": "2026-11-15T19:38:41.202076"
   },
   {
     "title": "Explore related events",
@@ -3261,7 +3261,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Aproductivity&scenario=events",
-    "time": "2026-11-15T13:41:16.796915"
+    "time": "2026-11-15T19:38:41.202109"
   },
   {
     "title": "Explore related events",
@@ -3269,7 +3269,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Asecurity&scenario=events",
-    "time": "2026-11-15T13:41:16.796937"
+    "time": "2026-11-15T19:38:41.202138"
   },
   {
     "title": "Explore related events",
@@ -3277,7 +3277,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Asustainability&scenario=events",
-    "time": "2026-11-15T13:41:16.796958"
+    "time": "2026-11-15T19:38:41.202168"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -3285,7 +3285,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:16.796980"
+    "time": "2026-11-15T19:38:41.202198"
   },
   {
     "title": "Explore related events",
@@ -3293,7 +3293,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Aazure&scenario=events",
-    "time": "2026-11-15T13:41:16.797088"
+    "time": "2026-11-15T19:38:41.202353"
   },
   {
     "title": "Explore related events",
@@ -3301,7 +3301,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Adynamics-365&scenario=events",
-    "time": "2026-11-15T13:41:16.797109"
+    "time": "2026-11-15T19:38:41.202385"
   },
   {
     "title": "Explore related events",
@@ -3309,7 +3309,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-365&scenario=events",
-    "time": "2026-11-15T13:41:16.797130"
+    "time": "2026-11-15T19:38:41.202417"
   },
   {
     "title": "Copilot and Agents",
@@ -3317,7 +3317,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797144"
+    "time": "2026-11-15T19:38:41.202437"
   },
   {
     "title": "Explore related events",
@@ -3325,7 +3325,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-copilot&scenario=events",
-    "time": "2026-11-15T13:41:16.797163"
+    "time": "2026-11-15T19:38:41.202466"
   },
   {
     "title": "Microsoft Fabric",
@@ -3333,7 +3333,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797176"
+    "time": "2026-11-15T19:38:41.202485"
   },
   {
     "title": "Explore related events",
@@ -3341,7 +3341,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-fabric&scenario=events",
-    "time": "2026-11-15T13:41:16.797196"
+    "time": "2026-11-15T19:38:41.202514"
   },
   {
     "title": "Explore related events",
@@ -3349,7 +3349,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-power-platform&scenario=events%20",
-    "time": "2026-11-15T13:41:16.797219"
+    "time": "2026-11-15T19:38:41.202546"
   },
   {
     "title": "Microsoft Security",
@@ -3357,7 +3357,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797232"
+    "time": "2026-11-15T19:38:41.202568"
   },
   {
     "title": "Explore related events",
@@ -3365,7 +3365,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Amicrosoft-security&scenario=events",
-    "time": "2026-11-15T13:41:16.797251"
+    "time": "2026-11-15T19:38:41.202601"
   },
   {
     "title": "Explore related events",
@@ -3373,7 +3373,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Apower-bi&scenario=events",
-    "time": "2026-11-15T13:41:16.797271"
+    "time": "2026-11-15T19:38:41.202631"
   },
   {
     "title": "Explore related events",
@@ -3381,7 +3381,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Asurface&scenario=events",
-    "time": "2026-11-15T13:41:16.797299"
+    "time": "2026-11-15T19:38:41.202661"
   },
   {
     "title": "Explore related events",
@@ -3389,7 +3389,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=product%3Awindows&scenario=events",
-    "time": "2026-11-15T13:41:16.797322"
+    "time": "2026-11-15T19:38:41.202690"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -3397,7 +3397,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:16.797344"
+    "time": "2026-11-15T19:38:41.202718"
   },
   {
     "title": "Join an event at your next earliest opportunity",
@@ -3405,7 +3405,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797365"
+    "time": "2026-11-15T19:38:41.202746"
   },
   {
     "title": "View all AI events",
@@ -3413,7 +3413,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?&filters=topic%3Aai&scenario=events",
-    "time": "2026-11-15T13:41:16.797436"
+    "time": "2026-11-15T19:38:41.202872"
   },
   {
     "title": "Registration and details",
@@ -3421,7 +3421,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797461"
+    "time": "2026-11-15T19:38:41.202907"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -3429,7 +3429,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797479"
+    "time": "2026-11-15T19:38:41.202931"
   },
   {
     "title": "Watch on demand",
@@ -3437,7 +3437,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797498"
+    "time": "2026-11-15T19:38:41.202960"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -3445,7 +3445,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797515"
+    "time": "2026-11-15T19:38:41.202981"
   },
   {
     "title": "Watch on demand",
@@ -3453,7 +3453,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797533"
+    "time": "2026-11-15T19:38:41.203009"
   },
   {
     "title": "Data Security Posture Management for AI",
@@ -3461,7 +3461,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797552"
+    "time": "2026-11-15T19:38:41.203033"
   },
   {
     "title": "Watch on demand",
@@ -3469,7 +3469,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797571"
+    "time": "2026-11-15T19:38:41.203060"
   },
   {
     "title": "Productivity, Security, and Data Protection",
@@ -3477,7 +3477,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797590"
+    "time": "2026-11-15T19:38:41.203085"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -3485,7 +3485,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:16.797611"
+    "time": "2026-11-15T19:38:41.203114"
   },
   {
     "title": "View all Developer tools events",
@@ -3493,7 +3493,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Adeveloper-tools&scenario=events",
-    "time": "2026-11-15T13:41:16.797676"
+    "time": "2026-11-15T19:38:41.203209"
   },
   {
     "title": "Registration and details",
@@ -3501,7 +3501,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797700"
+    "time": "2026-11-15T19:38:41.203241"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -3509,7 +3509,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797729"
+    "time": "2026-11-15T19:38:41.203264"
   },
   {
     "title": "Watch on demand",
@@ -3517,7 +3517,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797751"
+    "time": "2026-11-15T19:38:41.203296"
   },
   {
     "title": "Data Security Posture Management for AI",
@@ -3525,7 +3525,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797769"
+    "time": "2026-11-15T19:38:41.203320"
   },
   {
     "title": "Watch on demand",
@@ -3533,7 +3533,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797787"
+    "time": "2026-11-15T19:38:41.203349"
   },
   {
     "title": "Exploring Identity and Access Management",
@@ -3541,7 +3541,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797806"
+    "time": "2026-11-15T19:38:41.203375"
   },
   {
     "title": "Watch on demand",
@@ -3549,7 +3549,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797823"
+    "time": "2026-11-15T19:38:41.203401"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -3557,7 +3557,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:16.797843"
+    "time": "2026-11-15T19:38:41.203429"
   },
   {
     "title": "View all Security events",
@@ -3565,7 +3565,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/search-catalog/?filters=topic%3Asecurity&scenario=events",
-    "time": "2026-11-15T13:41:16.797909"
+    "time": "2026-11-15T19:38:41.203526"
   },
   {
     "title": "Registration and details",
@@ -3573,7 +3573,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797932"
+    "time": "2026-11-15T19:38:41.203559"
   },
   {
     "title": "Mastering Power Platform Security",
@@ -3581,7 +3581,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797950"
+    "time": "2026-11-15T19:38:41.203581"
   },
   {
     "title": "Watch on demand",
@@ -3589,7 +3589,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797967"
+    "time": "2026-11-15T19:38:41.203607"
   },
   {
     "title": "Data Security Posture Management for AI",
@@ -3597,7 +3597,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.797985"
+    "time": "2026-11-15T19:38:41.203630"
   },
   {
     "title": "Watch on demand",
@@ -3605,7 +3605,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798001"
+    "time": "2026-11-15T19:38:41.203656"
   },
   {
     "title": "Exploring Identity and Access Management",
@@ -3613,7 +3613,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798019"
+    "time": "2026-11-15T19:38:41.203679"
   },
   {
     "title": "Watch on demand",
@@ -3621,7 +3621,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798035"
+    "time": "2026-11-15T19:38:41.203704"
   },
   {
     "title": "Back to carousel navigation controls",
@@ -3629,7 +3629,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "javascript:void(0);",
-    "time": "2026-11-15T13:41:16.798055"
+    "time": "2026-11-15T19:38:41.203731"
   },
   {
     "title": "Join us at an upcoming industry event",
@@ -3637,7 +3637,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798077"
+    "time": "2026-11-15T19:38:41.203758"
   },
   {
     "title": "Become a Sponsor",
@@ -3645,7 +3645,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798095"
+    "time": "2026-11-15T19:38:41.203781"
   },
   {
     "title": "Select and plan your next event experience",
@@ -3653,7 +3653,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798116"
+    "time": "2026-11-15T19:38:41.203820"
   },
   {
     "title": "Find events to fit your needs",
@@ -3661,7 +3661,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798138"
+    "time": "2026-11-15T19:38:41.203844"
   },
   {
     "title": "Follow Microsoft Events",
@@ -3669,7 +3669,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://events.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798164"
+    "time": "2026-11-15T19:38:41.203880"
   },
   {
     "title": "Surface Laptop Ultra",
@@ -3677,7 +3677,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra",
-    "time": "2026-11-15T13:41:16.798192"
+    "time": "2026-11-15T19:38:41.203918"
   },
   {
     "title": "Surface RTX Spark Dev Box",
@@ -3685,7 +3685,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox",
-    "time": "2026-11-15T13:41:16.798219"
+    "time": "2026-11-15T19:38:41.203953"
   },
   {
     "title": "Explore Copilot",
@@ -3693,7 +3693,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot",
-    "time": "2026-11-15T13:41:16.798235"
+    "time": "2026-11-15T19:38:41.203977"
   },
   {
     "title": "Explore Microsoft products",
@@ -3701,7 +3701,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/microsoft-products-and-apps",
-    "time": "2026-11-15T13:41:16.798253"
+    "time": "2026-11-15T19:38:41.204002"
   },
   {
     "title": "Windows 11 apps",
@@ -3709,7 +3709,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps",
-    "time": "2026-11-15T13:41:16.798270"
+    "time": "2026-11-15T19:38:41.204028"
   },
   {
     "title": "Account profile",
@@ -3717,7 +3717,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://account.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798282"
+    "time": "2026-11-15T19:38:41.204046"
   },
   {
     "title": "Download Center",
@@ -3725,7 +3725,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/download",
-    "time": "2026-11-15T13:41:16.798295"
+    "time": "2026-11-15T19:38:41.204067"
   },
   {
     "title": "Microsoft Store support",
@@ -3733,7 +3733,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://go.microsoft.com/fwlink/?linkid=2139749",
-    "time": "2026-11-15T13:41:16.798311"
+    "time": "2026-11-15T19:38:41.204091"
   },
   {
     "title": "Certified Refurbished",
@@ -3741,7 +3741,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products",
-    "time": "2026-11-15T13:41:16.798331"
+    "time": "2026-11-15T19:38:41.204120"
   },
   {
     "title": "Why buy from Microsoft Store",
@@ -3749,7 +3749,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy",
-    "time": "2026-11-15T13:41:16.798354"
+    "time": "2026-11-15T19:38:41.204152"
   },
   {
     "title": "Flexible Payments",
@@ -3757,7 +3757,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc",
-    "time": "2026-11-15T13:41:16.798374"
+    "time": "2026-11-15T19:38:41.204178"
   },
   {
     "title": "Microsoft in education",
@@ -3765,7 +3765,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education",
-    "time": "2026-11-15T13:41:16.798389"
+    "time": "2026-11-15T19:38:41.204202"
   },
   {
     "title": "Devices for education",
@@ -3773,7 +3773,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education/devices/overview",
-    "time": "2026-11-15T13:41:16.798406"
+    "time": "2026-11-15T19:38:41.204226"
   },
   {
     "title": "Microsoft Teams for Education",
@@ -3781,7 +3781,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education/products/teams",
-    "time": "2026-11-15T13:41:16.798425"
+    "time": "2026-11-15T19:38:41.204251"
   },
   {
     "title": "Microsoft 365 Education",
@@ -3789,7 +3789,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education/products/microsoft-365",
-    "time": "2026-11-15T13:41:16.798442"
+    "time": "2026-11-15T19:38:41.204276"
   },
   {
     "title": "How to buy for your school",
@@ -3797,7 +3797,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/education/how-to-buy",
-    "time": "2026-11-15T13:41:16.798460"
+    "time": "2026-11-15T19:38:41.204298"
   },
   {
     "title": "Educator training and development",
@@ -3805,7 +3805,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://education.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798476"
+    "time": "2026-11-15T19:38:41.204324"
   },
   {
     "title": "Deals for students and parents",
@@ -3813,7 +3813,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/store/b/education",
-    "time": "2026-11-15T13:41:16.798495"
+    "time": "2026-11-15T19:38:41.204349"
   },
   {
     "title": "AI for education",
@@ -3821,7 +3821,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/education/ai-in-education",
-    "time": "2026-11-15T13:41:16.798511"
+    "time": "2026-11-15T19:38:41.204371"
   },
   {
     "title": "Microsoft Security",
@@ -3829,7 +3829,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/security",
-    "time": "2026-11-15T13:41:16.798527"
+    "time": "2026-11-15T19:38:41.204395"
   },
   {
     "title": "Microsoft Power Platform",
@@ -3837,7 +3837,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/power-platform",
-    "time": "2026-11-15T13:41:16.798545"
+    "time": "2026-11-15T19:38:41.204422"
   },
   {
     "title": "Microsoft Teams",
@@ -3845,7 +3845,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
-    "time": "2026-11-15T13:41:16.798561"
+    "time": "2026-11-15T19:38:41.204444"
   },
   {
     "title": "Microsoft Copilot",
@@ -3853,7 +3853,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot",
-    "time": "2026-11-15T13:41:16.798577"
+    "time": "2026-11-15T19:38:41.204468"
   },
   {
     "title": "Microsoft Developer",
@@ -3861,7 +3861,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://developer.microsoft.com/en-us/",
-    "time": "2026-11-15T13:41:16.798594"
+    "time": "2026-11-15T19:38:41.204495"
   },
   {
     "title": "Microsoft Learn",
@@ -3869,7 +3869,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://learn.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798607"
+    "time": "2026-11-15T19:38:41.204513"
   },
   {
     "title": "Support for AI marketplace apps",
@@ -3877,7 +3877,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98",
-    "time": "2026-11-15T13:41:16.798632"
+    "time": "2026-11-15T19:38:41.204548"
   },
   {
     "title": "Microsoft Tech Community",
@@ -3885,7 +3885,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://techcommunity.microsoft.com/",
-    "time": "2026-11-15T13:41:16.798647"
+    "time": "2026-11-15T19:38:41.204569"
   },
   {
     "title": "Microsoft Marketplace",
@@ -3893,7 +3893,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://marketplace.microsoft.com?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98",
-    "time": "2026-11-15T13:41:16.798664"
+    "time": "2026-11-15T19:38:41.204594"
   },
   {
     "title": "Software companies",
@@ -3901,7 +3901,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98",
-    "time": "2026-11-15T13:41:16.798683"
+    "time": "2026-11-15T19:38:41.204621"
   },
   {
     "title": "About Microsoft",
@@ -3909,7 +3909,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/about",
-    "time": "2026-11-15T13:41:16.798698"
+    "time": "2026-11-15T19:38:41.204643"
   },
   {
     "title": "Privacy at Microsoft",
@@ -3917,7 +3917,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy",
-    "time": "2026-11-15T13:41:16.798716"
+    "time": "2026-11-15T19:38:41.204670"
   },
   {
     "title": "Diversity and inclusion",
@@ -3925,7 +3925,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity",
-    "time": "2026-11-15T13:41:16.798747"
+    "time": "2026-11-15T19:38:41.204699"
   },
   {
     "title": "English (United States)",
@@ -3933,7 +3933,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://www.microsoft.com/en-us/events/locale",
-    "time": "2026-11-15T13:41:16.798766"
+    "time": "2026-11-15T19:38:41.204725"
   },
   {
     "title": "Your Privacy Choices Opt-Out IconYour Privacy Choices",
@@ -3941,7 +3941,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://aka.ms/yourcaliforniaprivacychoices",
-    "time": "2026-11-15T13:41:16.798792"
+    "time": "2026-11-15T19:38:41.204759"
   },
   {
     "title": "Your Privacy Choices Opt-Out IconYour Privacy Choices",
@@ -3949,7 +3949,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://aka.ms/yourcaliforniaprivacychoices",
-    "time": "2026-11-15T13:41:16.798814"
+    "time": "2026-11-15T19:38:41.204786"
   },
   {
     "title": "Consumer Health Privacy",
@@ -3957,7 +3957,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://go.microsoft.com/fwlink/?linkid=2259814",
-    "time": "2026-11-15T13:41:16.798831"
+    "time": "2026-11-15T19:38:41.204824"
   },
   {
     "title": "Contact Microsoft",
@@ -3965,7 +3965,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://support.microsoft.com/contactus",
-    "time": "2026-11-15T13:41:16.798846"
+    "time": "2026-11-15T19:38:41.204851"
   },
   {
     "title": "Technofocus Privacy Statement",
@@ -3973,7 +3973,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://technofocus.ai/privacy",
-    "time": "2026-11-15T13:41:20.177760"
+    "time": "2026-11-15T19:38:44.769494"
   },
   {
     "title": "Duration -\n                                                        4 HoursAccelerate data insights with Copilot in Power BICopilot helps you use the t",
@@ -3981,7 +3981,7 @@
     "tier": null,
     "reason": "EXCLUDED: 'how to prepare'",
     "link": "https://skillupwithlevelup.com/course-detail/1762290",
-    "time": "2026-11-15T13:41:27.145848"
+    "time": "2026-11-15T19:38:51.735029"
   },
   {
     "title": "Technofocus Privacy Statement",
@@ -3989,7 +3989,7 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://technofocus.ai/privacy",
-    "time": "2026-11-15T13:41:27.146002"
+    "time": "2026-11-15T19:38:51.735275"
   },
   {
     "title": "Technofocus Privacy Statement",
@@ -3997,6 +3997,6 @@
     "tier": null,
     "reason": "No voucher phrase matched",
     "link": "https://technofocus.ai/privacy",
-    "time": "2026-11-15T13:41:33.218825"
+    "time": "2026-11-15T19:38:58.165442"
   }
 ]
