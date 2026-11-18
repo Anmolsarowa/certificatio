@@ -1,8 +1,8 @@
 {
-  "last_scan": "2026-11-18T12:47:32.852666",
+  "last_scan": "2026-11-18T21:45:31.121501",
   "last_stats": {
-    "total_posts_evaluated": 645,
-    "excluded_by_patterns": 26,
+    "total_posts_evaluated": 646,
+    "excluded_by_patterns": 27,
     "excluded_no_voucher_phrase": 619,
     "excluded_no_microsoft_context": 0,
     "verified_alerts": 0,
