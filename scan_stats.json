@@ -1,12 +1,19 @@
 {
-  "last_scan": "2026-11-19T03:00:14.426362",
+  "last_scan": "2026-11-19T12:39:33.020419",
   "last_stats": {
-    "total_posts_evaluated": 646,
-    "excluded_by_patterns": 28,
-    "excluded_no_voucher_phrase": 618,
+    "total_posts_evaluated": 599,
+    "excluded_by_patterns": 17,
+    "excluded_no_voucher_phrase": 582,
     "excluded_no_microsoft_context": 0,
     "verified_alerts": 0,
-    "source_errors": [],
+    "source_errors": [
+      "Google News: MS Ignite Voucher: <unknown>:2:252: not well-formed (invalid token)",
+      "Google News: Skills Challenge: <unknown>:2:252: not well-formed (invalid token)",
+      "Google News: Cert Week Voucher: <unknown>:2:252: not well-formed (invalid token)",
+      "Web: LevelUp Home: HTTPSConnectionPool(host='skillupwithlevelup.com', port=443): Read timed out. (read timeout=15)",
+      "Web: LevelUp Courses: HTTPSConnectionPool(host='skillupwithlevelup.com', port=443): Read timed out. (read timeout=15)",
+      "Web: LevelUp Certification Prep: HTTPSConnectionPool(host='skillupwithlevelup.com', port=443): Read timed out. (read timeout=15)"
+    ],
     "source_success": [
       "Reddit: Microsoft Certifications",
       "Reddit: Azure Certification",
@@ -19,10 +26,7 @@
       "Reddit: Microsoft",
       "Google News: MS Cert Voucher",
       "Google News: Azure Exam Voucher",
-      "Google News: MS Ignite Voucher",
       "Google News: Virtual Training Day",
-      "Google News: Skills Challenge",
-      "Google News: Cert Week Voucher",
       "Google News: Skills Fest Voucher",
       "Google News: MS Free Cert 2026",
       "Google News: LevelUp Voucher",
@@ -34,9 +38,6 @@
       "Web: Microsoft Learn Challenges",
       "Web: Microsoft Virtual Training Days",
       "Web: Microsoft Events",
-      "Web: LevelUp Home",
-      "Web: LevelUp Courses",
-      "Web: LevelUp Certification Prep",
       "GitHub: Voucher Tracker"
     ]
   }
