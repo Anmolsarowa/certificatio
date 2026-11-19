@@ -1,14 +1,6 @@
 [
   {
     "tier": "EVENT",
-    "title": "Deutsch\n                                                / German",
-    "link": "https://skillupwithlevelup.com/lang/de",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/de",
-    "found_at": "2026-08-28T23:29:07.496494"
-  },
-  {
-    "tier": "EVENT",
     "title": "Português\n                                                / Portuguese",
     "link": "https://skillupwithlevelup.com/lang/pt",
     "source": "Web: LevelUp Home",
@@ -1598,5 +1590,13 @@
     "source": "Web: LevelUp Courses",
     "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2620361",
     "found_at": "2026-11-08T23:30:35.182627"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAB-620: Design and build integrated AI agent solutions in Copilot Studio - ",
+    "link": "https://skillupwithlevelup.com/course-detail/2650970",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2650970",
+    "found_at": "2026-11-19T22:01:25.285148"
   }
 ]
