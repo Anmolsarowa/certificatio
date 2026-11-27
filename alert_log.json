@@ -1,358 +1,6 @@
 [
   {
     "tier": "EVENT",
-    "title": "Português\n                                                / Portuguese",
-    "link": "https://skillupwithlevelup.com/lang/pt",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/pt",
-    "found_at": "2026-08-28T23:29:07.496534"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Italiano\n                                                / Italian",
-    "link": "https://skillupwithlevelup.com/lang/it",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/it",
-    "found_at": "2026-08-28T23:29:07.496593"
-  },
-  {
-    "tier": "EVENT",
-    "title": "日本語\n                                                / Japanese",
-    "link": "https://skillupwithlevelup.com/lang/ja",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/ja",
-    "found_at": "2026-08-28T23:29:07.496636"
-  },
-  {
-    "tier": "EVENT",
-    "title": "한국인\n                                                / Korean",
-    "link": "https://skillupwithlevelup.com/lang/ko",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/ko",
-    "found_at": "2026-08-28T23:29:07.496682"
-  },
-  {
-    "tier": "EVENT",
-    "title": "现代汉语\n                                                / Simplified Chinese",
-    "link": "https://skillupwithlevelup.com/lang/zh",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/zh",
-    "found_at": "2026-08-28T23:29:07.496723"
-  },
-  {
-    "tier": "EVENT",
-    "title": "繁體中文\n                                                / Traditional Chinese",
-    "link": "https://skillupwithlevelup.com/lang/zt",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/zt",
-    "found_at": "2026-08-28T23:29:07.496768"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Frontier Transformation Engineer:100% Discounted Exam Voucher*",
-    "link": "https://skillupwithlevelup.com/",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/",
-    "found_at": "2026-08-28T23:29:07.496810"
-  },
-  {
-    "tier": "EVENT",
-    "title": "*Terms and Conditions apply",
-    "link": "https://skillupwithlevelup.com/cert-terms-and-conditions#collapseNine",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/cert-terms-and-conditions#collapseNine",
-    "found_at": "2026-08-28T23:29:07.496853"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Earn a 100% discounted exam voucher*",
-    "link": "https://skillupwithlevelup.com/cert-terms-and-conditions",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/cert-terms-and-conditions",
-    "found_at": "2026-08-28T23:29:07.496884"
-  },
-  {
-    "tier": "EVENT",
-    "title": "View All Courses",
-    "link": "https://skillupwithlevelup.com/courses",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses",
-    "found_at": "2026-08-28T23:29:07.496953"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Explore Sales Courses",
-    "link": "https://skillupwithlevelup.com/courses?target_audience=Sales+Ready",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses?target_audience=Sales+Ready",
-    "found_at": "2026-08-28T23:29:07.497065"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Explore Tech Deal Courses",
-    "link": "https://skillupwithlevelup.com/courses?target_audience=Tech+Deal+Ready",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses?target_audience=Tech+Deal+Ready",
-    "found_at": "2026-08-28T23:29:07.497126"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Explore Project Courses",
-    "link": "https://skillupwithlevelup.com/courses?target_audience=Project+Ready%2CProject+Ready+with+Labs",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses?target_audience=Project+Ready%2CProject+R",
-    "found_at": "2026-08-28T23:29:07.497188"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Start your journey",
-    "link": "https://skillupwithlevelup.com/frontier",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/frontier",
-    "found_at": "2026-08-28T23:29:07.497418"
-  },
-  {
-    "tier": "EVENT",
-    "title": "AI Business Process",
-    "link": "https://skillupwithlevelup.com/journeys?solution_area=AI+Business+Process",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/journeys?solution_area=AI+Business+Process",
-    "found_at": "2026-08-28T23:29:07.497461"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Cloud & AI Platform",
-    "link": "https://skillupwithlevelup.com/journeys?solution_area=Cloud+%26+AI+Platform",
-    "source": "Web: LevelUp Home",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/journeys?solution_area=Cloud+%26+AI+Platform",
-    "found_at": "2026-08-28T23:29:07.497498"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        12 HoursImplement Microsoft Defender for EndpointMicrosoft Defender for Endpoint is",
-    "link": "https://skillupwithlevelup.com/course-detail/1288168",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1288168",
-    "found_at": "2026-08-28T23:29:11.627701"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        1.5 HoursMigrate and modernize your estate on AzureThis course empowers Microsoft P",
-    "link": "https://skillupwithlevelup.com/course-detail/1288170",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1288170",
-    "found_at": "2026-08-28T23:29:11.627846"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        12 HoursProtect cloud, AI Platform and Apps by implementing Defender for CloudMicro",
-    "link": "https://skillupwithlevelup.com/course-detail/1288171",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1288171",
-    "found_at": "2026-08-28T23:29:11.628012"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        4.5 HoursMigrate and modernize your estate on AzureThis deal-ready course equips pa",
-    "link": "https://skillupwithlevelup.com/course-detail/1288182",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1288182",
-    "found_at": "2026-08-28T23:29:11.628155"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        4.5 HoursRevolutionize SMB processes with Microsoft Power PlatformSmall and medium-",
-    "link": "https://skillupwithlevelup.com/course-detail/1288183",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1288183",
-    "found_at": "2026-08-28T23:29:11.628333"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        2 HoursSecure AI productivity Microsoft 365Learn how to help customers boost produc",
-    "link": "https://skillupwithlevelup.com/course-detail/1288191",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1288191",
-    "found_at": "2026-08-28T23:29:11.628459"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        1.5 HoursMicrosoft Customer Engagement Methodology (MCEM) for Partners FoundationsM",
-    "link": "https://skillupwithlevelup.com/course-detail/1288200",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1288200",
-    "found_at": "2026-08-28T23:29:11.628623"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        12 HoursImplement Threat Protection with Microsoft Defender XDR solutionsThis Imple",
-    "link": "https://skillupwithlevelup.com/course-detail/1297766",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1297766",
-    "found_at": "2026-08-28T23:29:11.628778"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        12 HoursImplement Identity and access management with Microsoft EntraWe will learn ",
-    "link": "https://skillupwithlevelup.com/course-detail/1299130",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1299130",
-    "found_at": "2026-08-28T23:29:11.628945"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        2 HoursIntroduction to Microsoft Copilot for Dynamics 365Copilot for Dynamics 365, ",
-    "link": "https://skillupwithlevelup.com/course-detail/1316647",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1316647",
-    "found_at": "2026-08-28T23:29:11.629057"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        1.5 HoursIntroduction to Microsoft Security CopilotLearn how tailored security-spec",
-    "link": "https://skillupwithlevelup.com/course-detail/1316672",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1316672",
-    "found_at": "2026-08-28T23:29:11.629148"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        1.5 HoursTransform business productivity with Copilots for business functionsWith t",
-    "link": "https://skillupwithlevelup.com/course-detail/1371836",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1371836",
-    "found_at": "2026-08-28T23:29:11.629315"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        1.5 HoursUnify and grow your business with Microsoft FabricThis session helps selle",
-    "link": "https://skillupwithlevelup.com/course-detail/1373692",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1373692",
-    "found_at": "2026-08-28T23:29:11.629438"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        4.5 HoursAzure Migration for SMBIn completing this course, you'll become familiar w",
-    "link": "https://skillupwithlevelup.com/course-detail/1493155",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1493155",
-    "found_at": "2026-08-28T23:29:11.629564"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        4.5 HoursSpecialize Data Security Consultation with Microsoft Purview in the era of",
-    "link": "https://skillupwithlevelup.com/course-detail/1520060",
-    "source": "Web: LevelUp Courses",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1520060",
-    "found_at": "2026-08-28T23:29:11.629720"
-  },
-  {
-    "tier": "EVENT",
-    "title": "LevelUpCertification Prep",
-    "link": "https://skillupwithlevelup.com/certification-prep-on-demand",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand",
-    "found_at": "2026-08-28T23:29:15.485106"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Learn more about the Certification Requirements here",
-    "link": "https://skillupwithlevelup.com/cert-requirement-maicpp-solution-designation/cloud-and-ai",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/cert-requirement-maicpp-solution-designation/clou",
-    "found_at": "2026-08-28T23:29:15.485160"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Start Your Certification Journey",
-    "link": "https://skillupwithlevelup.com/certification-prep-on-demand#cert-course-catalog",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand#cert-course-catalog",
-    "found_at": "2026-08-28T23:29:15.485226"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursAZ-104: Azure Administrator - ENThis course teaches IT Professionals how to",
-    "link": "https://skillupwithlevelup.com/course-detail/1774652",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1774652",
-    "found_at": "2026-08-28T23:29:15.485480"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursAZ-204: Azure Developer - ENThis course teaches developers how to create en",
-    "link": "https://skillupwithlevelup.com/course-detail/1774660",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1774660",
-    "found_at": "2026-08-28T23:29:15.485648"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursAZ-400: DevOps Engineer - ENThis course enables ability to accomplish the f",
-    "link": "https://skillupwithlevelup.com/course-detail/1775593",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1775593",
-    "found_at": "2026-08-28T23:29:15.485757"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursAZ-700: Network Engineer - ENThis course teaches Network Engineers how to d",
-    "link": "https://skillupwithlevelup.com/course-detail/1775753",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1775753",
-    "found_at": "2026-08-28T23:29:15.485901"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursDP-300: Azure Database Administrator - ENDP-300 is designed to administer a",
-    "link": "https://skillupwithlevelup.com/course-detail/1775755",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1775755",
-    "found_at": "2026-08-28T23:29:15.485996"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursDP-600: Fabric Analytics Engineer - ENDP-600 is designed for data professio",
-    "link": "https://skillupwithlevelup.com/course-detail/1776160",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776160",
-    "found_at": "2026-08-28T23:29:15.486106"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursGH-300: GitHub CopilotThe GitHub Copilot certification prep courses evaluat",
-    "link": "https://skillupwithlevelup.com/course-detail/1776161",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776161",
-    "found_at": "2026-08-28T23:29:15.486227"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursMB-800: Business Central Functional Consultant - ENAs a functional consulta",
-    "link": "https://skillupwithlevelup.com/course-detail/1776162",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776162",
-    "found_at": "2026-08-28T23:29:15.486327"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursPL-200: Power Platform Functional Consultant - ENThis course will teach you",
-    "link": "https://skillupwithlevelup.com/course-detail/1776163",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776163",
-    "found_at": "2026-08-28T23:29:15.486456"
-  },
-  {
-    "tier": "EVENT",
-    "title": "Duration -\n                                                        10 HoursPL-400: Power Platform Developer - ENIn this course you will demonstrate ho",
-    "link": "https://skillupwithlevelup.com/course-detail/1776164",
-    "source": "Web: LevelUp Certification Prep",
-    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776164",
-    "found_at": "2026-08-28T23:29:15.486564"
-  },
-  {
-    "tier": "EVENT",
     "title": "Duration -\n                                                        10 HoursPL-500: Power Automate RPA Developer - ENIn this course you will demonstrat",
     "link": "https://skillupwithlevelup.com/course-detail/1776165",
     "source": "Web: LevelUp Certification Prep",
@@ -1598,5 +1246,357 @@
     "source": "Web: LevelUp Courses",
     "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2650970",
     "found_at": "2026-11-19T22:01:25.285148"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Develop Microsoft Azure skills with 30 Days to Learn It - Microsoft Azure",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORXVZYTVJak11THkxVFhKSHhYdE16dDFBUkZFVGkyMW1RNFRxeHlpV1JGZnBOWC1HVGtmNWF2UE9VYXBwX1RUNEplTklybmlvUEExaUFwZlA3bUpEdGdTMzJGSEUtTVFTd1FOanhjQms1REwtUnZRWVMxVjJUeXdMZGZnenlRUDN3Y3JPX2R1dS15bGVCdEtUVkZMNA?oc=5",
+    "source": "Google News: MS Cert Voucher",
+    "reason": "Event voucher phrase: '30 days to learn it'",
+    "found_at": "2026-11-27T13:35:37.765412"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Skip to main content",
+    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it#main",
+    "source": "Web: Microsoft 30 Days to Learn It",
+    "reason": "Voucher URL pattern matched: https://developer.microsoft.com/en-us/offers/30-days-to-learn-it#main",
+    "found_at": "2026-11-27T13:36:03.591981"
+  },
+  {
+    "tier": "EVENT",
+    "title": "This browser is no longer supported.",
+    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
+    "source": "Web: Microsoft 30 Days to Learn It",
+    "reason": "Voucher URL pattern matched: https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
+    "found_at": "2026-11-27T13:36:03.592019"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Skip to main content",
+    "link": "https://learn.microsoft.com/en-us/training/challenges#main",
+    "source": "Web: Microsoft Learn Challenges",
+    "reason": "Voucher URL pattern matched: https://learn.microsoft.com/en-us/training/challenges#main",
+    "found_at": "2026-11-27T13:36:05.808603"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Read in English",
+    "link": "https://learn.microsoft.com/en-us/training/challenges",
+    "source": "Web: Microsoft Learn Challenges",
+    "reason": "Voucher URL pattern matched: https://learn.microsoft.com/en-us/training/challenges",
+    "found_at": "2026-11-27T13:36:05.808699"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Microsoft Learn profile",
+    "link": "https://learn.microsoft.com/en-us/users/me/challenges",
+    "source": "Web: Microsoft Learn Challenges",
+    "reason": "Voucher URL pattern matched: https://learn.microsoft.com/en-us/users/me/challenges",
+    "found_at": "2026-11-27T13:36:05.808788"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Cloud and AI Platforms",
+    "link": "https://skillupwithlevelup.com/courses?solution_areas=118071",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses?solution_areas=118071",
+    "found_at": "2026-11-27T13:36:26.677029"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Cloud and AI Platforms",
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=118071",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=11807",
+    "found_at": "2026-11-27T13:36:26.677070"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Deal-Ready Demo Accelerators",
+    "link": "https://skillupwithlevelup.com/dealreadyaccelerators",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/dealreadyaccelerators",
+    "found_at": "2026-11-27T13:36:26.677105"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Learning Journeys",
+    "link": "https://skillupwithlevelup.com/journeys",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/journeys",
+    "found_at": "2026-11-27T13:36:26.677130"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Français\n                                                / French",
+    "link": "https://skillupwithlevelup.com/lang/fr",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/fr",
+    "found_at": "2026-11-27T13:36:26.677177"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Español\n                                                / Spanish",
+    "link": "https://skillupwithlevelup.com/lang/es",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/es",
+    "found_at": "2026-11-27T13:36:26.677216"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Deutsch\n                                                / German",
+    "link": "https://skillupwithlevelup.com/lang/de",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/de",
+    "found_at": "2026-11-27T13:36:26.677248"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Português\n                                                / Portuguese",
+    "link": "https://skillupwithlevelup.com/lang/pt",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/pt",
+    "found_at": "2026-11-27T13:36:26.677277"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Italiano\n                                                / Italian",
+    "link": "https://skillupwithlevelup.com/lang/it",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/it",
+    "found_at": "2026-11-27T13:36:26.677305"
+  },
+  {
+    "tier": "EVENT",
+    "title": "日本語\n                                                / Japanese",
+    "link": "https://skillupwithlevelup.com/lang/ja",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/ja",
+    "found_at": "2026-11-27T13:36:26.677340"
+  },
+  {
+    "tier": "EVENT",
+    "title": "한국어\n                                                / Korean",
+    "link": "https://skillupwithlevelup.com/lang/ko",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/ko",
+    "found_at": "2026-11-27T13:36:26.677374"
+  },
+  {
+    "tier": "EVENT",
+    "title": "现代汉语\n                                                / Simplified Chinese",
+    "link": "https://skillupwithlevelup.com/lang/zh",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/zh",
+    "found_at": "2026-11-27T13:36:26.677408"
+  },
+  {
+    "tier": "EVENT",
+    "title": "繁體中文\n                                                / Traditional Chinese",
+    "link": "https://skillupwithlevelup.com/lang/zt",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/lang/zt",
+    "found_at": "2026-11-27T13:36:26.677447"
+  },
+  {
+    "tier": "EVENT",
+    "title": "LIVE ACCELERATOR",
+    "link": "https://skillupwithlevelup.com/",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/",
+    "found_at": "2026-11-27T13:36:26.677469"
+  },
+  {
+    "tier": "EVENT",
+    "title": "View All Courses",
+    "link": "https://skillupwithlevelup.com/courses",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/courses",
+    "found_at": "2026-11-27T13:36:26.677548"
+  },
+  {
+    "tier": "EVENT",
+    "title": "View Full Journey",
+    "link": "https://skillupwithlevelup.com/frontier",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/frontier",
+    "found_at": "2026-11-27T13:36:26.677632"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Terms & Conditions",
+    "link": "https://skillupwithlevelup.com/cert-terms-and-conditions",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/cert-terms-and-conditions",
+    "found_at": "2026-11-27T13:36:26.677916"
+  },
+  {
+    "tier": "EVENT",
+    "title": "AI Business Process",
+    "link": "https://skillupwithlevelup.com/journeys?solution_area=AI+Business+Process",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/journeys?solution_area=AI+Business+Process",
+    "found_at": "2026-11-27T13:36:26.677997"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Cloud & AI Platform",
+    "link": "https://skillupwithlevelup.com/journeys?solution_area=Cloud+%26+AI+Platform",
+    "source": "Web: LevelUp Home",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/journeys?solution_area=Cloud+%26+AI+Platform",
+    "found_at": "2026-11-27T13:36:26.678024"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        6 HoursAddressing sovereignty requirements with Microsoft Sovereign CloudThis cours",
+    "link": "https://skillupwithlevelup.com/course-detail/2047877",
+    "source": "Web: LevelUp Courses",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/2047877",
+    "found_at": "2026-11-27T13:36:33.863361"
+  },
+  {
+    "tier": "EVENT",
+    "title": "LevelUpCertification Prep",
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand",
+    "found_at": "2026-11-27T13:36:40.409898"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Learn more about the Certification Requirements here",
+    "link": "https://skillupwithlevelup.com/cert-requirement-maicpp-solution-designation/cloud-and-ai",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/cert-requirement-maicpp-solution-designation/clou",
+    "found_at": "2026-11-27T13:36:40.409940"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Start Your Certification Journey",
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand#cert-course-catalog",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/certification-prep-on-demand#cert-course-catalog",
+    "found_at": "2026-11-27T13:36:40.410001"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-104: Azure Administrator - ENThis course teaches IT Professionals how to",
+    "link": "https://skillupwithlevelup.com/course-detail/1774652",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1774652",
+    "found_at": "2026-11-27T13:36:40.410226"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-204: Azure Developer - ENThis course teaches developers how to create en",
+    "link": "https://skillupwithlevelup.com/course-detail/1774660",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1774660",
+    "found_at": "2026-11-27T13:36:40.410346"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-400: DevOps Engineer - ENThis course enables ability to accomplish the f",
+    "link": "https://skillupwithlevelup.com/course-detail/1775593",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1775593",
+    "found_at": "2026-11-27T13:36:40.410428"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-700: Network Engineer - ENThis course teaches Network Engineers how to d",
+    "link": "https://skillupwithlevelup.com/course-detail/1775753",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1775753",
+    "found_at": "2026-11-27T13:36:40.410537"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursDP-300: Azure Database Administrator - ENDP-300 is designed to administer a",
+    "link": "https://skillupwithlevelup.com/course-detail/1775755",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1775755",
+    "found_at": "2026-11-27T13:36:40.410609"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursDP-600: Fabric Analytics Engineer - ENAs a participant in the Candidate Pre",
+    "link": "https://skillupwithlevelup.com/course-detail/1776160",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776160",
+    "found_at": "2026-11-27T13:36:40.410717"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursGH-300: GitHub CopilotThe GitHub Copilot certification prep courses evaluat",
+    "link": "https://skillupwithlevelup.com/course-detail/1776161",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776161",
+    "found_at": "2026-11-27T13:36:40.410816"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursMB-800: Business Central Functional Consultant - ENAs a functional consulta",
+    "link": "https://skillupwithlevelup.com/course-detail/1776162",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776162",
+    "found_at": "2026-11-27T13:36:40.410894"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursPL-200: Power Platform Functional Consultant - ENThis course will teach you",
+    "link": "https://skillupwithlevelup.com/course-detail/1776163",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776163",
+    "found_at": "2026-11-27T13:36:40.411002"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursPL-400: Power Platform Developer - ENIn this course you will demonstrate ho",
+    "link": "https://skillupwithlevelup.com/course-detail/1776164",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776164",
+    "found_at": "2026-11-27T13:36:40.411069"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursPL-500: Power Automate RPA Developer - ENIn this course you will demonstrat",
+    "link": "https://skillupwithlevelup.com/course-detail/1776165",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776165",
+    "found_at": "2026-11-27T13:36:40.411135"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursPL-600: Power Platform Solution Architect - ENIn this course, you will lear",
+    "link": "https://skillupwithlevelup.com/course-detail/1776166",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776166",
+    "found_at": "2026-11-27T13:36:40.411218"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-500: Azure Security Engineer - ENAZ-500 is designed to Demonstrate the s",
+    "link": "https://skillupwithlevelup.com/course-detail/1776167",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776167",
+    "found_at": "2026-11-27T13:36:40.411299"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursSC-300: Identity and Access Administrator - ENIn this course you will demon",
+    "link": "https://skillupwithlevelup.com/course-detail/1776168",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776168",
+    "found_at": "2026-11-27T13:36:40.411369"
+  },
+  {
+    "tier": "EVENT",
+    "title": "Duration -\n                                                        10 HoursAZ-305: Designing Microsoft Azure Infrastructure Solutions - ENCompleting t",
+    "link": "https://skillupwithlevelup.com/course-detail/1776169",
+    "source": "Web: LevelUp Certification Prep",
+    "reason": "Voucher URL pattern matched: https://skillupwithlevelup.com/course-detail/1776169",
+    "found_at": "2026-11-27T13:36:40.411466"
   }
 ]

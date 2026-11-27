@@ -1,262 +1,4 @@
 {
-  "e536e33d2ec55e75f1ad78043e2b6c24": {
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORXVZYTVJak11THkxVFhKSHhYdE16dDFBUkZFVGkyMW1RNFRxeHlpV1JGZnBOWC1HVGtmNWF2UE9VYXBwX1RUNEplTklybmlvUEExaUFwZlA3bUpEdGdTMzJGSEUtTVFTd1FOanhjQms1REwtUnZRWVMxVjJUeXdMZGZnenlRUDN3Y3JPX2R1dS15bGVCdEtUVkZMNA?oc=5",
-    "source": "Google News: MS Ignite Voucher",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:03:41.476986"
-  },
-  "ad75beb966197d881913027f351d2c45": {
-    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it#main",
-    "source": "Microsoft 30 Days to Learn It",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:03.542468"
-  },
-  "364c2fa99b3e39b338c0d79c35bc3d76": {
-    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
-    "source": "Microsoft 30 Days to Learn It",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:03.542502"
-  },
-  "3f368ec79e3b30979c690412f8f82e28": {
-    "link": "https://learn.microsoft.com/en-us/training/challenges#main",
-    "source": "Microsoft Learn Challenges",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:05.778326"
-  },
-  "c6e6c3fbc74935186a7c5c452304b140": {
-    "link": "https://learn.microsoft.com/en-us/training/challenges",
-    "source": "Microsoft Learn Challenges",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:05.778419"
-  },
-  "ab7c24a9dabbaccf2fdbe958d68fc7b1": {
-    "link": "https://learn.microsoft.com/en-us/users/me/challenges",
-    "source": "Microsoft Learn Challenges",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:05.778512"
-  },
-  "9411873647010626e3bebea071b81713": {
-    "link": "https://skillupwithlevelup.com/courses?solution_areas=118071",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822478"
-  },
-  "5ec0428526b082f0e4a453aa5c480781": {
-    "link": "https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=118071",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822518"
-  },
-  "e434b5fa291b6f5d26d8954bc82230b9": {
-    "link": "https://skillupwithlevelup.com/dealreadyaccelerators",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822549"
-  },
-  "ecfca12fa3d32efd3772ae67ff68cc0c": {
-    "link": "https://skillupwithlevelup.com/journeys",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822570"
-  },
-  "7965f5c66be7322c283d097e3d619473": {
-    "link": "https://skillupwithlevelup.com/lang/fr",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822621"
-  },
-  "ac5681c3812eee50d82e25ecc698cf5d": {
-    "link": "https://skillupwithlevelup.com/lang/es",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822657"
-  },
-  "00c6863ed5381ca7c4336167f3b3182a": {
-    "link": "https://skillupwithlevelup.com/lang/de",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822690"
-  },
-  "c9c72d1763048f025d51ffbf43159c39": {
-    "link": "https://skillupwithlevelup.com/lang/pt",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822723"
-  },
-  "82d6301bc67d31d543241167f341ce5f": {
-    "link": "https://skillupwithlevelup.com/lang/it",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822758"
-  },
-  "9ca35ee22d01d1f1d7337dccb64ed27a": {
-    "link": "https://skillupwithlevelup.com/lang/ja",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822794"
-  },
-  "1099da0a2fa866cee3c0756a41a9545b": {
-    "link": "https://skillupwithlevelup.com/lang/ko",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822831"
-  },
-  "ff4007203f80042215794fae1b01837f": {
-    "link": "https://skillupwithlevelup.com/lang/zh",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822868"
-  },
-  "90703894fdd9ff8f172fd7882a5fb83e": {
-    "link": "https://skillupwithlevelup.com/lang/zt",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822908"
-  },
-  "122a3eba5167c38280d956b86b9e426c": {
-    "link": "https://skillupwithlevelup.com/",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.822934"
-  },
-  "cc5108da32a778124c32c0d5ce6e708b": {
-    "link": "https://skillupwithlevelup.com/courses",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.823005"
-  },
-  "cae6fa0d253d8588cacbfe8dfecf7725": {
-    "link": "https://skillupwithlevelup.com/frontier",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.823090"
-  },
-  "61dc2925d68de8495695c1d20644904a": {
-    "link": "https://skillupwithlevelup.com/cert-terms-and-conditions",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.823352"
-  },
-  "703653fbcc00bbbe8bf9b9baa0ed3594": {
-    "link": "https://skillupwithlevelup.com/journeys?solution_area=AI+Business+Process",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.823420"
-  },
-  "5e8f954fcfaee33c2d7291894850e9b7": {
-    "link": "https://skillupwithlevelup.com/journeys?solution_area=Cloud+%26+AI+Platform",
-    "source": "LevelUp Home",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:20.823449"
-  },
-  "78c9e106138cdfe1c7d4743c8d421f35": {
-    "link": "https://skillupwithlevelup.com/certification-prep-on-demand",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.380214"
-  },
-  "7f09979d8b84232e6b338fbf238ed6cd": {
-    "link": "https://skillupwithlevelup.com/cert-requirement-maicpp-solution-designation/cloud-and-ai",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.380255"
-  },
-  "91f23b4a3fef4380be9f53d8771bfcd3": {
-    "link": "https://skillupwithlevelup.com/certification-prep-on-demand#cert-course-catalog",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.380305"
-  },
-  "0261cc5834d87ae3b75bb294a52e9ea0": {
-    "link": "https://skillupwithlevelup.com/course-detail/1774652",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.380528"
-  },
-  "55d1cf7d0710f5e62b4f69a8562b4a8e": {
-    "link": "https://skillupwithlevelup.com/course-detail/1774660",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.380657"
-  },
-  "dad7f07958800851593dd283e5f0e208": {
-    "link": "https://skillupwithlevelup.com/course-detail/1775593",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.380747"
-  },
-  "cdc66c5c2f317dcd93f1420731578c37": {
-    "link": "https://skillupwithlevelup.com/course-detail/1775753",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.380863"
-  },
-  "c4a01562fa6f5ffb68029a320673b289": {
-    "link": "https://skillupwithlevelup.com/course-detail/1775755",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.380938"
-  },
-  "d900bc48df292f437b83bebd4861fbd7": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776160",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381049"
-  },
-  "9cdaec1b489dd21e2e4c69db0c5b2c63": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776161",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381162"
-  },
-  "61389c32c7ce96f786563054fe960f49": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776162",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381246"
-  },
-  "d82753a1d5347cee6aae4f524f8bff9f": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776163",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381351"
-  },
-  "4f9e807f2468a794e2138ccb176ae0ea": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776164",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381423"
-  },
-  "6d8ca66e96610371744236335a9d86d9": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776165",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381489"
-  },
-  "324f3ba84c4ced3bf615e76617a24181": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776166",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381577"
-  },
-  "b47459823b55fd9037d3aae8eba58b35": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776167",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381666"
-  },
-  "dd492d69a4bf4ec2ad2dfcad8c8f7faa": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776168",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381739"
-  },
-  "a0a9302f5146b66e54f4e953caba72d6": {
-    "link": "https://skillupwithlevelup.com/course-detail/1776169",
-    "source": "LevelUp Certification Prep",
-    "priority": "EVENT",
-    "seen_at": "2026-10-28T08:04:29.381841"
-  },
   "05ba3bbfd60da90d48a0593306230c26": {
     "link": "https://skillupwithlevelup.com/courses?solution_areas=81034",
     "source": "LevelUp Home",
@@ -358,5 +100,269 @@
     "source": "LevelUp Courses",
     "priority": "EVENT",
     "seen_at": "2026-11-19T22:01:25.285153"
+  },
+  "e536e33d2ec55e75f1ad78043e2b6c24": {
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORXVZYTVJak11THkxVFhKSHhYdE16dDFBUkZFVGkyMW1RNFRxeHlpV1JGZnBOWC1HVGtmNWF2UE9VYXBwX1RUNEplTklybmlvUEExaUFwZlA3bUpEdGdTMzJGSEUtTVFTd1FOanhjQms1REwtUnZRWVMxVjJUeXdMZGZnenlRUDN3Y3JPX2R1dS15bGVCdEtUVkZMNA?oc=5",
+    "source": "Google News: MS Cert Voucher",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:35:37.765416"
+  },
+  "ad75beb966197d881913027f351d2c45": {
+    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it#main",
+    "source": "Microsoft 30 Days to Learn It",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:03.591986"
+  },
+  "364c2fa99b3e39b338c0d79c35bc3d76": {
+    "link": "https://developer.microsoft.com/en-us/offers/30-days-to-learn-it",
+    "source": "Microsoft 30 Days to Learn It",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:03.592029"
+  },
+  "3f368ec79e3b30979c690412f8f82e28": {
+    "link": "https://learn.microsoft.com/en-us/training/challenges#main",
+    "source": "Microsoft Learn Challenges",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:05.808607"
+  },
+  "c6e6c3fbc74935186a7c5c452304b140": {
+    "link": "https://learn.microsoft.com/en-us/training/challenges",
+    "source": "Microsoft Learn Challenges",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:05.808700"
+  },
+  "ab7c24a9dabbaccf2fdbe958d68fc7b1": {
+    "link": "https://learn.microsoft.com/en-us/users/me/challenges",
+    "source": "Microsoft Learn Challenges",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:05.808789"
+  },
+  "9411873647010626e3bebea071b81713": {
+    "link": "https://skillupwithlevelup.com/courses?solution_areas=118071",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677033"
+  },
+  "5ec0428526b082f0e4a453aa5c480781": {
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand?solution_areas=118071",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677073"
+  },
+  "e434b5fa291b6f5d26d8954bc82230b9": {
+    "link": "https://skillupwithlevelup.com/dealreadyaccelerators",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677106"
+  },
+  "ecfca12fa3d32efd3772ae67ff68cc0c": {
+    "link": "https://skillupwithlevelup.com/journeys",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677132"
+  },
+  "7965f5c66be7322c283d097e3d619473": {
+    "link": "https://skillupwithlevelup.com/lang/fr",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677178"
+  },
+  "ac5681c3812eee50d82e25ecc698cf5d": {
+    "link": "https://skillupwithlevelup.com/lang/es",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677218"
+  },
+  "00c6863ed5381ca7c4336167f3b3182a": {
+    "link": "https://skillupwithlevelup.com/lang/de",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677249"
+  },
+  "c9c72d1763048f025d51ffbf43159c39": {
+    "link": "https://skillupwithlevelup.com/lang/pt",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677278"
+  },
+  "82d6301bc67d31d543241167f341ce5f": {
+    "link": "https://skillupwithlevelup.com/lang/it",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677307"
+  },
+  "9ca35ee22d01d1f1d7337dccb64ed27a": {
+    "link": "https://skillupwithlevelup.com/lang/ja",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677341"
+  },
+  "1099da0a2fa866cee3c0756a41a9545b": {
+    "link": "https://skillupwithlevelup.com/lang/ko",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677375"
+  },
+  "ff4007203f80042215794fae1b01837f": {
+    "link": "https://skillupwithlevelup.com/lang/zh",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677409"
+  },
+  "90703894fdd9ff8f172fd7882a5fb83e": {
+    "link": "https://skillupwithlevelup.com/lang/zt",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677448"
+  },
+  "122a3eba5167c38280d956b86b9e426c": {
+    "link": "https://skillupwithlevelup.com/",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677470"
+  },
+  "cc5108da32a778124c32c0d5ce6e708b": {
+    "link": "https://skillupwithlevelup.com/courses",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677550"
+  },
+  "cae6fa0d253d8588cacbfe8dfecf7725": {
+    "link": "https://skillupwithlevelup.com/frontier",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677634"
+  },
+  "61dc2925d68de8495695c1d20644904a": {
+    "link": "https://skillupwithlevelup.com/cert-terms-and-conditions",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677918"
+  },
+  "703653fbcc00bbbe8bf9b9baa0ed3594": {
+    "link": "https://skillupwithlevelup.com/journeys?solution_area=AI+Business+Process",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.677999"
+  },
+  "5e8f954fcfaee33c2d7291894850e9b7": {
+    "link": "https://skillupwithlevelup.com/journeys?solution_area=Cloud+%26+AI+Platform",
+    "source": "LevelUp Home",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:26.678026"
+  },
+  "084619e8ddad9a617e43e92aec49cc86": {
+    "link": "https://skillupwithlevelup.com/course-detail/2047877",
+    "source": "LevelUp Courses",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:33.863364"
+  },
+  "78c9e106138cdfe1c7d4743c8d421f35": {
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.409901"
+  },
+  "7f09979d8b84232e6b338fbf238ed6cd": {
+    "link": "https://skillupwithlevelup.com/cert-requirement-maicpp-solution-designation/cloud-and-ai",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.409941"
+  },
+  "91f23b4a3fef4380be9f53d8771bfcd3": {
+    "link": "https://skillupwithlevelup.com/certification-prep-on-demand#cert-course-catalog",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.410003"
+  },
+  "0261cc5834d87ae3b75bb294a52e9ea0": {
+    "link": "https://skillupwithlevelup.com/course-detail/1774652",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.410227"
+  },
+  "55d1cf7d0710f5e62b4f69a8562b4a8e": {
+    "link": "https://skillupwithlevelup.com/course-detail/1774660",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.410347"
+  },
+  "dad7f07958800851593dd283e5f0e208": {
+    "link": "https://skillupwithlevelup.com/course-detail/1775593",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.410429"
+  },
+  "cdc66c5c2f317dcd93f1420731578c37": {
+    "link": "https://skillupwithlevelup.com/course-detail/1775753",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.410539"
+  },
+  "c4a01562fa6f5ffb68029a320673b289": {
+    "link": "https://skillupwithlevelup.com/course-detail/1775755",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.410610"
+  },
+  "d900bc48df292f437b83bebd4861fbd7": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776160",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.410718"
+  },
+  "9cdaec1b489dd21e2e4c69db0c5b2c63": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776161",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.410817"
+  },
+  "61389c32c7ce96f786563054fe960f49": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776162",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.410896"
+  },
+  "d82753a1d5347cee6aae4f524f8bff9f": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776163",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.411004"
+  },
+  "4f9e807f2468a794e2138ccb176ae0ea": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776164",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.411070"
+  },
+  "6d8ca66e96610371744236335a9d86d9": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776165",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.411136"
+  },
+  "324f3ba84c4ced3bf615e76617a24181": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776166",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.411219"
+  },
+  "b47459823b55fd9037d3aae8eba58b35": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776167",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.411300"
+  },
+  "dd492d69a4bf4ec2ad2dfcad8c8f7faa": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776168",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.411370"
+  },
+  "a0a9302f5146b66e54f4e953caba72d6": {
+    "link": "https://skillupwithlevelup.com/course-detail/1776169",
+    "source": "LevelUp Certification Prep",
+    "priority": "EVENT",
+    "seen_at": "2026-11-27T13:36:40.411468"
   }
 }
